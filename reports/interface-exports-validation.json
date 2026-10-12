@@ -1,7 +1,7 @@
 {
   "wbs": "12.0",
   "generatedAt": "2026-10-12T19:13:27.798764+00:00",
-  "status": "local-validation-complete; production-publication-pending",
+  "status": "complete; production verified",
   "automated": {
     "appTests": 55,
     "relayAndPolicyTests": 12,
@@ -70,5 +70,33 @@
     "Long PDF labels visibly truncate; CSV retains full values",
     "Unavailable card images become labeled placeholders and a visible notice",
     "IAB OS download save location is not exposed; actual generated Blob bytes were captured through the explicit local QA control and inspected"
-  ]
+  ],
+  "production": {
+    "verifiedAt": "2026-10-12T19:20:36.430449+00:00",
+    "url": "https://moxgraph.com/",
+    "featureCommit": "c9f7755d37531506c683e37cd10ab26196816797",
+    "pullRequest": "https://github.com/Westly/moxgraph/pull/5",
+    "pagesDeployment": "591ffb1f-9869-452d-bcff-b527513b0ad3",
+    "githubRun": "https://github.com/Westly/moxgraph/actions/runs/38296533376",
+    "quality": "success",
+    "pages": "success",
+    "relayDeployment": "success",
+    "assets": [
+      {
+        "sha256": "741E0C46F750875A42ECAAAA3D0939117F904D7D825FC9FE4673A41188976825",
+        "asset": "assets/index-Bjl_P50Q.js",
+        "matchesLocalBuild": true
+      },
+      {
+        "sha256": "467F4F1C64A9D79359B1E9B576091A06619FD743A5593EBC3643234A382A5F15",
+        "asset": "assets/index-TCZ-aLrv.css",
+        "matchesLocalBuild": true
+      }
+    ],
+    "savedDecksRetained": 3,
+    "csv": "CSV ready for three decks, 70 matching physical cards, 33 artists",
+    "pdf": "PDF ready for the same three decks; no missing-image warning",
+    "screenshot": "reports/screenshots/wbs12-cards.jpg",
+    "documentationFollowup": "Subsequent roadmap/evidence commits do not change the verified application assets."
+  }
 }
