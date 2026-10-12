@@ -13,6 +13,8 @@
     "data:build": "python scripts/data/publish_static.py",
     "data:check": "node scripts/check-data.mjs public",
     "typecheck": "tsc --noEmit",
+    "verify": "node scripts/verify-release.mjs",
+    "deploy:relay": "npm run verify && wrangler deploy --config tools/import-relay/wrangler.jsonc",
     "test": "tsx --test tests/app/*.test.ts && node --test tests/import-relay.test.mjs tests/release-policy.test.mjs",
     "build": "node scripts/check-relay.mjs && npm run contracts && npm run typecheck && npm run data:check && vite build && node scripts/check-data.mjs dist",
     "qa": "node scripts/qa-server.mjs",
