@@ -1,14 +1,14 @@
 {
   "schema_version": 1,
-  "card_snapshot_id": "scryfall-all-cards-20261011091913",
-  "event_snapshot_id": "magiccon-atlanta-2026-20261011T195408Z",
-  "mapping_revision": "atlanta-2026-r1",
-  "generated_at": "2026-10-11T20:13:27.488471+00:00",
+  "card_snapshot_id": "scryfall-all-cards-20261012091830",
+  "event_snapshot_id": "magiccon-atlanta-2026-20261012T180941Z",
+  "mapping_revision": "atlanta-2026-3c3add8e60cdec6f",
+  "generated_at": "2026-10-12T18:12:46.279683+00:00",
   "reviewed_at": "2026-10-11",
   "source_hashes": {
-    "card_artist_catalogue": "f35760f3f2bd624df75a37e604055cee023eb0e30c00c6b2cbbf9e875dac9931",
-    "event": "b965653673e7f686db75005594c28edc35a49eb604e3b8942971afdd898578de",
-    "review": "38718b7fa6db076c1331553aa640842b9c5ba676518b4774021c8578d5b676f2"
+    "card_artist_catalogue": "021556828ae370ec1dca304e537100e462ef89a149d0af783aa828730468c7da",
+    "event": "e90339467d3d775f75177c6bfb375c131685cb11b861358dbbab341fbd2a3f27",
+    "review": "3c3add8e60cdec6fa04a7d82771c2912bf8901d9c0cf7e6ddb8f5e792db0618d"
   },
   "identity_policy": "One stable key per Scryfall UUID. Names are observations; no cross-ID or joint-name guesses.",
   "artists": [

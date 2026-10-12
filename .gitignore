@@ -11,4 +11,5 @@ node_modules/
 dist/
 .wrangler/
 /reports/screenshots/wbs10-access.jpg
+/reports/screenshots/wbs11-production.jpg
 

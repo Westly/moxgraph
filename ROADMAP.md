@@ -3,7 +3,7 @@
 Last updated: 2026-10-12  
 Website name and production domain: **moxgraph.com** (confirmed by the owner).  
 Initial event: **MagicCon: Atlanta, November 13–15, 2026**.  
-Current milestone: **WBS 10.0 complete. moxgraph.com is live from public Westly/moxgraph; protected main updates automatically deploy the checked static site and retrieval Worker. All 127 tests and full catalogue/build audits pass in Linux CI. Final-origin imports, local saving, exact printing images, HTTPS, redirects, headers and compression verified. No WBS 10 blockers. Stop before WBS 11.**
+Current milestone: **WBS 11 maintenance implementation complete: staged manual refresh, source-change review, exact-printing alias revalidation, recoverable promotion and dated Atlanta archives. All 148 tests and full catalogue/build audits pass. WBS 11.6 remains open for the actual November 12 pre-event review and November 16 post-event archive. No scheduler or additional paid service is enabled.**
 Execution scope: **one parent WBS per owner request. Stop at the parent boundary; do not advance automatically.**
 
 ## Project objective
@@ -310,17 +310,17 @@ Dependencies: 0.5 and 9.8 for production launch. Repository creation and a tempo
 
 Dependencies: 10.8.
 
-- [ ] **11.1** Provide a manual refresh command that repeats card ingestion, then attendance ingestion, then reconciliation/count generation. Never update totals independently from their source revisions.
-- [ ] **11.2** Generate reviewable diffs for roster additions/removals, name changes, new unmapped artists, changed photos/socials, and material count changes. An empty scrape or major unexplained drop fails validation and leaves the last good release intact.
-- [ ] **11.3** Establish a refresh cadence: proposed weekly card snapshots, weekly roster checks, and more frequent roster checks near the event. A scheduler is optional and is configured only when the owner requests/enables it.
-- [ ] **11.4** If GitHub Actions is used for data refreshes, keep jobs bounded and cache-aware, commit only changed outputs, prevent workflow loops, and set retention/budget controls for the actual account plan. Ordinary UI commits must not redownload the bulk database.
-- [ ] **11.5** Show event-data freshness and source links in the app. Preserve the last confirmed roster when a new fetch fails; do not convert a failure into attendee cancellations.
-- [ ] **11.6** Run a final roster/profile review before the event and preserve an event snapshot afterward. Reuse the model for future events without overwriting Atlanta's history.
-- [ ] **11.7** Document routine alias corrections, provider breakage, dataset rollback, browser backup recovery, and adding another event.
+- [x] **11.1** Provide a manual refresh command that repeats card ingestion, then attendance ingestion, then reconciliation/count generation. Never update totals independently from their source revisions.
+- [x] **11.2** Generate reviewable diffs for roster additions/removals, name changes, new unmapped artists, changed photos/socials, and material count changes. An empty scrape or major unexplained drop fails validation and leaves the last good release intact.
+- [x] **11.3** Establish a refresh cadence: proposed weekly card snapshots, weekly roster checks, and more frequent roster checks near the event. The manual cadence and November 12/16 checkpoints are in `docs/maintenance.md`. No scheduler is enabled; it remains optional and requires an explicit owner request.
+- [x] **11.4** If GitHub Actions is used for data refreshes, keep jobs bounded and cache-aware, commit only changed outputs, prevent workflow loops, and set retention/budget controls for the actual account plan. This conditional item is satisfied by keeping refreshes local: no Actions refresh job or bot commits. Existing release jobs are bounded and cache dependencies. Ordinary UI commits do not redownload the bulk database.
+- [x] **11.5** Show event-data freshness and source links in the app. Preserve the last confirmed roster when a new fetch fails; do not convert a failure into attendee cancellations.
+- [ ] **11.6** Run a final roster/profile review before the event and preserve an event snapshot afterward. Reuse the model for future events without overwriting Atlanta's history. **Prepared, not yet complete:** immutable as-of archives, date guards and a future-event onboarding procedure are implemented; the actual final review is due November 12 and post-event archive November 16, 2026.
+- [x] **11.7** Document routine alias corrections, provider breakage, dataset rollback, browser backup recovery, and adding another event.
 
-**Deliverables:** maintenance runbook and repeatable refresh process.
+**Deliverables:** `docs/maintenance.md`, `scripts/data/refresh.py`, `data/pipeline.json`, reviewed source/count diffs, printing-alias revalidation, recoverable promotion, and `data/history/events/atlanta-2026/`.
 
-**Exit:** the owner can update and recover the site without a backend, a surprise service subscription, or manual edits to generated totals.
+**Exit status:** maintenance implementation is complete and the October 12 refresh passed all 148 tests plus full source/count/static audits. No technical maintenance blocker remains. WBS 11.6 remains open until the real November checkpoints occur; an October archive does not claim a final pre-event review or post-event attendance verification.
 
 ## Data contracts
 
@@ -496,7 +496,7 @@ Cloudflare account-level billing alerts are useful where available, but an alert
 | M4 | 5.0–8.0 | Complete local application, logo/CSS, matching, and saved decks | Complete — WBS 5–8 implemented and validated locally; release matrix remains WBS 9 |
 | M5 | 9.0 | Correctness, browser, accessibility, performance, and cost checks pass | Complete — available-browser coverage and limitations recorded; optimized Free relay verified |
 | M6 | 10.0 | GitHub-driven production site on the registered domain | Complete — https://moxgraph.com; both automatic pipelines and final-origin acceptance verified |
-| M7 | 11.0 | Documented update/recovery process and event readiness | Planned |
+| M7 | 11.0 | Documented update/recovery process and event readiness | Maintenance implemented; actual November 12/16 checkpoints pending |
 
 Critical path: **M1 → M2 → M3 → M4 → M5 → M6**. Branding can proceed alongside application structure after the data milestone. Account/repository setup can proceed when needed for a preview. Do not spend time on a polished interface before the exact-print data model and import feasibility are established.
 
@@ -570,4 +570,6 @@ Links are source references, not guarantees of permanent endpoints. Preserve obs
 | 2026-10-12 | 9.1–9.8 | Owner authorized the next parent. Added exact-variant and import/storage integration coverage, deterministic browser failure QA, accessibility fixes, performance reports and strict static/relay release policies. Owner authorized minimal encrypted Wrangler access; deployed rate limits and native stream batching to the existing Free relay | 125 tests, TypeScript and complete static build/audits pass. Browser import/refresh, two-deck file restore, five clean axe states, responsive layouts and cached sort/render verified. CPU issue fixed: active version d1ad7fe1 P99 7.12 ms. Full limitations and production gates: `docs/release-validation.md` and `docs/release-checklist.md`. No GitHub, Pages or domain change. WBS 9 complete; stop before 10.0 |
 | 2026-10-12 | 10.1–10.8 | Published public Westly/moxgraph, protected main, shared release gate, Git-connected Pages and scoped main-only relay deployment. Connected apex/www, enabled HTTPS and canonical redirect. Resolved Windows reserved filenames and clean-Linux recovery fixture dependency before release | 127 tests, full data audits and both automatic deployment pipelines pass. Both deck providers, three saved decks, exact-print image, artist links, TLS, redirects, security/cache headers, gzip and live data checksums verified. Workers Free retained. Deployment/rollback evidence recorded; WBS 10 complete; stop before 11.0 |
 
-**Current working point: WBS 10.0 complete.** The live site is https://moxgraph.com and source is https://github.com/Westly/moxgraph. No WBS 10 blockers remain. The next parent is **11.0 — Maintain data and prepare for the event**, only when the owner requests it. Unavailable browser/device coverage, dated roster gaps and provider limitations remain documented; no maintenance schedule, bulk refresh or additional service was started.
+| 2026-10-12 | 11.1–11.5, 11.7; 11.6 prepared | Implemented a staged manual refresh, exact diff approval, recoverable publication, source-date configuration, preserved identity review dates, exact printing-alias revalidation and immutable Atlanta archives. Captured October 12 Scryfall and all 130 MagicCon profiles; fresh rendered roster sets match | All 148 tests and complete catalogue/build audits pass. Counts remain 546,137 printings, 2,434 source artists and 65 attendees, with no roster/name/link/count changes. The release gate caught the old snapshot-pinned Arcane Signet alias before publication; the fix revalidates every original target guard. See `docs/maintenance.md`, `reports/data-refresh-validation.json`, `reports/data-refresh-diff.md` and `reports/printing-alias-validation.json`. No scheduler or new service |
+
+**Current working point: WBS 11 maintenance implementation complete; timed checkpoints pending.** The selected sources are `scryfall-all-cards-20261012091830` and `magiccon-atlanta-2026-20261012T180941Z`, packaged as `v1-40c32dddef95ab45`. The October 11 and October 12 Atlanta states are preserved as dated archives. WBS 11.6 is intentionally unchecked: final pre-event review is planned for November 12 and the post-event archive for November 16, 2026. These are manual planned dates, not scheduled jobs. No technical blocker remains, and no other parent WBS has started. Normal source gaps and earlier browser/provider limitations still apply.

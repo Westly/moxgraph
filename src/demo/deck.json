@@ -2,7 +2,7 @@
   "label": "Soldiers — example selection",
   "sourceUrl": "https://moxfield.com/decks/3x55_3CFz060qxL2xac3NA",
   "sourceFixture": "tests/fixtures/import-feasibility/moxfield-v2-3x55_3CFz060qxL2xac3NA.json",
-  "dataVersion": "v1-1785df4c41186eaa",
+  "dataVersion": "v1-40c32dddef95ab45",
   "capturedAt": "2026-10-11",
   "note": "Nine editorially selected lines, not a complete deck import. Attendee associations are authored only for this UI fixture.",
   "lines": [

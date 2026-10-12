@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
   "statistics_version": "1.0.0",
-  "card_snapshot_id": "scryfall-all-cards-20261011091913",
-  "event_snapshot_id": "magiccon-atlanta-2026-20261011T195408Z",
-  "mapping_revision": "atlanta-2026-r1",
+  "card_snapshot_id": "scryfall-all-cards-20261012091830",
+  "event_snapshot_id": "magiccon-atlanta-2026-20261012T180941Z",
+  "mapping_revision": "atlanta-2026-3c3add8e60cdec6f",
   "scope": "paper_game_cards; supplemental and digital records separate; no release-date cutoff",
   "null_policy": "Unresolved event counts are null; verified zero is numeric zero.",
   "counting_contract": "docs/artist-statistics.md",
-  "generated_at": "2026-10-11T20:17:24.755792+00:00",
+  "generated_at": "2026-10-12T18:13:35.807625+00:00",
   "source_hashes": {
-    "database": "38f66ab64952f8039800c3db582c35c631b56599fbb1f3667a769c320307c6e0",
-    "mappings": "0eb6a10fae6ba05367e3e074a69864f9ab51e2249e99bc23c44306b6437ac9ee",
-    "event": "b965653673e7f686db75005594c28edc35a49eb604e3b8942971afdd898578de",
-    "statistics_script": "35318a7664b89d574ebf97627d8c1539d5ca735a7ddf1b3bda3898d9993827b1"
+    "database": "61f49589680065f923583705bb11b913abf455e89e24cbaec9f84c65c800002e",
+    "mappings": "b7fb7ae9f739b945a330d48bc72ddbd889c537aa870364b3f8686cd0ae1dd6e3",
+    "event": "e90339467d3d775f75177c6bfb375c131685cb11b861358dbbab341fbd2a3f27",
+    "statistics_script": "64e0e839931b7b4b47eb5ca77f5b587bbc221b4159702cf76a44853b0ee3e063"
   },
   "queue": {
     "unmapped_attendees": [],

@@ -1,6 +1,6 @@
 # MagicCon: Atlanta attendance coverage — WBS 2.0
 
-Snapshot: `magiccon-atlanta-2026-20261011T195408Z`. Captured 2026-10-11T19:54:08.430483Z through 2026-10-11T19:55:36.959126Z.
+Snapshot: `magiccon-atlanta-2026-20261012T180941Z`. Captured 2026-10-12T18:09:41.416934Z through 2026-10-12T18:11:08.527822Z.
 
 Sources: [Art of Magic overview](https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html) and [Artist Directory](https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html).
 
@@ -73,7 +73,7 @@ The source labels `store_url` as **View Artists Magic Gallery**. These destinati
 | `SchmandrewART ` | `SchmandrewART` | unique_normalized_name_within_official_event_sections |
 | `Tom Wänerstrand` | `Tomas Wanerstrand` | reviewed_biographies |
 
-Nontrivial pairs use reviewed biography evidence in `data/curated/events/atlanta-2026-identity-review.json`. Other duplicate pairs have unique names after whitespace/case normalization. Entity kind follows the official guest person record; any unmatched exhibitor remains unreviewed rather than assumed to be an individual. Status as a Scryfall card illustrator remains `not_reconciled`.
+Nontrivial pairs use reviewed biography evidence in `data/curated/events/atlanta-2026-identity-review.json`. Other duplicate pairs have unique names after whitespace/case normalization. Entity kind follows the official guest person record; any unmatched exhibitor remains unreviewed rather than assumed to be an individual. This attendance stage does not approve Scryfall illustrator identities.
 
 ## Attendance and verification case
 
@@ -83,8 +83,8 @@ Day exceptions: Paul Scott Canavan: Fri/Sat.
 
 The supplied David Palumbo profile was checked in the rendered browser; exact title, days and social-link label/destination are in [browser evidence](magiccon-browser-audit.json). The event JSON retains his source entries when present in the current roster.
 
-## Exit status
+## Capture status
 
-WBS 2.0 complete: every source entry accounted for; zero retrieval failures or unresolved pagination gaps. Missing photos/socials and defective upstream links are documented source limitations, not collection blockers. Scryfall reconciliation and illustrated-card totals remain WBS 3.0 and have not started.
+Every source entry is accounted for; zero retrieval failures or unresolved pagination gaps. Missing photos/socials and defective upstream links are documented source limitations. Reconciliation and illustrated-card totals are validated as the next stage of each refresh.
 
 Reproduction, source coverage and snapshot handling: [event-data instructions](../docs/event-data.md).

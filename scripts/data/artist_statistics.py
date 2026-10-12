@@ -8,6 +8,7 @@ import sqlite3
 from urllib.parse import urlencode
 
 from artist_reconciliation import CARD_MANIFEST, EVENT_PATH, MAPPING_PATH, read
+from pipeline_config import EVENT
 from scryfall_source import ROOT, checksum, now, write_json
 
 VERSION = "1.0.0"
@@ -163,7 +164,7 @@ def event_row(attendee, mapping, source_rows, statistics):
     if any(i not in source_rows for i in ids):
         raise ValueError("Reviewed identity absent from full source table")
     totals = statistics.totals(ids) if verified else dict.fromkeys(METRICS)
-    guest = next(e for e in attendee["source_entries"] if e["kind"] == "guest")
+    guest = next((e for e in attendee["source_entries"] if e["kind"] == "guest"), attendee["source_entries"][0])
     exhibitor = next((e for e in attendee["source_entries"] if e["kind"] == "exhibitor"), {})
     links = attendee["links"]
     return {
@@ -264,7 +265,7 @@ def build():
                                 "statistics_script": checksum(ROOT / "scripts/data/artist_statistics.py")}}
     full = sorted(rows.values(), key=lambda r: ((r["scryfall_artist_name"] or "~").casefold(), r["artist_key"]))
     write_json(ROOT / "reports/artists-all.json", {**common, "rows": full})
-    write_json(ROOT / "reports/artists-atlanta-2026.json", {**common, "rows": event_rows})
+    write_json(ROOT / f"reports/artists-{EVENT['id']}.json", {**common, "rows": event_rows})
     write_json(ROOT / "reports/artist-discrepancies.json", {**common, "queue": queue})
     summary = {**common, "scope_records": dict(sorted(stats.scope.items())), "source_artists": len(rows),
                "event_rows": len(event_rows), "event_match_statuses": dict(Counter(r["match_status"] for r in event_rows)),

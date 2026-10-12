@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "snapshot_id": "magiccon-atlanta-2026-20261011T195408Z",
-  "generated_at": "2026-10-11T20:01:44.500541Z",
+  "snapshot_id": "magiccon-atlanta-2026-20261012T180941Z",
+  "generated_at": "2026-10-12T18:12:39.783863Z",
   "status": "complete",
   "counts": {
     "people_in_feed": 218,
@@ -298,7 +298,7 @@
   ],
   "browser_audit": {
     "path": "reports/magiccon-browser-audit.json",
-    "sha256": "35a936a384146b88c8fd4ae5379cc2a62b6d6bdb55582617a1fce5222f6e4166"
+    "sha256": "372bf7b149cf8c5d8c2ae15e334df02715c211a8399134456bba6f3e8847b461"
   },
   "completeness": {
     "method": "Complete arrays loaded by official renderer; browser roster IDs independently reviewed",

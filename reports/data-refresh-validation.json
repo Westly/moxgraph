@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "preparedAt": "2026-10-12T18:08:17.328237+00:00",
+  "validatedAt": "2026-10-12T18:16:00.446446+00:00",
+  "promotedAt": "2026-10-12T18:17:07.212436+00:00",
+  "mode": "live",
+  "reviewHash": "7e03c4abced4b2ee517356c54a1726d0110fdf5ff930c6820e1fa49c2195fda1",
+  "reviewNotes": "Reviewed the October 12 Scryfall all-cards capture and both freshly rendered official MagicCon rosters, including David Palumbo profile days and Instagram. All 546137 printings and 130 profiles accounted for; 65 attendees, names, portraits, links and illustrated-card counts unchanged. Original artist and printing-alias review dates retained. The exact Arcane Signet target and historical-ID absence were revalidated; all 148 tests and complete release audits passed.",
+  "sourceRevisions": {
+    "cards": "scryfall-all-cards-20261012091830",
+    "event": "magiccon-atlanta-2026-20261012T180941Z"
+  },
+  "dataVersion": "v1-40c32dddef95ab45",
+  "stages": [
+    {
+      "stage": "cards",
+      "completedAt": "2026-10-12T18:09:41.414933+00:00",
+      "snapshot": "scryfall-all-cards-20261012091830"
+    },
+    {
+      "stage": "attendance_capture",
+      "completedAt": "2026-10-12T18:11:08.554512+00:00",
+      "snapshot": "magiccon-atlanta-2026-20261012T180941Z"
+    },
+    {
+      "stage": "attendance_validation",
+      "completedAt": "2026-10-12T18:12:39.858150+00:00"
+    },
+    {
+      "stage": "reconciliation_and_counts",
+      "completedAt": "2026-10-12T18:13:40.287929+00:00"
+    }
+  ],
+  "publication": "Local promotion only; checked Git merge required for deployment."
+}

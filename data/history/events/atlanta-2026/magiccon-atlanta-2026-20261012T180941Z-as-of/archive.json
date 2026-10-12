@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "eventId": "atlanta-2026",
+  "snapshot": "magiccon-atlanta-2026-20261012T180941Z",
+  "cardSnapshot": "scryfall-all-cards-20261012091830",
+  "checkpoint": "as-of",
+  "sourceRetrievedAt": "2026-10-12T18:11:08.527822Z",
+  "files": {
+    "data/curated/events/atlanta-2026.json": "e90339467d3d775f75177c6bfb375c131685cb11b861358dbbab341fbd2a3f27",
+    "data/sources/events/atlanta-2026-profiles.json": "c548656f9338b9f11170995103a14087260a0c710a94ff4a8d919acd5d9606f3",
+    "data/curated/artist-match-review.json": "3c3add8e60cdec6fa04a7d82771c2912bf8901d9c0cf7e6ddb8f5e792db0618d",
+    "data/curated/artist-mappings.json": "b7fb7ae9f739b945a330d48bc72ddbd889c537aa870364b3f8686cd0ae1dd6e3",
+    "reports/artists-atlanta-2026.json": "59fd99b8645896b378ccf86e7359ea1cfd1229594674ec7e4386b96673db5533",
+    "reports/magiccon-browser-audit.json": "372bf7b149cf8c5d8c2ae15e334df02715c211a8399134456bba6f3e8847b461",
+    "data/manifests/magiccon-atlanta-2026-20261012T180941Z.json": "af2d1c13639555e8a7a886c9f65e3a48ede66ec5e9663b20b536f2a1464265e4",
+    "data/manifests/scryfall-all-cards-20261012091830.json": "aca259f0fc9ae328ecbc6739db3555407717fca7c7eec80809cf419d52751d1c"
+  },
+  "archivedAt": "2026-10-12T18:18:28.650481+00:00",
+  "meaning": "Preserved dated source state, not proof of physical attendance or a new scrape."
+}

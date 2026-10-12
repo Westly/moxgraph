@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "status": "complete",
-  "generated_at": "2026-10-11T20:26:14.760658+00:00",
-  "card_snapshot_id": "scryfall-all-cards-20261011091913",
-  "event_snapshot_id": "magiccon-atlanta-2026-20261011T195408Z",
-  "mapping_revision": "atlanta-2026-r1",
+  "generated_at": "2026-10-12T18:13:40.210926+00:00",
+  "card_snapshot_id": "scryfall-all-cards-20261012091830",
+  "event_snapshot_id": "magiccon-atlanta-2026-20261012T180941Z",
+  "mapping_revision": "atlanta-2026-3c3add8e60cdec6f",
   "counting_contract": "docs/artist-statistics.md",
   "artifacts": [
     {
       "path": "data/curated/artist-match-review.json",
-      "bytes": 65977,
-      "sha256": "38718b7fa6db076c1331553aa640842b9c5ba676518b4774021c8578d5b676f2"
+      "bytes": 68621,
+      "sha256": "3c3add8e60cdec6fa04a7d82771c2912bf8901d9c0cf7e6ddb8f5e792db0618d"
     },
     {
       "path": "data/curated/artist-mappings.json",
-      "bytes": 2042267,
-      "sha256": "0eb6a10fae6ba05367e3e074a69864f9ab51e2249e99bc23c44306b6437ac9ee"
+      "bytes": 2042281,
+      "sha256": "b7fb7ae9f739b945a330d48bc72ddbd889c537aa870364b3f8686cd0ae1dd6e3"
     },
     {
       "path": "tests/fixtures/artist-counting.json",
@@ -24,18 +24,18 @@
     },
     {
       "path": "scripts/data/artist_reconciliation.py",
-      "bytes": 9157,
-      "sha256": "d7fa1d247efa5c8cf117addb5f3ea363b4175b0b74ed2dc10cddcdd3bb33809b"
+      "bytes": 9085,
+      "sha256": "f650ddf38ee4391c06887c42af60c54a71ffecda53ad3009d6e8bae8de580187"
     },
     {
       "path": "scripts/data/artist_statistics.py",
-      "bytes": 16623,
-      "sha256": "35318a7664b89d574ebf97627d8c1539d5ca735a7ddf1b3bda3898d9993827b1"
+      "bytes": 16692,
+      "sha256": "64e0e839931b7b4b47eb5ca77f5b587bbc221b4159702cf76a44853b0ee3e063"
     },
     {
       "path": "scripts/data/artist_reports.py",
-      "bytes": 19352,
-      "sha256": "4886939a63494186ad4eac2cbc80f5e244ff49e53669fdda8b0f11cbc73c297e"
+      "bytes": 13920,
+      "sha256": "43417265a7c6650ca4e4f0b828222478116640883078dca0f21b0926c7493608"
     },
     {
       "path": "tests/test_artist_statistics.py",
@@ -50,52 +50,52 @@
     {
       "path": "reports/artists-all.csv",
       "bytes": 2024018,
-      "sha256": "636f5a8be2574c6468aeb6cc0c63d846c6352adb374a770cd2aef8e9e69de09b"
+      "sha256": "a2d97201b37e6a7b71acb11bb27c060a44cdd6885aa6c2bab92c026a89a53d09"
     },
     {
       "path": "reports/artists-atlanta-2026.csv",
       "bytes": 207163,
-      "sha256": "810f829ca97f1fd71e12be4f7cd3a92645eeb41640814a6862c092376119ac33"
+      "sha256": "65dbb4e4487a092086d212f1d1cc1b119f1dbcda90febbfd1d72da9a2e54593c"
     },
     {
       "path": "reports/artists-all.json",
-      "bytes": 5215784,
-      "sha256": "2a435144a419764e36f22f850ad6571e9abbf821e8b5cbf414b35e16f2cdae61"
+      "bytes": 5215798,
+      "sha256": "3ce779840b2c0abef95af3bc38b00edbf35accec510f4b9edfa049f6b3d8c6a7"
     },
     {
       "path": "reports/artists-atlanta-2026.json",
-      "bytes": 313733,
-      "sha256": "17c6ae2f6fd37f72bbc44bf80a653c1891a120c8eaa71e4779f3a618e37d4886"
+      "bytes": 313747,
+      "sha256": "59fd99b8645896b378ccf86e7359ea1cfd1229594674ec7e4386b96673db5533"
     },
     {
       "path": "reports/artist-discrepancies.json",
-      "bytes": 543185,
-      "sha256": "4c47a5f3781ddffb1462d7584183d0480d0ba1d2082f73918dc6fba22298d5a8"
+      "bytes": 543199,
+      "sha256": "0538f3631366a35c0bbe8ea291a1aae952f235af846f948c439fa49f6caa71cc"
     },
     {
       "path": "reports/artist-statistics-audit.json",
-      "bytes": 1908,
-      "sha256": "f0e6be0c118961440e2d0f3dd83eaec95ba46265d0f865ccf0b957a38b326de3"
+      "bytes": 1922,
+      "sha256": "f439a66a5fc695be0f90ef55b3dca9b4241f0d321a51460e182240d961717998"
     },
     {
       "path": "reports/artist-validation.json",
-      "bytes": 48898,
-      "sha256": "958a82493528bd2404db1a47387ed2c77760074304cfed501d400ef3480e761e"
+      "bytes": 48889,
+      "sha256": "d055651bdc86066596e96413f932bed3a88f63daf4a0e9772a2315de34393607"
     },
     {
       "path": "reports/artist-reconciliation.md",
-      "bytes": 10487,
-      "sha256": "f344484044737ae42f3fabc3460bfe763ace1449aa7b853c2c776bb45ff87ac9"
+      "bytes": 2544,
+      "sha256": "cb364c975f0ff4d7ba8c80f46de01bab1a2cd04c44c8ab59fe81db403d46d182"
     },
     {
       "path": "reports/artist-match-candidates.json",
       "bytes": 30154,
-      "sha256": "68022eef119f3cbc4b1720ee635709117be4be078bbeb838b4d97c5833b1b4c3"
+      "sha256": "9e11202d657a45ae5b53c3afc0509b1b8791cf77513a2776e55379fae0a2f207"
     },
     {
       "path": "reports/joint-credit-audit.json",
       "bytes": 163186,
-      "sha256": "341e32dc43ac33da0fcf535d5cebc23848691af5489cdc7b21066a021473d4a2"
+      "sha256": "d9dea89a3408c728c6f6fb6593dd79e66a2cb7c9f215d4010eace62ba2698391"
     }
   ]
 }
