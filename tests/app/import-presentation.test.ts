@@ -17,13 +17,13 @@ test('artist searches encode every reviewed alias without using MagicCon spellin
   const escaped=scryfallArtistUrl({...david,scryfallNames:{synthetic:['A "Quote" \\ Artist & Co.']}})!;
   assert.equal(new URL(escaped).searchParams.get('q'),'artist:"A \\"Quote\\" \\\\ Artist & Co."');
 });
-test('card details preserve non-English identity, exact image/link and manual/alias provenance',async()=>{
+test('visible cards preserve non-English identity, exact image/link and manual finish',async()=>{
   const c=await Catalogue.open('https://local.test/data/',fileFetch),d=await c.event();
   const deck=parseMoxfield(JSON.parse(await readFile('tests/fixtures/import-feasibility/moxfield-v2-zB7a13TqOUWlUZuylE905Q.json','utf8')));
   const result=await resolveDeck(deck,c,d,new AbortController().signal);
   const vampire=result.lines.find(r=>r.line.name==='Vampiric Tutor')!;
   assert.equal(vampire.printing!.language,'ja');const detail=resultDetail(vampire);
   assert.ok(detail.includes(vampire.printing!.scryfallUrl.replaceAll('&','&amp;')));assert.ok(detail.includes(vampire.printing!.imageUrl!));assert.ok(detail.includes('JA'));
-  const alias=result.lines.find(r=>r.status==='alias')!;const html=resultDetail(alias);assert.ok(html.includes(alias.line.scryfallId!));assert.ok(html.includes(alias.printing!.id));assert.ok(html.includes('1F★'));
+  const alias=result.lines.find(r=>r.status==='alias')!;const html=resultRow(alias);assert.ok(html.includes(alias.printing!.imageUrl!));assert.ok(html.includes('1F★'));assert.ok(!html.includes('<details'));assert.ok(!html.includes('Source identity'));
   assert.ok(resultRow({...vampire,manual:{selectedAt:'test',section:'mainboard',finish:null},status:'manual'}).includes('Finish unknown'));
 });

@@ -59,12 +59,9 @@ export function artistLinks(view: ArtistView): string {
   return `<div class="artist-links" role="group" aria-label="Links for ${escapeHtml(artist.rawName)}">${links}</div>`;
 }
 export function artistCard(view: ArtistView): string {
-  const { attendance: artist, statistics, mapping } = view;
+  const { attendance: artist, statistics } = view;
   const count = statistics?.uniqueCards;
-  const sourceNames = [...new Set(Object.values(mapping.scryfallNames).flat())].join(' / ');
-  return `<article class="artist-card"><div class="artist-card-top">${portrait(artist)}<div><h2>${externalLink(artist.profileUrl, escapeHtml(artist.rawName), `${artist.rawName} — official MagicCon profile`)}</h2><p class="artist-location">${icon('pin')} ${artist.booth ? `Booth ${escapeHtml(artist.booth)}` : 'Booth not listed'}</p><p class="micro">${artist.days.length ? escapeHtml(artist.days.join(' · ')) : 'Days not listed'}</p></div></div>
-    <div class="artist-count"><strong>${count == null ? '—' : count.toLocaleString()}</strong><span>unique paper cards illustrated</span></div>${artistLinks(view)}
-    <details class="credit-details"><summary>Artist name &amp; card counts</summary><dl><dt>MagicCon name</dt><dd>${escapeHtml(artist.rawName)}</dd><dt>Scryfall credit</dt><dd>${escapeHtml(sourceNames) || 'Not confirmed'}</dd><dt>Printing editions</dt><dd>${statistics?.printingEditions?.toLocaleString() ?? 'Not available'}</dd><dt>Language printings</dt><dd>${statistics?.languagePrintings?.toLocaleString() ?? 'Not available'}</dd></dl></details></article>`;
+  return `<article class="artist-card">${portrait(artist,'portrait portrait-feature')}<div class="artist-card-body"><h2>${externalLink(artist.profileUrl, escapeHtml(artist.rawName), `${artist.rawName} — official MagicCon profile`)}</h2><p class="artist-location">${artist.booth ? `Booth ${escapeHtml(artist.booth)}` : ''}${artist.booth && artist.days.length ? ' · ' : ''}${escapeHtml(artist.days.join(' · '))}</p><p class="artist-count" title="Unique paper cards illustrated; reprints and languages counted once">${count == null ? 'Card count unavailable' : `${count.toLocaleString()} cards illustrated`}</p>${artistLinks(view)}</div></article>`;
 }
 export function statusPanel(title: string, detail: string, action = '', kind: 'empty' | 'error' = 'empty'): string {
   return `<div class="state-panel ${kind}"${kind === 'error' ? ' role="alert"' : ''}>${icon(kind === 'error' ? 'info' : 'cards')}<h2>${escapeHtml(title)}</h2><p>${escapeHtml(detail)}</p>${action}</div>`;

@@ -28,6 +28,21 @@ window.fetch = async (input, init) => {
   return new Response(JSON.stringify(raw), { headers: { 'Content-Type': 'application/json' } });
 };
 await import('../../src/app');
+// Save the actual browser-generated file for PDF rendering / CSV comparison.
+// This explicit test-only control is never included in a production bundle.
+new MutationObserver(()=>{
+  const area=document.querySelector('.export-downloads'), link=area?.querySelector<HTMLAnchorElement>('a[download]');
+  if(!link||area?.querySelector('[data-qa-capture]'))return;
+  const button=document.createElement('button');button.className='button';button.dataset.qaCapture='';button.textContent='Save QA copy';
+  area!.append(button);
+  button.addEventListener('click',async()=>{
+    try{
+      const bytes=await (await realFetch(link.href)).arrayBuffer(),type=link.download.endsWith('.pdf')?'application/pdf':'text/csv';
+      const response=await realFetch('/__qa/export',{method:'POST',headers:{'Content-Type':type},body:bytes});
+      button.textContent=await response.text();
+    }catch{button.textContent='QA capture failed';}
+  });
+}).observe(document.body,{subtree:true,childList:true});
 async function accessibility() {
   const results = await axe.run({ exclude: [['aside[aria-label="Local QA controls"]']] }, { runOnly: { type: 'tag', values: ['wcag2a', 'wcag2aa', 'wcag21a', 'wcag21aa', 'wcag22aa', 'best-practice'] } });
   report.textContent = JSON.stringify({ axe: results.testEngine.version, url: results.url, passes: results.passes.length,

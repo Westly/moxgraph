@@ -34,7 +34,7 @@ require(all.length <= 10000, 'Release exceeds 10,000-file guard');
 for (const file of all) {
   const rel = path.relative(root, file).replaceAll('\\','/');
   checkPortablePath(rel);
-  require(['index.html','404.html','robots.txt','_headers','_redirects'].includes(rel) ||
+  require(['index.html','404.html','robots.txt','_headers','_redirects','fonts/NotoSans-Regular.ttf','fonts/OFL.txt'].includes(rel) ||
     /^data\/[a-z0-9_/-]+\.json$/.test(rel) || /^(assets|brand)\/[a-zA-Z0-9_./-]+\.(js|css|woff2|svg|png|jpg|webp|ico)$/.test(rel),
     `Unapproved deployable file: ${rel}`);
   require(!/(^|\/)(?:functions|node_modules|\.git|\.env|data\/raw|data\/staging)(\/|$)|_worker|wrangler|\.sqlite|\.map$|\.py$|\.mjs$|\.tsx?$/.test(rel), `Unexpected server/source artifact: ${rel}`);
