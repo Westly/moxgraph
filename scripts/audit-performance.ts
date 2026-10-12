@@ -39,11 +39,15 @@ for (const fixture of fixtures) {
     fullProviderBodyObservation: { bytes: live.bodyBytes, observedAt: live.observedAt, source: 'reports/import-relay-http-audit.json' }, estimatedMetadataTransferBytes,
     offlineResolveMs, selectorP95Ms: samples[94], selectorMaxMs: samples[99], assets: requests });
 }
-const shell = ['index.html', ...(await readdir('dist/assets')).filter(p => /\.(js|css)$/.test(p)).map(p => `assets/${p}`)];
+const html = await readFile('dist/index.html','utf8');
+const shell = ['index.html', ...new Set([...html.matchAll(/(?:src|href)="\/?(assets\/[^" ]+\.(?:js|css))"/g)].map(m=>m[1]!))];
+// The PDF library is a user-triggered dynamic import, not an initial-page cost.
+const deferred = (await readdir('dist/assets')).filter(p=>/\.js$/.test(p)&&!shell.includes(`assets/${p}`)).map(p=>`assets/${p}`);
+const deferredAssets = await Promise.all(deferred.map(async path=>{const bytes=await readFile(`dist/${path}`);return {path,decodedBytes:bytes.length,gzipBytes:gzipSync(bytes).length};}));
 const assets = await Promise.all(shell.map(async path => { const b = await readFile(`dist/${path}`); return { path, decodedBytes: b.length, gzipBytes: gzipSync(b).length }; }));
 const shellGzipBytes = assets.reduce((n,a) => n+a.gzipBytes,0); assert.ok(shellGzipBytes <= 250*1024);
 const report = { wbs: '9.5', generatedAt: new Date().toISOString(), device: { platform: os.platform(), arch: os.arch(), release: os.release(), cpu: os.cpus()[0]?.model, node: process.version },
   method: 'Actual Catalogue fetch calls against local immutable files; per-response gzip level 6, including duplicate requests. Not WAN timing. Budget estimate combines static gzip with full uncompressed provider bodies measured on 2026-10-11, separately from minimized fixtures. Recheck actual Pages encoding/transfer in WBS 10. Browser render timings are recorded in browser QA.',
-  budgets: { shellGzipBytes: 250*1024, metadataGzipBytes: 5*1024*1024, cachedSortMs: 100 }, shellGzipBytes, shell: assets, imports: results };
+  budgets: { shellGzipBytes: 250*1024, metadataGzipBytes: 5*1024*1024, cachedSortMs: 100 }, shellGzipBytes, shell: assets, deferred: deferredAssets, imports: results };
 await writeFile('reports/performance-audit.json', JSON.stringify(report,null,2)+'\n');
 console.log(JSON.stringify({ shellGzipBytes, imports: results.map(({ assets, ...r }) => r) },null,2));

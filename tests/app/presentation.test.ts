@@ -13,7 +13,7 @@ const base = `public/data/${active.version}`;
 const directory = parseContract('EventDirectory', read(`${base}/event.json`));
 const links: Record<string, string> = reviewedLinks;
 
-test('profile presentation keeps source identities, counts, and each usable published destination', () => {
+test('portrait directory keeps counts and every usable published destination without a disclosure', () => {
   for (const attendance of directory.attendance) {
     const mapping = directory.mappings.find(item => item.id === attendance.mappingId)!;
     const view: ArtistView = { attendance, mapping, statistics: directory.statistics.find(item => item.artistKey === mapping.artistKeys[0]), scryfallUrl: links[attendance.guestId!] };
@@ -21,7 +21,7 @@ test('profile presentation keeps source identities, counts, and each usable publ
     const renderedLinks = artistLinks(view);
     assert.ok(card.includes(escapeHtml(attendance.rawName)));
     assert.ok(card.includes(`href="${escapeHtml(new URL(attendance.profileUrl).href)}"`));
-    for (const sourceNames of Object.values(mapping.scryfallNames)) for (const name of sourceNames) assert.ok(card.includes(escapeHtml(name)));
+    assert.ok(card.includes('portrait-feature'));assert.ok(!card.includes('<details'));assert.ok(card.includes('cards illustrated'));
     for (const link of attendance.links) if (link.displayUrl) assert.ok(renderedLinks.includes(`href="${escapeHtml(new URL(link.displayUrl).href)}"`), `${attendance.rawName}: ${link.label}`);
     for (const anchor of renderedLinks.matchAll(/<a\b[^>]*>/g)) {
       assert.match(anchor[0], /aria-label="[^"]+"/);

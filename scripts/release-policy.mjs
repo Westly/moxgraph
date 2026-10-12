@@ -7,7 +7,7 @@ export function checkPortablePath(path) {
 export function checkHeaders(text) {
   const csp = text.split(/\r?\n/).find(l => l.trim().startsWith('Content-Security-Policy:'));
   assert.ok(csp, 'Static Content-Security-Policy is required');
-  for (const directive of ["default-src 'self'", "script-src 'self'", "style-src 'self'", "object-src 'none'", "base-uri 'none'", "frame-ancestors 'none'", "form-action 'self'", "connect-src 'self' https://moxgraph-import-relay-probe.westlywhite.workers.dev"]) {
+  for (const directive of ["default-src 'self'", "script-src 'self'", "style-src 'self'", "object-src 'none'", "base-uri 'none'", "frame-ancestors 'none'", "form-action 'self'", "connect-src 'self' https://moxgraph-import-relay-probe.westlywhite.workers.dev https://cards.scryfall.io"]) {
     assert.ok(csp.split(';').some(d => d.trim() === directive || d.trim() === `Content-Security-Policy: ${directive}`), `Missing or expanded policy: ${directive}`);
   }
   assert.ok(!/unsafe-inline|unsafe-eval|\*|data:/.test(csp), 'CSP cannot allow inline code, eval or arbitrary origins');

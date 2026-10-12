@@ -1,0 +1,74 @@
+{
+  "wbs": "12.0",
+  "generatedAt": "2026-10-12T19:13:27.798764+00:00",
+  "status": "local-validation-complete; production-publication-pending",
+  "automated": {
+    "appTests": 55,
+    "relayAndPolicyTests": 12,
+    "pythonTests": 85,
+    "total": 152,
+    "typecheck": "passed",
+    "fullCatalogueAndReleaseBuild": "passed",
+    "catalogueVersion": "v1-40c32dddef95ab45",
+    "catalogueChanged": false
+  },
+  "browser": {
+    "engine": "Codex in-app Chromium browser",
+    "desktop": "1280px",
+    "mobileWidths": [
+      390,
+      320
+    ],
+    "horizontalOverflow": "none after table containing-block correction",
+    "accessibility": {
+      "engine": "axe-core 4.14.0",
+      "galleryViolations": 0,
+      "directoryViolations": 0,
+      "exportDialogViolations": 0,
+      "mobileGalleryViolations": 0,
+      "narrowDirectoryViolations": 0
+    },
+    "productionCspPdf": "19 matching cards from Archidekt saved deck; PDF ready; no console/CSP errors",
+    "checks": [
+      "Existing local libraries restored without migrations",
+      "Cards visible without disclosures",
+      "Exact image URLs and both faces retained",
+      "Artist search and compact table edit action work",
+      "Large directory portraits with official social/profile links",
+      "Single and multiple deck selection",
+      "All-sections and non-attending-card option",
+      "Changed export selection clears stale download link"
+    ]
+  },
+  "exportEvidence": {
+    "path": "ignored data/staging/pdf-qa/browser-export.pdf",
+    "pages": 4,
+    "entries": 38,
+    "physicalCopies": 51,
+    "attendingArtists": 25,
+    "decks": 2,
+    "missingImages": 0,
+    "visualReview": "All four Poppler-rendered pages reviewed, including emoji deck names, double-faced cards, printing labels, quantities and artist/deck order",
+    "pdfSha256": "29be7630e4b9b29bc990d401f2132238d7f94860870f7c38ea15a4d2a09190cc",
+    "csvSha256": "c9d8190c577c8ac3479ed0e3eb302078281074ff8988273c28e5de044e500392"
+  },
+  "performance": {
+    "initialShellGzipBytes": 52557,
+    "pdfChunkGzipBytes": 507470,
+    "pdfChunkLoading": "Only after Download PDF",
+    "fontBytes": 569208
+  },
+  "hosting": {
+    "newService": false,
+    "newCredentials": false,
+    "paidFeature": false,
+    "relayChanged": false,
+    "securityChange": "connect-src adds only cards.scryfall.io for bounded PDF image reads"
+  },
+  "limitations": [
+    "PDF limited to 600 card entries per file; CSV supports the saved-library limit",
+    "Long PDF labels visibly truncate; CSV retains full values",
+    "Unavailable card images become labeled placeholders and a visible notice",
+    "IAB OS download save location is not exposed; actual generated Blob bytes were captured through the explicit local QA control and inspected"
+  ]
+}
