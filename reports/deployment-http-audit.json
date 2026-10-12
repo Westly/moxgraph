@@ -1,0 +1,142 @@
+{
+  "checkedAt": "2026-10-12T16:52:51.229305+00:00",
+  "tool": "curl.exe GET with Accept-Encoding gzip; redirects not automatically followed",
+  "results": [
+    {
+      "url": "https://moxgraph.com/",
+      "status": 200,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "x-frame-options": "DENY",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "x-content-type-options": "nosniff",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https:; connect-src 'self' https://moxgraph-import-relay-probe.westlywhite.workers.dev; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "content-encoding": "gzip"
+      },
+      "encodedBytes": 1195,
+      "decodedBytes": 2519,
+      "sha256": "0b4990152b1739820e8e16cacd1b0dd7c4b153adcef6099a3f179b2e39954df0"
+    },
+    {
+      "url": "https://moxgraph.com/data/active.json",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json",
+        "x-frame-options": "DENY",
+        "cache-control": "no-cache",
+        "x-content-type-options": "nosniff",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https:; connect-src 'self' https://moxgraph-import-relay-probe.westlywhite.workers.dev; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "content-encoding": "gzip"
+      },
+      "encodedBytes": 146,
+      "decodedBytes": 159,
+      "sha256": "c590ae36e3494738bb4d2b77e888f8b75d72e5d5a720d40755b0f5ae2cdf805e"
+    },
+    {
+      "url": "https://moxgraph.com/data/v1-1785df4c41186eaa/manifest.json",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json",
+        "x-frame-options": "DENY",
+        "cache-control": "public, max-age=31536000, immutable",
+        "x-content-type-options": "nosniff",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https:; connect-src 'self' https://moxgraph-import-relay-probe.westlywhite.workers.dev; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "content-encoding": "gzip"
+      },
+      "encodedBytes": 443722,
+      "decodedBytes": 1325471,
+      "sha256": "9abf96d85b61b6771a53b3e724d410aff49e7a23cb2d022177a48c225288fbc3"
+    },
+    {
+      "url": "https://moxgraph.com/data/v1-1785df4c41186eaa/printings/d27.json",
+      "status": 200,
+      "headers": {
+        "content-type": "application/json",
+        "x-frame-options": "DENY",
+        "cache-control": "public, max-age=31536000, immutable",
+        "x-content-type-options": "nosniff",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https:; connect-src 'self' https://moxgraph-import-relay-probe.westlywhite.workers.dev; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "content-encoding": "gzip"
+      },
+      "encodedBytes": 26060,
+      "decodedBytes": 72537,
+      "sha256": "df70809d5ae4725e3ab9a2ba43ff0eb11a0b3faee879756963205dac9145a226"
+    },
+    {
+      "url": "https://moxgraph.com/assets/index-DfNh5UdF.js",
+      "status": 200,
+      "headers": {
+        "content-type": "application/javascript",
+        "x-frame-options": "DENY",
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "x-content-type-options": "nosniff",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https:; connect-src 'self' https://moxgraph-import-relay-probe.westlywhite.workers.dev; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "content-encoding": "gzip"
+      },
+      "encodedBytes": 44752,
+      "decodedBytes": 312698,
+      "sha256": "017ad9a05e5f059a0c6891eae4202625ecc6220d6e725120cee84bcb72debdbc"
+    },
+    {
+      "url": "https://moxgraph.com/assets/index-COl3_BRk.css",
+      "status": 200,
+      "headers": {
+        "content-type": "text/css; charset=utf-8",
+        "x-frame-options": "DENY",
+        "cache-control": "public, max-age=14400, must-revalidate",
+        "x-content-type-options": "nosniff",
+        "content-security-policy": "default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' https:; connect-src 'self' https://moxgraph-import-relay-probe.westlywhite.workers.dev; object-src 'none'; base-uri 'none'; frame-ancestors 'none'; form-action 'self'",
+        "permissions-policy": "camera=(), microphone=(), geolocation=(), payment=()",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "content-encoding": "gzip"
+      },
+      "encodedBytes": 5190,
+      "decodedBytes": 22747,
+      "sha256": "6a073ceb62d757342bc8d2bc5a43c2490655e26ebd335eb0392d62cdff0e0cb1"
+    },
+    {
+      "url": "https://www.moxgraph.com/data/active.json?wbs10=path-query",
+      "status": 301,
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "location": "https://moxgraph.com/data/active.json?wbs10=path-query"
+      },
+      "encodedBytes": 167,
+      "decodedBytes": 167,
+      "sha256": "446a6087825fa73eadb045e5a2e9e2adf7df241b571228187728191d961dda1f"
+    },
+    {
+      "url": "http://www.moxgraph.com/data/active.json?wbs10=path-query",
+      "status": 301,
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "location": "https://moxgraph.com/data/active.json?wbs10=path-query"
+      },
+      "encodedBytes": 167,
+      "decodedBytes": 167,
+      "sha256": "446a6087825fa73eadb045e5a2e9e2adf7df241b571228187728191d961dda1f"
+    },
+    {
+      "url": "http://moxgraph.com/data/active.json?wbs10=path-query",
+      "status": 301,
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "location": "https://moxgraph.com/data/active.json?wbs10=path-query"
+      },
+      "encodedBytes": 167,
+      "decodedBytes": 167,
+      "sha256": "446a6087825fa73eadb045e5a2e9e2adf7df241b571228187728191d961dda1f"
+    }
+  ],
+  "result": "passed"
+}

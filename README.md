@@ -2,9 +2,10 @@
 
 A static website for finding cards in Moxfield/Archidekt decks illustrated by artists attending MagicCon, using each card's selected printing.
 
-**Current status:** WBS 9 is complete. The local static app imports exact selected printings, groups cards by attending artist and saves decks/backups in the browser. All 125 tests and the production build pass. Accessibility fixes, performance and release guards are verified within the documented browser coverage. The approved Free relay now has rate limits and measured CPU below its allowance. No WBS 9 blockers remain; GitHub, Pages and the production domain are WBS 10.
+**Current status:** WBS 10 is complete. [moxgraph.com](https://moxgraph.com/) is live on Cloudflare Pages Free. Checked updates to this public repository’s protected `main` branch automatically deploy the static site and the separate Workers Free retrieval relay. All 127 tests and full catalogue/build audits pass in clean Linux CI. Both deck providers, selected printing images, browser-local saving, HTTPS and redirects are verified on the final domain.
 
 - [Project roadmap and WBS](ROADMAP.md)
+- [Deployment settings and rollback](docs/deployment.md) · [Launch receipt](reports/deployment-validation.json) · [Live HTTP checks](reports/deployment-http-audit.json)
 - [Release checklist](docs/release-checklist.md) · [WBS 9 validation](docs/release-validation.md) · [Performance report](reports/performance-audit.json)
 - [Local saving, backup/restore and recovery](docs/local-storage.md) · [Storage validation](reports/local-storage-validation.json)
 - [Deck imports, matching and recovery](docs/deck-imports.md) · [Fixture audit](reports/import-matching-audit.json) · [Browser validation](reports/import-matching-validation.json)
@@ -28,8 +29,8 @@ A static website for finding cards in Moxfield/Archidekt decks illustrated by ar
 - [Printing audit](reports/import-printing-audit.json) · [Browser evidence](reports/import-browser-audit.json)
 - [Static feasibility probe](https://moxgraph-import-probe.pages.dev)
 
-Run `npm ci`, `npm run build`, then `npm run preview:release` and open **http://localhost:3000/**. That exact loopback origin is allowed by the existing relay. `npm run dev` uses the same port; run one server at a time. See the build instructions above before regenerating data: that separate step needs the ignored full baseline.
+Use the pinned Node/Python versions in `.node-version` and `.python-version`. Run `npx --yes npm@11.9.0 ci --no-audit --no-fund`, `npm run verify`, then `npm run preview:release` and open **http://localhost:3000/**. That exact loopback origin is allowed by the existing relay. `npm run dev` uses the same port; run one server at a time. See the build instructions above before regenerating data: that separate step needs the ignored full baseline.
 
-Work proceeds one parent WBS at a time, only when requested by the owner. The next parent is **10.0 — GitHub, Cloudflare, and the registered domain**. Production-origin, Git integration and deployment/rollback checks remain launch gates. See the release checklist for untested browsers and provider/source limitations. The relay remains on Workers Free, with transient rate counters and no stored decks or paid fallback.
+Work proceeds one parent WBS at a time, only when requested by the owner. The next parent is **11.0 — Maintain data and prepare for the event**; it has not started. See the release checklist for untested browsers and dated provider/source limitations. The relay remains on Workers Free, with transient rate counters and no stored decks or paid fallback. Saved decks belong to the browser and origin: use backup/restore to move a localhost library to the live domain.
 
 The data scripts use Python's standard library. Large bulk downloads and SQLite files stay under ignored `data/raw/` and `data/staging/` directories; they are not website assets or Git uploads.
