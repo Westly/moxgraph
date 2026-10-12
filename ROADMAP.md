@@ -333,6 +333,7 @@ Owner explicitly requested this follow-up after the first live release; it does 
 - [x] **12.4 Export selected decks:** single/multiple deck picker, CSV and visual PDF ordered artist → deck → card, section options, exact editions and joint-credit handling.
 - [x] **12.5 Validate:** full release checks, desktop/mobile accessibility, actual browser-generated PDF/CSV and rendered PDF review.
 - [x] **12.6 Publish:** protected GitHub PR, successful required checks, automatic Cloudflare deployment and live verification.
+- [x] **12.7 Compact saved decks (owner follow-up):** replace stacked deck panels with a Deck / Cards / Actions table; use labeled icon buttons for row and library actions; verify desktop, 390 px and 320 px layouts and existing dialogs. All 152 release checks and the table accessibility audit pass. Evidence: `reports/screenshots/saved-decks-table.jpg` and `docs/card-gallery-and-exports.md`.
 
 Deliverables: `docs/card-gallery-and-exports.md`, `reports/interface-exports-validation.json`, implementation and screenshot evidence. No new service or paid feature.
 
