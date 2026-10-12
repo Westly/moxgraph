@@ -7,6 +7,7 @@ from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 import time
 import base64
+import sys
 from urllib.parse import parse_qs
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -42,7 +43,7 @@ class Handler(SimpleHTTPRequestHandler):
             self.send_error(400); return
         fields = parse_qs(self.rfile.read(int(self.headers['Content-Length'])).decode())
         name = fields.get('filename', [''])[0]
-        if name not in {f'wbs6-{n}.jpg' for n in ['desktop', 'results', 'artists', 'mobile', 'portrait-fallback', 'error', 'narrow']} | {f'wbs7-{n}.jpg' for n in ['desktop', 'results', 'mobile', 'review', 'error']} | {f'wbs8-{n}.jpg' for n in ['library', 'restore', 'mobile', 'storage-error']} | {f'wbs9-{n}.jpg' for n in ['desktop', 'mobile', 'wrangler', 'relay']}:
+        if name not in {f'wbs6-{n}.jpg' for n in ['desktop', 'results', 'artists', 'mobile', 'portrait-fallback', 'error', 'narrow']} | {f'wbs7-{n}.jpg' for n in ['desktop', 'results', 'mobile', 'review', 'error']} | {f'wbs8-{n}.jpg' for n in ['library', 'restore', 'mobile', 'storage-error']} | {f'wbs9-{n}.jpg' for n in ['desktop', 'mobile', 'wrangler', 'relay']} | {f'wbs10-{n}.jpg' for n in ['production', 'mobile', 'access']}:
             self.send_error(400); return
         try:
             data = base64.b64decode(fields['data'][0], validate=True)
@@ -52,5 +53,6 @@ class Handler(SimpleHTTPRequestHandler):
             self.send_error(400); return
         self.html(PROOF_FORM + f'<p role="status">Saved {name} ({len(data)} bytes).</p></html>')
 
-print('Local error/retry QA: http://127.0.0.1:4181', flush=True)
-ThreadingHTTPServer(('127.0.0.1', 4181), Handler).serve_forever()
+port = int(sys.argv[1]) if len(sys.argv) > 1 else 4181
+print(f'Local error/retry QA: http://127.0.0.1:{port}', flush=True)
+ThreadingHTTPServer(('127.0.0.1', port), Handler).serve_forever()
