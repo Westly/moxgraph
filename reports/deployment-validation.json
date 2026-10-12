@@ -1,0 +1,65 @@
+{
+  "wbs": "10.0",
+  "checkedOn": "2026-10-12",
+  "result": "passed",
+  "repository": "https://github.com/Westly/moxgraph",
+  "visibility": "public",
+  "productionUrl": "https://moxgraph.com/",
+  "verifiedCommit": "d1a5428a2fa95d03d239fb2542675efbc4ae67a5",
+  "pagesDeployment": "985d1f0d-891f-475f-b117-7badca075c68",
+  "previewDeployment": "fe828ad5-0204-492c-9366-3a05d78d80e2",
+  "githubRun": 38279640511,
+  "qualityJob": 114913494543,
+  "relayJob": 114913887191,
+  "relayVersion": "5a33ab5a-7649-425e-952b-899d89e766cf",
+  "dataVersion": "v1-1785df4c41186eaa",
+  "tests": {"app": 51, "relay": 9, "policy": 3, "python": 64, "total": 127},
+  "checks": {
+    "cleanLinuxBuild": "passed",
+    "all546137PrintingsValidated": true,
+    "staticOutputFiles": 7610,
+    "githubRequiredQualityEnforcedIncludingAdmins": true,
+    "gitTriggeredPagesAndRelayDeployments": "passed",
+    "failedBuildPreventedPublication": {
+      "commit": "fb376b579f5249045d8666d4e10488f64dba8e0b",
+      "githubRun": 38277838528,
+      "pagesBuild": "60fd5263-0487-40bf-ac19-f01a11731bd8",
+      "cause": "Recovery tests depended on an ignored SQLite staging database; fixed with checksummed committed shard evidence before release."
+    },
+    "finalOriginTls": "passed; apex and www Active / SSL enabled",
+    "redirects": "HTTP apex, HTTP www and HTTPS www return 301 to HTTPS apex with path and query preserved",
+    "localStorage": "Three imported decks appear in local library; reload restores selected deck and results",
+    "sorting": "Artist A-Z and Most copies controls work on saved production results",
+    "exactPrinting": {
+      "card": "Path of Ancestry",
+      "set": "c20",
+      "collectorNumber": "298",
+      "language": "en",
+      "finish": "nonFoil",
+      "sourceAndResolvedId": "d2731103-47ef-41d3-bf5f-5773b60c7948",
+      "artist": "Alayna Danner",
+      "imageLoaded": true
+    },
+    "artistDirectory": "65 attendees; David Palumbo portrait loaded, official gtID=379894 profile, Scryfall search and source Instagram/website/gallery links retained",
+    "httpAudit": "deployment-http-audit.json",
+    "compressedShellBytes": 51137,
+    "workersPlan": "Free, $0, Current plan",
+    "zonePlan": "Free",
+    "paidServicesEnabled": false,
+    "frontendSecrets": false,
+    "relayCredential": "Owner-approved account Workers Scripts Edit token; encrypted main-only production-relay environment secret, no DNS/billing/storage permissions",
+    "rollback": "Runbook and successful deployment histories verified; no disruptive rollback performed"
+  },
+  "browserImports": [
+    {"provider": "moxfield-v2", "deckId": "3x55_3CFz060qxL2xac3NA", "capturedCopies": 139, "sourceLines": 111, "defaultMatchedCopies": 17, "uniquePrintings": 17, "attendingArtists": 13, "unresolved": 0},
+    {"provider": "moxfield-v2", "deckId": "zB7a13TqOUWlUZuylE905Q", "capturedCopies": 139, "sourceLines": 126, "defaultMatchedCopies": 34, "uniquePrintings": 21, "attendingArtists": 15, "unresolved": 0, "note": "Existing reviewed historical Arcane Signet alias retained"},
+    {"provider": "archidekt-json", "deckId": "19780118", "capturedCopies": 114, "sourceLines": 114, "defaultMatchedCopies": 19, "uniquePrintings": 19, "attendingArtists": 16, "unresolved": 0}
+  ],
+  "limitations": [
+    "Acceptance uses available desktop Chromium; earlier WBS 9 responsive checks remain valid, other engines/real mobile devices were not retested or certified.",
+    "Existing Cloudflare Pages GitHub installation already covered other owner repositories; only this project was connected, existing broader installation access was not changed.",
+    "Browser tool blocked direct JSON-document navigation; ordinary curl GET checks verified the same public asset bytes, compression, headers and redirects.",
+    "Dated source gaps and provider-denial cases remain documented in the release checklist; no source refresh is part of WBS 10.",
+    "Future documentation-only merges have new deployment IDs; this receipt identifies the functional release tested, not a permanently current deployment."
+  ]
+}

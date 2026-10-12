@@ -1,5 +1,7 @@
 # WBS 9.8 — release checklist
 
+Historical WBS 9 checklist. Its production launch gates were subsequently completed in WBS 10; see [deployment acceptance and recovery](deployment.md) and the [launch receipt](../reports/deployment-validation.json). The dated limitations below remain applicable.
+
 Recorded 2026-10-12. **WBS 9 complete; production launch remains WBS 10.** See [validation details](release-validation.md), [performance measurements](../reports/performance-audit.json), [local relay audit](../reports/relay-local-validation.json) and [browser/build summary](../reports/release-validation.json).
 
 ## Requirement disposition
