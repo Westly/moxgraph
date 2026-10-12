@@ -1,0 +1,80 @@
+[
+  {
+    "observedAt": "2026-10-11T20:37:54.391461+00:00",
+    "provider": "moxfield",
+    "url": "https://api2.moxfield.com/v3/decks/all/3x55_3CFz060qxL2xac3NA",
+    "requestOrigin": "http://localhost:3000",
+    "status": 200,
+    "headers": {
+      "content-type": "application/json;charset=utf-8",
+      "vary": "Accept-Encoding"
+    }
+  },
+  {
+    "observedAt": "2026-10-11T20:37:56.618779+00:00",
+    "provider": "archidekt",
+    "url": "https://archidekt.com/api/decks/19780118/",
+    "requestOrigin": "http://localhost:3000",
+    "status": 200,
+    "headers": {
+      "content-type": "application/json",
+      "vary": "Origin",
+      "access-control-allow-origin": "http://localhost:3000",
+      "access-control-allow-methods": "GET, POST, PUT, PATCH, OPTIONS, DELETE, HEAD",
+      "access-control-allow-headers": "Content-Type, X-CSRFToken, Accept, Authorization, Content-Disposition, Access-Control-Allow-Credentials",
+      "access-control-allow-credentials": "true"
+    }
+  },
+  {
+    "observedAt": "2026-10-11T21:45:51.280698+00:00",
+    "provider": "moxfield",
+    "url": "https://api.moxfield.com/v2/decks/all/3x55_3CFz060qxL2xac3NA",
+    "requestOrigin": "https://moxgraph-import-probe.pages.dev",
+    "status": 200,
+    "headers": {
+      "content-type": "application/json;charset=utf-8",
+      "vary": "Accept-Encoding"
+    }
+  },
+  {
+    "observedAt": "2026-10-11T21:45:53.603204+00:00",
+    "provider": "archidekt",
+    "url": "https://archidekt.com/api/decks/19780118/",
+    "requestOrigin": "https://moxgraph-import-probe.pages.dev",
+    "status": 200,
+    "headers": {
+      "content-type": "application/json",
+      "vary": "Origin",
+      "access-control-allow-origin": "http://localhost:3000",
+      "access-control-allow-methods": "GET, POST, PUT, PATCH, OPTIONS, DELETE, HEAD",
+      "access-control-allow-headers": "Content-Type, X-CSRFToken, Accept, Authorization, Content-Disposition, Access-Control-Allow-Credentials",
+      "access-control-allow-credentials": "true"
+    }
+  },
+  {
+    "observedAt": "2026-10-11T21:47:28.052493+00:00",
+    "provider": "moxfield",
+    "url": "https://api.moxfield.com/v2/decks/all/3x55_3CFz060qxL2xac3NA",
+    "requestOrigin": "https://moxgraph.com",
+    "status": 200,
+    "headers": {
+      "content-type": "application/json;charset=utf-8",
+      "vary": "Accept-Encoding"
+    }
+  },
+  {
+    "observedAt": "2026-10-11T21:47:30.278295+00:00",
+    "provider": "archidekt",
+    "url": "https://archidekt.com/api/decks/19780118/",
+    "requestOrigin": "https://moxgraph.com",
+    "status": 200,
+    "headers": {
+      "content-type": "application/json",
+      "vary": "Origin",
+      "access-control-allow-origin": "http://localhost:3000",
+      "access-control-allow-methods": "GET, POST, PUT, PATCH, OPTIONS, DELETE, HEAD",
+      "access-control-allow-headers": "Content-Type, X-CSRFToken, Accept, Authorization, Content-Disposition, Access-Control-Allow-Credentials",
+      "access-control-allow-credentials": "true"
+    }
+  }
+]

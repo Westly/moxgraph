@@ -1,0 +1,18 @@
+{
+  "wbs": "9.7",
+  "observedAt": "2026-10-12T16:12:22.107Z",
+  "runtime": "Miniflare/workerd",
+  "externalRequests": 0,
+  "statuses": [
+    200,
+    200,
+    429
+  ],
+  "burstProviderCalls": 2,
+  "nativeBatchRoundTrip": {
+    "bytes": 600049,
+    "identical": true
+  },
+  "totalMockProviderCalls": 3,
+  "note": "Actual local rate-limit bindings and native BYOB stream; mocked provider. Cloudflare counters are colo-local and eventually consistent."
+}

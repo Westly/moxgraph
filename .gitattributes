@@ -1,0 +1,9 @@
+* text=auto eol=lf
+# Checksums cover exact bytes; do not normalize immutable data or captured fixtures.
+public/data/** -text
+data/** -text
+tests/fixtures/** -text
+reports/** -text
+*.png binary
+*.jpg binary
+*.ico binary

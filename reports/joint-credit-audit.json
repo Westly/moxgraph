@@ -1,0 +1,4625 @@
+{
+  "snapshot_id": "scryfall-all-cards-20261011091913",
+  "groups": [
+    {
+      "raw_credit": "6VCR & Chuck Lukacs",
+      "credit_observations": 2,
+      "example_printing_id": "aa32c5e9-a299-4f20-85ae-3d4f2919b6a8",
+      "artist_ids": [
+        "5665ce88-e2ce-46a9-879b-6a88287ae0f5",
+        "2bdf4da7-c66c-4c46-a253-284c856ccfab"
+      ],
+      "known_names_by_id": {
+        "5665ce88-e2ce-46a9-879b-6a88287ae0f5": [
+          "6VCR"
+        ],
+        "2bdf4da7-c66c-4c46-a253-284c856ccfab": [
+          "Chuck Lukacs"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Aaron J. Riley & Eric Wilkerson",
+      "credit_observations": 6,
+      "example_printing_id": "002a4015-016b-4357-826c-25c53de47f8b",
+      "artist_ids": [
+        "f21b412c-aef5-4d15-88be-4f40615acde3",
+        "525ec49d-a7c8-4ddc-96aa-58cf5ad5e937"
+      ],
+      "known_names_by_id": {
+        "f21b412c-aef5-4d15-88be-4f40615acde3": [
+          "Aaron J. Riley"
+        ],
+        "525ec49d-a7c8-4ddc-96aa-58cf5ad5e937": [
+          "Eric Wilkerson"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Aaron J. Riley & Scott Okumura",
+      "credit_observations": 2,
+      "example_printing_id": "182dc47c-897e-4922-ba9d-80204bed7b5a",
+      "artist_ids": [
+        "f21b412c-aef5-4d15-88be-4f40615acde3",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "f21b412c-aef5-4d15-88be-4f40615acde3": [
+          "Aaron J. Riley"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Aleksi Briclot & Alix Branwyn",
+      "credit_observations": 1,
+      "example_printing_id": "b83edc5c-ee6b-4c75-94b2-46d1f68f7304",
+      "artist_ids": [
+        "5e470014-31cb-41b0-b054-e23374484449",
+        "4f0a0e38-d74c-4e0b-ad91-fecccb1afa5d"
+      ],
+      "known_names_by_id": {
+        "5e470014-31cb-41b0-b054-e23374484449": [
+          "Aleksi Briclot"
+        ],
+        "4f0a0e38-d74c-4e0b-ad91-fecccb1afa5d": [
+          "Alix Branwyn"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": [
+        "4f0a0e38-d74c-4e0b-ad91-fecccb1afa5d"
+      ]
+    },
+    {
+      "raw_credit": "Amy Weber & Tom Wänerstrand",
+      "credit_observations": 7,
+      "example_printing_id": "060b8dd4-d632-4216-87ba-355ab8a62e39",
+      "artist_ids": [
+        "c1160787-e72e-4f89-b361-c6864f7a4e3a",
+        "c4e0aa7c-a008-4d71-80ce-d5a1ca0b251b"
+      ],
+      "known_names_by_id": {
+        "c1160787-e72e-4f89-b361-c6864f7a4e3a": [
+          "Amy Weber"
+        ],
+        "c4e0aa7c-a008-4d71-80ce-d5a1ca0b251b": [
+          "Tom Wänerstrand"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": [
+        "c4e0aa7c-a008-4d71-80ce-d5a1ca0b251b"
+      ]
+    },
+    {
+      "raw_credit": "Andrea De Dominicis & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "8bcf942f-5afd-414e-a50d-00d884fe59da",
+      "artist_ids": [
+        "d0f5310c-acb8-4df7-b78d-84a4e5fb2a22",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "d0f5310c-acb8-4df7-b78d-84a4e5fb2a22": [
+          "Andrea De Dominicis"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Anthony Palumbo & Brad Rigney",
+      "credit_observations": 1,
+      "example_printing_id": "d0c052ed-c761-4f1d-816b-092cdd6cb0fa",
+      "artist_ids": [
+        "afd2d541-4140-41ae-a28f-862436458fcb",
+        "f17194b9-10e9-44ea-9b65-6812ab398624"
+      ],
+      "known_names_by_id": {
+        "afd2d541-4140-41ae-a28f-862436458fcb": [
+          "Anthony Palumbo"
+        ],
+        "f17194b9-10e9-44ea-9b65-6812ab398624": [
+          "Brad Rigney"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Anthony S. Waters & Cara Mitten",
+      "credit_observations": 9,
+      "example_printing_id": "11ae8bc7-8bf1-4fce-afaa-76acfb261419",
+      "artist_ids": [
+        "f009de11-3c8d-4663-b996-ca0c3e997fad",
+        "de5ed3a2-4914-46dc-9aae-9b7b069cd485"
+      ],
+      "known_names_by_id": {
+        "f009de11-3c8d-4663-b996-ca0c3e997fad": [
+          "Anthony S. Waters"
+        ],
+        "de5ed3a2-4914-46dc-9aae-9b7b069cd485": [
+          "Cara Mitten"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Anthony S. Waters & Edward P. Beard, Jr.",
+      "credit_observations": 8,
+      "example_printing_id": "24b628eb-6ac8-4b39-8be8-8b8f71ea0e5e",
+      "artist_ids": [
+        "f009de11-3c8d-4663-b996-ca0c3e997fad",
+        "b845b8ee-aeea-4822-bcf9-7230625ac95c"
+      ],
+      "known_names_by_id": {
+        "f009de11-3c8d-4663-b996-ca0c3e997fad": [
+          "Anthony S. Waters"
+        ],
+        "b845b8ee-aeea-4822-bcf9-7230625ac95c": [
+          "Edward P. Beard, Jr.",
+          "Edward P. “Feed Me” Beard, Jr."
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Anthony S. Waters & Scott Murphy",
+      "credit_observations": 2,
+      "example_printing_id": "e16d52ca-f8de-4852-9bff-9d208e5f678f",
+      "artist_ids": [
+        "f009de11-3c8d-4663-b996-ca0c3e997fad",
+        "07c7ac65-dfa6-4273-9c66-ec9d8f3e2226"
+      ],
+      "known_names_by_id": {
+        "f009de11-3c8d-4663-b996-ca0c3e997fad": [
+          "Anthony S. Waters"
+        ],
+        "07c7ac65-dfa6-4273-9c66-ec9d8f3e2226": [
+          "Scott Murphy"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "BBC Studios & Robert Cornelius",
+      "credit_observations": 5,
+      "example_printing_id": "0f347c6d-2d5b-4420-ac08-a4c112c0b921",
+      "artist_ids": [
+        "7ff7e109-6a03-4016-81e3-b985e862d5b9",
+        "19871890-3682-4572-881a-5508e9fe7f71"
+      ],
+      "known_names_by_id": {
+        "7ff7e109-6a03-4016-81e3-b985e862d5b9": [
+          "BBC Studios"
+        ],
+        "19871890-3682-4572-881a-5508e9fe7f71": [
+          "Robert Cornelius"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Babyson Chen & Uzhen Lin",
+      "credit_observations": 25,
+      "example_printing_id": "276a96be-f450-42b5-a766-8c75cd0934e0",
+      "artist_ids": [
+        "8251e9ef-7ab4-412c-b609-d930ac0e578e",
+        "6b9d73ec-a7ca-4418-9e91-7e2983d05023"
+      ],
+      "known_names_by_id": {
+        "8251e9ef-7ab4-412c-b609-d930ac0e578e": [],
+        "6b9d73ec-a7ca-4418-9e91-7e2983d05023": []
+      },
+      "unidentified_name_ids": [
+        "8251e9ef-7ab4-412c-b609-d930ac0e578e",
+        "6b9d73ec-a7ca-4418-9e91-7e2983d05023"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Bastien Grivet & Jessica Rossier",
+      "credit_observations": 1,
+      "example_printing_id": "9b5bc5d7-c0f8-4632-adb7-dd3b75a3d87d",
+      "artist_ids": [
+        "434a6cf6-c6bf-4f87-84db-d0a902393b9e",
+        "8ecdb26a-31a7-4f62-88cd-ac98c6e3430b"
+      ],
+      "known_names_by_id": {
+        "434a6cf6-c6bf-4f87-84db-d0a902393b9e": [
+          "Bastien Grivet"
+        ],
+        "8ecdb26a-31a7-4f62-88cd-ac98c6e3430b": [
+          "Jessica Rossier"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Brad Rigney & Tomasz Jedruszek",
+      "credit_observations": 1,
+      "example_printing_id": "cc77373d-34d1-475b-ade9-f49bb64bff9c",
+      "artist_ids": [
+        "f17194b9-10e9-44ea-9b65-6812ab398624",
+        "bba69285-2445-4a4b-a847-59397be972ea"
+      ],
+      "known_names_by_id": {
+        "f17194b9-10e9-44ea-9b65-6812ab398624": [
+          "Brad Rigney"
+        ],
+        "bba69285-2445-4a4b-a847-59397be972ea": [
+          "Tomasz Jedruszek"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Brigitte Roka & Clifton Stommel",
+      "credit_observations": 19,
+      "example_printing_id": "0760068d-71c2-4b38-9f66-4454875de27e",
+      "artist_ids": [
+        "b50e3ea6-4daa-413c-bcbe-32b31c86c819",
+        "4a461349-989e-44e3-85a7-9770b85607a8"
+      ],
+      "known_names_by_id": {
+        "b50e3ea6-4daa-413c-bcbe-32b31c86c819": [
+          "Brigitte Roka"
+        ],
+        "4a461349-989e-44e3-85a7-9770b85607a8": [
+          "Clifton Stommel"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "C.F. Villa & Brian Reber",
+      "credit_observations": 5,
+      "example_printing_id": "114ff7cc-e5cd-4500-8523-2ce24afa8c26",
+      "artist_ids": [
+        "b1b92e5f-c22a-4552-8e3d-0fb63a72ab10",
+        "2e6c479c-98a1-4787-a6d8-36d5c1c40573"
+      ],
+      "known_names_by_id": {
+        "b1b92e5f-c22a-4552-8e3d-0fb63a72ab10": [],
+        "2e6c479c-98a1-4787-a6d8-36d5c1c40573": []
+      },
+      "unidentified_name_ids": [
+        "b1b92e5f-c22a-4552-8e3d-0fb63a72ab10",
+        "2e6c479c-98a1-4787-a6d8-36d5c1c40573"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Cabrol & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "6c69ecd2-cb36-4628-802b-fd5ff7405f22",
+      "artist_ids": [
+        "31eddcd4-22e7-4b8b-8a46-6f841124f378",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "31eddcd4-22e7-4b8b-8a46-6f841124f378": [
+          "Cabrol"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Carissa Susilo & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "fc8d66ed-8a01-41ce-805c-05333322c6f6",
+      "artist_ids": [
+        "3b8ade17-3f98-484b-9e49-a694113d86d9",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "3b8ade17-3f98-484b-9e49-a694113d86d9": [
+          "Carissa Susilo"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Carmen Carnero & Alejandro Sánchez",
+      "credit_observations": 1,
+      "example_printing_id": "0669ffcf-30c1-4d90-ae5f-3deca0f82526",
+      "artist_ids": [
+        "238ca284-278c-4da8-b59e-6dbc4ef3ec52",
+        "1892b51e-b78b-4a26-8968-96c53df71e52"
+      ],
+      "known_names_by_id": {
+        "238ca284-278c-4da8-b59e-6dbc4ef3ec52": [],
+        "1892b51e-b78b-4a26-8968-96c53df71e52": []
+      },
+      "unidentified_name_ids": [
+        "238ca284-278c-4da8-b59e-6dbc4ef3ec52",
+        "1892b51e-b78b-4a26-8968-96c53df71e52"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Caroline Gariba & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "fd170aa1-18be-470e-aa36-bfb11e9f92c1",
+      "artist_ids": [
+        "61a4c572-3d1b-4b71-aeb0-1a5a6b82c524",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "61a4c572-3d1b-4b71-aeb0-1a5a6b82c524": [
+          "Caroline Gariba"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Caroline Gariba & Xavier Ribeiro",
+      "credit_observations": 1,
+      "example_printing_id": "13e4832d-8530-4b85-b738-51d0c18f28ec",
+      "artist_ids": [
+        "61a4c572-3d1b-4b71-aeb0-1a5a6b82c524",
+        "e17c2662-0491-47b2-bf1d-8c111a8ad3f8"
+      ],
+      "known_names_by_id": {
+        "61a4c572-3d1b-4b71-aeb0-1a5a6b82c524": [
+          "Caroline Gariba"
+        ],
+        "e17c2662-0491-47b2-bf1d-8c111a8ad3f8": [
+          "Xavier Ribeiro"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Chase Stone & Kekai Kotaki",
+      "credit_observations": 13,
+      "example_printing_id": "014a9f97-0b3d-4d36-bf8d-cfc451268e8c",
+      "artist_ids": [
+        "2d753f61-5f5b-468e-97ea-8e0fdd347340",
+        "4b771085-c049-4308-930d-ec9665f803a4"
+      ],
+      "known_names_by_id": {
+        "2d753f61-5f5b-468e-97ea-8e0fdd347340": [
+          "Chase Stone"
+        ],
+        "4b771085-c049-4308-930d-ec9665f803a4": [
+          "Kekai Kotaki"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": [
+        "2d753f61-5f5b-468e-97ea-8e0fdd347340"
+      ]
+    },
+    {
+      "raw_credit": "Chippy & Matthew D. Wilson",
+      "credit_observations": 24,
+      "example_printing_id": "00476cee-65d8-4a19-8f1f-14fbe53a4f06",
+      "artist_ids": [
+        "a36f01a0-e51a-48b2-a556-b9b3bc73f969",
+        "4fbafd13-0cf9-42a1-870d-7f8ea276f140"
+      ],
+      "known_names_by_id": {
+        "a36f01a0-e51a-48b2-a556-b9b3bc73f969": [
+          "Chippy"
+        ],
+        "4fbafd13-0cf9-42a1-870d-7f8ea276f140": [
+          "Matthew D. Wilson"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Chris Bachalo & Adi Granov",
+      "credit_observations": 12,
+      "example_printing_id": "084cce58-cae5-465d-8bd4-5b3f105b46aa",
+      "artist_ids": [
+        "65472583-fec0-4744-8d80-e1d99b59ae28",
+        "cc30857e-acd0-494f-9598-8ec95cd452d9"
+      ],
+      "known_names_by_id": {
+        "65472583-fec0-4744-8d80-e1d99b59ae28": [
+          "Chris Bachalo"
+        ],
+        "cc30857e-acd0-494f-9598-8ec95cd452d9": [
+          "Adi Granov"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Chris Bachalo & Johan Grenier",
+      "credit_observations": 18,
+      "example_printing_id": "02d335e9-478e-44a6-a25c-cf6b14d65a56",
+      "artist_ids": [
+        "65472583-fec0-4744-8d80-e1d99b59ae28",
+        "465e38b8-7eed-4d22-a6d2-d3603ee0c00b"
+      ],
+      "known_names_by_id": {
+        "65472583-fec0-4744-8d80-e1d99b59ae28": [
+          "Chris Bachalo"
+        ],
+        "465e38b8-7eed-4d22-a6d2-d3603ee0c00b": [
+          "Johan Grenier"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Chris Seaman & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "df323b67-e5f9-4958-90de-1af722c482dd",
+      "artist_ids": [
+        "b9c49463-6f55-4039-9d32-c02a658af100",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "b9c49463-6f55-4039-9d32-c02a658af100": [
+          "Chris Seaman"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": [
+        "b9c49463-6f55-4039-9d32-c02a658af100"
+      ]
+    },
+    {
+      "raw_credit": "Christopher Moeller & Anthony S. Waters",
+      "credit_observations": 7,
+      "example_printing_id": "01660294-2c21-4705-bcd7-4885d1ccbbd1",
+      "artist_ids": [
+        "21e10012-06ae-44f2-b38d-3824dd2e73d4",
+        "f009de11-3c8d-4663-b996-ca0c3e997fad"
+      ],
+      "known_names_by_id": {
+        "21e10012-06ae-44f2-b38d-3824dd2e73d4": [
+          "Christopher Moeller"
+        ],
+        "f009de11-3c8d-4663-b996-ca0c3e997fad": [
+          "Anthony S. Waters"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Cliff Childs & Jared Blando",
+      "credit_observations": 1,
+      "example_printing_id": "1f6213d9-c65d-48da-a501-279db5f31d6a",
+      "artist_ids": [
+        "ed6f7e03-20ba-4c73-bdda-4a4928480721",
+        "61b8414b-31e8-4c43-893d-7efe72293d3c"
+      ],
+      "known_names_by_id": {
+        "ed6f7e03-20ba-4c73-bdda-4a4928480721": [
+          "Cliff Childs"
+        ],
+        "61b8414b-31e8-4c43-893d-7efe72293d3c": [
+          "Jared Blando"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Clifton Stommel & Brigitte Roka",
+      "credit_observations": 1,
+      "example_printing_id": "e2132920-6394-4925-a154-cdb87eb88c60",
+      "artist_ids": [
+        "4a461349-989e-44e3-85a7-9770b85607a8",
+        "b50e3ea6-4daa-413c-bcbe-32b31c86c819"
+      ],
+      "known_names_by_id": {
+        "4a461349-989e-44e3-85a7-9770b85607a8": [
+          "Clifton Stommel"
+        ],
+        "b50e3ea6-4daa-413c-bcbe-32b31c86c819": [
+          "Brigitte Roka"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Clint Cearley & Adam Paquette",
+      "credit_observations": 1,
+      "example_printing_id": "a020dc47-3747-4123-9954-f0e87a858b8c",
+      "artist_ids": [
+        "03b75350-d5a0-4e3a-b3b4-8d4a5554385b",
+        "89023dad-e6c0-41e0-83fb-eb2bfbbdc3f2"
+      ],
+      "known_names_by_id": {
+        "03b75350-d5a0-4e3a-b3b4-8d4a5554385b": [
+          "Clint Cearley"
+        ],
+        "89023dad-e6c0-41e0-83fb-eb2bfbbdc3f2": [
+          "Adam Paquette"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Clint Cearley & Diana Cearley",
+      "credit_observations": 1,
+      "example_printing_id": "385bd474-fb4b-4c19-b583-ac2fa2e18475",
+      "artist_ids": [
+        "03b75350-d5a0-4e3a-b3b4-8d4a5554385b",
+        "a036a342-cee4-49ee-bd46-a4a5a26b0d41"
+      ],
+      "known_names_by_id": {
+        "03b75350-d5a0-4e3a-b3b4-8d4a5554385b": [
+          "Clint Cearley"
+        ],
+        "a036a342-cee4-49ee-bd46-a4a5a26b0d41": [
+          "Diana Cearley"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Clint Lockwood & Eddie Mendoza",
+      "credit_observations": 2,
+      "example_printing_id": "0438d26f-8e3c-4f05-817b-75c1dd9c2604",
+      "artist_ids": [
+        "72589de5-497e-4c58-b1a0-cc1b616f81a5",
+        "edba879a-50b4-4e4a-8e21-2649f484ef03"
+      ],
+      "known_names_by_id": {
+        "72589de5-497e-4c58-b1a0-cc1b616f81a5": [
+          "Clint Lockwood"
+        ],
+        "edba879a-50b4-4e4a-8e21-2649f484ef03": [
+          "Eddie Mendoza"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Clint Lockwood & Josu Hernaiz",
+      "credit_observations": 2,
+      "example_printing_id": "aafd29de-736d-455b-88b4-48f38112dec6",
+      "artist_ids": [
+        "72589de5-497e-4c58-b1a0-cc1b616f81a5",
+        "74246024-92b4-43d0-a5af-a3f9f2a35d5f"
+      ],
+      "known_names_by_id": {
+        "72589de5-497e-4c58-b1a0-cc1b616f81a5": [
+          "Clint Lockwood"
+        ],
+        "74246024-92b4-43d0-a5af-a3f9f2a35d5f": [
+          "Josu Hernaiz"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Clint Lockwood & Viko Menezes",
+      "credit_observations": 4,
+      "example_printing_id": "5140d5d0-15ad-45b2-8ae8-aa53b1cd8132",
+      "artist_ids": [
+        "72589de5-497e-4c58-b1a0-cc1b616f81a5",
+        "92dfef2a-d0fa-42fd-bdd6-bc4c9286cb56"
+      ],
+      "known_names_by_id": {
+        "72589de5-497e-4c58-b1a0-cc1b616f81a5": [
+          "Clint Lockwood"
+        ],
+        "92dfef2a-d0fa-42fd-bdd6-bc4c9286cb56": [
+          "Viko Menezes"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Constantin Marin & Diego Gisbert",
+      "credit_observations": 8,
+      "example_printing_id": "0c4e80fb-372f-4c29-8904-87446cb42f42",
+      "artist_ids": [
+        "6cb0dc0c-4362-4c21-b23a-b2d7e096aa4f",
+        "3f4e975d-092c-40e4-b850-2d582bf4b5cb"
+      ],
+      "known_names_by_id": {
+        "6cb0dc0c-4362-4c21-b23a-b2d7e096aa4f": [
+          "Constantin Marin"
+        ],
+        "3f4e975d-092c-40e4-b850-2d582bf4b5cb": [
+          "Diego Gisbert"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Craig Elliott & Maxime Minard",
+      "credit_observations": 1,
+      "example_printing_id": "90630b20-fc83-475f-bcd5-8bcfee0cf241",
+      "artist_ids": [
+        "b376cbb6-e0d5-41e9-bbb2-9fbd40c71147",
+        "a9065769-afcd-4e54-a3c0-5809e7b4108b"
+      ],
+      "known_names_by_id": {
+        "b376cbb6-e0d5-41e9-bbb2-9fbd40c71147": [
+          "Craig Elliott"
+        ],
+        "a9065769-afcd-4e54-a3c0-5809e7b4108b": [
+          "Maxime Minard"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "D. Alexander Gregory & Jeremy Jarvis",
+      "credit_observations": 19,
+      "example_printing_id": "080d2ba6-e7d3-4a83-9e97-d898b6185cfe",
+      "artist_ids": [
+        "38433e15-f0f5-4223-a985-2d13c4aa0922",
+        "b40ac320-89b4-4c51-a85f-4a4b63ae614e"
+      ],
+      "known_names_by_id": {
+        "38433e15-f0f5-4223-a985-2d13c4aa0922": [
+          "D. Alexander Gregory"
+        ],
+        "b40ac320-89b4-4c51-a85f-4a4b63ae614e": [
+          "Jeremy Jarvis"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Daarken & Jared Blando",
+      "credit_observations": 1,
+      "example_printing_id": "2b31d323-a715-4085-a711-8f2a3f4d9942",
+      "artist_ids": [
+        "e607a0d4-fc12-4c01-9e3f-501f5269b9cb",
+        "61b8414b-31e8-4c43-893d-7efe72293d3c"
+      ],
+      "known_names_by_id": {
+        "e607a0d4-fc12-4c01-9e3f-501f5269b9cb": [
+          "Daarken"
+        ],
+        "61b8414b-31e8-4c43-893d-7efe72293d3c": [
+          "Jared Blando"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Dan Berger & Eric Talbot",
+      "credit_observations": 6,
+      "example_printing_id": "15a25be5-e6a6-4b02-bf09-c17044b29e4d",
+      "artist_ids": [
+        "2c9bd7ef-8585-478c-8d4b-b77906123988",
+        "b524544a-7b46-4dc8-b304-66a6c0766624"
+      ],
+      "known_names_by_id": {
+        "2c9bd7ef-8585-478c-8d4b-b77906123988": [],
+        "b524544a-7b46-4dc8-b304-66a6c0766624": []
+      },
+      "unidentified_name_ids": [
+        "2c9bd7ef-8585-478c-8d4b-b77906123988",
+        "b524544a-7b46-4dc8-b304-66a6c0766624"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Dan Mumford & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "e652ea0d-1ac8-4287-b8d7-7c9a53e5a2d6",
+      "artist_ids": [
+        "266fe58e-bcd6-4294-8e42-0a234ed9fb8d",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "266fe58e-bcd6-4294-8e42-0a234ed9fb8d": [
+          "Dan Mumford"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Dan Mumford & Thomas Roach",
+      "credit_observations": 12,
+      "example_printing_id": "076c5abd-6ae5-4c59-b1f4-f18eeb9159d9",
+      "artist_ids": [
+        "266fe58e-bcd6-4294-8e42-0a234ed9fb8d",
+        "8f8896bb-1e66-4ebf-9ff3-2f8418e3f4ab"
+      ],
+      "known_names_by_id": {
+        "266fe58e-bcd6-4294-8e42-0a234ed9fb8d": [
+          "Dan Mumford"
+        ],
+        "8f8896bb-1e66-4ebf-9ff3-2f8418e3f4ab": [
+          "Thomas Roach"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Daniel Elson & Scott Okumura",
+      "credit_observations": 2,
+      "example_printing_id": "35ae5e3f-5541-4a92-9822-3001f47b6108",
+      "artist_ids": [
+        "370c8b43-83bb-4694-a5f9-a4da3722e75d",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "370c8b43-83bb-4694-a5f9-a4da3722e75d": [
+          "Daniel Elson"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Dave Cockrum & Irving Watanabe",
+      "credit_observations": 1,
+      "example_printing_id": "e208d3bc-9a1d-40a5-8ab9-c0cca5d129f5",
+      "artist_ids": [
+        "ab5c7b78-18ec-436e-bff9-d889981d439c",
+        "9990227f-e5f0-47d1-b20b-c5612ee825c6"
+      ],
+      "known_names_by_id": {
+        "ab5c7b78-18ec-436e-bff9-d889981d439c": [],
+        "9990227f-e5f0-47d1-b20b-c5612ee825c6": []
+      },
+      "unidentified_name_ids": [
+        "ab5c7b78-18ec-436e-bff9-d889981d439c",
+        "9990227f-e5f0-47d1-b20b-c5612ee825c6"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "David Baldeon & Walden Wong",
+      "credit_observations": 5,
+      "example_printing_id": "0d14d55e-ff48-48c8-a99b-86313e2155a4",
+      "artist_ids": [
+        "a1ebeb05-7291-48ab-a3d7-e97bbda15ea9",
+        "a526f4a2-38e5-4d74-8f5c-55a7bd5dea84"
+      ],
+      "known_names_by_id": {
+        "a1ebeb05-7291-48ab-a3d7-e97bbda15ea9": [],
+        "a526f4a2-38e5-4d74-8f5c-55a7bd5dea84": []
+      },
+      "unidentified_name_ids": [
+        "a1ebeb05-7291-48ab-a3d7-e97bbda15ea9",
+        "a526f4a2-38e5-4d74-8f5c-55a7bd5dea84"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "David Martin & Franz Vohwinkel",
+      "credit_observations": 19,
+      "example_printing_id": "04cb4e4e-8275-4132-8f1a-84b486725400",
+      "artist_ids": [
+        "996ad764-4ae0-4952-8bb5-5a75c9d68275",
+        "3a243c17-3baa-4b53-9599-645311cd7d3d"
+      ],
+      "known_names_by_id": {
+        "996ad764-4ae0-4952-8bb5-5a75c9d68275": [
+          "David Martin",
+          "David “Help Me” Martin",
+          "David “Beeblemania” Martin"
+        ],
+        "3a243c17-3baa-4b53-9599-645311cd7d3d": [
+          "Franz Vohwinkel"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "David Palumbo & Mark Zug",
+      "credit_observations": 1,
+      "example_printing_id": "f78c0976-83c4-4694-a93f-13046902cdd9",
+      "artist_ids": [
+        "04ce1c75-e30c-4b7a-8cb0-b53e4ecc2f39",
+        "48e2b98c-5467-4671-bd42-4c3746115117"
+      ],
+      "known_names_by_id": {
+        "04ce1c75-e30c-4b7a-8cb0-b53e4ecc2f39": [
+          "David Palumbo"
+        ],
+        "48e2b98c-5467-4671-bd42-4c3746115117": [
+          "Mark Zug"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": [
+        "04ce1c75-e30c-4b7a-8cb0-b53e4ecc2f39"
+      ]
+    },
+    {
+      "raw_credit": "David Robert Hovey & Scott Okumura",
+      "credit_observations": 3,
+      "example_printing_id": "03988a88-090d-4daf-bb0a-ca0dabee917f",
+      "artist_ids": [
+        "22ab27e3-6476-48f1-a9f7-9a9e86339030",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "22ab27e3-6476-48f1-a9f7-9a9e86339030": [
+          "David Robert Hovey"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Dominik Mayer & Anato Finnstark",
+      "credit_observations": 9,
+      "example_printing_id": "01a3c57b-9b9a-42c7-af4f-f17d9561d81c",
+      "artist_ids": [
+        "c3439c4a-1fee-4e33-9b89-18dac27ac927",
+        "05d233e7-4958-4f79-83e6-f9bf8b6ff78e"
+      ],
+      "known_names_by_id": {
+        "c3439c4a-1fee-4e33-9b89-18dac27ac927": [
+          "Dominik Mayer"
+        ],
+        "05d233e7-4958-4f79-83e6-f9bf8b6ff78e": [
+          "Anato Finnstark"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Donato Giancola & Post Malone",
+      "credit_observations": 1,
+      "example_printing_id": "4b3eb87a-8f77-4859-95fd-10988f03da7b",
+      "artist_ids": [
+        "90332db2-aecb-4d79-917b-95cbeb8d0cb6",
+        "8a95a4e2-9feb-428e-96e0-c6a2cbcc33d9"
+      ],
+      "known_names_by_id": {
+        "90332db2-aecb-4d79-917b-95cbeb8d0cb6": [
+          "Donato Giancola"
+        ],
+        "8a95a4e2-9feb-428e-96e0-c6a2cbcc33d9": []
+      },
+      "unidentified_name_ids": [
+        "8a95a4e2-9feb-428e-96e0-c6a2cbcc33d9"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Drew Tucker & Post Malone",
+      "credit_observations": 1,
+      "example_printing_id": "2fafd821-5bb3-4083-bf3b-ecc4cf6c7468",
+      "artist_ids": [
+        "22eef389-7b21-4dda-95dc-4c9a0f1bf4dd",
+        "8a95a4e2-9feb-428e-96e0-c6a2cbcc33d9"
+      ],
+      "known_names_by_id": {
+        "22eef389-7b21-4dda-95dc-4c9a0f1bf4dd": [
+          "Drew Tucker"
+        ],
+        "8a95a4e2-9feb-428e-96e0-c6a2cbcc33d9": []
+      },
+      "unidentified_name_ids": [
+        "8a95a4e2-9feb-428e-96e0-c6a2cbcc33d9"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Ed Hannigan & Pablo Marcos",
+      "credit_observations": 5,
+      "example_printing_id": "3ed31089-5678-4367-be24-7b42a9bf498f",
+      "artist_ids": [
+        "07c2bd53-0f42-47c6-9fab-f78e5b97385c",
+        "a6d381cd-53f0-4988-9d51-1db9762ead8a"
+      ],
+      "known_names_by_id": {
+        "07c2bd53-0f42-47c6-9fab-f78e5b97385c": [],
+        "a6d381cd-53f0-4988-9d51-1db9762ead8a": []
+      },
+      "unidentified_name_ids": [
+        "07c2bd53-0f42-47c6-9fab-f78e5b97385c",
+        "a6d381cd-53f0-4988-9d51-1db9762ead8a"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Ed McGuinness & Dexter Vines",
+      "credit_observations": 1,
+      "example_printing_id": "9ebf25f9-844c-40c6-b0f0-d5c82ee04656",
+      "artist_ids": [
+        "f83de582-7a83-497d-9652-bf7da6b207dd",
+        "4a36e2f0-a544-46e0-94ab-b1dc409debf2"
+      ],
+      "known_names_by_id": {
+        "f83de582-7a83-497d-9652-bf7da6b207dd": [],
+        "4a36e2f0-a544-46e0-94ab-b1dc409debf2": []
+      },
+      "unidentified_name_ids": [
+        "f83de582-7a83-497d-9652-bf7da6b207dd",
+        "4a36e2f0-a544-46e0-94ab-b1dc409debf2"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Ellie Livingston & AndWorld Design",
+      "credit_observations": 2,
+      "example_printing_id": "4efb3f89-94db-4d9e-ae16-af56e9f38e8d",
+      "artist_ids": [
+        "d02ac3a2-394d-4a0a-9b8e-eaf53a11d272",
+        "e51d3da0-16eb-42a0-9136-b0c48b66081f"
+      ],
+      "known_names_by_id": {
+        "d02ac3a2-394d-4a0a-9b8e-eaf53a11d272": [
+          "Ellie Livingston"
+        ],
+        "e51d3da0-16eb-42a0-9136-b0c48b66081f": []
+      },
+      "unidentified_name_ids": [
+        "e51d3da0-16eb-42a0-9136-b0c48b66081f"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Emanuela Lupacchino & Neeraj Menon",
+      "credit_observations": 1,
+      "example_printing_id": "8e3c4b2a-4ef7-41ea-a4b5-b0cc942a9889",
+      "artist_ids": [
+        "5b031126-d6f8-469a-b39b-b8deb2f1b0a2",
+        "6dfcf8d1-e8eb-4126-a829-7c30c1fde956"
+      ],
+      "known_names_by_id": {
+        "5b031126-d6f8-469a-b39b-b8deb2f1b0a2": [],
+        "6dfcf8d1-e8eb-4126-a829-7c30c1fde956": []
+      },
+      "unidentified_name_ids": [
+        "5b031126-d6f8-469a-b39b-b8deb2f1b0a2",
+        "6dfcf8d1-e8eb-4126-a829-7c30c1fde956"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Emrah Elmasli & Jared Blando",
+      "credit_observations": 1,
+      "example_printing_id": "5f233ff1-5a4a-47d3-b3d5-6a00a7a00732",
+      "artist_ids": [
+        "433083c3-8a6c-43d9-8030-c9fcbd2477a2",
+        "61b8414b-31e8-4c43-893d-7efe72293d3c"
+      ],
+      "known_names_by_id": {
+        "433083c3-8a6c-43d9-8030-c9fcbd2477a2": [
+          "Emrah Elmasli"
+        ],
+        "61b8414b-31e8-4c43-893d-7efe72293d3c": [
+          "Jared Blando"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Erik Larsen & Randy Emberlin",
+      "credit_observations": 5,
+      "example_printing_id": "2defdbde-5318-4733-9b7c-44f656bb9c24",
+      "artist_ids": [
+        "dd165d7c-59c4-4f84-94fd-88a81b3641d5",
+        "096186ea-e793-424d-92c0-cfbf59be333a"
+      ],
+      "known_names_by_id": {
+        "dd165d7c-59c4-4f84-94fd-88a81b3641d5": [],
+        "096186ea-e793-424d-92c0-cfbf59be333a": []
+      },
+      "unidentified_name_ids": [
+        "dd165d7c-59c4-4f84-94fd-88a81b3641d5",
+        "096186ea-e793-424d-92c0-cfbf59be333a"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Erik Larsen & Walter Simonson",
+      "credit_observations": 5,
+      "example_printing_id": "0db3f148-4ede-4134-b2e0-2bb513d9cefc",
+      "artist_ids": [
+        "dd165d7c-59c4-4f84-94fd-88a81b3641d5",
+        "6d6fffc3-3509-460c-a12e-a9ccad0204e3"
+      ],
+      "known_names_by_id": {
+        "dd165d7c-59c4-4f84-94fd-88a81b3641d5": [],
+        "6d6fffc3-3509-460c-a12e-a9ccad0204e3": []
+      },
+      "unidentified_name_ids": [
+        "dd165d7c-59c4-4f84-94fd-88a81b3641d5",
+        "6d6fffc3-3509-460c-a12e-a9ccad0204e3"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Erikas Perl & Jurijus Chitrovas",
+      "credit_observations": 1,
+      "example_printing_id": "8ac3d2c9-5978-4cfb-a746-c901decff093",
+      "artist_ids": [
+        "39cb50cf-0223-43c7-bd96-afb5f05c7e43",
+        "ba4fb026-7db8-48bf-bb2f-a41a04cb824a"
+      ],
+      "known_names_by_id": {
+        "39cb50cf-0223-43c7-bd96-afb5f05c7e43": [
+          "Erikas Perl"
+        ],
+        "ba4fb026-7db8-48bf-bb2f-a41a04cb824a": [
+          "Jurijus Chitrovas"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Esau Escorza & Isaac Escorza",
+      "credit_observations": 12,
+      "example_printing_id": "0af9e40c-724c-42ed-a046-3bce8407ec2b",
+      "artist_ids": [
+        "e758a6d2-aafe-49e3-b9d8-2bf70e697bb2",
+        "18385278-eeb9-4ea2-965e-5b90946d902c"
+      ],
+      "known_names_by_id": {
+        "e758a6d2-aafe-49e3-b9d8-2bf70e697bb2": [],
+        "18385278-eeb9-4ea2-965e-5b90946d902c": []
+      },
+      "unidentified_name_ids": [
+        "e758a6d2-aafe-49e3-b9d8-2bf70e697bb2",
+        "18385278-eeb9-4ea2-965e-5b90946d902c"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Fay Dalton & Scott Okumura",
+      "credit_observations": 10,
+      "example_printing_id": "3cb0824c-57cc-46bf-bd43-425d58b8a762",
+      "artist_ids": [
+        "db096429-0266-4342-8a53-4ad566060216",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "db096429-0266-4342-8a53-4ad566060216": [
+          "Fay Dalton"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Federico Vicentini & Alejandro Sánchez",
+      "credit_observations": 5,
+      "example_printing_id": "4bd043e2-cbe1-43ce-b70a-8632ca1b1c19",
+      "artist_ids": [
+        "009da2e1-bd81-4856-92e5-e93f22a1df45",
+        "1892b51e-b78b-4a26-8968-96c53df71e52"
+      ],
+      "known_names_by_id": {
+        "009da2e1-bd81-4856-92e5-e93f22a1df45": [],
+        "1892b51e-b78b-4a26-8968-96c53df71e52": []
+      },
+      "unidentified_name_ids": [
+        "009da2e1-bd81-4856-92e5-e93f22a1df45",
+        "1892b51e-b78b-4a26-8968-96c53df71e52"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Felicita Sala & AndWorld Design",
+      "credit_observations": 1,
+      "example_printing_id": "6374caa7-9c19-495b-9167-6adbf8c16332",
+      "artist_ids": [
+        "2dfa174c-0f04-45d7-abd3-5d6eda9f784f",
+        "e51d3da0-16eb-42a0-9136-b0c48b66081f"
+      ],
+      "known_names_by_id": {
+        "2dfa174c-0f04-45d7-abd3-5d6eda9f784f": [
+          "Felicita Sala"
+        ],
+        "e51d3da0-16eb-42a0-9136-b0c48b66081f": []
+      },
+      "unidentified_name_ids": [
+        "e51d3da0-16eb-42a0-9136-b0c48b66081f"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Filip Burburan & Florian de Gesincourt",
+      "credit_observations": 1,
+      "example_printing_id": "21f5880d-6272-4ba8-bdf8-f9a7e54a3336",
+      "artist_ids": [
+        "66082c3b-a623-4d34-be51-2475214b85d3",
+        "f28c54ff-bbe3-485d-81a4-b2cb49430a52"
+      ],
+      "known_names_by_id": {
+        "66082c3b-a623-4d34-be51-2475214b85d3": [
+          "Filip Burburan"
+        ],
+        "f28c54ff-bbe3-485d-81a4-b2cb49430a52": [
+          "Florian de Gesincourt"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Florey & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "a808459c-f086-4cb6-a53e-4b9e196c1000",
+      "artist_ids": [
+        "52df4bbe-0f84-47b0-904d-f84639876c8f",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "52df4bbe-0f84-47b0-904d-f84639876c8f": [
+          "Florey"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Florian de Gesincourt & Jared Blando",
+      "credit_observations": 1,
+      "example_printing_id": "560c1129-b375-4bb7-9595-9ca92945e5bd",
+      "artist_ids": [
+        "f28c54ff-bbe3-485d-81a4-b2cb49430a52",
+        "61b8414b-31e8-4c43-893d-7efe72293d3c"
+      ],
+      "known_names_by_id": {
+        "f28c54ff-bbe3-485d-81a4-b2cb49430a52": [
+          "Florian de Gesincourt"
+        ],
+        "61b8414b-31e8-4c43-893d-7efe72293d3c": [
+          "Jared Blando"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Frank Miller & Klaus Janson",
+      "credit_observations": 1,
+      "example_printing_id": "ee1475d1-4f24-4719-b7a5-c6e3a2a9d63e",
+      "artist_ids": [
+        "fe7274f7-afd6-4526-b927-86b618b48641",
+        "94178985-e2e9-40ef-9cdb-de42d9ff083d"
+      ],
+      "known_names_by_id": {
+        "fe7274f7-afd6-4526-b927-86b618b48641": [],
+        "94178985-e2e9-40ef-9cdb-de42d9ff083d": []
+      },
+      "unidentified_name_ids": [
+        "fe7274f7-afd6-4526-b927-86b618b48641",
+        "94178985-e2e9-40ef-9cdb-de42d9ff083d"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Fred Fields & Post Malone",
+      "credit_observations": 1,
+      "example_printing_id": "7f0a1a30-8bef-4297-b566-d5f6b4d277a1",
+      "artist_ids": [
+        "9c77c81a-3b3f-4e94-a834-327d01cd6b35",
+        "8a95a4e2-9feb-428e-96e0-c6a2cbcc33d9"
+      ],
+      "known_names_by_id": {
+        "9c77c81a-3b3f-4e94-a834-327d01cd6b35": [
+          "Fred Fields"
+        ],
+        "8a95a4e2-9feb-428e-96e0-c6a2cbcc33d9": []
+      },
+      "unidentified_name_ids": [
+        "8a95a4e2-9feb-428e-96e0-c6a2cbcc33d9"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Gaboleps & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "246b1de7-0b50-4edd-b1a7-fd6856351b76",
+      "artist_ids": [
+        "0c37cdfe-5651-4ae6-a3c8-e7153509f970",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "0c37cdfe-5651-4ae6-a3c8-e7153509f970": [
+          "Gaboleps"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Gal Or & Scott Okumura",
+      "credit_observations": 3,
+      "example_printing_id": "4253307c-5de1-4add-b3da-cc1f7866ef75",
+      "artist_ids": [
+        "4bbf92ce-72b4-4afa-9e3d-b54326e842b0",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "4bbf92ce-72b4-4afa-9e3d-b54326e842b0": [
+          "Gal Or"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Geofrey Darrow & I. Rabarot",
+      "credit_observations": 75,
+      "example_printing_id": "03bb29ff-33cd-454a-ba34-d3f1057b2e33",
+      "artist_ids": [
+        "fb06b917-ed41-4b6a-b90a-7533d7b488b9",
+        "665cda61-d995-4967-9c7f-cdc55fe697b2"
+      ],
+      "known_names_by_id": {
+        "fb06b917-ed41-4b6a-b90a-7533d7b488b9": [
+          "Geofrey Darrow"
+        ],
+        "665cda61-d995-4967-9c7f-cdc55fe697b2": []
+      },
+      "unidentified_name_ids": [
+        "665cda61-d995-4967-9c7f-cdc55fe697b2"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "George Pérez & Joe Rubinstein",
+      "credit_observations": 1,
+      "example_printing_id": "f6bcf690-c532-4d2d-8458-78a5613a6090",
+      "artist_ids": [
+        "2e60c8af-690f-4741-8da8-f030bd5a4e25",
+        "d5f55418-7d04-4e77-b13d-4bda0a20e9cf"
+      ],
+      "known_names_by_id": {
+        "2e60c8af-690f-4741-8da8-f030bd5a4e25": [],
+        "d5f55418-7d04-4e77-b13d-4bda0a20e9cf": []
+      },
+      "unidentified_name_ids": [
+        "2e60c8af-690f-4741-8da8-f030bd5a4e25",
+        "d5f55418-7d04-4e77-b13d-4bda0a20e9cf"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "George Pérez & Tom Smith",
+      "credit_observations": 2,
+      "example_printing_id": "27bd54ab-5512-4011-a60f-ec2899b34327",
+      "artist_ids": [
+        "2e60c8af-690f-4741-8da8-f030bd5a4e25",
+        "174506fc-1c96-4cc5-beec-eb1e0e469e62"
+      ],
+      "known_names_by_id": {
+        "2e60c8af-690f-4741-8da8-f030bd5a4e25": [],
+        "174506fc-1c96-4cc5-beec-eb1e0e469e62": []
+      },
+      "unidentified_name_ids": [
+        "2e60c8af-690f-4741-8da8-f030bd5a4e25",
+        "174506fc-1c96-4cc5-beec-eb1e0e469e62"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Glen Angus & Arnie Swekel",
+      "credit_observations": 19,
+      "example_printing_id": "04a88b7f-b189-4463-b98a-8d6a980a36c1",
+      "artist_ids": [
+        "7be3b9e4-de9b-4a3d-884e-e67b9681d409",
+        "af10ecf2-eb82-4100-97b2-6c236b0fa644"
+      ],
+      "known_names_by_id": {
+        "7be3b9e4-de9b-4a3d-884e-e67b9681d409": [
+          "Glen Angus"
+        ],
+        "af10ecf2-eb82-4100-97b2-6c236b0fa644": [
+          "Arnie Swekel"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Greg Hildebrandt & Tim Hildebrandt",
+      "credit_observations": 745,
+      "example_printing_id": "007a997e-8224-4b3c-9c1e-42eb3fbd2d46",
+      "artist_ids": [
+        "020f967b-0d2f-4166-aabe-901dba8bc7ec",
+        "caa7228c-f74c-4145-91fb-1af8d623c353"
+      ],
+      "known_names_by_id": {
+        "020f967b-0d2f-4166-aabe-901dba8bc7ec": [
+          "Greg Hildebrandt"
+        ],
+        "caa7228c-f74c-4145-91fb-1af8d623c353": [
+          "Tim Hildebrandt"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Greg Staples & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "fe388da5-9197-4d07-be7f-c49fcdf56dfa",
+      "artist_ids": [
+        "93d65564-bf00-447b-8406-e2031f03b6b1",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "93d65564-bf00-447b-8406-e2031f03b6b1": [
+          "Greg Staples",
+          "Greg “Six-Pack” Staples"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Gregg Schigiel & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "4b811d9b-1815-4219-9fc8-706dff705d4a",
+      "artist_ids": [
+        "95408316-1fd4-4dfb-8113-2511fe8372d0",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "95408316-1fd4-4dfb-8113-2511fe8372d0": [
+          "Gregg Schigiel"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Grzegorz Rutkowski & Jared Blando",
+      "credit_observations": 1,
+      "example_printing_id": "4ca05921-d3bd-4c39-8b37-243658a2f23f",
+      "artist_ids": [
+        "b5f49d0d-8056-48e3-b614-090e656b4f9c",
+        "61b8414b-31e8-4c43-893d-7efe72293d3c"
+      ],
+      "known_names_by_id": {
+        "b5f49d0d-8056-48e3-b614-090e656b4f9c": [
+          "Grzegorz Rutkowski"
+        ],
+        "61b8414b-31e8-4c43-893d-7efe72293d3c": [
+          "Jared Blando"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Hideaki Takamura & Karl Kopinski",
+      "credit_observations": 1,
+      "example_printing_id": "1d34ff67-24e1-4cf5-b032-8be6b83e0819",
+      "artist_ids": [
+        "49b6270b-1b28-4e03-b503-522f97dc3a78",
+        "0fad2c48-a56e-4a0b-b512-224f6f238f20"
+      ],
+      "known_names_by_id": {
+        "49b6270b-1b28-4e03-b503-522f97dc3a78": [
+          "Hideaki Takamura"
+        ],
+        "0fad2c48-a56e-4a0b-b512-224f6f238f20": [
+          "Karl Kopinski"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Humberto Ramos & Edgar Delgado",
+      "credit_observations": 5,
+      "example_printing_id": "0fac6d6d-562a-4ef5-9ee3-324df8a611a2",
+      "artist_ids": [
+        "56bdb008-b770-4238-9bf6-39a225e773ca",
+        "5996939f-4fe0-4dab-a7de-122a3e92cbb7"
+      ],
+      "known_names_by_id": {
+        "56bdb008-b770-4238-9bf6-39a225e773ca": [],
+        "5996939f-4fe0-4dab-a7de-122a3e92cbb7": []
+      },
+      "unidentified_name_ids": [
+        "56bdb008-b770-4238-9bf6-39a225e773ca",
+        "5996939f-4fe0-4dab-a7de-122a3e92cbb7"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Ian Permana & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "ff3a48ee-27c6-45de-8252-5f488bc05e66",
+      "artist_ids": [
+        "11c0dfc6-2f2d-4b41-a569-f09c585b8262",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "11c0dfc6-2f2d-4b41-a569-f09c585b8262": [
+          "Ian Permana"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "InHyuk Lee & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "cd9f1d2c-4fc7-40c5-aa81-afa4c7a7eef3",
+      "artist_ids": [
+        "4174afc6-456f-464f-aee5-9aaf2f2d59cf",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "4174afc6-456f-464f-aee5-9aaf2f2d59cf": [
+          "InHyuk Lee"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Ivan Shavrin & Rob Pavic",
+      "credit_observations": 6,
+      "example_printing_id": "05fab477-5e35-4a47-a972-441bbddc3302",
+      "artist_ids": [
+        "48432182-db18-4106-81c8-7b83100316d6",
+        "dc002799-b1e7-4f09-844d-6e02d2e0b3e4"
+      ],
+      "known_names_by_id": {
+        "48432182-db18-4106-81c8-7b83100316d6": [
+          "Ivan Shavrin"
+        ],
+        "dc002799-b1e7-4f09-844d-6e02d2e0b3e4": [
+          "Rob Pavic"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Jack Kirby & Dick Ayers",
+      "credit_observations": 1,
+      "example_printing_id": "4208a5fd-4ca9-4648-883e-5dfe02746e68",
+      "artist_ids": [
+        "12dfdcd9-8bdc-4f72-9b2b-61daa12c6197",
+        "ea383c7f-e9be-42c2-877f-822bf3244ac1"
+      ],
+      "known_names_by_id": {
+        "12dfdcd9-8bdc-4f72-9b2b-61daa12c6197": [
+          "Jack Kirby"
+        ],
+        "ea383c7f-e9be-42c2-877f-822bf3244ac1": []
+      },
+      "unidentified_name_ids": [
+        "ea383c7f-e9be-42c2-877f-822bf3244ac1"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Jack Kirby & Don Heck",
+      "credit_observations": 1,
+      "example_printing_id": "a51d8579-a99c-417b-ba71-7f2204ebea2a",
+      "artist_ids": [
+        "12dfdcd9-8bdc-4f72-9b2b-61daa12c6197",
+        "e54cd445-8fd6-4241-bcd6-e0d23806b701"
+      ],
+      "known_names_by_id": {
+        "12dfdcd9-8bdc-4f72-9b2b-61daa12c6197": [
+          "Jack Kirby"
+        ],
+        "e54cd445-8fd6-4241-bcd6-e0d23806b701": []
+      },
+      "unidentified_name_ids": [
+        "e54cd445-8fd6-4241-bcd6-e0d23806b701"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Jack Kirby & John Romita Sr.",
+      "credit_observations": 1,
+      "example_printing_id": "7ffdca9d-3ee4-4572-b1ad-4f03523968fd",
+      "artist_ids": [
+        "12dfdcd9-8bdc-4f72-9b2b-61daa12c6197",
+        "00134b97-6730-46a3-aa53-a8e4f13fbbb2"
+      ],
+      "known_names_by_id": {
+        "12dfdcd9-8bdc-4f72-9b2b-61daa12c6197": [
+          "Jack Kirby"
+        ],
+        "00134b97-6730-46a3-aa53-a8e4f13fbbb2": [
+          "John Romita Sr."
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Jack Kirby & Paul Reinman",
+      "credit_observations": 1,
+      "example_printing_id": "481166c5-6a16-469c-91bd-abf291b5db49",
+      "artist_ids": [
+        "12dfdcd9-8bdc-4f72-9b2b-61daa12c6197",
+        "cc10cbee-c2b9-464b-9f77-e04f36e17d02"
+      ],
+      "known_names_by_id": {
+        "12dfdcd9-8bdc-4f72-9b2b-61daa12c6197": [
+          "Jack Kirby"
+        ],
+        "cc10cbee-c2b9-464b-9f77-e04f36e17d02": [
+          "Paul Reinman"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Jack Kirby & Steve Ditko",
+      "credit_observations": 6,
+      "example_printing_id": "43c2ef93-3ae9-4665-9dc2-045bb38d12b6",
+      "artist_ids": [
+        "12dfdcd9-8bdc-4f72-9b2b-61daa12c6197",
+        "02735c0a-2284-44dd-8e1b-593d7f8a4036"
+      ],
+      "known_names_by_id": {
+        "12dfdcd9-8bdc-4f72-9b2b-61daa12c6197": [
+          "Jack Kirby"
+        ],
+        "02735c0a-2284-44dd-8e1b-593d7f8a4036": [
+          "Steve Ditko"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Jack Kirby & Vince Colletta",
+      "credit_observations": 1,
+      "example_printing_id": "c39be5b1-b693-4b1b-b40b-8bf6d1fe986d",
+      "artist_ids": [
+        "12dfdcd9-8bdc-4f72-9b2b-61daa12c6197",
+        "c3cd39b7-8a9d-4750-8a64-722e85e19a0b"
+      ],
+      "known_names_by_id": {
+        "12dfdcd9-8bdc-4f72-9b2b-61daa12c6197": [
+          "Jack Kirby"
+        ],
+        "c3cd39b7-8a9d-4750-8a64-722e85e19a0b": []
+      },
+      "unidentified_name_ids": [
+        "c3cd39b7-8a9d-4750-8a64-722e85e19a0b"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Jakub Kasper & Scott Okumura",
+      "credit_observations": 2,
+      "example_printing_id": "06c6c448-13c6-4453-965e-6576035aa738",
+      "artist_ids": [
+        "36901417-ce61-4636-8b77-6db14a9cb68a",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "36901417-ce61-4636-8b77-6db14a9cb68a": [
+          "Jakub Kasper"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "James Bousema & Scott Okumura",
+      "credit_observations": 2,
+      "example_printing_id": "3c648c1f-23d9-4a23-90ed-cc0be764f6af",
+      "artist_ids": [
+        "371aeb61-4800-423e-84c3-c2ebd6cad439",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "371aeb61-4800-423e-84c3-c2ebd6cad439": [
+          "James Bousema"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "James Ryman & Karl Kopinski",
+      "credit_observations": 1,
+      "example_printing_id": "4ac2b852-92b2-4daf-9d1f-f71d3b27c241",
+      "artist_ids": [
+        "3852bbc9-11c0-4fe3-8722-a06ad7e2bcc5",
+        "0fad2c48-a56e-4a0b-b512-224f6f238f20"
+      ],
+      "known_names_by_id": {
+        "3852bbc9-11c0-4fe3-8722-a06ad7e2bcc5": [
+          "James Ryman"
+        ],
+        "0fad2c48-a56e-4a0b-b512-224f6f238f20": [
+          "Karl Kopinski"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Jamie McKelvie & Jordie Bellaire",
+      "credit_observations": 1,
+      "example_printing_id": "5d393449-bdbe-4638-ba0b-7ec83f81b51e",
+      "artist_ids": [
+        "bfa120d4-36b0-435d-a067-5b505afca14b",
+        "c839298e-b7f3-43cd-b6b1-b8b2c401f043"
+      ],
+      "known_names_by_id": {
+        "bfa120d4-36b0-435d-a067-5b505afca14b": [],
+        "c839298e-b7f3-43cd-b6b1-b8b2c401f043": []
+      },
+      "unidentified_name_ids": [
+        "bfa120d4-36b0-435d-a067-5b505afca14b",
+        "c839298e-b7f3-43cd-b6b1-b8b2c401f043"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Jana Schirmer & Johannes Voss",
+      "credit_observations": 461,
+      "example_printing_id": "00385a8a-5182-4b0f-beee-6bcac99fe5af",
+      "artist_ids": [
+        "64c0582e-949d-41cb-8a23-a25b87850748",
+        "3593dd7e-c547-4a32-81cd-7da725f60118"
+      ],
+      "known_names_by_id": {
+        "64c0582e-949d-41cb-8a23-a25b87850748": [
+          "Jana Schirmer"
+        ],
+        "3593dd7e-c547-4a32-81cd-7da725f60118": [
+          "Johannes Voss"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Jana Schirmer & Matthias Verhasselt",
+      "credit_observations": 10,
+      "example_printing_id": "2493a74a-362d-44f0-b8a5-49a4e0572709",
+      "artist_ids": [
+        "64c0582e-949d-41cb-8a23-a25b87850748",
+        "a49eb2d5-87ab-4061-a4f4-0bbf8730f209"
+      ],
+      "known_names_by_id": {
+        "64c0582e-949d-41cb-8a23-a25b87850748": [
+          "Jana Schirmer"
+        ],
+        "a49eb2d5-87ab-4061-a4f4-0bbf8730f209": []
+      },
+      "unidentified_name_ids": [
+        "a49eb2d5-87ab-4061-a4f4-0bbf8730f209"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Jarel Threat & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "9e69f9e0-4981-4fc0-955f-7ebe04264fca",
+      "artist_ids": [
+        "0fd89fbd-bd59-4ded-890e-731a8982f278",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "0fd89fbd-bd59-4ded-890e-731a8982f278": [
+          "Jarel Threat"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": [
+        "0fd89fbd-bd59-4ded-890e-731a8982f278"
+      ]
+    },
+    {
+      "raw_credit": "Jason Loik & Matthew Cohen",
+      "credit_observations": 3,
+      "example_printing_id": "4a7ee95f-5a55-49e1-a0b5-8249a4c79d5e",
+      "artist_ids": [
+        "63756d18-8ce3-4f59-8661-1070ca5996be",
+        "c99e7737-99b7-4466-b9c8-3d87182631c3"
+      ],
+      "known_names_by_id": {
+        "63756d18-8ce3-4f59-8661-1070ca5996be": [],
+        "c99e7737-99b7-4466-b9c8-3d87182631c3": []
+      },
+      "unidentified_name_ids": [
+        "63756d18-8ce3-4f59-8661-1070ca5996be",
+        "c99e7737-99b7-4466-b9c8-3d87182631c3"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Jason Rainville & Liz Leo",
+      "credit_observations": 1,
+      "example_printing_id": "d67c7d80-05c9-4bd3-9a8e-14dfe4c075cd",
+      "artist_ids": [
+        "6ed7e669-579b-443d-b223-e5cbcb2a7483",
+        "6c0024c1-4816-43b6-95df-c3b0e374c5c0"
+      ],
+      "known_names_by_id": {
+        "6ed7e669-579b-443d-b223-e5cbcb2a7483": [
+          "Jason Rainville"
+        ],
+        "6c0024c1-4816-43b6-95df-c3b0e374c5c0": [
+          "Liz Leo"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Javier Charro & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "fbb61ee0-5dba-4e46-814f-8b7c7703a501",
+      "artist_ids": [
+        "8fd2d5fa-3b94-4e48-9cec-9d148acc8180",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "8fd2d5fa-3b94-4e48-9cec-9d148acc8180": [
+          "Javier Charro"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Jeremy Jarvis & Wayne Reynolds",
+      "credit_observations": 9,
+      "example_printing_id": "4d020203-d3cb-402c-9274-8e68cec179dc",
+      "artist_ids": [
+        "b40ac320-89b4-4c51-a85f-4a4b63ae614e",
+        "afc47cec-3ccc-404e-a8c6-4d83dd504271"
+      ],
+      "known_names_by_id": {
+        "b40ac320-89b4-4c51-a85f-4a4b63ae614e": [
+          "Jeremy Jarvis"
+        ],
+        "afc47cec-3ccc-404e-a8c6-4d83dd504271": [
+          "Wayne Reynolds"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Jim Cheung & Jay David Ramos",
+      "credit_observations": 165,
+      "example_printing_id": "01a28a4e-1228-4720-ace4-25f5d38ce73b",
+      "artist_ids": [
+        "75157cf2-d8d7-49ba-a6e5-45813d54606f",
+        "6a4a2807-d930-4fbf-a0dd-3c0d2fbef1b1"
+      ],
+      "known_names_by_id": {
+        "75157cf2-d8d7-49ba-a6e5-45813d54606f": [
+          "Jim Cheung"
+        ],
+        "6a4a2807-d930-4fbf-a0dd-3c0d2fbef1b1": [
+          "Jay David Ramos"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Jim Cheung & Justin Ponsor",
+      "credit_observations": 6,
+      "example_printing_id": "0c9c514f-f506-4b2c-af58-79922834cde7",
+      "artist_ids": [
+        "75157cf2-d8d7-49ba-a6e5-45813d54606f",
+        "c9262e90-7510-47d5-a74d-ead450e1d198"
+      ],
+      "known_names_by_id": {
+        "75157cf2-d8d7-49ba-a6e5-45813d54606f": [
+          "Jim Cheung"
+        ],
+        "c9262e90-7510-47d5-a74d-ead450e1d198": [
+          "Justin Ponsor"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Jim Cheung & Laura Martin",
+      "credit_observations": 1,
+      "example_printing_id": "b367d034-ae08-4b08-b090-39a6d4f79dc2",
+      "artist_ids": [
+        "75157cf2-d8d7-49ba-a6e5-45813d54606f",
+        "3163c1b1-57c7-4db2-8b2a-462cad81035d"
+      ],
+      "known_names_by_id": {
+        "75157cf2-d8d7-49ba-a6e5-45813d54606f": [
+          "Jim Cheung"
+        ],
+        "3163c1b1-57c7-4db2-8b2a-462cad81035d": []
+      },
+      "unidentified_name_ids": [
+        "3163c1b1-57c7-4db2-8b2a-462cad81035d"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Joe Quesada & Danny Miki",
+      "credit_observations": 1,
+      "example_printing_id": "2a6c3d3b-93ec-43df-a0cd-ea12ab047d51",
+      "artist_ids": [
+        "76762255-c0d9-4aea-97f7-17ab68d6a457",
+        "a806382e-41de-45df-a957-b98731303115"
+      ],
+      "known_names_by_id": {
+        "76762255-c0d9-4aea-97f7-17ab68d6a457": [],
+        "a806382e-41de-45df-a957-b98731303115": []
+      },
+      "unidentified_name_ids": [
+        "76762255-c0d9-4aea-97f7-17ab68d6a457",
+        "a806382e-41de-45df-a957-b98731303115"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "John Avon & David Martin",
+      "credit_observations": 7,
+      "example_printing_id": "32a87426-3bbb-4447-b0f5-4d677ed1e4e4",
+      "artist_ids": [
+        "798f3932-30e0-4420-aa3f-db4d613f89ca",
+        "996ad764-4ae0-4952-8bb5-5a75c9d68275"
+      ],
+      "known_names_by_id": {
+        "798f3932-30e0-4420-aa3f-db4d613f89ca": [
+          "John Avon"
+        ],
+        "996ad764-4ae0-4952-8bb5-5a75c9d68275": [
+          "David Martin",
+          "David “Help Me” Martin",
+          "David “Beeblemania” Martin"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "John Avon & Jared Blando",
+      "credit_observations": 1,
+      "example_printing_id": "9235dfc1-19bf-4923-84f7-721018514866",
+      "artist_ids": [
+        "798f3932-30e0-4420-aa3f-db4d613f89ca",
+        "61b8414b-31e8-4c43-893d-7efe72293d3c"
+      ],
+      "known_names_by_id": {
+        "798f3932-30e0-4420-aa3f-db4d613f89ca": [
+          "John Avon"
+        ],
+        "61b8414b-31e8-4c43-893d-7efe72293d3c": [
+          "Jared Blando"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "John Buscema & Chic Stone",
+      "credit_observations": 1,
+      "example_printing_id": "b51282a9-1132-4c93-a216-148d1e7bb007",
+      "artist_ids": [
+        "852edb9c-0a78-47ed-8a32-7612633a9a03",
+        "eea62687-23a7-4525-9db3-3c1051f45f4d"
+      ],
+      "known_names_by_id": {
+        "852edb9c-0a78-47ed-8a32-7612633a9a03": [
+          "John Buscema"
+        ],
+        "eea62687-23a7-4525-9db3-3c1051f45f4d": [
+          "Chic Stone"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "John Buscema & Frank Giacoia",
+      "credit_observations": 1,
+      "example_printing_id": "38d16f3a-a20f-4e98-8085-e4e09bc525d6",
+      "artist_ids": [
+        "852edb9c-0a78-47ed-8a32-7612633a9a03",
+        "3fc7c8ee-3b03-499b-a90e-0647ad76bea1"
+      ],
+      "known_names_by_id": {
+        "852edb9c-0a78-47ed-8a32-7612633a9a03": [
+          "John Buscema"
+        ],
+        "3fc7c8ee-3b03-499b-a90e-0647ad76bea1": []
+      },
+      "unidentified_name_ids": [
+        "3fc7c8ee-3b03-499b-a90e-0647ad76bea1"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "John Buscema & Sol Brodsky",
+      "credit_observations": 1,
+      "example_printing_id": "47016620-48c7-42b2-9bef-8e2f8fc0786e",
+      "artist_ids": [
+        "852edb9c-0a78-47ed-8a32-7612633a9a03",
+        "0f0805ad-84c0-437e-8c99-71cdb6242960"
+      ],
+      "known_names_by_id": {
+        "852edb9c-0a78-47ed-8a32-7612633a9a03": [
+          "John Buscema"
+        ],
+        "0f0805ad-84c0-437e-8c99-71cdb6242960": []
+      },
+      "unidentified_name_ids": [
+        "0f0805ad-84c0-437e-8c99-71cdb6242960"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "John Buscema & Tom Palmer",
+      "credit_observations": 1,
+      "example_printing_id": "a5abbfdb-0460-4f78-be7f-d3e8a4b3afb5",
+      "artist_ids": [
+        "852edb9c-0a78-47ed-8a32-7612633a9a03",
+        "072f1261-01d4-43d9-8d84-0d9ea21b70d9"
+      ],
+      "known_names_by_id": {
+        "852edb9c-0a78-47ed-8a32-7612633a9a03": [
+          "John Buscema"
+        ],
+        "072f1261-01d4-43d9-8d84-0d9ea21b70d9": []
+      },
+      "unidentified_name_ids": [
+        "072f1261-01d4-43d9-8d84-0d9ea21b70d9"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "John Byrne & Keith Williams",
+      "credit_observations": 1,
+      "example_printing_id": "2aa6ff08-efd2-4f51-b899-19ba6815767a",
+      "artist_ids": [
+        "0846dfb0-2b59-479f-862c-1f13f56cfdcf",
+        "74ef6628-104a-47d1-b30d-8bb631cf2405"
+      ],
+      "known_names_by_id": {
+        "0846dfb0-2b59-479f-862c-1f13f56cfdcf": [
+          "John Byrne"
+        ],
+        "74ef6628-104a-47d1-b30d-8bb631cf2405": []
+      },
+      "unidentified_name_ids": [
+        "74ef6628-104a-47d1-b30d-8bb631cf2405"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "John Romita Jr. & Bob Layton",
+      "credit_observations": 2,
+      "example_printing_id": "7d2f262a-dc38-4414-8c66-0ef5eac7ad20",
+      "artist_ids": [
+        "6862903d-2361-46cd-a815-a2fee514e778",
+        "6a59de01-617c-45d5-8440-2d71448a486e"
+      ],
+      "known_names_by_id": {
+        "6862903d-2361-46cd-a815-a2fee514e778": [],
+        "6a59de01-617c-45d5-8440-2d71448a486e": [
+          "Bob Layton"
+        ]
+      },
+      "unidentified_name_ids": [
+        "6862903d-2361-46cd-a815-a2fee514e778"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "John Romita Jr. & John Romita Sr.",
+      "credit_observations": 5,
+      "example_printing_id": "758513b2-68e7-4f1b-adab-243e5bff22fa",
+      "artist_ids": [
+        "6862903d-2361-46cd-a815-a2fee514e778",
+        "00134b97-6730-46a3-aa53-a8e4f13fbbb2"
+      ],
+      "known_names_by_id": {
+        "6862903d-2361-46cd-a815-a2fee514e778": [],
+        "00134b97-6730-46a3-aa53-a8e4f13fbbb2": [
+          "John Romita Sr."
+        ]
+      },
+      "unidentified_name_ids": [
+        "6862903d-2361-46cd-a815-a2fee514e778"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "John Romita Sr. & Gil Kane",
+      "credit_observations": 5,
+      "example_printing_id": "031da951-2ca1-4306-93b0-771b0dd2ffd4",
+      "artist_ids": [
+        "00134b97-6730-46a3-aa53-a8e4f13fbbb2",
+        "953012fb-2e3c-4470-9048-d3bdf2ff4fcd"
+      ],
+      "known_names_by_id": {
+        "00134b97-6730-46a3-aa53-a8e4f13fbbb2": [
+          "John Romita Sr."
+        ],
+        "953012fb-2e3c-4470-9048-d3bdf2ff4fcd": []
+      },
+      "unidentified_name_ids": [
+        "953012fb-2e3c-4470-9048-d3bdf2ff4fcd"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "John Severin Brassell & David Palumbo",
+      "credit_observations": 1,
+      "example_printing_id": "887efa4e-f713-4165-a7e1-b0f00ac81784",
+      "artist_ids": [
+        "a4f50310-4b01-4cd3-8ab8-85b31e6876db",
+        "04ce1c75-e30c-4b7a-8cb0-b53e4ecc2f39"
+      ],
+      "known_names_by_id": {
+        "a4f50310-4b01-4cd3-8ab8-85b31e6876db": [
+          "John Severin Brassell"
+        ],
+        "04ce1c75-e30c-4b7a-8cb0-b53e4ecc2f39": [
+          "David Palumbo"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": [
+        "04ce1c75-e30c-4b7a-8cb0-b53e4ecc2f39"
+      ]
+    },
+    {
+      "raw_credit": "John Severin Brassell & Zoltan Boros",
+      "credit_observations": 1,
+      "example_printing_id": "05934d59-7e98-4fff-8ccb-70cd1a61c6fd",
+      "artist_ids": [
+        "a4f50310-4b01-4cd3-8ab8-85b31e6876db",
+        "1885e6cb-c827-4896-994e-3d0a027d602f"
+      ],
+      "known_names_by_id": {
+        "a4f50310-4b01-4cd3-8ab8-85b31e6876db": [
+          "John Severin Brassell"
+        ],
+        "1885e6cb-c827-4896-994e-3d0a027d602f": [
+          "Zoltan Boros"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Jonas De Ro & Jared Blando",
+      "credit_observations": 1,
+      "example_printing_id": "b96daf2a-9065-484b-a078-c6ee5a0281ed",
+      "artist_ids": [
+        "561ebf9e-8d93-4b57-8156-8826d0c19601",
+        "61b8414b-31e8-4c43-893d-7efe72293d3c"
+      ],
+      "known_names_by_id": {
+        "561ebf9e-8d93-4b57-8156-8826d0c19601": [
+          "Jonas De Ro"
+        ],
+        "61b8414b-31e8-4c43-893d-7efe72293d3c": [
+          "Jared Blando"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Josh Newton & Scott Okumura",
+      "credit_observations": 12,
+      "example_printing_id": "05c000fe-726f-4236-9317-c9dfeba4fb66",
+      "artist_ids": [
+        "0a37dc19-786c-44ed-954b-0a5967a16bdb",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "0a37dc19-786c-44ed-954b-0a5967a16bdb": [
+          "Josh Newton"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Julie Benbassat & AndWorld Design",
+      "credit_observations": 1,
+      "example_printing_id": "14191906-b109-47ef-83d2-cb03c26da5f4",
+      "artist_ids": [
+        "f5f04600-81f9-4577-9df5-e5411365596a",
+        "e51d3da0-16eb-42a0-9136-b0c48b66081f"
+      ],
+      "known_names_by_id": {
+        "f5f04600-81f9-4577-9df5-e5411365596a": [
+          "Julie Benbassat"
+        ],
+        "e51d3da0-16eb-42a0-9136-b0c48b66081f": []
+      },
+      "unidentified_name_ids": [
+        "e51d3da0-16eb-42a0-9136-b0c48b66081f"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Julie Dillon & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "0374cd0e-d06a-4976-9483-202015c845ff",
+      "artist_ids": [
+        "ce8605ad-6d5a-45a3-a7b6-84be4f5209cd",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "ce8605ad-6d5a-45a3-a7b6-84be4f5209cd": [
+          "Julie Dillon"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Justin Hernandez & Alexis Hernandez",
+      "credit_observations": 287,
+      "example_printing_id": "01e8c8de-fa34-4fe3-a6d6-8bfa0fd52866",
+      "artist_ids": [
+        "e3d33dbf-3b51-4e49-a12c-1ab7000e098f",
+        "13fef2fc-8a5c-4f25-b600-b509cc47f39e"
+      ],
+      "known_names_by_id": {
+        "e3d33dbf-3b51-4e49-a12c-1ab7000e098f": [
+          "Justin Hernandez"
+        ],
+        "13fef2fc-8a5c-4f25-b600-b509cc47f39e": [
+          "Alexis Hernandez"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Justine Cruz & Adam Paquette",
+      "credit_observations": 2,
+      "example_printing_id": "bde26955-6de3-4212-9e1a-5e11f73ebf44",
+      "artist_ids": [
+        "4d6acc42-7bac-42cb-ac57-a56355292e89",
+        "89023dad-e6c0-41e0-83fb-eb2bfbbdc3f2"
+      ],
+      "known_names_by_id": {
+        "4d6acc42-7bac-42cb-ac57-a56355292e89": [
+          "Justine Cruz"
+        ],
+        "89023dad-e6c0-41e0-83fb-eb2bfbbdc3f2": [
+          "Adam Paquette"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Kaja Foglio & Phil Foglio",
+      "credit_observations": 29,
+      "example_printing_id": "14dd21e1-51c4-4811-9547-3a5fb393be66",
+      "artist_ids": [
+        "e8b85539-756a-4eac-ac66-a2258d7cf547",
+        "3bfc0fd7-f6ce-4c3f-a755-aaafc84ac704"
+      ],
+      "known_names_by_id": {
+        "e8b85539-756a-4eac-ac66-a2258d7cf547": [
+          "Kaja Foglio"
+        ],
+        "3bfc0fd7-f6ce-4c3f-a755-aaafc84ac704": [
+          "Phil Foglio",
+          "Claymore J. Flapdoodle"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": [
+        "3bfc0fd7-f6ce-4c3f-a755-aaafc84ac704",
+        "e8b85539-756a-4eac-ac66-a2258d7cf547"
+      ]
+    },
+    {
+      "raw_credit": "Kathleen Neeley & AndWorld Design",
+      "credit_observations": 5,
+      "example_printing_id": "0ebd0ab9-ac1b-48bd-8304-2c15bdbd7bf5",
+      "artist_ids": [
+        "3491c501-ff82-473c-9cb2-3ac1101fed32",
+        "e51d3da0-16eb-42a0-9136-b0c48b66081f"
+      ],
+      "known_names_by_id": {
+        "3491c501-ff82-473c-9cb2-3ac1101fed32": [
+          "Kathleen Neeley"
+        ],
+        "e51d3da0-16eb-42a0-9136-b0c48b66081f": []
+      },
+      "unidentified_name_ids": [
+        "e51d3da0-16eb-42a0-9136-b0c48b66081f"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Kelogsloops & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "ab8741ca-43cb-4b4c-890d-0a363524bd13",
+      "artist_ids": [
+        "10ab6961-89a9-44bf-bf5a-ff2548403a83",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "10ab6961-89a9-44bf-bf5a-ff2548403a83": [
+          "Kelogsloops"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": [
+        "10ab6961-89a9-44bf-bf5a-ff2548403a83"
+      ]
+    },
+    {
+      "raw_credit": "Ken Lashley & Juan Fernandez",
+      "credit_observations": 1,
+      "example_printing_id": "08cd4665-9fc3-48f1-a136-41d4585b1bb4",
+      "artist_ids": [
+        "76870205-b823-4aaf-9057-35eeb0892e0f",
+        "1f2cc416-098f-4473-b9dc-8534379a5d0f"
+      ],
+      "known_names_by_id": {
+        "76870205-b823-4aaf-9057-35eeb0892e0f": [],
+        "1f2cc416-098f-4473-b9dc-8534379a5d0f": []
+      },
+      "unidentified_name_ids": [
+        "76870205-b823-4aaf-9057-35eeb0892e0f",
+        "1f2cc416-098f-4473-b9dc-8534379a5d0f"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Kevin Eastman & Jay David Ramos",
+      "credit_observations": 5,
+      "example_printing_id": "1dddf4a0-c676-44ec-9285-fab1c27cfeb8",
+      "artist_ids": [
+        "8558e8b8-79ff-46ac-b155-176dd8ecdebf",
+        "6a4a2807-d930-4fbf-a0dd-3c0d2fbef1b1"
+      ],
+      "known_names_by_id": {
+        "8558e8b8-79ff-46ac-b155-176dd8ecdebf": [
+          "Kevin Eastman"
+        ],
+        "6a4a2807-d930-4fbf-a0dd-3c0d2fbef1b1": [
+          "Jay David Ramos"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Kevin Eastman & Peter Laird",
+      "credit_observations": 18,
+      "example_printing_id": "19545db3-8be5-41e5-8d13-dec4f96fe624",
+      "artist_ids": [
+        "8558e8b8-79ff-46ac-b155-176dd8ecdebf",
+        "5b19683b-d5ba-42aa-b4a6-5f044e564110"
+      ],
+      "known_names_by_id": {
+        "8558e8b8-79ff-46ac-b155-176dd8ecdebf": [
+          "Kevin Eastman"
+        ],
+        "5b19683b-d5ba-42aa-b4a6-5f044e564110": [
+          "Peter Laird"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Kevin Sidharta & Henry G. Higginbotham",
+      "credit_observations": 2,
+      "example_printing_id": "3dd5ea51-68f7-4c12-a96b-8caca0d54640",
+      "artist_ids": [
+        "e0bcff21-4a2b-4151-86a2-a462da7b5aaa",
+        "4ddad452-27ef-4076-a0cd-78b6e3c08620"
+      ],
+      "known_names_by_id": {
+        "e0bcff21-4a2b-4151-86a2-a462da7b5aaa": [
+          "Kevin Sidharta"
+        ],
+        "4ddad452-27ef-4076-a0cd-78b6e3c08620": [
+          "Henry G. Higginbotham"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Kirokaze & Chuck Lukacs",
+      "credit_observations": 3,
+      "example_printing_id": "3b76bdd5-8614-4e6d-91ac-90b7bc4a1d2a",
+      "artist_ids": [
+        "a788eef6-3c83-4b6f-88e7-41949a050bf3",
+        "2bdf4da7-c66c-4c46-a253-284c856ccfab"
+      ],
+      "known_names_by_id": {
+        "a788eef6-3c83-4b6f-88e7-41949a050bf3": [
+          "Kirokaze"
+        ],
+        "2bdf4da7-c66c-4c46-a253-284c856ccfab": [
+          "Chuck Lukacs"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Klaus Janson & Mike Zeck",
+      "credit_observations": 1,
+      "example_printing_id": "e2e30b25-b710-4566-8b0f-56f6e390a446",
+      "artist_ids": [
+        "94178985-e2e9-40ef-9cdb-de42d9ff083d",
+        "2fe0d700-15ca-46a5-8341-700a6c6768b9"
+      ],
+      "known_names_by_id": {
+        "94178985-e2e9-40ef-9cdb-de42d9ff083d": [],
+        "2fe0d700-15ca-46a5-8341-700a6c6768b9": [
+          "Mike Zeck"
+        ]
+      },
+      "unidentified_name_ids": [
+        "94178985-e2e9-40ef-9cdb-de42d9ff083d"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Larissa Hasenheit & Mina Jeon",
+      "credit_observations": 48,
+      "example_printing_id": "016bf660-16c3-41b7-a988-211921c21eb8",
+      "artist_ids": [
+        "3de12ff8-3701-4154-8407-f102f44670dd",
+        "d58fedc9-b2a8-4a12-a942-fd1efceacb9c"
+      ],
+      "known_names_by_id": {
+        "3de12ff8-3701-4154-8407-f102f44670dd": [],
+        "d58fedc9-b2a8-4a12-a942-fd1efceacb9c": []
+      },
+      "unidentified_name_ids": [
+        "3de12ff8-3701-4154-8407-f102f44670dd",
+        "d58fedc9-b2a8-4a12-a942-fd1efceacb9c"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Larry Lieber & Vince Colletta",
+      "credit_observations": 1,
+      "example_printing_id": "06255e9e-5395-41ed-ad89-1e7b2b5478d3",
+      "artist_ids": [
+        "9c4d2278-b79d-4bb2-8afd-f82b3a59a89d",
+        "c3cd39b7-8a9d-4750-8a64-722e85e19a0b"
+      ],
+      "known_names_by_id": {
+        "9c4d2278-b79d-4bb2-8afd-f82b3a59a89d": [],
+        "c3cd39b7-8a9d-4750-8a64-722e85e19a0b": []
+      },
+      "unidentified_name_ids": [
+        "9c4d2278-b79d-4bb2-8afd-f82b3a59a89d",
+        "c3cd39b7-8a9d-4750-8a64-722e85e19a0b"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Lauren Degraaf & AndWorld Design",
+      "credit_observations": 1,
+      "example_printing_id": "3461dfd9-a905-4635-af31-e692c01195ed",
+      "artist_ids": [
+        "ed83a4c7-e057-4522-8742-678b666a9c72",
+        "e51d3da0-16eb-42a0-9136-b0c48b66081f"
+      ],
+      "known_names_by_id": {
+        "ed83a4c7-e057-4522-8742-678b666a9c72": [
+          "Lauren Degraaf"
+        ],
+        "e51d3da0-16eb-42a0-9136-b0c48b66081f": []
+      },
+      "unidentified_name_ids": [
+        "e51d3da0-16eb-42a0-9136-b0c48b66081f"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Leinil Francis Yu & Jay David Ramos",
+      "credit_observations": 2,
+      "example_printing_id": "05403596-8833-4f0f-b06e-964c2f586de6",
+      "artist_ids": [
+        "944c1266-944d-4cad-afb7-f43bb45713dd",
+        "6a4a2807-d930-4fbf-a0dd-3c0d2fbef1b1"
+      ],
+      "known_names_by_id": {
+        "944c1266-944d-4cad-afb7-f43bb45713dd": [
+          "Leinil Francis Yu"
+        ],
+        "6a4a2807-d930-4fbf-a0dd-3c0d2fbef1b1": [
+          "Jay David Ramos"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Leinil Francis Yu & Sunny Gho",
+      "credit_observations": 70,
+      "example_printing_id": "012d194a-c285-4490-bf0a-d0d332277e4a",
+      "artist_ids": [
+        "944c1266-944d-4cad-afb7-f43bb45713dd",
+        "e35720ed-9751-46a9-942a-a9069d5cfbd6"
+      ],
+      "known_names_by_id": {
+        "944c1266-944d-4cad-afb7-f43bb45713dd": [
+          "Leinil Francis Yu"
+        ],
+        "e35720ed-9751-46a9-942a-a9069d5cfbd6": [
+          "Sunny Gho"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Lenka Šimečková & Scott Okumura",
+      "credit_observations": 12,
+      "example_printing_id": "0d0bd4cd-8035-4f03-926c-40c16b58a8d2",
+      "artist_ids": [
+        "c9e04828-8fcb-47ba-aadc-4005d43a79f4",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "c9e04828-8fcb-47ba-aadc-4005d43a79f4": [
+          "Lenka Šimečková"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Liz Danforth & Douglas Shuler",
+      "credit_observations": 6,
+      "example_printing_id": "2563f5f1-911b-4401-abc0-43966c55d550",
+      "artist_ids": [
+        "5a5ee217-9d28-419a-b92a-a2376c7d18b3",
+        "a9ddb513-51c7-455c-ab8f-5b90aae9f75b"
+      ],
+      "known_names_by_id": {
+        "5a5ee217-9d28-419a-b92a-a2376c7d18b3": [
+          "Liz Danforth"
+        ],
+        "a9ddb513-51c7-455c-ab8f-5b90aae9f75b": [
+          "Douglas Shuler"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": [
+        "a9ddb513-51c7-455c-ab8f-5b90aae9f75b"
+      ]
+    },
+    {
+      "raw_credit": "Luis Esteves & Josh Corpuz",
+      "credit_observations": 1,
+      "example_printing_id": "c08ce7f7-7d88-46d7-883d-43253b889ee0",
+      "artist_ids": [
+        "cbc222ea-b871-4c78-8aa3-a10acd13b91b",
+        "6d253dfe-3273-44e9-91b0-2f6581369512"
+      ],
+      "known_names_by_id": {
+        "cbc222ea-b871-4c78-8aa3-a10acd13b91b": [],
+        "6d253dfe-3273-44e9-91b0-2f6581369512": []
+      },
+      "unidentified_name_ids": [
+        "cbc222ea-b871-4c78-8aa3-a10acd13b91b",
+        "6d253dfe-3273-44e9-91b0-2f6581369512"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "M. W. Kaluta & DiTerlizzi",
+      "credit_observations": 30,
+      "example_printing_id": "0143572c-b60f-4551-b60e-d480b9b81231",
+      "artist_ids": [
+        "d88c4a3d-c1b6-40e1-9d14-3c38059716fa",
+        "ed44dce4-30cf-4c2c-b2e1-a19ba2295690"
+      ],
+      "known_names_by_id": {
+        "d88c4a3d-c1b6-40e1-9d14-3c38059716fa": [
+          "M. W. Kaluta"
+        ],
+        "ed44dce4-30cf-4c2c-b2e1-a19ba2295690": [
+          "DiTerlizzi"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Magali Villeneuve & Jared Blando",
+      "credit_observations": 1,
+      "example_printing_id": "1056ab38-416c-450b-9e99-1a3eefc39f32",
+      "artist_ids": [
+        "9e6a55ae-be4d-4c23-a2a5-135737ffd879",
+        "61b8414b-31e8-4c43-893d-7efe72293d3c"
+      ],
+      "known_names_by_id": {
+        "9e6a55ae-be4d-4c23-a2a5-135737ffd879": [
+          "Magali Villeneuve",
+          "Magali Villeneuve, age 41"
+        ],
+        "61b8414b-31e8-4c43-893d-7efe72293d3c": [
+          "Jared Blando"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Mark Bagley & Andrew Hennessy",
+      "credit_observations": 5,
+      "example_printing_id": "12f6f29c-0e14-4db6-ae3c-c0b52379c2b4",
+      "artist_ids": [
+        "2ae80b3c-ce35-4c6b-9ef7-c2ddba9b6de4",
+        "4a3988ef-6f9d-4d64-a375-d50b209bc89c"
+      ],
+      "known_names_by_id": {
+        "2ae80b3c-ce35-4c6b-9ef7-c2ddba9b6de4": [
+          "Mark Bagley"
+        ],
+        "4a3988ef-6f9d-4d64-a375-d50b209bc89c": []
+      },
+      "unidentified_name_ids": [
+        "4a3988ef-6f9d-4d64-a375-d50b209bc89c"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Mark Bagley & Jay David Ramos",
+      "credit_observations": 8,
+      "example_printing_id": "28d27f6b-9db2-4f2e-937b-054f32bca46d",
+      "artist_ids": [
+        "2ae80b3c-ce35-4c6b-9ef7-c2ddba9b6de4",
+        "6a4a2807-d930-4fbf-a0dd-3c0d2fbef1b1"
+      ],
+      "known_names_by_id": {
+        "2ae80b3c-ce35-4c6b-9ef7-c2ddba9b6de4": [
+          "Mark Bagley"
+        ],
+        "6a4a2807-d930-4fbf-a0dd-3c0d2fbef1b1": [
+          "Jay David Ramos"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Mark Bagley & Randy Emberlin",
+      "credit_observations": 10,
+      "example_printing_id": "01462adf-3ebe-4636-9555-338e47dc553c",
+      "artist_ids": [
+        "2ae80b3c-ce35-4c6b-9ef7-c2ddba9b6de4",
+        "096186ea-e793-424d-92c0-cfbf59be333a"
+      ],
+      "known_names_by_id": {
+        "2ae80b3c-ce35-4c6b-9ef7-c2ddba9b6de4": [
+          "Mark Bagley"
+        ],
+        "096186ea-e793-424d-92c0-cfbf59be333a": []
+      },
+      "unidentified_name_ids": [
+        "096186ea-e793-424d-92c0-cfbf59be333a"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Mark Behm & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "02d6fd16-a7cd-49cb-bb70-806f8eb622dd",
+      "artist_ids": [
+        "ccf77963-723f-4137-b364-7417079e8ab9",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "ccf77963-723f-4137-b364-7417079e8ab9": [
+          "Mark Behm"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Mark Buckingham & D'Israeli",
+      "credit_observations": 5,
+      "example_printing_id": "191d4178-64cc-475d-b0c6-58e7fd02cc02",
+      "artist_ids": [
+        "2cd896c3-e432-4d70-9ac8-fc5a035af196",
+        "c221825c-56ab-4669-94ff-d22d37d14c83"
+      ],
+      "known_names_by_id": {
+        "2cd896c3-e432-4d70-9ac8-fc5a035af196": [],
+        "c221825c-56ab-4669-94ff-d22d37d14c83": []
+      },
+      "unidentified_name_ids": [
+        "2cd896c3-e432-4d70-9ac8-fc5a035af196",
+        "c221825c-56ab-4669-94ff-d22d37d14c83"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Mark Poole & Post Malone",
+      "credit_observations": 1,
+      "example_printing_id": "425bc1f3-4e6b-4be9-8d3e-2a268a1eae60",
+      "artist_ids": [
+        "bfdeaf09-f915-4058-8e8b-bcac3bc43c33",
+        "8a95a4e2-9feb-428e-96e0-c6a2cbcc33d9"
+      ],
+      "known_names_by_id": {
+        "bfdeaf09-f915-4058-8e8b-bcac3bc43c33": [
+          "Mark Poole"
+        ],
+        "8a95a4e2-9feb-428e-96e0-c6a2cbcc33d9": []
+      },
+      "unidentified_name_ids": [
+        "8a95a4e2-9feb-428e-96e0-c6a2cbcc33d9"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": [
+        "bfdeaf09-f915-4058-8e8b-bcac3bc43c33"
+      ]
+    },
+    {
+      "raw_credit": "Mark Texeira & Dave Kemp",
+      "credit_observations": 1,
+      "example_printing_id": "0355887d-eec7-4b1c-ada1-014ac7fce5c6",
+      "artist_ids": [
+        "6a4b0e6c-bce8-47cb-bc74-23c4d619a0aa",
+        "a15f89fc-ac41-48eb-95e2-cc7fc2f00249"
+      ],
+      "known_names_by_id": {
+        "6a4b0e6c-bce8-47cb-bc74-23c4d619a0aa": [],
+        "a15f89fc-ac41-48eb-95e2-cc7fc2f00249": []
+      },
+      "unidentified_name_ids": [
+        "6a4b0e6c-bce8-47cb-bc74-23c4d619a0aa",
+        "a15f89fc-ac41-48eb-95e2-cc7fc2f00249"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Mark Zug & John Severin Brassell",
+      "credit_observations": 1,
+      "example_printing_id": "64f4dc68-060b-4c63-8f43-00f53c52a251",
+      "artist_ids": [
+        "48e2b98c-5467-4671-bd42-4c3746115117",
+        "a4f50310-4b01-4cd3-8ab8-85b31e6876db"
+      ],
+      "known_names_by_id": {
+        "48e2b98c-5467-4671-bd42-4c3746115117": [
+          "Mark Zug"
+        ],
+        "a4f50310-4b01-4cd3-8ab8-85b31e6876db": [
+          "John Severin Brassell"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Masateru Ikeda & Robert Cornelius",
+      "credit_observations": 12,
+      "example_printing_id": "02b92dd4-5f62-444a-9c09-a4f763aa986b",
+      "artist_ids": [
+        "f93859de-a7f3-4253-9c25-507a280d3311",
+        "19871890-3682-4572-881a-5508e9fe7f71"
+      ],
+      "known_names_by_id": {
+        "f93859de-a7f3-4253-9c25-507a280d3311": [
+          "Masateru Ikeda"
+        ],
+        "19871890-3682-4572-881a-5508e9fe7f71": [
+          "Robert Cornelius"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Mateus Santolouco & Ronda Pattison",
+      "credit_observations": 6,
+      "example_printing_id": "0ae2d67e-7913-417c-b100-a19b5788856b",
+      "artist_ids": [
+        "10175730-7ded-4c31-9335-5c54ab0bd608",
+        "eb7feeb3-e85f-4d50-b09d-a0456f613a56"
+      ],
+      "known_names_by_id": {
+        "10175730-7ded-4c31-9335-5c54ab0bd608": [],
+        "eb7feeb3-e85f-4d50-b09d-a0456f613a56": []
+      },
+      "unidentified_name_ids": [
+        "10175730-7ded-4c31-9335-5c54ab0bd608",
+        "eb7feeb3-e85f-4d50-b09d-a0456f613a56"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Matt Cavotta & Richard Whitters",
+      "credit_observations": 21,
+      "example_printing_id": "14c6da14-8fbc-4410-8cbe-fea5d6ec21d1",
+      "artist_ids": [
+        "2e6a0611-9411-4ba4-98e3-c0e18cbf9f83",
+        "7d989811-f244-4be7-b5b0-6fbeacacef6b"
+      ],
+      "known_names_by_id": {
+        "2e6a0611-9411-4ba4-98e3-c0e18cbf9f83": [
+          "Matt Cavotta",
+          "Matt “I'm Your Boy” Cavotta"
+        ],
+        "7d989811-f244-4be7-b5b0-6fbeacacef6b": [
+          "Richard Whitters"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Matt Stewart & Milivoj Ćeran",
+      "credit_observations": 1,
+      "example_printing_id": "46bf5e2b-869f-480e-ac37-1bdb40a92f8c",
+      "artist_ids": [
+        "20871267-2d8a-41d5-b03a-be3d557c5734",
+        "1eced451-4da5-42bc-b49d-70c41246581f"
+      ],
+      "known_names_by_id": {
+        "20871267-2d8a-41d5-b03a-be3d557c5734": [
+          "Matt Stewart"
+        ],
+        "1eced451-4da5-42bc-b49d-70c41246581f": [
+          "Milivoj Ćeran"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Michael Turner & Mark Roslan",
+      "credit_observations": 5,
+      "example_printing_id": "1b0def96-3b36-40bc-a38e-70bd44b58bdc",
+      "artist_ids": [
+        "e4bf0e73-f994-43f0-859e-bdd13b466420",
+        "2536748c-5197-4913-a55e-df7c3b8deb96"
+      ],
+      "known_names_by_id": {
+        "e4bf0e73-f994-43f0-859e-bdd13b466420": [
+          "Michael Turner"
+        ],
+        "2536748c-5197-4913-a55e-df7c3b8deb96": []
+      },
+      "unidentified_name_ids": [
+        "2536748c-5197-4913-a55e-df7c3b8deb96"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Michael Walsh & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "f4e7b3a4-a346-4177-9cfe-0142b40ef4a6",
+      "artist_ids": [
+        "6a86bcd5-4829-4bc6-ad82-a4448b28d089",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "6a86bcd5-4829-4bc6-ad82-a4448b28d089": [
+          "Michael Walsh"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Miguel Mercado & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "b4b3d65d-3485-4d82-ba2e-9e2071f284b5",
+      "artist_ids": [
+        "085f314d-cd61-48e0-89d1-048e9891e4a1",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "085f314d-cd61-48e0-89d1-048e9891e4a1": [
+          "Miguel Mercado"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Miho Midorikawa & Sansyu",
+      "credit_observations": 6,
+      "example_printing_id": "0cbf911c-a721-4b84-8645-d83a0966be18",
+      "artist_ids": [
+        "a7a9b535-281b-41e9-9906-67cbfd604a33",
+        "00f53364-12d6-4797-85fe-30503bae0d11"
+      ],
+      "known_names_by_id": {
+        "a7a9b535-281b-41e9-9906-67cbfd604a33": [
+          "Miho Midorikawa"
+        ],
+        "00f53364-12d6-4797-85fe-30503bae0d11": [
+          "Sansyu"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Mike Burns & Scott Okumura",
+      "credit_observations": 5,
+      "example_printing_id": "0b7726e1-f121-4283-9c54-66509f332f39",
+      "artist_ids": [
+        "184b88b1-b679-4907-91b0-b2f2a458ae20",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "184b88b1-b679-4907-91b0-b2f2a458ae20": [
+          "Mike Burns"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Mike Mignola & Dave Stewart",
+      "credit_observations": 1,
+      "example_printing_id": "2e26f6c6-c043-4b71-ab90-584dceeec092",
+      "artist_ids": [
+        "4c5d066a-cc5f-40b9-8afa-7066d1c61cb6",
+        "5c03f54b-b89b-4a10-8f23-208ae0f8f391"
+      ],
+      "known_names_by_id": {
+        "4c5d066a-cc5f-40b9-8afa-7066d1c61cb6": [],
+        "5c03f54b-b89b-4a10-8f23-208ae0f8f391": []
+      },
+      "unidentified_name_ids": [
+        "4c5d066a-cc5f-40b9-8afa-7066d1c61cb6",
+        "5c03f54b-b89b-4a10-8f23-208ae0f8f391"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Mike Zeck & Bob McLeod",
+      "credit_observations": 5,
+      "example_printing_id": "3e560cb9-3036-46a2-a5c7-edb04d0095b7",
+      "artist_ids": [
+        "2fe0d700-15ca-46a5-8341-700a6c6768b9",
+        "b9fab9b0-e233-4c01-ac0e-e79522b3b8fa"
+      ],
+      "known_names_by_id": {
+        "2fe0d700-15ca-46a5-8341-700a6c6768b9": [
+          "Mike Zeck"
+        ],
+        "b9fab9b0-e233-4c01-ac0e-e79522b3b8fa": []
+      },
+      "unidentified_name_ids": [
+        "b9fab9b0-e233-4c01-ac0e-e79522b3b8fa"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Miklós Ligeti & AndWorld Design",
+      "credit_observations": 6,
+      "example_printing_id": "07de695f-aac5-4367-9fdc-3b11740c7f97",
+      "artist_ids": [
+        "397e374b-b428-4bab-b198-372f7f4c2f40",
+        "e51d3da0-16eb-42a0-9136-b0c48b66081f"
+      ],
+      "known_names_by_id": {
+        "397e374b-b428-4bab-b198-372f7f4c2f40": [
+          "Miklós Ligeti"
+        ],
+        "e51d3da0-16eb-42a0-9136-b0c48b66081f": []
+      },
+      "unidentified_name_ids": [
+        "e51d3da0-16eb-42a0-9136-b0c48b66081f"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Minoru & Kei Satsuki",
+      "credit_observations": 6,
+      "example_printing_id": "2e4ef71c-5d23-4826-9c23-bd369bb9d9a1",
+      "artist_ids": [
+        "f7abe855-87f3-448a-adb3-aa41e69f8a64",
+        "22daf2b5-b4b9-4e65-b2ee-8caaf9a9bba2"
+      ],
+      "known_names_by_id": {
+        "f7abe855-87f3-448a-adb3-aa41e69f8a64": [
+          "Minoru"
+        ],
+        "22daf2b5-b4b9-4e65-b2ee-8caaf9a9bba2": [
+          "Kei Satsuki"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Mitchell Malloy & Maddie Julyk",
+      "credit_observations": 11,
+      "example_printing_id": "08370fce-56ab-4e4f-80f4-2d8be4830875",
+      "artist_ids": [
+        "23547f21-a6c7-44e0-bbb7-fd5e5e32d97c",
+        "d5dba03e-f267-49b5-8c8c-3c6a90d18da5"
+      ],
+      "known_names_by_id": {
+        "23547f21-a6c7-44e0-bbb7-fd5e5e32d97c": [
+          "Mitchell Malloy"
+        ],
+        "d5dba03e-f267-49b5-8c8c-3c6a90d18da5": [
+          "Maddie Julyk"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Nana Qi & GodMachine",
+      "credit_observations": 11,
+      "example_printing_id": "0ee427c2-4445-44ed-8170-d1d02170e873",
+      "artist_ids": [
+        "0debd35b-0bdc-4cee-8a11-78193a9c73df",
+        "5ad61ffb-a337-4140-bdce-b0a251b135ae"
+      ],
+      "known_names_by_id": {
+        "0debd35b-0bdc-4cee-8a11-78193a9c73df": [
+          "Nana Qi",
+          "PuffyGator"
+        ],
+        "5ad61ffb-a337-4140-bdce-b0a251b135ae": [
+          "GodMachine"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Narendra Bintara Adi & Volkan Baǵa",
+      "credit_observations": 2,
+      "example_printing_id": "3da4d946-fd93-4211-96b2-c9bd0d2b572d",
+      "artist_ids": [
+        "1be2b84d-99c5-4a51-b741-105cbeb53078",
+        "93bec3c0-0260-4d31-8064-5d01efb4153f"
+      ],
+      "known_names_by_id": {
+        "1be2b84d-99c5-4a51-b741-105cbeb53078": [
+          "Narendra Bintara Adi"
+        ],
+        "93bec3c0-0260-4d31-8064-5d01efb4153f": [
+          "Volkan Baǵa"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Nicole Gustafsson & Marija Tiurina",
+      "credit_observations": 1,
+      "example_printing_id": "f2bc8f49-6b8f-4466-908c-c6ff3e5c8c32",
+      "artist_ids": [
+        "7e9f22b0-ad15-48b3-b4d9-248c8dc7ac92",
+        "1b60443a-1282-433d-8a20-35f0992cf6a0"
+      ],
+      "known_names_by_id": {
+        "7e9f22b0-ad15-48b3-b4d9-248c8dc7ac92": [
+          "Nicole Gustafsson"
+        ],
+        "1b60443a-1282-433d-8a20-35f0992cf6a0": [
+          "Marija Tiurina"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Nino Is & Joshua Raphael",
+      "credit_observations": 10,
+      "example_printing_id": "246b2bb1-6a30-4613-b857-5f20ec11a9df",
+      "artist_ids": [
+        "ae717001-28ec-46e3-a07e-f16b6deaf9e2",
+        "553b2a73-780f-414b-b2d7-3b7888821082"
+      ],
+      "known_names_by_id": {
+        "ae717001-28ec-46e3-a07e-f16b6deaf9e2": [
+          "Nino Is"
+        ],
+        "553b2a73-780f-414b-b2d7-3b7888821082": [
+          "Joshua Raphael"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Noah Bradley & Joseph Meehan",
+      "credit_observations": 1,
+      "example_printing_id": "5cf70d25-9de9-4c3a-a52f-be17831e5695",
+      "artist_ids": [
+        "81995d11-da98-4f8b-89bd-b88ca2ddb06b",
+        "6befd6d5-7f8d-4b7c-87e3-5511391a3359"
+      ],
+      "known_names_by_id": {
+        "81995d11-da98-4f8b-89bd-b88ca2ddb06b": [
+          "Noah Bradley"
+        ],
+        "6befd6d5-7f8d-4b7c-87e3-5511391a3359": [
+          "Joseph Meehan"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "NéNé Thomas & Catherine Buck",
+      "credit_observations": 8,
+      "example_printing_id": "0c13311d-db83-483f-ba2b-4f54ceb8b026",
+      "artist_ids": [
+        "c74ef1dd-0341-44c4-8f9f-5f243151cce3",
+        "e7a4b2dd-1039-47f4-bc44-c6cca40cd4dd"
+      ],
+      "known_names_by_id": {
+        "c74ef1dd-0341-44c4-8f9f-5f243151cce3": [
+          "NéNé Thomas"
+        ],
+        "e7a4b2dd-1039-47f4-bc44-c6cca40cd4dd": []
+      },
+      "unidentified_name_ids": [
+        "e7a4b2dd-1039-47f4-bc44-c6cca40cd4dd"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "NéNé Thomas & Phillip Mosness",
+      "credit_observations": 18,
+      "example_printing_id": "006dff76-7841-4c6a-848e-4be65de5df4e",
+      "artist_ids": [
+        "c74ef1dd-0341-44c4-8f9f-5f243151cce3",
+        "16a5c99c-09bf-462a-9173-c52e0be2cc88"
+      ],
+      "known_names_by_id": {
+        "c74ef1dd-0341-44c4-8f9f-5f243151cce3": [
+          "NéNé Thomas"
+        ],
+        "16a5c99c-09bf-462a-9173-c52e0be2cc88": []
+      },
+      "unidentified_name_ids": [
+        "16a5c99c-09bf-462a-9173-c52e0be2cc88"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Oiya Zhang & Liangliang Zhang",
+      "credit_observations": 1,
+      "example_printing_id": "fb348aec-ab4e-4940-9235-43f2ef581195",
+      "artist_ids": [
+        "ecc18de8-05a4-4cc5-9069-731379625e4e",
+        "d4794d07-d985-4ca2-8129-cd4cbf55a651"
+      ],
+      "known_names_by_id": {
+        "ecc18de8-05a4-4cc5-9069-731379625e4e": [
+          "Oiya Zhang"
+        ],
+        "d4794d07-d985-4ca2-8129-cd4cbf55a651": [
+          "Liangliang Zhang"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Oriana Menendez & Miranda Meeks",
+      "credit_observations": 1,
+      "example_printing_id": "b72fe493-f712-45b3-9af2-7f96a31cad85",
+      "artist_ids": [
+        "d09f4925-a6b9-48d7-89f7-4db6deab1c7c",
+        "6c9ca5a9-5ac6-4478-9606-075fd10a8f01"
+      ],
+      "known_names_by_id": {
+        "d09f4925-a6b9-48d7-89f7-4db6deab1c7c": [
+          "Oriana Menendez"
+        ],
+        "6c9ca5a9-5ac6-4478-9606-075fd10a8f01": [
+          "Miranda Meeks"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Paolo Parente & Brian Snõddy",
+      "credit_observations": 34,
+      "example_printing_id": "01ddeef1-f6f9-48c0-a93c-7bb3877c0e59",
+      "artist_ids": [
+        "d48dd097-720d-476a-8722-6a02854ae28b",
+        "770b4e16-de76-49ed-949f-84e6d2e06d25"
+      ],
+      "known_names_by_id": {
+        "d48dd097-720d-476a-8722-6a02854ae28b": [
+          "Paolo Parente",
+          "Paolo \"That's Actually Me\" Parente"
+        ],
+        "770b4e16-de76-49ed-949f-84e6d2e06d25": [
+          "Brian Snõddy"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Paulo Siqueira & Amilton Santos",
+      "credit_observations": 5,
+      "example_printing_id": "30fd9c40-e95b-4fcb-95d8-d89057302048",
+      "artist_ids": [
+        "94e31886-8da4-4946-826c-948496bd6ba1",
+        "b75a0407-c13d-43ad-9dbc-199c392261c3"
+      ],
+      "known_names_by_id": {
+        "94e31886-8da4-4946-826c-948496bd6ba1": [],
+        "b75a0407-c13d-43ad-9dbc-199c392261c3": []
+      },
+      "unidentified_name_ids": [
+        "94e31886-8da4-4946-826c-948496bd6ba1",
+        "b75a0407-c13d-43ad-9dbc-199c392261c3"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Peter Laird & Jim Lawson",
+      "credit_observations": 6,
+      "example_printing_id": "03f8cffe-4bff-48d9-bdb8-1366bb4f5ef8",
+      "artist_ids": [
+        "5b19683b-d5ba-42aa-b4a6-5f044e564110",
+        "79cb24d0-08f0-46f6-ae3b-b01b59d031d6"
+      ],
+      "known_names_by_id": {
+        "5b19683b-d5ba-42aa-b4a6-5f044e564110": [
+          "Peter Laird"
+        ],
+        "79cb24d0-08f0-46f6-ae3b-b01b59d031d6": [
+          "Jim Lawson"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Peter Laird & Ryan Brown",
+      "credit_observations": 6,
+      "example_printing_id": "402e538f-c8f9-4fb7-9a9f-f9c75c9ca97f",
+      "artist_ids": [
+        "5b19683b-d5ba-42aa-b4a6-5f044e564110",
+        "7a21f6cc-9ee4-45b7-bd8b-6a84ede75afe"
+      ],
+      "known_names_by_id": {
+        "5b19683b-d5ba-42aa-b4a6-5f044e564110": [
+          "Peter Laird"
+        ],
+        "7a21f6cc-9ee4-45b7-bd8b-6a84ede75afe": []
+      },
+      "unidentified_name_ids": [
+        "7a21f6cc-9ee4-45b7-bd8b-6a84ede75afe"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Phoebe Wahl & AndWorld Design",
+      "credit_observations": 1,
+      "example_printing_id": "8af1f14f-e2f2-4afa-aa2a-7a14567c3b6f",
+      "artist_ids": [
+        "040242c9-00e6-4009-ab32-e4e6f1256fe7",
+        "e51d3da0-16eb-42a0-9136-b0c48b66081f"
+      ],
+      "known_names_by_id": {
+        "040242c9-00e6-4009-ab32-e4e6f1256fe7": [
+          "Phoebe Wahl"
+        ],
+        "e51d3da0-16eb-42a0-9136-b0c48b66081f": []
+      },
+      "unidentified_name_ids": [
+        "e51d3da0-16eb-42a0-9136-b0c48b66081f"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Pig Hands & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "17810fef-8186-421b-bb55-83396d5caf34",
+      "artist_ids": [
+        "c5de930f-1f2f-4f5f-b6ba-b021d634365c",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "c5de930f-1f2f-4f5f-b6ba-b021d634365c": [
+          "Pig Hands"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Quinton Hoover & Val Mayerik",
+      "credit_observations": 20,
+      "example_printing_id": "16f83052-78d4-46d2-a0fa-72c198f9aa0b",
+      "artist_ids": [
+        "1a2db619-92a5-431a-822b-101cdcc5bd5d",
+        "289e552e-3b58-484f-a939-64a01426e84d"
+      ],
+      "known_names_by_id": {
+        "1a2db619-92a5-431a-822b-101cdcc5bd5d": [
+          "Quinton Hoover"
+        ],
+        "289e552e-3b58-484f-a939-64a01426e84d": [
+          "Val Mayerik"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Randy Gallegos & Jason Felix",
+      "credit_observations": 1,
+      "example_printing_id": "2e20d047-0d43-4709-919c-0b0f714e9903",
+      "artist_ids": [
+        "a5048cc7-438a-4378-98e4-da99b78e1db0",
+        "af42a44c-8ec3-47a7-9047-5d29ddad186d"
+      ],
+      "known_names_by_id": {
+        "a5048cc7-438a-4378-98e4-da99b78e1db0": [
+          "Randy Gallegos"
+        ],
+        "af42a44c-8ec3-47a7-9047-5d29ddad186d": [
+          "Jason Felix"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": [
+        "a5048cc7-438a-4378-98e4-da99b78e1db0"
+      ]
+    },
+    {
+      "raw_credit": "Raoul Vitale & Ben Wootten",
+      "credit_observations": 1,
+      "example_printing_id": "c06bcc5b-4ccd-452d-8579-beee6c5cbe98",
+      "artist_ids": [
+        "c7c15d49-f84b-4d98-9a34-e80e8347b756",
+        "31cdca96-ecde-4245-bfb6-653929d57d9c"
+      ],
+      "known_names_by_id": {
+        "c7c15d49-f84b-4d98-9a34-e80e8347b756": [
+          "Raoul Vitale"
+        ],
+        "31cdca96-ecde-4245-bfb6-653929d57d9c": [
+          "Ben Wootten"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Richard Sardinha & Brad Rigney",
+      "credit_observations": 1,
+      "example_printing_id": "2879010f-b752-4808-8531-d24e612de0d9",
+      "artist_ids": [
+        "a3cce4f0-fbf5-4883-aac7-fb28b993b132",
+        "f17194b9-10e9-44ea-9b65-6812ab398624"
+      ],
+      "known_names_by_id": {
+        "a3cce4f0-fbf5-4883-aac7-fb28b993b132": [
+          "Richard Sardinha"
+        ],
+        "f17194b9-10e9-44ea-9b65-6812ab398624": [
+          "Brad Rigney"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Ron Frenz & Joe Rubinstein",
+      "credit_observations": 5,
+      "example_printing_id": "3b519632-22b7-4ede-aaf2-ff4fdb14007a",
+      "artist_ids": [
+        "cc88858e-a179-4ebc-8d66-a22ea268d649",
+        "d5f55418-7d04-4e77-b13d-4bda0a20e9cf"
+      ],
+      "known_names_by_id": {
+        "cc88858e-a179-4ebc-8d66-a22ea268d649": [],
+        "d5f55418-7d04-4e77-b13d-4bda0a20e9cf": []
+      },
+      "unidentified_name_ids": [
+        "cc88858e-a179-4ebc-8d66-a22ea268d649",
+        "d5f55418-7d04-4e77-b13d-4bda0a20e9cf"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Ron Frenz & Klaus Janson",
+      "credit_observations": 5,
+      "example_printing_id": "08b9e33b-a97d-4362-93e3-a7dadaafaafa",
+      "artist_ids": [
+        "cc88858e-a179-4ebc-8d66-a22ea268d649",
+        "94178985-e2e9-40ef-9cdb-de42d9ff083d"
+      ],
+      "known_names_by_id": {
+        "cc88858e-a179-4ebc-8d66-a22ea268d649": [],
+        "94178985-e2e9-40ef-9cdb-de42d9ff083d": []
+      },
+      "unidentified_name_ids": [
+        "cc88858e-a179-4ebc-8d66-a22ea268d649",
+        "94178985-e2e9-40ef-9cdb-de42d9ff083d"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Ron Spears & Post Malone",
+      "credit_observations": 1,
+      "example_printing_id": "ad4e701b-4a03-4c3d-9574-ca2f035a7a5c",
+      "artist_ids": [
+        "fce9030b-86bd-4439-b06a-920a1eeb184c",
+        "8a95a4e2-9feb-428e-96e0-c6a2cbcc33d9"
+      ],
+      "known_names_by_id": {
+        "fce9030b-86bd-4439-b06a-920a1eeb184c": [
+          "Ron Spears",
+          "Ron “Don't You Dare Change Me” Spears"
+        ],
+        "8a95a4e2-9feb-428e-96e0-c6a2cbcc33d9": []
+      },
+      "unidentified_name_ids": [
+        "8a95a4e2-9feb-428e-96e0-c6a2cbcc33d9"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Ron Spears & Wayne Reynolds",
+      "credit_observations": 26,
+      "example_printing_id": "1461d41c-6e19-4a69-add7-015c4c2c8044",
+      "artist_ids": [
+        "fce9030b-86bd-4439-b06a-920a1eeb184c",
+        "afc47cec-3ccc-404e-a8c6-4d83dd504271"
+      ],
+      "known_names_by_id": {
+        "fce9030b-86bd-4439-b06a-920a1eeb184c": [
+          "Ron Spears",
+          "Ron “Don't You Dare Change Me” Spears"
+        ],
+        "afc47cec-3ccc-404e-a8c6-4d83dd504271": [
+          "Wayne Reynolds"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Ross Andru & Frank Giacoia",
+      "credit_observations": 5,
+      "example_printing_id": "2bb8ede7-ca50-4df8-aa30-f1b14520163f",
+      "artist_ids": [
+        "c0f25f6c-dff6-43b7-948a-579c0d5dfc31",
+        "3fc7c8ee-3b03-499b-a90e-0647ad76bea1"
+      ],
+      "known_names_by_id": {
+        "c0f25f6c-dff6-43b7-948a-579c0d5dfc31": [],
+        "3fc7c8ee-3b03-499b-a90e-0647ad76bea1": []
+      },
+      "unidentified_name_ids": [
+        "c0f25f6c-dff6-43b7-948a-579c0d5dfc31",
+        "3fc7c8ee-3b03-499b-a90e-0647ad76bea1"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Ryan Pancoast & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "7f4d53fd-de02-4151-8b5c-8d62207174c4",
+      "artist_ids": [
+        "89cc9475-dda2-4d13-bf88-54b92867a25c",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "89cc9475-dda2-4d13-bf88-54b92867a25c": [
+          "Ryan Pancoast"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": [
+        "89cc9475-dda2-4d13-bf88-54b92867a25c"
+      ]
+    },
+    {
+      "raw_credit": "Ryan Stegman & Arthur Hesli",
+      "credit_observations": 1,
+      "example_printing_id": "80afdcf9-728e-4514-baa7-a373360094af",
+      "artist_ids": [
+        "0be1f93b-5b78-4c06-9466-e885b94fc373",
+        "f20e7ec1-289a-45a6-a21e-2c9afadc5708"
+      ],
+      "known_names_by_id": {
+        "0be1f93b-5b78-4c06-9466-e885b94fc373": [],
+        "f20e7ec1-289a-45a6-a21e-2c9afadc5708": []
+      },
+      "unidentified_name_ids": [
+        "0be1f93b-5b78-4c06-9466-e885b94fc373",
+        "f20e7ec1-289a-45a6-a21e-2c9afadc5708"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Ryan Stegman & JP Mayer",
+      "credit_observations": 5,
+      "example_printing_id": "109ea082-c13f-4213-8e8e-c1e1e1c1864a",
+      "artist_ids": [
+        "0be1f93b-5b78-4c06-9466-e885b94fc373",
+        "257a3306-01e4-49c8-83db-2135070441df"
+      ],
+      "known_names_by_id": {
+        "0be1f93b-5b78-4c06-9466-e885b94fc373": [],
+        "257a3306-01e4-49c8-83db-2135070441df": []
+      },
+      "unidentified_name_ids": [
+        "0be1f93b-5b78-4c06-9466-e885b94fc373",
+        "257a3306-01e4-49c8-83db-2135070441df"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Sal Buscema & Sam Grainger",
+      "credit_observations": 1,
+      "example_printing_id": "df9302a8-e918-429c-8853-133c489223f1",
+      "artist_ids": [
+        "4f0ea3e8-8d3a-41e8-9371-b73c036e27cc",
+        "45533aa2-1b9a-4152-8315-67a5c0516c09"
+      ],
+      "known_names_by_id": {
+        "4f0ea3e8-8d3a-41e8-9371-b73c036e27cc": [],
+        "45533aa2-1b9a-4152-8315-67a5c0516c09": []
+      },
+      "unidentified_name_ids": [
+        "4f0ea3e8-8d3a-41e8-9371-b73c036e27cc",
+        "45533aa2-1b9a-4152-8315-67a5c0516c09"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Sara Pichelli & Justin Ponsor",
+      "credit_observations": 1,
+      "example_printing_id": "d938ceec-c45b-482c-8841-c97098697cc8",
+      "artist_ids": [
+        "e6c7857e-9aad-4db4-b816-2d083d03711e",
+        "c9262e90-7510-47d5-a74d-ead450e1d198"
+      ],
+      "known_names_by_id": {
+        "e6c7857e-9aad-4db4-b816-2d083d03711e": [
+          "Sara Pichelli"
+        ],
+        "c9262e90-7510-47d5-a74d-ead450e1d198": [
+          "Justin Ponsor"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Sergio Davila & Sean Parsons",
+      "credit_observations": 5,
+      "example_printing_id": "4368fc26-ad98-4ed3-90d5-b287706fcfdd",
+      "artist_ids": [
+        "6ed44496-5c57-4540-bd5a-7de839b4c48a",
+        "d959c5c9-2c0a-4048-ac11-9caa6e97ef84"
+      ],
+      "known_names_by_id": {
+        "6ed44496-5c57-4540-bd5a-7de839b4c48a": [],
+        "d959c5c9-2c0a-4048-ac11-9caa6e97ef84": []
+      },
+      "unidentified_name_ids": [
+        "6ed44496-5c57-4540-bd5a-7de839b4c48a",
+        "d959c5c9-2c0a-4048-ac11-9caa6e97ef84"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Shane Beresford & Perci Chen",
+      "credit_observations": 1,
+      "example_printing_id": "077a1ad2-6317-4271-b86c-cc999776251d",
+      "artist_ids": [
+        "b0c5ca13-3629-4d54-bc32-c91075e59e85",
+        "a749532d-a11f-4e8d-ba53-c0aabc0973b8"
+      ],
+      "known_names_by_id": {
+        "b0c5ca13-3629-4d54-bc32-c91075e59e85": [
+          "Shane Beresford"
+        ],
+        "a749532d-a11f-4e8d-ba53-c0aabc0973b8": [
+          "Perci Chen"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Shreya Shetty & Scott Okumura",
+      "credit_observations": 2,
+      "example_printing_id": "9d922120-867e-4381-85e2-ae9467fc5175",
+      "artist_ids": [
+        "1d175ae2-a9bd-492d-8ce0-fa07c8963c5c",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "1d175ae2-a9bd-492d-8ce0-fa07c8963c5c": [
+          "Shreya Shetty"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Sidharth Chaturvedi & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "60c92f1b-0c78-4809-9365-e1ffa515cb4b",
+      "artist_ids": [
+        "55e6d846-2f73-4fba-9b88-441686bb8dcb",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "55e6d846-2f73-4fba-9b88-441686bb8dcb": [
+          "Sidharth Chaturvedi"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Skinnyelbows & James Bousema",
+      "credit_observations": 1,
+      "example_printing_id": "af609bad-083f-42e4-a102-7a0da8e7a85f",
+      "artist_ids": [
+        "34cb1f13-e2d7-4e27-8a3f-0e3bec090598",
+        "371aeb61-4800-423e-84c3-c2ebd6cad439"
+      ],
+      "known_names_by_id": {
+        "34cb1f13-e2d7-4e27-8a3f-0e3bec090598": [
+          "Skinnyelbows"
+        ],
+        "371aeb61-4800-423e-84c3-c2ebd6cad439": [
+          "James Bousema"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Solan & Danciao",
+      "credit_observations": 7,
+      "example_printing_id": "0f503360-216a-4629-89b2-d32072850aef",
+      "artist_ids": [
+        "5c034af9-d45f-4607-849a-fbdbc8bcbbe7",
+        "5a05c4b4-32cf-41a0-98d5-26a485e77b5a"
+      ],
+      "known_names_by_id": {
+        "5c034af9-d45f-4607-849a-fbdbc8bcbbe7": [
+          "Solan"
+        ],
+        "5a05c4b4-32cf-41a0-98d5-26a485e77b5a": [
+          "Danciao"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Stephen Andrade & Scott Okumura",
+      "credit_observations": 5,
+      "example_printing_id": "20bdc926-b1ab-4314-899b-167c3d8a7af7",
+      "artist_ids": [
+        "f88ffcb7-f971-426d-ae74-679378ebb8e1",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "f88ffcb7-f971-426d-ae74-679378ebb8e1": [
+          "Stephen Andrade"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Steve Bissette & Jim Lawson",
+      "credit_observations": 6,
+      "example_printing_id": "4881f89f-9f0a-4732-a273-89e633e02859",
+      "artist_ids": [
+        "945dec4d-f992-45b6-b91f-58f8b7982fe7",
+        "79cb24d0-08f0-46f6-ae3b-b01b59d031d6"
+      ],
+      "known_names_by_id": {
+        "945dec4d-f992-45b6-b91f-58f8b7982fe7": [],
+        "79cb24d0-08f0-46f6-ae3b-b01b59d031d6": [
+          "Jim Lawson"
+        ]
+      },
+      "unidentified_name_ids": [
+        "945dec4d-f992-45b6-b91f-58f8b7982fe7"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Svetlin Velinov & Jared Blando",
+      "credit_observations": 1,
+      "example_printing_id": "af6a8b6f-344a-4a4f-8949-b3ab2465b74b",
+      "artist_ids": [
+        "ffd063ae-c097-4f26-b2e6-b1e2137708bc",
+        "61b8414b-31e8-4c43-893d-7efe72293d3c"
+      ],
+      "known_names_by_id": {
+        "ffd063ae-c097-4f26-b2e6-b1e2137708bc": [
+          "Svetlin Velinov"
+        ],
+        "61b8414b-31e8-4c43-893d-7efe72293d3c": [
+          "Jared Blando"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": [
+        "ffd063ae-c097-4f26-b2e6-b1e2137708bc"
+      ]
+    },
+    {
+      "raw_credit": "Svetlin Velinov & Scott Okumura",
+      "credit_observations": 2,
+      "example_printing_id": "7ecdb244-aeb5-42ef-b1ce-e586580c6b6c",
+      "artist_ids": [
+        "ffd063ae-c097-4f26-b2e6-b1e2137708bc",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "ffd063ae-c097-4f26-b2e6-b1e2137708bc": [
+          "Svetlin Velinov"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": [
+        "ffd063ae-c097-4f26-b2e6-b1e2137708bc"
+      ]
+    },
+    {
+      "raw_credit": "Tatiana Vetrova & Jason Li",
+      "credit_observations": 1,
+      "example_printing_id": "c150240c-10c7-439c-a076-740bd0f2cc0a",
+      "artist_ids": [
+        "ef71744f-2e8e-4228-84c3-b1996cc4a102",
+        "2a9c2643-1992-481d-9e59-221f0af17cb1"
+      ],
+      "known_names_by_id": {
+        "ef71744f-2e8e-4228-84c3-b1996cc4a102": [],
+        "2a9c2643-1992-481d-9e59-221f0af17cb1": []
+      },
+      "unidentified_name_ids": [
+        "ef71744f-2e8e-4228-84c3-b1996cc4a102",
+        "2a9c2643-1992-481d-9e59-221f0af17cb1"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Terese Nielsen & Philip Tan",
+      "credit_observations": 18,
+      "example_printing_id": "1488a133-433e-42d5-8403-a4844530ddf5",
+      "artist_ids": [
+        "eb55171c-2342-45f4-a503-2d5a75baf752",
+        "cb6a1b57-b811-4e3e-b7b5-0abff3f9aa37"
+      ],
+      "known_names_by_id": {
+        "eb55171c-2342-45f4-a503-2d5a75baf752": [
+          "Terese Nielsen"
+        ],
+        "cb6a1b57-b811-4e3e-b7b5-0abff3f9aa37": []
+      },
+      "unidentified_name_ids": [
+        "cb6a1b57-b811-4e3e-b7b5-0abff3f9aa37"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Terese Nielsen & Ron Spencer",
+      "credit_observations": 55,
+      "example_printing_id": "095618d0-c17b-4a77-9f2d-cca2b208bc48",
+      "artist_ids": [
+        "eb55171c-2342-45f4-a503-2d5a75baf752",
+        "dab52c11-0564-4207-a4a1-c1735c946a65"
+      ],
+      "known_names_by_id": {
+        "eb55171c-2342-45f4-a503-2d5a75baf752": [
+          "Terese Nielsen"
+        ],
+        "dab52c11-0564-4207-a4a1-c1735c946a65": [
+          "Ron Spencer"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Terese Nielsen & Thomas M. Baxa",
+      "credit_observations": 13,
+      "example_printing_id": "057b34fe-0728-4f42-ada1-1be7a9174d4f",
+      "artist_ids": [
+        "eb55171c-2342-45f4-a503-2d5a75baf752",
+        "ff346569-557d-4043-ae44-97c2c7cabd7d"
+      ],
+      "known_names_by_id": {
+        "eb55171c-2342-45f4-a503-2d5a75baf752": [
+          "Terese Nielsen"
+        ],
+        "ff346569-557d-4043-ae44-97c2c7cabd7d": [
+          "Thomas M. Baxa"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": [
+        "ff346569-557d-4043-ae44-97c2c7cabd7d"
+      ]
+    },
+    {
+      "raw_credit": "Tim Hildebrandt & Greg Hildebrandt",
+      "credit_observations": 1,
+      "example_printing_id": "4644693e-ae7e-49ad-89be-ffe3dc8f2b6e",
+      "artist_ids": [
+        "caa7228c-f74c-4145-91fb-1af8d623c353",
+        "020f967b-0d2f-4166-aabe-901dba8bc7ec"
+      ],
+      "known_names_by_id": {
+        "caa7228c-f74c-4145-91fb-1af8d623c353": [
+          "Tim Hildebrandt"
+        ],
+        "020f967b-0d2f-4166-aabe-901dba8bc7ec": [
+          "Greg Hildebrandt"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Todd McFarlane & Bob Sharen",
+      "credit_observations": 1,
+      "example_printing_id": "4d174223-b7d5-4c71-8a3d-8c878a5b45b7",
+      "artist_ids": [
+        "1210971a-48ac-4939-83c2-4ace7461396e",
+        "6e2eef6f-7869-40b7-beca-1aff6ddc64cf"
+      ],
+      "known_names_by_id": {
+        "1210971a-48ac-4939-83c2-4ace7461396e": [
+          "Todd McFarlane"
+        ],
+        "6e2eef6f-7869-40b7-beca-1aff6ddc64cf": [
+          "Bob Sharen"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Tomasz Jedruszek & Anna Steinbauer",
+      "credit_observations": 1,
+      "example_printing_id": "4f153ca0-0e55-4f3c-9780-570708844fd3",
+      "artist_ids": [
+        "bba69285-2445-4a4b-a847-59397be972ea",
+        "3516496c-c279-4b56-8239-720683d03ae0"
+      ],
+      "known_names_by_id": {
+        "bba69285-2445-4a4b-a847-59397be972ea": [
+          "Tomasz Jedruszek"
+        ],
+        "3516496c-c279-4b56-8239-720683d03ae0": [
+          "Anna Steinbauer"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Tomasz Zarucki & Thomas Roach",
+      "credit_observations": 1,
+      "example_printing_id": "9d943cf2-0462-4f31-9a92-d76fe4971b17",
+      "artist_ids": [
+        "3363f68a-6905-44ce-957a-d27a276132d3",
+        "8f8896bb-1e66-4ebf-9ff3-2f8418e3f4ab"
+      ],
+      "known_names_by_id": {
+        "3363f68a-6905-44ce-957a-d27a276132d3": [
+          "Tomasz Zarucki"
+        ],
+        "8f8896bb-1e66-4ebf-9ff3-2f8418e3f4ab": [
+          "Thomas Roach"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Tony S. Daniel & Rain Beredo",
+      "credit_observations": 1,
+      "example_printing_id": "9976c1a8-ef3d-4911-854d-f53394fd709d",
+      "artist_ids": [
+        "5bde6404-0572-4e5b-a764-c29aa6b37dec",
+        "db2e5685-46c7-496e-ad0a-2ded23a507b8"
+      ],
+      "known_names_by_id": {
+        "5bde6404-0572-4e5b-a764-c29aa6b37dec": [],
+        "db2e5685-46c7-496e-ad0a-2ded23a507b8": []
+      },
+      "unidentified_name_ids": [
+        "5bde6404-0572-4e5b-a764-c29aa6b37dec",
+        "db2e5685-46c7-496e-ad0a-2ded23a507b8"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Toru Terada & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "dccf6188-e038-4eec-af5b-8cc8a35ca00e",
+      "artist_ids": [
+        "fb8c7ce5-b69c-48c0-8cca-eb7f44b961eb",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "fb8c7ce5-b69c-48c0-8cca-eb7f44b961eb": [
+          "Toru Terada"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Tyler Jacobson & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "974900db-87c4-4d39-8687-90ca7a8b6dda",
+      "artist_ids": [
+        "522af130-8db4-4b4b-950c-6e2b246339cf",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "522af130-8db4-4b4b-950c-6e2b246339cf": [
+          "Tyler Jacobson",
+          "Tyler Jacobson, age 39"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": [
+        "522af130-8db4-4b4b-950c-6e2b246339cf"
+      ]
+    },
+    {
+      "raw_credit": "Tyler Walpole & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "23bc2161-50f0-4c42-9a38-824f8c0c0015",
+      "artist_ids": [
+        "70c4c8c7-61a8-44e7-8fb1-161b7f943e7e",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "70c4c8c7-61a8-44e7-8fb1-161b7f943e7e": [
+          "Tyler Walpole"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": [
+        "70c4c8c7-61a8-44e7-8fb1-161b7f943e7e"
+      ]
+    },
+    {
+      "raw_credit": "Victor Adame Minguez & Richard Wright",
+      "credit_observations": 1,
+      "example_printing_id": "4e3690fa-627e-4b3b-b517-e2cd1b4bbdd0",
+      "artist_ids": [
+        "bd8f7368-5b10-4554-b6b8-d052c6aca89f",
+        "7b1b0ce9-2c58-4321-a2a7-cdc94feae082"
+      ],
+      "known_names_by_id": {
+        "bd8f7368-5b10-4554-b6b8-d052c6aca89f": [
+          "Victor Adame Minguez"
+        ],
+        "7b1b0ce9-2c58-4321-a2a7-cdc94feae082": [
+          "Richard Wright"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": [
+        "bd8f7368-5b10-4554-b6b8-d052c6aca89f"
+      ]
+    },
+    {
+      "raw_credit": "Warren Mahy & Post Malone",
+      "credit_observations": 1,
+      "example_printing_id": "023ee3d9-055d-4223-96f9-506ecf4ce0f5",
+      "artist_ids": [
+        "002c739e-aa1f-4c1d-921b-37cb2d1b1c5b",
+        "8a95a4e2-9feb-428e-96e0-c6a2cbcc33d9"
+      ],
+      "known_names_by_id": {
+        "002c739e-aa1f-4c1d-921b-37cb2d1b1c5b": [
+          "Warren Mahy"
+        ],
+        "8a95a4e2-9feb-428e-96e0-c6a2cbcc33d9": []
+      },
+      "unidentified_name_ids": [
+        "8a95a4e2-9feb-428e-96e0-c6a2cbcc33d9"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Wesley Burt & コーヘー",
+      "credit_observations": 1,
+      "example_printing_id": "e165d16a-06c7-4373-9c36-89e127e669dd",
+      "artist_ids": [
+        "b98c9d94-8bdb-49af-871d-7bac92274535",
+        "4899ac39-7c56-4645-adf4-0430c549ee51"
+      ],
+      "known_names_by_id": {
+        "b98c9d94-8bdb-49af-871d-7bac92274535": [
+          "Wesley Burt"
+        ],
+        "4899ac39-7c56-4645-adf4-0430c549ee51": []
+      },
+      "unidentified_name_ids": [
+        "4899ac39-7c56-4645-adf4-0430c549ee51"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "William Tempest & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "b8718130-e51a-4586-a6e7-367c4a49f790",
+      "artist_ids": [
+        "9bcb8bb4-3399-413a-bf06-962eb970c48d",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "9bcb8bb4-3399-413a-bf06-962eb970c48d": [
+          "William Tempest"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Winslow Mortimer & Mike Esposito",
+      "credit_observations": 1,
+      "example_printing_id": "e37487e4-c553-4495-a839-6a96209eaaa1",
+      "artist_ids": [
+        "3d090c9b-ab4c-4020-8263-6b1d7b8c7f9f",
+        "043c9d6b-4d41-4724-8cbf-0abced651528"
+      ],
+      "known_names_by_id": {
+        "3d090c9b-ab4c-4020-8263-6b1d7b8c7f9f": [],
+        "043c9d6b-4d41-4724-8cbf-0abced651528": []
+      },
+      "unidentified_name_ids": [
+        "3d090c9b-ab4c-4020-8263-6b1d7b8c7f9f",
+        "043c9d6b-4d41-4724-8cbf-0abced651528"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Xabi Gaztelua & Marta Nael",
+      "credit_observations": 6,
+      "example_printing_id": "011db139-fabf-4e29-bb07-ece9a2062e7c",
+      "artist_ids": [
+        "35b87e24-bfe0-43f4-83c3-2fa9574d6026",
+        "266ab861-ed64-4ba5-865c-f18758421cc3"
+      ],
+      "known_names_by_id": {
+        "35b87e24-bfe0-43f4-83c3-2fa9574d6026": [
+          "Xabi Gaztelua"
+        ],
+        "266ab861-ed64-4ba5-865c-f18758421cc3": [
+          "Marta Nael"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Xiaji & Yangyang",
+      "credit_observations": 18,
+      "example_printing_id": "0869c8b2-ff9b-4b5f-a5e1-06e55185eeee",
+      "artist_ids": [
+        "b56cf6f3-bfa7-49c5-b021-40b1c790f92a",
+        "f265e0a8-c413-4c7c-b9e8-f31a5e0e7e8b"
+      ],
+      "known_names_by_id": {
+        "b56cf6f3-bfa7-49c5-b021-40b1c790f92a": [
+          "Xiaji"
+        ],
+        "f265e0a8-c413-4c7c-b9e8-f31a5e0e7e8b": []
+      },
+      "unidentified_name_ids": [
+        "f265e0a8-c413-4c7c-b9e8-f31a5e0e7e8b"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Yangyang & Xiaji",
+      "credit_observations": 1,
+      "example_printing_id": "67983e97-a990-4f89-811c-a58a0a10a701",
+      "artist_ids": [
+        "f265e0a8-c413-4c7c-b9e8-f31a5e0e7e8b",
+        "b56cf6f3-bfa7-49c5-b021-40b1c790f92a"
+      ],
+      "known_names_by_id": {
+        "f265e0a8-c413-4c7c-b9e8-f31a5e0e7e8b": [],
+        "b56cf6f3-bfa7-49c5-b021-40b1c790f92a": [
+          "Xiaji"
+        ]
+      },
+      "unidentified_name_ids": [
+        "f265e0a8-c413-4c7c-b9e8-f31a5e0e7e8b"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Yas Imamura & AndWorld Design",
+      "credit_observations": 1,
+      "example_printing_id": "6d374d3c-2919-4d7e-aad3-1f2c54ae7122",
+      "artist_ids": [
+        "d59d2f80-06ee-41b1-8197-bc116f165b6e",
+        "e51d3da0-16eb-42a0-9136-b0c48b66081f"
+      ],
+      "known_names_by_id": {
+        "d59d2f80-06ee-41b1-8197-bc116f165b6e": [
+          "Yas Imamura"
+        ],
+        "e51d3da0-16eb-42a0-9136-b0c48b66081f": []
+      },
+      "unidentified_name_ids": [
+        "e51d3da0-16eb-42a0-9136-b0c48b66081f"
+      ],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Yeong-Hao Han & Jared Blando",
+      "credit_observations": 1,
+      "example_printing_id": "e0123e46-77ab-400d-bac7-a0057e137fbb",
+      "artist_ids": [
+        "f8e7f8d6-6dde-4059-973c-30f1fd1bbe4e",
+        "61b8414b-31e8-4c43-893d-7efe72293d3c"
+      ],
+      "known_names_by_id": {
+        "f8e7f8d6-6dde-4059-973c-30f1fd1bbe4e": [
+          "Yeong-Hao Han"
+        ],
+        "61b8414b-31e8-4c43-893d-7efe72293d3c": [
+          "Jared Blando"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Yeong-Hao Han & Jason Rainville",
+      "credit_observations": 1,
+      "example_printing_id": "60ca146d-4e88-4e87-a775-9cfbc9e6b9f2",
+      "artist_ids": [
+        "f8e7f8d6-6dde-4059-973c-30f1fd1bbe4e",
+        "6ed7e669-579b-443d-b223-e5cbcb2a7483"
+      ],
+      "known_names_by_id": {
+        "f8e7f8d6-6dde-4059-973c-30f1fd1bbe4e": [
+          "Yeong-Hao Han"
+        ],
+        "6ed7e669-579b-443d-b223-e5cbcb2a7483": [
+          "Jason Rainville"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Yeong-Hao Han & Slawomir Maniak",
+      "credit_observations": 1,
+      "example_printing_id": "d2d19d33-407b-42fc-84de-d8a0642723c1",
+      "artist_ids": [
+        "f8e7f8d6-6dde-4059-973c-30f1fd1bbe4e",
+        "d887bc66-2779-416c-a1ff-d8720242063e"
+      ],
+      "known_names_by_id": {
+        "f8e7f8d6-6dde-4059-973c-30f1fd1bbe4e": [
+          "Yeong-Hao Han"
+        ],
+        "d887bc66-2779-416c-a1ff-d8720242063e": [
+          "Slawomir Maniak"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Yuko Shimizu & Scott Okumura",
+      "credit_observations": 1,
+      "example_printing_id": "dd2c39c5-e3d1-421b-b14e-a28e6810a1d1",
+      "artist_ids": [
+        "ea682f36-445b-4716-be7f-eb7b27e66dcd",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "ea682f36-445b-4716-be7f-eb7b27e66dcd": [
+          "Yuko Shimizu"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Zak Plucinski & D. Alexander Gregory",
+      "credit_observations": 6,
+      "example_printing_id": "455fd440-28e9-428c-b653-a50c9851f27b",
+      "artist_ids": [
+        "1e8d6a40-1a8b-4201-bc61-bacfcb8c1fbd",
+        "38433e15-f0f5-4223-a985-2d13c4aa0922"
+      ],
+      "known_names_by_id": {
+        "1e8d6a40-1a8b-4201-bc61-bacfcb8c1fbd": [
+          "Zak Plucinski"
+        ],
+        "38433e15-f0f5-4223-a985-2d13c4aa0922": [
+          "D. Alexander Gregory"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "Zoltan Boros & Gabor Szikszai",
+      "credit_observations": 2052,
+      "example_printing_id": "001e7e55-e900-4c49-92a4-1300755ba6dc",
+      "artist_ids": [
+        "1885e6cb-c827-4896-994e-3d0a027d602f",
+        "44c3877f-8771-43dc-9e40-f4c765f59d2e"
+      ],
+      "known_names_by_id": {
+        "1885e6cb-c827-4896-994e-3d0a027d602f": [
+          "Zoltan Boros"
+        ],
+        "44c3877f-8771-43dc-9e40-f4c765f59d2e": [
+          "Gabor Szikszai"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": [
+        "44c3877f-8771-43dc-9e40-f4c765f59d2e"
+      ]
+    },
+    {
+      "raw_credit": "Zoltan Boros & Scott Okumura",
+      "credit_observations": 2,
+      "example_printing_id": "4a78413f-8b7a-460f-ad9c-1074deaf2e70",
+      "artist_ids": [
+        "1885e6cb-c827-4896-994e-3d0a027d602f",
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd"
+      ],
+      "known_names_by_id": {
+        "1885e6cb-c827-4896-994e-3d0a027d602f": [
+          "Zoltan Boros"
+        ],
+        "f4ec7a06-c25b-41f1-8ae3-6c51ac063cdd": [
+          "Scott Okumura"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": []
+    },
+    {
+      "raw_credit": "rk post & Mark Tedin",
+      "credit_observations": 6,
+      "example_printing_id": "44fef4b4-634e-46e1-8c70-e3d8192b0225",
+      "artist_ids": [
+        "81ae0f3f-1d88-4125-9aeb-b15b4c734c82",
+        "9ee9a9cc-c09e-486f-918b-69f80cbc4188"
+      ],
+      "known_names_by_id": {
+        "81ae0f3f-1d88-4125-9aeb-b15b4c734c82": [
+          "rk post"
+        ],
+        "9ee9a9cc-c09e-486f-918b-69f80cbc4188": [
+          "Mark Tedin",
+          "Mark “It’s teh-DEEN” Tedin"
+        ]
+      },
+      "unidentified_name_ids": [],
+      "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
+      "attending_artist_ids": [
+        "81ae0f3f-1d88-4125-9aeb-b15b4c734c82",
+        "9ee9a9cc-c09e-486f-918b-69f80cbc4188"
+      ]
+    }
+  ]
+}

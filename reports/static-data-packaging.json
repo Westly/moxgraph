@@ -1,0 +1,120 @@
+{
+  "schemaVersion": 1,
+  "version": "v1-1785df4c41186eaa",
+  "inputHashes": {
+    "scripts/data/publish_static.py": "a98443f6eb0a4024df12468a0bf4ca18e2500bae887e135e2be6ec8ebcc4de9b",
+    "schemas/printing-columns.json": "dadef80b84ac259155d3168965f49bf0572cdb11f78cc86e22b2eadb07c8ae93",
+    "schemas/contracts.schema.json": "265db906634c42e41a25282143a4c2bdadb9b60c49ed84ff45397e14fa277c32",
+    "data/curated/artist-mappings.json": "0eb6a10fae6ba05367e3e074a69864f9ab51e2249e99bc23c44306b6437ac9ee",
+    "data/curated/events/atlanta-2026.json": "b965653673e7f686db75005594c28edc35a49eb604e3b8942971afdd898578de",
+    "reports/artists-atlanta-2026.json": "17c6ae2f6fd37f72bbc44bf80a653c1891a120c8eaa71e4779f3a618e37d4886",
+    "data/manifests/scryfall-all-cards-20261011091913.json": "3de6029a229e80cae20714869a993ae2d0a675e72d0eeb5dcde6bb1dd0f0fc7e"
+  },
+  "coverage": {
+    "printings": 546137,
+    "languages": 19,
+    "sets": 1058,
+    "artists": 2434,
+    "attendees": 65,
+    "faces": 24629
+  },
+  "outputFiles": 7593,
+  "totalBytes": 336783193,
+  "maxAssetBytes": 1325471,
+  "maxDataShardBytes": 452612,
+  "manifestBytes": 1325471,
+  "manifestGzipBytes": 443164,
+  "scenarios": [
+    {
+      "fixture": "moxfield-v2-3x55_3CFz060qxL2xac3NA.json",
+      "rows": 111,
+      "uuid3Files": 109,
+      "uuid3": {
+        "bytes": 7735099,
+        "gzipBytes": 2812659
+      },
+      "uuid2": {
+        "bytes": 97215165,
+        "gzipBytes": 34375997
+      },
+      "fullSet": {
+        "bytes": 89647212,
+        "gzipBytes": 25843438
+      },
+      "tupleIndexes": {
+        "bytes": 8855107,
+        "gzipBytes": 4294425
+      },
+      "mainAndCommander": {
+        "bytes": 5160431,
+        "gzipBytes": 1880117
+      },
+      "bootstrap": {
+        "bytes": 1994109,
+        "gzipBytes": 570574
+      }
+    },
+    {
+      "fixture": "moxfield-v2-zB7a13TqOUWlUZuylE905Q.json",
+      "rows": 126,
+      "uuid3Files": 125,
+      "uuid3": {
+        "bytes": 8692359,
+        "gzipBytes": 3157088
+      },
+      "uuid2": {
+        "bytes": 104723242,
+        "gzipBytes": 37027067
+      },
+      "fullSet": {
+        "bytes": 90324251,
+        "gzipBytes": 25975339
+      },
+      "tupleIndexes": {
+        "bytes": 8872679,
+        "gzipBytes": 4303822
+      },
+      "mainAndCommander": {
+        "bytes": 5997497,
+        "gzipBytes": 2177885
+      },
+      "bootstrap": {
+        "bytes": 1994109,
+        "gzipBytes": 570574
+      }
+    },
+    {
+      "fixture": "archidekt-19780118.json",
+      "rows": 114,
+      "uuid3Files": 112,
+      "uuid3": {
+        "bytes": 7851374,
+        "gzipBytes": 2856540
+      },
+      "uuid2": {
+        "bytes": 103606096,
+        "gzipBytes": 36656213
+      },
+      "fullSet": {
+        "bytes": 90985327,
+        "gzipBytes": 25862557
+      },
+      "tupleIndexes": {
+        "bytes": 9031254,
+        "gzipBytes": 4382357
+      },
+      "mainAndCommander": {
+        "bytes": 6875348,
+        "gzipBytes": 2500171
+      },
+      "bootstrap": {
+        "bytes": 1994109,
+        "gzipBytes": 570574
+      }
+    }
+  ],
+  "selection": "Three hexadecimal UUID characters; per-set tuple-to-ID indexes; all-artist reverse indexes. No optional name index.",
+  "compression": "gzip estimates from actual encoded JSON, not measured network transfer; UUID2/full-set prototypes use zlib level 6",
+  "completeSourceRecords": 546137,
+  "retainedSource": "Read-only full SQLite baseline; all languages and categories retained in published compact records"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "moxgraph",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "npm@11.9.0",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "vite --host localhost",
+    "contracts": "node scripts/build-contracts.mjs",
+    "data:build": "python scripts/data/publish_static.py",
+    "data:check": "node scripts/check-data.mjs public",
+    "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/app/*.test.ts && node --test tests/import-relay.test.mjs tests/release-policy.test.mjs",
+    "build": "node scripts/check-relay.mjs && npm run contracts && npm run typecheck && npm run data:check && vite build && node scripts/check-data.mjs dist",
+    "qa": "node scripts/qa-server.mjs",
+    "preview:release": "node scripts/serve-release.mjs",
+    "audit:performance": "tsx scripts/audit-performance.ts",
+    "preview": "vite preview --host localhost"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.5",
+    "ajv": "8.20.0",
+    "axe-core": "4.14.0",
+    "fake-indexeddb": "6.2.5",
+    "json-schema-to-typescript": "16.0.0",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2",
+    "vite": "8.3.4",
+    "wrangler": "4.149.0"
+  }
+}

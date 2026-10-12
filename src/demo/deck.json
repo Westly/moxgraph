@@ -1,0 +1,347 @@
+{
+  "label": "Soldiers — example selection",
+  "sourceUrl": "https://moxfield.com/decks/3x55_3CFz060qxL2xac3NA",
+  "sourceFixture": "tests/fixtures/import-feasibility/moxfield-v2-3x55_3CFz060qxL2xac3NA.json",
+  "dataVersion": "v1-1785df4c41186eaa",
+  "capturedAt": "2026-10-11",
+  "note": "Nine editorially selected lines, not a complete deck import. Attendee associations are authored only for this UI fixture.",
+  "lines": [
+    {
+      "section": "commanders",
+      "quantity": 1,
+      "finish": "foil",
+      "attendanceId": "atlanta-2026-guest-379943",
+      "printing": {
+        "id": "fbd149db-6d8e-4db5-80d8-682f270ba2ec",
+        "oracleIds": [
+          "503094aa-6f8f-42c1-ad5a-9305934e5f0c"
+        ],
+        "name": "Myrel, Shield of Argive",
+        "printedName": null,
+        "setCode": "pbro",
+        "setName": "The Brothers' War Promos",
+        "collectorNumber": "18p",
+        "language": "en",
+        "finishes": [
+          "nonfoil",
+          "foil"
+        ],
+        "layout": "normal",
+        "games": [
+          "paper"
+        ],
+        "paper": true,
+        "digital": false,
+        "category": "card",
+        "sourceArtistCredit": "Ryan Pancoast",
+        "artistIds": [
+          "89cc9475-dda2-4d13-bf88-54b92867a25c"
+        ],
+        "illustrationId": "57fef1c5-200c-4060-b967-7d37f4d4cae5",
+        "imageUrl": "https://cards.scryfall.io/normal/front/f/b/fbd149db-6d8e-4db5-80d8-682f270ba2ec.jpg?1783919875",
+        "scryfallUrl": "https://scryfall.com/card/pbro/18p/myrel-shield-of-argive?utm_source=api",
+        "faces": []
+      }
+    },
+    {
+      "section": "mainboard",
+      "quantity": 1,
+      "finish": "foil",
+      "attendanceId": "atlanta-2026-guest-379943",
+      "printing": {
+        "id": "ab9eef1c-8e8e-45e6-aaef-98ff569a1845",
+        "oracleIds": [
+          "cada3481-cc2b-4412-b9b5-0436af53aad2"
+        ],
+        "name": "Ranger-Captain of Eos",
+        "printedName": null,
+        "setCode": "h1r",
+        "setName": "Modern Horizons 1 Timeshifts",
+        "collectorNumber": "5",
+        "language": "en",
+        "finishes": [
+          "foil",
+          "etched"
+        ],
+        "layout": "normal",
+        "games": [
+          "paper"
+        ],
+        "paper": true,
+        "digital": false,
+        "category": "card",
+        "sourceArtistCredit": "Ryan Pancoast",
+        "artistIds": [
+          "89cc9475-dda2-4d13-bf88-54b92867a25c"
+        ],
+        "illustrationId": "cdb00ed6-6f4e-4fd0-a77a-78588cce36de",
+        "imageUrl": "https://cards.scryfall.io/normal/front/a/b/ab9eef1c-8e8e-45e6-aaef-98ff569a1845.jpg?1783926911",
+        "scryfallUrl": "https://scryfall.com/card/h1r/5/ranger-captain-of-eos?utm_source=api",
+        "faces": []
+      }
+    },
+    {
+      "section": "mainboard",
+      "quantity": 1,
+      "finish": "foil",
+      "attendanceId": "atlanta-2026-guest-379896",
+      "printing": {
+        "id": "10d2df76-a495-48be-9f86-3f4ddd2ad3dd",
+        "oracleIds": [
+          "17bd7ef7-8b4b-4a2d-a667-c751e10e2a47"
+        ],
+        "name": "Bennie Bracks, Zoologist",
+        "printedName": null,
+        "setCode": "ncc",
+        "setName": "New Capenna Commander",
+        "collectorNumber": "94",
+        "language": "en",
+        "finishes": [
+          "nonfoil",
+          "foil"
+        ],
+        "layout": "normal",
+        "games": [
+          "paper",
+          "mtgo"
+        ],
+        "paper": true,
+        "digital": false,
+        "category": "card",
+        "sourceArtistCredit": "Eric Deschamps",
+        "artistIds": [
+          "37970e22-9cee-44c1-af44-5ee27cf26b76"
+        ],
+        "illustrationId": "6ff18358-764e-4e45-9692-c8e6093ba906",
+        "imageUrl": "https://cards.scryfall.io/normal/front/1/0/10d2df76-a495-48be-9f86-3f4ddd2ad3dd.jpg?1783923339",
+        "scryfallUrl": "https://scryfall.com/card/ncc/94/bennie-bracks-zoologist?utm_source=api",
+        "faces": []
+      }
+    },
+    {
+      "section": "mainboard",
+      "quantity": 1,
+      "finish": "nonfoil",
+      "attendanceId": "atlanta-2026-guest-379896",
+      "printing": {
+        "id": "676758ee-dac8-4c97-8a62-fff25bcbb6df",
+        "oracleIds": [
+          "5def9f38-0a0b-4e8d-9f9d-29dcb46520b4"
+        ],
+        "name": "Esper Sentinel",
+        "printedName": null,
+        "setCode": "mh2",
+        "setName": "Modern Horizons 2",
+        "collectorNumber": "328",
+        "language": "en",
+        "finishes": [
+          "nonfoil",
+          "foil"
+        ],
+        "layout": "normal",
+        "games": [
+          "paper",
+          "mtgo"
+        ],
+        "paper": true,
+        "digital": false,
+        "category": "card",
+        "sourceArtistCredit": "Eric Deschamps",
+        "artistIds": [
+          "37970e22-9cee-44c1-af44-5ee27cf26b76"
+        ],
+        "illustrationId": "d6b5d820-ef5d-492d-a888-b13328b71c07",
+        "imageUrl": "https://cards.scryfall.io/normal/front/6/7/676758ee-dac8-4c97-8a62-fff25bcbb6df.jpg?1783926764",
+        "scryfallUrl": "https://scryfall.com/card/mh2/328/esper-sentinel?utm_source=api",
+        "faces": []
+      }
+    },
+    {
+      "section": "mainboard",
+      "quantity": 1,
+      "finish": "nonfoil",
+      "attendanceId": "atlanta-2026-guest-379888",
+      "printing": {
+        "id": "02ef25ce-4d6a-45ff-8b6b-fd5c29307099",
+        "oracleIds": [
+          "611f1714-a8bb-4ce4-a810-4d26fe64e358"
+        ],
+        "name": "Knight-Captain of Eos",
+        "printedName": null,
+        "setCode": "ala",
+        "setName": "Shards of Alara",
+        "collectorNumber": "17",
+        "language": "en",
+        "finishes": [
+          "nonfoil",
+          "foil"
+        ],
+        "layout": "normal",
+        "games": [
+          "paper",
+          "mtgo"
+        ],
+        "paper": true,
+        "digital": false,
+        "category": "card",
+        "sourceArtistCredit": "Chris Rahn",
+        "artistIds": [
+          "7742047e-0f80-4c0f-a530-d07460165e86"
+        ],
+        "illustrationId": "a5006b0a-299b-4d88-b2cf-0b28258bc0db",
+        "imageUrl": "https://cards.scryfall.io/normal/front/0/2/02ef25ce-4d6a-45ff-8b6b-fd5c29307099.jpg?1783942580",
+        "scryfallUrl": "https://scryfall.com/card/ala/17/knight-captain-of-eos?utm_source=api",
+        "faces": []
+      }
+    },
+    {
+      "section": "mainboard",
+      "quantity": 1,
+      "finish": "nonfoil",
+      "attendanceId": "atlanta-2026-guest-379888",
+      "printing": {
+        "id": "81b35a17-e208-4fe6-980f-3f85b44612d7",
+        "oracleIds": [
+          "3dc51dfc-7a60-41bf-b944-6afad6b06c22"
+        ],
+        "name": "Goldnight Commander",
+        "printedName": null,
+        "setCode": "onc",
+        "setName": "Phyrexia: All Will Be One Commander",
+        "collectorNumber": "72",
+        "language": "en",
+        "finishes": [
+          "nonfoil"
+        ],
+        "layout": "normal",
+        "games": [
+          "paper",
+          "mtgo"
+        ],
+        "paper": true,
+        "digital": false,
+        "category": "card",
+        "sourceArtistCredit": "Chris Rahn",
+        "artistIds": [
+          "7742047e-0f80-4c0f-a530-d07460165e86"
+        ],
+        "illustrationId": "4ebaf2a3-a378-4427-8687-b191735cdcb6",
+        "imageUrl": "https://cards.scryfall.io/normal/front/8/1/81b35a17-e208-4fe6-980f-3f85b44612d7.jpg?1783918135",
+        "scryfallUrl": "https://scryfall.com/card/onc/72/goldnight-commander?utm_source=api",
+        "faces": []
+      }
+    },
+    {
+      "section": "mainboard",
+      "quantity": 1,
+      "finish": "foil",
+      "attendanceId": "atlanta-2026-guest-379910",
+      "printing": {
+        "id": "f1f374f7-5d0c-4965-97f0-cfc80f22b039",
+        "oracleIds": [
+          "774dce79-67e0-4820-8013-c7a7347993ce"
+        ],
+        "name": "Cathar Commando",
+        "printedName": null,
+        "setCode": "inr",
+        "setName": "Innistrad Remastered",
+        "collectorNumber": "336",
+        "language": "en",
+        "finishes": [
+          "nonfoil",
+          "foil"
+        ],
+        "layout": "normal",
+        "games": [
+          "paper",
+          "mtgo"
+        ],
+        "paper": true,
+        "digital": false,
+        "category": "card",
+        "sourceArtistCredit": "Evyn Fong",
+        "artistIds": [
+          "6777be9f-5724-4fdb-b6a0-a83f63efa4ca"
+        ],
+        "illustrationId": "e9370a0b-0ada-49e6-9093-4c5aba0f810f",
+        "imageUrl": "https://cards.scryfall.io/normal/front/f/1/f1f374f7-5d0c-4965-97f0-cfc80f22b039.jpg?1783908031",
+        "scryfallUrl": "https://scryfall.com/card/inr/336/cathar-commando?utm_source=api",
+        "faces": []
+      }
+    },
+    {
+      "section": "mainboard",
+      "quantity": 1,
+      "finish": "nonfoil",
+      "attendanceId": "atlanta-2026-guest-379885",
+      "printing": {
+        "id": "d2731103-47ef-41d3-bf5f-5773b60c7948",
+        "oracleIds": [
+          "b473e293-59e3-4e04-acf2-622604aeb25f"
+        ],
+        "name": "Path of Ancestry",
+        "printedName": null,
+        "setCode": "c20",
+        "setName": "Commander 2020",
+        "collectorNumber": "298",
+        "language": "en",
+        "finishes": [
+          "nonfoil"
+        ],
+        "layout": "normal",
+        "games": [
+          "paper",
+          "mtgo"
+        ],
+        "paper": true,
+        "digital": false,
+        "category": "card",
+        "sourceArtistCredit": "Alayna Danner",
+        "artistIds": [
+          "bb677b1a-ce51-4888-83d6-5a94de461ff9"
+        ],
+        "illustrationId": "588f6d6f-e78a-4468-8067-dfbdf29c5a49",
+        "imageUrl": "https://cards.scryfall.io/normal/front/d/2/d2731103-47ef-41d3-bf5f-5773b60c7948.jpg?1783931116",
+        "scryfallUrl": "https://scryfall.com/card/c20/298/path-of-ancestry?utm_source=api",
+        "faces": []
+      }
+    },
+    {
+      "section": "maybeboard",
+      "quantity": 1,
+      "finish": "foil",
+      "attendanceId": "atlanta-2026-guest-379907",
+      "printing": {
+        "id": "32abf12c-edda-479b-b844-aaa0b3061c0a",
+        "oracleIds": [
+          "2244bef9-1e4e-44ed-9b27-810f04f9e611"
+        ],
+        "name": "Entrapment Maneuver",
+        "printedName": null,
+        "setCode": "pip",
+        "setName": "Fallout",
+        "collectorNumber": "977",
+        "language": "en",
+        "finishes": [
+          "foil"
+        ],
+        "layout": "normal",
+        "games": [
+          "paper",
+          "mtgo"
+        ],
+        "paper": true,
+        "digital": false,
+        "category": "card",
+        "sourceArtistCredit": "Nicholas Gregory",
+        "artistIds": [
+          "a1bba8ff-63b4-4786-b1c4-f1bfe5d3ab1c"
+        ],
+        "illustrationId": "533ee3e1-db79-4c12-a0c4-0d8898bc1d78",
+        "imageUrl": "https://cards.scryfall.io/normal/front/3/2/32abf12c-edda-479b-b844-aaa0b3061c0a.jpg?1783912079",
+        "scryfallUrl": "https://scryfall.com/card/pip/977/entrapment-maneuver?utm_source=api",
+        "faces": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "check": "scryfall-old-id",
+    "observedAt": "2026-10-11T22:04:53.768032+00:00",
+    "url": "https://api.scryfall.com/cards/f0deab39-dfa3-4652-a05f-b221b979009a",
+    "finalUrl": "https://api.scryfall.com/cards/f0deab39-dfa3-4652-a05f-b221b979009a",
+    "status": 404,
+    "origin": null,
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "access-control-allow-headers": "Accept, Accept-Charset, Accept-Language, Authorization, Cache-Control, Content-Language, Content-Type, DNT, Host, If-Modified-Since, Keep-Alive, Origin, Referer, User-Agent, X-Requested-With",
+      "access-control-allow-methods": "GET, POST, DELETE, OPTIONS",
+      "access-control-allow-origin": "*",
+      "access-control-max-age": "300",
+      "Cache-Control": "public, max-age=57600",
+      "vary": "Accept,Accept-Encoding",
+      "cf-cache-status": "MISS"
+    },
+    "bytes": 145,
+    "response": {
+      "object": "error",
+      "code": "not_found",
+      "status": 404,
+      "details": "No card found with the given ID or set code and collector number."
+    }
+  },
+  {
+    "check": "moxfield-fresh",
+    "observedAt": "2026-10-11T22:04:54.992938+00:00",
+    "url": "https://api.moxfield.com/v2/decks/all/3x55_3CFz060qxL2xac3NA?moxgraph_check=20261011",
+    "finalUrl": "https://api.moxfield.com/v2/decks/all/3x55_3CFz060qxL2xac3NA?moxgraph_check=20261011",
+    "status": 200,
+    "origin": "https://moxgraph-import-probe.pages.dev",
+    "headers": {
+      "Content-Type": "application/json;charset=utf-8",
+      "Cache-Control": "no-store",
+      "Vary": "Accept-Encoding",
+      "cf-cache-status": "BYPASS"
+    },
+    "bytes": 566598
+  },
+  {
+    "check": "archidekt-fresh",
+    "observedAt": "2026-10-11T22:04:56.438860+00:00",
+    "url": "https://archidekt.com/api/decks/19780118/?moxgraph_check=20261011",
+    "finalUrl": "https://archidekt.com/api/decks/19780118/?moxgraph_check=20261011",
+    "status": 200,
+    "origin": "https://moxgraph-import-probe.pages.dev",
+    "headers": {
+      "Content-Type": "application/json",
+      "vary": "Origin",
+      "access-control-allow-origin": "http://localhost:3000",
+      "access-control-allow-methods": "GET, POST, PUT, PATCH, OPTIONS, DELETE, HEAD",
+      "access-control-allow-headers": "Content-Type, X-CSRFToken, Accept, Authorization, Content-Disposition, Access-Control-Allow-Credentials",
+      "access-control-allow-credentials": "true"
+    },
+    "bytes": 360402
+  }
+]

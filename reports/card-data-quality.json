@@ -1,0 +1,5620 @@
+{
+  "schema_version": 1,
+  "parser_version": "1.0.0",
+  "snapshot_id": "scryfall-all-cards-20261011091913",
+  "generated_at": "2026-10-11T19:44:57.652746+00:00",
+  "source_updated_at": "2026-10-11T09:19:13.375+00:00",
+  "source_sha256": "65e4b4dd5b74585e34c0b23f31dc0699222238610815efbed3bd85c6166d3e13",
+  "status": "pass",
+  "coverage_definition": "Every record in the checksum-verified dated all_cards snapshot. No games, languages, or sets excluded.",
+  "input_stream_completed": true,
+  "counts": {
+    "input_records": 546137,
+    "stored_printings": 546137,
+    "unique_printing_ids": 546137,
+    "quarantined_records": 0,
+    "duplicate_printing_id_records": 0,
+    "unaccounted_records": 0,
+    "card_faces": 24629,
+    "source_artist_ids": 2434,
+    "observed_single_id_names": 2374,
+    "joint_credit_groups": 230,
+    "normalized_name_collisions": 0,
+    "ambiguous_printing_tuples": 0,
+    "paper_printings": 537000,
+    "digital_only_printings": 9137,
+    "no_paper_game_flag": 9137,
+    "missing_artist_credit": 936,
+    "missing_artist_ids": 936,
+    "missing_illustration_ids": 784,
+    "missing_oracle_ids_all_levels": 0,
+    "missing_root_oracle_id_with_face_ids": 83,
+    "faces_missing_artist_ids": 167,
+    "faces_missing_illustration_ids": 3792,
+    "paper_missing_artist_credit": 936,
+    "paper_missing_artist_ids": 936,
+    "paper_missing_illustration_ids": 784
+  },
+  "languages": [
+    {
+      "lang": "ar",
+      "printings": 1
+    },
+    {
+      "lang": "de",
+      "printings": 59171
+    },
+    {
+      "lang": "dw",
+      "printings": 5
+    },
+    {
+      "lang": "en",
+      "printings": 115979
+    },
+    {
+      "lang": "es",
+      "printings": 53996
+    },
+    {
+      "lang": "fr",
+      "printings": 59506
+    },
+    {
+      "lang": "grc",
+      "printings": 3
+    },
+    {
+      "lang": "he",
+      "printings": 1
+    },
+    {
+      "lang": "it",
+      "printings": 53375
+    },
+    {
+      "lang": "ja",
+      "printings": 62853
+    },
+    {
+      "lang": "ko",
+      "printings": 15383
+    },
+    {
+      "lang": "la",
+      "printings": 1
+    },
+    {
+      "lang": "ph",
+      "printings": 49
+    },
+    {
+      "lang": "pt",
+      "printings": 39593
+    },
+    {
+      "lang": "qya",
+      "printings": 7
+    },
+    {
+      "lang": "ru",
+      "printings": 21761
+    },
+    {
+      "lang": "sa",
+      "printings": 1
+    },
+    {
+      "lang": "zhs",
+      "printings": 40870
+    },
+    {
+      "lang": "zht",
+      "printings": 23582
+    }
+  ],
+  "sets": [
+    {
+      "set_code": "10e",
+      "set_name": "Tenth Edition",
+      "printings": 3506
+    },
+    {
+      "set_code": "2ed",
+      "set_name": "Unlimited Edition",
+      "printings": 302
+    },
+    {
+      "set_code": "2x2",
+      "set_name": "Double Masters 2022",
+      "printings": 2847
+    },
+    {
+      "set_code": "2xm",
+      "set_name": "Double Masters",
+      "printings": 1734
+    },
+    {
+      "set_code": "30a",
+      "set_name": "30th Anniversary Edition",
+      "printings": 594
+    },
+    {
+      "set_code": "3ed",
+      "set_name": "Revised Edition",
+      "printings": 1223
+    },
+    {
+      "set_code": "40k",
+      "set_name": "Warhammer 40,000 Commander",
+      "printings": 1744
+    },
+    {
+      "set_code": "4bb",
+      "set_name": "Fourth Edition Foreign Black Border",
+      "printings": 1871
+    },
+    {
+      "set_code": "4ed",
+      "set_name": "Fourth Edition",
+      "printings": 2645
+    },
+    {
+      "set_code": "5dn",
+      "set_name": "Fifth Dawn",
+      "printings": 1320
+    },
+    {
+      "set_code": "5ed",
+      "set_name": "Fifth Edition",
+      "printings": 4396
+    },
+    {
+      "set_code": "6ed",
+      "set_name": "Classic Sixth Edition",
+      "printings": 3150
+    },
+    {
+      "set_code": "7ed",
+      "set_name": "Seventh Edition",
+      "printings": 3504
+    },
+    {
+      "set_code": "8ed",
+      "set_name": "Eighth Edition",
+      "printings": 3518
+    },
+    {
+      "set_code": "9ed",
+      "set_name": "Ninth Edition",
+      "printings": 3510
+    },
+    {
+      "set_code": "a25",
+      "set_name": "Masters 25",
+      "printings": 747
+    },
+    {
+      "set_code": "aa1",
+      "set_name": "Arena Anthology 1",
+      "printings": 26
+    },
+    {
+      "set_code": "aa2",
+      "set_name": "Arena Anthology 2",
+      "printings": 25
+    },
+    {
+      "set_code": "aa3",
+      "set_name": "Arena Anthology 3",
+      "printings": 25
+    },
+    {
+      "set_code": "aa4",
+      "set_name": "Arena Anthology 4",
+      "printings": 28
+    },
+    {
+      "set_code": "aacr",
+      "set_name": "Assassin's Creed Art Series",
+      "printings": 20
+    },
+    {
+      "set_code": "aafr",
+      "set_name": "Adventures in the Forgotten Realms Art Series",
+      "printings": 81
+    },
+    {
+      "set_code": "ablb",
+      "set_name": "Bloomburrow Art Series",
+      "printings": 54
+    },
+    {
+      "set_code": "abro",
+      "set_name": "The Brothers' War Art Series",
+      "printings": 81
+    },
+    {
+      "set_code": "aclb",
+      "set_name": "Battle for Baldur's Gate Art Series",
+      "printings": 81
+    },
+    {
+      "set_code": "acmm",
+      "set_name": "Commander Masters Art Series",
+      "printings": 81
+    },
+    {
+      "set_code": "acr",
+      "set_name": "Assassin's Creed",
+      "printings": 1801
+    },
+    {
+      "set_code": "adft",
+      "set_name": "Aetherdrift Art Series",
+      "printings": 54
+    },
+    {
+      "set_code": "admu",
+      "set_name": "Dominaria United Art Series",
+      "printings": 81
+    },
+    {
+      "set_code": "adsk",
+      "set_name": "Duskmourn: House of Horror Art Series",
+      "printings": 54
+    },
+    {
+      "set_code": "aecl",
+      "set_name": "Lorwyn Eclipsed Art Series",
+      "printings": 54
+    },
+    {
+      "set_code": "aeoe",
+      "set_name": "Edge of Eternities Art Series",
+      "printings": 54
+    },
+    {
+      "set_code": "aer",
+      "set_name": "Aether Revolt",
+      "printings": 2137
+    },
+    {
+      "set_code": "afc",
+      "set_name": "Forgotten Realms Commander",
+      "printings": 3086
+    },
+    {
+      "set_code": "afdn",
+      "set_name": "Foundations Art Series",
+      "printings": 55
+    },
+    {
+      "set_code": "afic",
+      "set_name": "Final Fantasy Scene Box",
+      "printings": 24
+    },
+    {
+      "set_code": "afin",
+      "set_name": "Final Fantasy Art Series",
+      "printings": 53
+    },
+    {
+      "set_code": "afr",
+      "set_name": "Adventures in the Forgotten Realms",
+      "printings": 4169
+    },
+    {
+      "set_code": "ainr",
+      "set_name": "Innistrad Remastered Art Series",
+      "printings": 25
+    },
+    {
+      "set_code": "ajmp",
+      "set_name": "Jumpstart Arena Exclusives",
+      "printings": 18
+    },
+    {
+      "set_code": "akh",
+      "set_name": "Amonkhet",
+      "printings": 3157
+    },
+    {
+      "set_code": "akhm",
+      "set_name": "Kaldheim Art Series",
+      "printings": 81
+    },
+    {
+      "set_code": "akr",
+      "set_name": "Amonkhet Remastered",
+      "printings": 339
+    },
+    {
+      "set_code": "ala",
+      "set_name": "Shards of Alara",
+      "printings": 2242
+    },
+    {
+      "set_code": "alci",
+      "set_name": "The Lost Caverns of Ixalan Art Series",
+      "printings": 81
+    },
+    {
+      "set_code": "all",
+      "set_name": "Alliances",
+      "printings": 1194
+    },
+    {
+      "set_code": "altc",
+      "set_name": "Tales of Middle-earth Scene Box",
+      "printings": 24
+    },
+    {
+      "set_code": "altr",
+      "set_name": "Tales of Middle-earth Art Series",
+      "printings": 81
+    },
+    {
+      "set_code": "amh1",
+      "set_name": "Modern Horizons Art Series",
+      "printings": 54
+    },
+    {
+      "set_code": "amh2",
+      "set_name": "Modern Horizons 2 Art Series",
+      "printings": 162
+    },
+    {
+      "set_code": "amh3",
+      "set_name": "Modern Horizons 3 Art Series",
+      "printings": 54
+    },
+    {
+      "set_code": "amid",
+      "set_name": "Midnight Hunt Art Series",
+      "printings": 81
+    },
+    {
+      "set_code": "amkm",
+      "set_name": "Murders at Karlov Manor Art Series",
+      "printings": 54
+    },
+    {
+      "set_code": "amom",
+      "set_name": "March of the Machine Art Series",
+      "printings": 81
+    },
+    {
+      "set_code": "amsh",
+      "set_name": "Marvel Super Heroes Art Series",
+      "printings": 66
+    },
+    {
+      "set_code": "ana",
+      "set_name": "Arena New Player Experience",
+      "printings": 49
+    },
+    {
+      "set_code": "anb",
+      "set_name": "Arena Beginner Set",
+      "printings": 118
+    },
+    {
+      "set_code": "aneo",
+      "set_name": "Neon Dynasty Art Series",
+      "printings": 81
+    },
+    {
+      "set_code": "aone",
+      "set_name": "Phyrexia: All Will Be One Art Series",
+      "printings": 81
+    },
+    {
+      "set_code": "aotj",
+      "set_name": "Outlaws of Thunder Junction Art Series",
+      "printings": 54
+    },
+    {
+      "set_code": "apc",
+      "set_name": "Apocalypse",
+      "printings": 1272
+    },
+    {
+      "set_code": "arb",
+      "set_name": "Alara Reborn",
+      "printings": 1305
+    },
+    {
+      "set_code": "arc",
+      "set_name": "Archenemy",
+      "printings": 150
+    },
+    {
+      "set_code": "arn",
+      "set_name": "Arabian Nights",
+      "printings": 92
+    },
+    {
+      "set_code": "asnc",
+      "set_name": "New Capenna Art Series",
+      "printings": 81
+    },
+    {
+      "set_code": "asos",
+      "set_name": "Secrets of Strixhaven Art Series",
+      "printings": 54
+    },
+    {
+      "set_code": "aspm",
+      "set_name": "Marvel's Spider-Man Art Series",
+      "printings": 54
+    },
+    {
+      "set_code": "astx",
+      "set_name": "Strixhaven Art Series",
+      "printings": 162
+    },
+    {
+      "set_code": "atdm",
+      "set_name": "Tarkir: Dragonstorm Art Series",
+      "printings": 54
+    },
+    {
+      "set_code": "ath",
+      "set_name": "Anthologies",
+      "printings": 85
+    },
+    {
+      "set_code": "atla",
+      "set_name": "Avatar: the Last Airbender Art Series",
+      "printings": 54
+    },
+    {
+      "set_code": "atle",
+      "set_name": "Avatar: the Last Airbender Eternal Art Series",
+      "printings": 12
+    },
+    {
+      "set_code": "atmt",
+      "set_name": "Teenage Mutant Ninja Turtles Art Series",
+      "printings": 54
+    },
+    {
+      "set_code": "atq",
+      "set_name": "Antiquities",
+      "printings": 102
+    },
+    {
+      "set_code": "avow",
+      "set_name": "Crimson Vow Art Series",
+      "printings": 81
+    },
+    {
+      "set_code": "avr",
+      "set_name": "Avacyn Restored",
+      "printings": 2684
+    },
+    {
+      "set_code": "awoe",
+      "set_name": "Wilds of Eldraine Art Series",
+      "printings": 81
+    },
+    {
+      "set_code": "aznr",
+      "set_name": "Zendikar Rising Art Series",
+      "printings": 81
+    },
+    {
+      "set_code": "bbd",
+      "set_name": "Battlebond",
+      "printings": 764
+    },
+    {
+      "set_code": "bchr",
+      "set_name": "Chronicles Foreign Black Border",
+      "printings": 125
+    },
+    {
+      "set_code": "bfz",
+      "set_name": "Battle for Zendikar",
+      "printings": 2794
+    },
+    {
+      "set_code": "big",
+      "set_name": "The Big Score",
+      "printings": 545
+    },
+    {
+      "set_code": "blb",
+      "set_name": "Bloomburrow",
+      "printings": 2161
+    },
+    {
+      "set_code": "blc",
+      "set_name": "Bloomburrow Commander",
+      "printings": 1698
+    },
+    {
+      "set_code": "bng",
+      "set_name": "Born of the Gods",
+      "printings": 1815
+    },
+    {
+      "set_code": "bok",
+      "set_name": "Betrayers of Kamigawa",
+      "printings": 1286
+    },
+    {
+      "set_code": "bot",
+      "set_name": "Transformers",
+      "printings": 29
+    },
+    {
+      "set_code": "brb",
+      "set_name": "Battle Royale Box Set",
+      "printings": 136
+    },
+    {
+      "set_code": "brc",
+      "set_name": "The Brothers' War Commander",
+      "printings": 1193
+    },
+    {
+      "set_code": "bro",
+      "set_name": "The Brothers' War",
+      "printings": 2818
+    },
+    {
+      "set_code": "brr",
+      "set_name": "The Brothers' War Retro Artifacts",
+      "printings": 1071
+    },
+    {
+      "set_code": "btd",
+      "set_name": "Beatdown Box Set",
+      "printings": 90
+    },
+    {
+      "set_code": "c13",
+      "set_name": "Commander 2013",
+      "printings": 2131
+    },
+    {
+      "set_code": "c14",
+      "set_name": "Commander 2014",
+      "printings": 2359
+    },
+    {
+      "set_code": "c15",
+      "set_name": "Commander 2015",
+      "printings": 2394
+    },
+    {
+      "set_code": "c16",
+      "set_name": "Commander 2016",
+      "printings": 2808
+    },
+    {
+      "set_code": "c17",
+      "set_name": "Commander 2017",
+      "printings": 2163
+    },
+    {
+      "set_code": "c18",
+      "set_name": "Commander 2018",
+      "printings": 2143
+    },
+    {
+      "set_code": "c19",
+      "set_name": "Commander 2019",
+      "printings": 2416
+    },
+    {
+      "set_code": "c20",
+      "set_name": "Commander 2020",
+      "printings": 2569
+    },
+    {
+      "set_code": "c21",
+      "set_name": "Commander 2021",
+      "printings": 3761
+    },
+    {
+      "set_code": "cc1",
+      "set_name": "Commander Collection: Green",
+      "printings": 8
+    },
+    {
+      "set_code": "cc2",
+      "set_name": "Commander Collection: Black",
+      "printings": 9
+    },
+    {
+      "set_code": "ced",
+      "set_name": "Collectors' Edition",
+      "printings": 302
+    },
+    {
+      "set_code": "cei",
+      "set_name": "Intl. Collectors' Edition",
+      "printings": 302
+    },
+    {
+      "set_code": "chk",
+      "set_name": "Champions of Kamigawa",
+      "printings": 2376
+    },
+    {
+      "set_code": "chr",
+      "set_name": "Chronicles",
+      "printings": 125
+    },
+    {
+      "set_code": "clb",
+      "set_name": "Commander Legends: Battle for Baldur's Gate",
+      "printings": 8388
+    },
+    {
+      "set_code": "clu",
+      "set_name": "Ravnica: Clue Edition",
+      "printings": 284
+    },
+    {
+      "set_code": "cm1",
+      "set_name": "Commander's Arsenal",
+      "printings": 18
+    },
+    {
+      "set_code": "cm2",
+      "set_name": "Commander Anthology Volume II",
+      "printings": 312
+    },
+    {
+      "set_code": "cma",
+      "set_name": "Commander Anthology",
+      "printings": 320
+    },
+    {
+      "set_code": "cmb1",
+      "set_name": "Mystery Booster Playtest Cards 2019",
+      "printings": 121
+    },
+    {
+      "set_code": "cmb2",
+      "set_name": "Mystery Booster Playtest Cards 2021",
+      "printings": 121
+    },
+    {
+      "set_code": "cmd",
+      "set_name": "Commander 2011",
+      "printings": 1903
+    },
+    {
+      "set_code": "cmm",
+      "set_name": "Commander Masters",
+      "printings": 6190
+    },
+    {
+      "set_code": "cmr",
+      "set_name": "Commander Legends",
+      "printings": 6077
+    },
+    {
+      "set_code": "cn2",
+      "set_name": "Conspiracy: Take the Crown",
+      "printings": 666
+    },
+    {
+      "set_code": "cns",
+      "set_name": "Conspiracy",
+      "printings": 630
+    },
+    {
+      "set_code": "con",
+      "set_name": "Conflux",
+      "printings": 1305
+    },
+    {
+      "set_code": "cp1",
+      "set_name": "Magic 2015 Clash Pack",
+      "printings": 6
+    },
+    {
+      "set_code": "cp2",
+      "set_name": "Fate Reforged Clash Pack",
+      "printings": 6
+    },
+    {
+      "set_code": "cp3",
+      "set_name": "Magic Origins Clash Pack",
+      "printings": 6
+    },
+    {
+      "set_code": "csp",
+      "set_name": "Coldsnap",
+      "printings": 1240
+    },
+    {
+      "set_code": "cst",
+      "set_name": "Coldsnap Theme Decks",
+      "printings": 434
+    },
+    {
+      "set_code": "dbl",
+      "set_name": "Innistrad: Double Feature",
+      "printings": 535
+    },
+    {
+      "set_code": "dci",
+      "set_name": "DCI Promos",
+      "printings": 85
+    },
+    {
+      "set_code": "dd1",
+      "set_name": "Duel Decks: Elves vs. Goblins",
+      "printings": 62
+    },
+    {
+      "set_code": "dd2",
+      "set_name": "Duel Decks: Jace vs. Chandra",
+      "printings": 124
+    },
+    {
+      "set_code": "ddc",
+      "set_name": "Duel Decks: Divine vs. Demonic",
+      "printings": 62
+    },
+    {
+      "set_code": "ddd",
+      "set_name": "Duel Decks: Garruk vs. Liliana",
+      "printings": 63
+    },
+    {
+      "set_code": "dde",
+      "set_name": "Duel Decks: Phyrexia vs. the Coalition",
+      "printings": 142
+    },
+    {
+      "set_code": "ddf",
+      "set_name": "Duel Decks: Elspeth vs. Tezzeret",
+      "printings": 474
+    },
+    {
+      "set_code": "ddg",
+      "set_name": "Duel Decks: Knights vs. Dragons",
+      "printings": 337
+    },
+    {
+      "set_code": "ddh",
+      "set_name": "Duel Decks: Ajani vs. Nicol Bolas",
+      "printings": 400
+    },
+    {
+      "set_code": "ddi",
+      "set_name": "Duel Decks: Venser vs. Koth",
+      "printings": 154
+    },
+    {
+      "set_code": "ddj",
+      "set_name": "Duel Decks: Izzet vs. Golgari",
+      "printings": 180
+    },
+    {
+      "set_code": "ddk",
+      "set_name": "Duel Decks: Sorin vs. Tibalt",
+      "printings": 160
+    },
+    {
+      "set_code": "ddl",
+      "set_name": "Duel Decks: Heroes vs. Monsters",
+      "printings": 162
+    },
+    {
+      "set_code": "ddm",
+      "set_name": "Duel Decks: Jace vs. Vraska",
+      "printings": 176
+    },
+    {
+      "set_code": "ddn",
+      "set_name": "Duel Decks: Speed vs. Cunning",
+      "printings": 163
+    },
+    {
+      "set_code": "ddo",
+      "set_name": "Duel Decks: Elspeth vs. Kiora",
+      "printings": 132
+    },
+    {
+      "set_code": "ddp",
+      "set_name": "Duel Decks: Zendikar vs. Eldrazi",
+      "printings": 155
+    },
+    {
+      "set_code": "ddq",
+      "set_name": "Duel Decks: Blessed vs. Cursed",
+      "printings": 157
+    },
+    {
+      "set_code": "ddr",
+      "set_name": "Duel Decks: Nissa vs. Ob Nixilis",
+      "printings": 148
+    },
+    {
+      "set_code": "dds",
+      "set_name": "Duel Decks: Mind vs. Might",
+      "printings": 130
+    },
+    {
+      "set_code": "ddt",
+      "set_name": "Duel Decks: Merfolk vs. Goblins",
+      "printings": 126
+    },
+    {
+      "set_code": "ddu",
+      "set_name": "Duel Decks: Elves vs. Inventors",
+      "printings": 151
+    },
+    {
+      "set_code": "dft",
+      "set_name": "Aetherdrift",
+      "printings": 3141
+    },
+    {
+      "set_code": "dgm",
+      "set_name": "Dragon's Maze",
+      "printings": 1566
+    },
+    {
+      "set_code": "dis",
+      "set_name": "Dissension",
+      "printings": 1620
+    },
+    {
+      "set_code": "dka",
+      "set_name": "Dark Ascension",
+      "printings": 1738
+    },
+    {
+      "set_code": "dkm",
+      "set_name": "Deckmasters",
+      "printings": 58
+    },
+    {
+      "set_code": "dmc",
+      "set_name": "Dominaria United Commander",
+      "printings": 1688
+    },
+    {
+      "set_code": "dmr",
+      "set_name": "Dominaria Remastered",
+      "printings": 3586
+    },
+    {
+      "set_code": "dmu",
+      "set_name": "Dominaria United",
+      "printings": 3197
+    },
+    {
+      "set_code": "dom",
+      "set_name": "Dominaria",
+      "printings": 3080
+    },
+    {
+      "set_code": "dpa",
+      "set_name": "Duels of the Planeswalkers",
+      "printings": 113
+    },
+    {
+      "set_code": "drb",
+      "set_name": "From the Vault: Dragons",
+      "printings": 15
+    },
+    {
+      "set_code": "drc",
+      "set_name": "Aetherdrift Commander",
+      "printings": 1072
+    },
+    {
+      "set_code": "drk",
+      "set_name": "The Dark",
+      "printings": 241
+    },
+    {
+      "set_code": "dsc",
+      "set_name": "Duskmourn: House of Horror Commander",
+      "printings": 2138
+    },
+    {
+      "set_code": "dsk",
+      "set_name": "Duskmourn: House of Horror",
+      "printings": 2334
+    },
+    {
+      "set_code": "dst",
+      "set_name": "Darksteel",
+      "printings": 1320
+    },
+    {
+      "set_code": "dtk",
+      "set_name": "Dragons of Tarkir",
+      "printings": 2904
+    },
+    {
+      "set_code": "dvd",
+      "set_name": "Duel Decks Anthology: Divine vs. Demonic",
+      "printings": 62
+    },
+    {
+      "set_code": "e01",
+      "set_name": "Archenemy: Nicol Bolas",
+      "printings": 106
+    },
+    {
+      "set_code": "e02",
+      "set_name": "Explorers of Ixalan",
+      "printings": 48
+    },
+    {
+      "set_code": "ea1",
+      "set_name": "Explorer Anthology 1",
+      "printings": 20
+    },
+    {
+      "set_code": "ea2",
+      "set_name": "Explorer Anthology 2",
+      "printings": 25
+    },
+    {
+      "set_code": "ea3",
+      "set_name": "Explorer Anthology 3",
+      "printings": 25
+    },
+    {
+      "set_code": "ecc",
+      "set_name": "Lorwyn Eclipsed Commander",
+      "printings": 986
+    },
+    {
+      "set_code": "ecl",
+      "set_name": "Lorwyn Eclipsed",
+      "printings": 2208
+    },
+    {
+      "set_code": "eld",
+      "set_name": "Throne of Eldraine",
+      "printings": 3196
+    },
+    {
+      "set_code": "ema",
+      "set_name": "Eternal Masters",
+      "printings": 747
+    },
+    {
+      "set_code": "emn",
+      "set_name": "Eldritch Moon",
+      "printings": 2288
+    },
+    {
+      "set_code": "eoc",
+      "set_name": "Edge of Eternities Commander",
+      "printings": 1098
+    },
+    {
+      "set_code": "eoe",
+      "set_name": "Edge of Eternities",
+      "printings": 2108
+    },
+    {
+      "set_code": "eos",
+      "set_name": "Edge of Eternities: Stellar Sights",
+      "printings": 180
+    },
+    {
+      "set_code": "eve",
+      "set_name": "Eventide",
+      "printings": 1620
+    },
+    {
+      "set_code": "evg",
+      "set_name": "Duel Decks Anthology: Elves vs. Goblins",
+      "printings": 62
+    },
+    {
+      "set_code": "exo",
+      "set_name": "Exodus",
+      "printings": 1287
+    },
+    {
+      "set_code": "exp",
+      "set_name": "Zendikar Expeditions",
+      "printings": 45
+    },
+    {
+      "set_code": "f01",
+      "set_name": "Friday Night Magic 2001",
+      "printings": 7
+    },
+    {
+      "set_code": "f02",
+      "set_name": "Friday Night Magic 2002",
+      "printings": 12
+    },
+    {
+      "set_code": "f03",
+      "set_name": "Friday Night Magic 2003",
+      "printings": 13
+    },
+    {
+      "set_code": "f04",
+      "set_name": "Friday Night Magic 2004",
+      "printings": 12
+    },
+    {
+      "set_code": "f05",
+      "set_name": "Friday Night Magic 2005",
+      "printings": 12
+    },
+    {
+      "set_code": "f06",
+      "set_name": "Friday Night Magic 2006",
+      "printings": 12
+    },
+    {
+      "set_code": "f07",
+      "set_name": "Friday Night Magic 2007",
+      "printings": 12
+    },
+    {
+      "set_code": "f08",
+      "set_name": "Friday Night Magic 2008",
+      "printings": 12
+    },
+    {
+      "set_code": "f09",
+      "set_name": "Friday Night Magic 2009",
+      "printings": 12
+    },
+    {
+      "set_code": "f10",
+      "set_name": "Friday Night Magic 2010",
+      "printings": 12
+    },
+    {
+      "set_code": "f11",
+      "set_name": "Friday Night Magic 2011",
+      "printings": 12
+    },
+    {
+      "set_code": "f12",
+      "set_name": "Friday Night Magic 2012",
+      "printings": 13
+    },
+    {
+      "set_code": "f13",
+      "set_name": "Friday Night Magic 2013",
+      "printings": 13
+    },
+    {
+      "set_code": "f14",
+      "set_name": "Friday Night Magic 2014",
+      "printings": 12
+    },
+    {
+      "set_code": "f15",
+      "set_name": "Friday Night Magic 2015",
+      "printings": 12
+    },
+    {
+      "set_code": "f16",
+      "set_name": "Friday Night Magic 2016",
+      "printings": 12
+    },
+    {
+      "set_code": "f17",
+      "set_name": "Friday Night Magic 2017",
+      "printings": 12
+    },
+    {
+      "set_code": "f18",
+      "set_name": "Friday Night Magic 2018",
+      "printings": 3
+    },
+    {
+      "set_code": "fbb",
+      "set_name": "Foreign Black Border",
+      "printings": 919
+    },
+    {
+      "set_code": "fbro",
+      "set_name": "The Brothers' War Jumpstart Front Cards",
+      "printings": 5
+    },
+    {
+      "set_code": "fca",
+      "set_name": "Final Fantasy: Through the Ages",
+      "printings": 129
+    },
+    {
+      "set_code": "fclu",
+      "set_name": "Ravnica: Clue Edition Front Cards",
+      "printings": 10
+    },
+    {
+      "set_code": "fdc",
+      "set_name": "Foundations Commander",
+      "printings": 319
+    },
+    {
+      "set_code": "fdmu",
+      "set_name": "Dominaria United Jumpstart Front Cards",
+      "printings": 10
+    },
+    {
+      "set_code": "fdn",
+      "set_name": "Foundations",
+      "printings": 3312
+    },
+    {
+      "set_code": "fem",
+      "set_name": "Fallen Empires",
+      "printings": 187
+    },
+    {
+      "set_code": "ffdn",
+      "set_name": "Foundations Front Cards",
+      "printings": 12
+    },
+    {
+      "set_code": "fic",
+      "set_name": "Final Fantasy Commander",
+      "printings": 2416
+    },
+    {
+      "set_code": "fin",
+      "set_name": "Final Fantasy",
+      "printings": 3182
+    },
+    {
+      "set_code": "fj22",
+      "set_name": "Jumpstart 2022 Front Cards",
+      "printings": 46
+    },
+    {
+      "set_code": "fj25",
+      "set_name": "Foundations Jumpstart Front Cards",
+      "printings": 46
+    },
+    {
+      "set_code": "fjmp",
+      "set_name": "Jumpstart Front Cards",
+      "printings": 46
+    },
+    {
+      "set_code": "fltr",
+      "set_name": "Tales of Middle-earth Front Cards",
+      "printings": 10
+    },
+    {
+      "set_code": "fmom",
+      "set_name": "March of the Machine Jumpstart Front Cards",
+      "printings": 5
+    },
+    {
+      "set_code": "fmsc",
+      "set_name": "Marvel Super Heroes Jumpstart Front Cards",
+      "printings": 61
+    },
+    {
+      "set_code": "fnm",
+      "set_name": "Friday Night Magic 2000",
+      "printings": 11
+    },
+    {
+      "set_code": "fone",
+      "set_name": "Phyrexia: All Will Be One Jumpstart Front Cards",
+      "printings": 5
+    },
+    {
+      "set_code": "fra",
+      "set_name": "Reality Fracture",
+      "printings": 2504
+    },
+    {
+      "set_code": "frc",
+      "set_name": "Reality Fracture Commander",
+      "printings": 582
+    },
+    {
+      "set_code": "frf",
+      "set_name": "Fate Reforged",
+      "printings": 2041
+    },
+    {
+      "set_code": "ftla",
+      "set_name": "Avatar: The Last Airbender Beginner Box Front Cards",
+      "printings": 10
+    },
+    {
+      "set_code": "ftmc",
+      "set_name": "Teenage Mutant Ninja Turtles Eternal Front Cards",
+      "printings": 5
+    },
+    {
+      "set_code": "fut",
+      "set_name": "Future Sight",
+      "printings": 1616
+    },
+    {
+      "set_code": "g00",
+      "set_name": "Judge Gift Cards 2000",
+      "printings": 2
+    },
+    {
+      "set_code": "g01",
+      "set_name": "Judge Gift Cards 2001",
+      "printings": 2
+    },
+    {
+      "set_code": "g02",
+      "set_name": "Judge Gift Cards 2002",
+      "printings": 2
+    },
+    {
+      "set_code": "g03",
+      "set_name": "Judge Gift Cards 2003",
+      "printings": 3
+    },
+    {
+      "set_code": "g04",
+      "set_name": "Judge Gift Cards 2004",
+      "printings": 6
+    },
+    {
+      "set_code": "g05",
+      "set_name": "Judge Gift Cards 2005",
+      "printings": 4
+    },
+    {
+      "set_code": "g06",
+      "set_name": "Judge Gift Cards 2006",
+      "printings": 4
+    },
+    {
+      "set_code": "g07",
+      "set_name": "Judge Gift Cards 2007",
+      "printings": 5
+    },
+    {
+      "set_code": "g08",
+      "set_name": "Judge Gift Cards 2008",
+      "printings": 5
+    },
+    {
+      "set_code": "g09",
+      "set_name": "Judge Gift Cards 2009",
+      "printings": 10
+    },
+    {
+      "set_code": "g10",
+      "set_name": "Judge Gift Cards 2010",
+      "printings": 8
+    },
+    {
+      "set_code": "g11",
+      "set_name": "Judge Gift Cards 2011",
+      "printings": 8
+    },
+    {
+      "set_code": "g17",
+      "set_name": "2017 Gift Pack",
+      "printings": 5
+    },
+    {
+      "set_code": "g18",
+      "set_name": "M19 Gift Pack",
+      "printings": 5
+    },
+    {
+      "set_code": "g99",
+      "set_name": "Judge Gift Cards 1999",
+      "printings": 1
+    },
+    {
+      "set_code": "gdy",
+      "set_name": "Game Day Promos",
+      "printings": 9
+    },
+    {
+      "set_code": "gk1",
+      "set_name": "GRN Guild Kit",
+      "printings": 762
+    },
+    {
+      "set_code": "gk2",
+      "set_name": "RNA Guild Kit",
+      "printings": 748
+    },
+    {
+      "set_code": "gn2",
+      "set_name": "Game Night 2019",
+      "printings": 64
+    },
+    {
+      "set_code": "gn3",
+      "set_name": "Game Night: Free-for-All",
+      "printings": 810
+    },
+    {
+      "set_code": "gnt",
+      "set_name": "Game Night",
+      "printings": 68
+    },
+    {
+      "set_code": "gpt",
+      "set_name": "Guildpact",
+      "printings": 1487
+    },
+    {
+      "set_code": "grn",
+      "set_name": "Guilds of Ravnica",
+      "printings": 2893
+    },
+    {
+      "set_code": "gs1",
+      "set_name": "Global Series Jiang Yanggu & Mu Yanling",
+      "printings": 81
+    },
+    {
+      "set_code": "gtc",
+      "set_name": "Gatecrash",
+      "printings": 2729
+    },
+    {
+      "set_code": "gvl",
+      "set_name": "Duel Decks Anthology: Garruk vs. Liliana",
+      "printings": 63
+    },
+    {
+      "set_code": "h09",
+      "set_name": "Premium Deck Series: Slivers",
+      "printings": 41
+    },
+    {
+      "set_code": "h17",
+      "set_name": "HasCon 2017",
+      "printings": 4
+    },
+    {
+      "set_code": "h1r",
+      "set_name": "Modern Horizons 1 Timeshifts",
+      "printings": 40
+    },
+    {
+      "set_code": "h2r",
+      "set_name": "Modern Horizons 2 Timeshifts",
+      "printings": 16
+    },
+    {
+      "set_code": "ha1",
+      "set_name": "Historic Anthology 1",
+      "printings": 20
+    },
+    {
+      "set_code": "ha2",
+      "set_name": "Historic Anthology 2",
+      "printings": 25
+    },
+    {
+      "set_code": "ha3",
+      "set_name": "Historic Anthology 3",
+      "printings": 27
+    },
+    {
+      "set_code": "ha4",
+      "set_name": "Historic Anthology 4",
+      "printings": 25
+    },
+    {
+      "set_code": "ha5",
+      "set_name": "Historic Anthology 5",
+      "printings": 25
+    },
+    {
+      "set_code": "ha6",
+      "set_name": "Historic Anthology 6",
+      "printings": 20
+    },
+    {
+      "set_code": "ha7",
+      "set_name": "Historic Anthology 7",
+      "printings": 25
+    },
+    {
+      "set_code": "hbg",
+      "set_name": "Alchemy Horizons: Baldur's Gate",
+      "printings": 408
+    },
+    {
+      "set_code": "hho",
+      "set_name": "Happy Holidays",
+      "printings": 23
+    },
+    {
+      "set_code": "hml",
+      "set_name": "Homelands",
+      "printings": 839
+    },
+    {
+      "set_code": "hob",
+      "set_name": "The Hobbit",
+      "printings": 1647
+    },
+    {
+      "set_code": "hoc",
+      "set_name": "The Hobbit Eternal",
+      "printings": 497
+    },
+    {
+      "set_code": "hop",
+      "set_name": "Planechase",
+      "printings": 169
+    },
+    {
+      "set_code": "hou",
+      "set_name": "Hour of Devastation",
+      "printings": 2291
+    },
+    {
+      "set_code": "ice",
+      "set_name": "Ice Age",
+      "printings": 2297
+    },
+    {
+      "set_code": "iko",
+      "set_name": "Ikoria: Lair of Behemoths",
+      "printings": 3269
+    },
+    {
+      "set_code": "ima",
+      "set_name": "Iconic Masters",
+      "printings": 747
+    },
+    {
+      "set_code": "inr",
+      "set_name": "Innistrad Remastered",
+      "printings": 495
+    },
+    {
+      "set_code": "inv",
+      "set_name": "Invasion",
+      "printings": 3144
+    },
+    {
+      "set_code": "isd",
+      "set_name": "Innistrad",
+      "printings": 2904
+    },
+    {
+      "set_code": "itp",
+      "set_name": "Introductory Two-Player Set",
+      "printings": 335
+    },
+    {
+      "set_code": "j12",
+      "set_name": "Judge Gift Cards 2012",
+      "printings": 9
+    },
+    {
+      "set_code": "j13",
+      "set_name": "Judge Gift Cards 2013",
+      "printings": 9
+    },
+    {
+      "set_code": "j14",
+      "set_name": "Judge Gift Cards 2014",
+      "printings": 14
+    },
+    {
+      "set_code": "j15",
+      "set_name": "Judge Gift Cards 2015",
+      "printings": 8
+    },
+    {
+      "set_code": "j16",
+      "set_name": "Judge Gift Cards 2016",
+      "printings": 8
+    },
+    {
+      "set_code": "j17",
+      "set_name": "Judge Gift Cards 2017",
+      "printings": 9
+    },
+    {
+      "set_code": "j18",
+      "set_name": "Judge Gift Cards 2018",
+      "printings": 8
+    },
+    {
+      "set_code": "j19",
+      "set_name": "Judge Gift Cards 2019",
+      "printings": 8
+    },
+    {
+      "set_code": "j20",
+      "set_name": "Judge Gift Cards 2020",
+      "printings": 10
+    },
+    {
+      "set_code": "j21",
+      "set_name": "Jumpstart: Historic Horizons",
+      "printings": 389
+    },
+    {
+      "set_code": "j22",
+      "set_name": "Jumpstart 2022",
+      "printings": 5843
+    },
+    {
+      "set_code": "j25",
+      "set_name": "Foundations Jumpstart",
+      "printings": 4658
+    },
+    {
+      "set_code": "jgp",
+      "set_name": "Judge Gift Cards 1998",
+      "printings": 3
+    },
+    {
+      "set_code": "jmp",
+      "set_name": "Jumpstart",
+      "printings": 496
+    },
+    {
+      "set_code": "jou",
+      "set_name": "Journey into Nyx",
+      "printings": 1815
+    },
+    {
+      "set_code": "jp1",
+      "set_name": "Hobby Japan Promos",
+      "printings": 5
+    },
+    {
+      "set_code": "jtla",
+      "set_name": "Avatar: The Last Airbender Jumpstart Front Cards",
+      "printings": 46
+    },
+    {
+      "set_code": "jud",
+      "set_name": "Judgment",
+      "printings": 1287
+    },
+    {
+      "set_code": "jvc",
+      "set_name": "Duel Decks Anthology: Jace vs. Chandra",
+      "printings": 62
+    },
+    {
+      "set_code": "khc",
+      "set_name": "Kaldheim Commander",
+      "printings": 1190
+    },
+    {
+      "set_code": "khm",
+      "set_name": "Kaldheim",
+      "printings": 4017
+    },
+    {
+      "set_code": "kld",
+      "set_name": "Kaladesh",
+      "printings": 3018
+    },
+    {
+      "set_code": "klr",
+      "set_name": "Kaladesh Remastered",
+      "printings": 302
+    },
+    {
+      "set_code": "ktk",
+      "set_name": "Khans of Tarkir",
+      "printings": 2983
+    },
+    {
+      "set_code": "l12",
+      "set_name": "League Tokens 2012",
+      "printings": 2
+    },
+    {
+      "set_code": "l13",
+      "set_name": "League Tokens 2013",
+      "printings": 4
+    },
+    {
+      "set_code": "l14",
+      "set_name": "League Tokens 2014",
+      "printings": 4
+    },
+    {
+      "set_code": "l15",
+      "set_name": "League Tokens 2015",
+      "printings": 1
+    },
+    {
+      "set_code": "l16",
+      "set_name": "League Tokens 2016",
+      "printings": 1
+    },
+    {
+      "set_code": "l17",
+      "set_name": "League Tokens 2017",
+      "printings": 1
+    },
+    {
+      "set_code": "lcc",
+      "set_name": "The Lost Caverns of Ixalan Commander",
+      "printings": 2439
+    },
+    {
+      "set_code": "lci",
+      "set_name": "The Lost Caverns of Ixalan",
+      "printings": 3045
+    },
+    {
+      "set_code": "lea",
+      "set_name": "Limited Edition Alpha",
+      "printings": 295
+    },
+    {
+      "set_code": "leb",
+      "set_name": "Limited Edition Beta",
+      "printings": 302
+    },
+    {
+      "set_code": "leg",
+      "set_name": "Legends",
+      "printings": 620
+    },
+    {
+      "set_code": "lgn",
+      "set_name": "Legions",
+      "printings": 1305
+    },
+    {
+      "set_code": "lmar",
+      "set_name": "Marvel Legends Series Inserts",
+      "printings": 8
+    },
+    {
+      "set_code": "lrw",
+      "set_name": "Lorwyn",
+      "printings": 2700
+    },
+    {
+      "set_code": "ltc",
+      "set_name": "Tales of Middle-earth Commander",
+      "printings": 2566
+    },
+    {
+      "set_code": "ltr",
+      "set_name": "The Lord of the Rings: Tales of Middle-earth",
+      "printings": 3806
+    },
+    {
+      "set_code": "m10",
+      "set_name": "Magic 2010",
+      "printings": 2241
+    },
+    {
+      "set_code": "m11",
+      "set_name": "Magic 2011",
+      "printings": 2490
+    },
+    {
+      "set_code": "m12",
+      "set_name": "Magic 2012",
+      "printings": 2739
+    },
+    {
+      "set_code": "m13",
+      "set_name": "Magic 2013",
+      "printings": 2739
+    },
+    {
+      "set_code": "m14",
+      "set_name": "Magic 2014",
+      "printings": 2739
+    },
+    {
+      "set_code": "m15",
+      "set_name": "Magic 2015",
+      "printings": 3124
+    },
+    {
+      "set_code": "m19",
+      "set_name": "Core Set 2019",
+      "printings": 3454
+    },
+    {
+      "set_code": "m20",
+      "set_name": "Core Set 2020",
+      "printings": 3778
+    },
+    {
+      "set_code": "m21",
+      "set_name": "Core Set 2021",
+      "printings": 3808
+    },
+    {
+      "set_code": "m3c",
+      "set_name": "Modern Horizons 3 Commander",
+      "printings": 1627
+    },
+    {
+      "set_code": "macr",
+      "set_name": "Assassin's Creed Minigames",
+      "printings": 3
+    },
+    {
+      "set_code": "mafr",
+      "set_name": "Adventures in the Forgotten Realms Minigames",
+      "printings": 5
+    },
+    {
+      "set_code": "mar",
+      "set_name": "Marvel Universe",
+      "printings": 260
+    },
+    {
+      "set_code": "mat",
+      "set_name": "March of the Machine: The Aftermath",
+      "printings": 1437
+    },
+    {
+      "set_code": "mb2",
+      "set_name": "Mystery Booster 2",
+      "printings": 385
+    },
+    {
+      "set_code": "mbc",
+      "set_name": "Mystery Booster Commander Edition",
+      "printings": 80
+    },
+    {
+      "set_code": "mbro",
+      "set_name": "The Brothers' War Minigames",
+      "printings": 3
+    },
+    {
+      "set_code": "mbs",
+      "set_name": "Mirrodin Besieged",
+      "printings": 1550
+    },
+    {
+      "set_code": "mclb",
+      "set_name": "Commander Legends: Battle for Baldur's Gate Minigames",
+      "printings": 3
+    },
+    {
+      "set_code": "md1",
+      "set_name": "Modern Event Deck 2014",
+      "printings": 26
+    },
+    {
+      "set_code": "mdc",
+      "set_name": "Darkhold Destiny Commander",
+      "printings": 1
+    },
+    {
+      "set_code": "mdd",
+      "set_name": "Marvel: Darkhold Destiny",
+      "printings": 12
+    },
+    {
+      "set_code": "mdmu",
+      "set_name": "Dominaria United Minigames",
+      "printings": 3
+    },
+    {
+      "set_code": "me1",
+      "set_name": "Masters Edition",
+      "printings": 195
+    },
+    {
+      "set_code": "me2",
+      "set_name": "Masters Edition II",
+      "printings": 245
+    },
+    {
+      "set_code": "me3",
+      "set_name": "Masters Edition III",
+      "printings": 230
+    },
+    {
+      "set_code": "me4",
+      "set_name": "Masters Edition IV",
+      "printings": 269
+    },
+    {
+      "set_code": "med",
+      "set_name": "Mythic Edition",
+      "printings": 24
+    },
+    {
+      "set_code": "mgb",
+      "set_name": "Multiverse Gift Box",
+      "printings": 10
+    },
+    {
+      "set_code": "mh1",
+      "set_name": "Modern Horizons",
+      "printings": 2805
+    },
+    {
+      "set_code": "mh2",
+      "set_name": "Modern Horizons 2",
+      "printings": 5192
+    },
+    {
+      "set_code": "mh3",
+      "set_name": "Modern Horizons 3",
+      "printings": 3794
+    },
+    {
+      "set_code": "mic",
+      "set_name": "Midnight Hunt Commander",
+      "printings": 1718
+    },
+    {
+      "set_code": "mid",
+      "set_name": "Innistrad: Midnight Hunt",
+      "printings": 3643
+    },
+    {
+      "set_code": "mir",
+      "set_name": "Mirage",
+      "printings": 2453
+    },
+    {
+      "set_code": "mkc",
+      "set_name": "Murders at Karlov Manor Commander",
+      "printings": 1761
+    },
+    {
+      "set_code": "mkhm",
+      "set_name": "Kaldheim Minigames",
+      "printings": 5
+    },
+    {
+      "set_code": "mkm",
+      "set_name": "Murders at Karlov Manor",
+      "printings": 3259
+    },
+    {
+      "set_code": "mltr",
+      "set_name": "The Lord of the Rings: Tales of Middle-earth Minigames",
+      "printings": 1
+    },
+    {
+      "set_code": "mm2",
+      "set_name": "Modern Masters 2015",
+      "printings": 747
+    },
+    {
+      "set_code": "mm3",
+      "set_name": "Modern Masters 2017",
+      "printings": 747
+    },
+    {
+      "set_code": "mma",
+      "set_name": "Modern Masters",
+      "printings": 229
+    },
+    {
+      "set_code": "mmh2",
+      "set_name": "Modern Horizons 2 Minigames",
+      "printings": 5
+    },
+    {
+      "set_code": "mmid",
+      "set_name": "Innistrad: Midnight Hunt Minigames",
+      "printings": 3
+    },
+    {
+      "set_code": "mmq",
+      "set_name": "Mercadian Masques",
+      "printings": 2800
+    },
+    {
+      "set_code": "mneo",
+      "set_name": "Kamigawa: Neon Dynasty Minigames",
+      "printings": 3
+    },
+    {
+      "set_code": "moc",
+      "set_name": "March of the Machine Commander",
+      "printings": 3410
+    },
+    {
+      "set_code": "mom",
+      "set_name": "March of the Machine",
+      "printings": 2894
+    },
+    {
+      "set_code": "mone",
+      "set_name": "Phyrexia: All Will Be One Minigames",
+      "printings": 5
+    },
+    {
+      "set_code": "mor",
+      "set_name": "Morningtide",
+      "printings": 1350
+    },
+    {
+      "set_code": "mp2",
+      "set_name": "Amonkhet Invocations",
+      "printings": 54
+    },
+    {
+      "set_code": "mpr",
+      "set_name": "Magic Player Rewards 2001",
+      "printings": 8
+    },
+    {
+      "set_code": "mps",
+      "set_name": "Kaladesh Inventions",
+      "printings": 54
+    },
+    {
+      "set_code": "mrd",
+      "set_name": "Mirrodin",
+      "printings": 2649
+    },
+    {
+      "set_code": "msc",
+      "set_name": "Marvel Super Heroes Commander",
+      "printings": 4165
+    },
+    {
+      "set_code": "msh",
+      "set_name": "Marvel Super Heroes",
+      "printings": 2459
+    },
+    {
+      "set_code": "msnc",
+      "set_name": "Streets of New Capenna Minigames",
+      "printings": 3
+    },
+    {
+      "set_code": "mstx",
+      "set_name": "Strixhaven: School of Mages Minigames",
+      "printings": 5
+    },
+    {
+      "set_code": "mul",
+      "set_name": "Multiverse Legends",
+      "printings": 715
+    },
+    {
+      "set_code": "mvow",
+      "set_name": "Innistrad: Crimson Vow Minigames",
+      "printings": 3
+    },
+    {
+      "set_code": "mznr",
+      "set_name": "Zendikar Rising Minigames",
+      "printings": 5
+    },
+    {
+      "set_code": "ncc",
+      "set_name": "New Capenna Commander",
+      "printings": 4028
+    },
+    {
+      "set_code": "nec",
+      "set_name": "Neon Dynasty Commander",
+      "printings": 1594
+    },
+    {
+      "set_code": "nem",
+      "set_name": "Nemesis",
+      "printings": 1144
+    },
+    {
+      "set_code": "neo",
+      "set_name": "Kamigawa: Neon Dynasty",
+      "printings": 4746
+    },
+    {
+      "set_code": "nph",
+      "set_name": "New Phyrexia",
+      "printings": 1750
+    },
+    {
+      "set_code": "o90p",
+      "set_name": "Oversized 90's Promos",
+      "printings": 10
+    },
+    {
+      "set_code": "oafc",
+      "set_name": "Forgotten Realms Commander Display Commanders",
+      "printings": 4
+    },
+    {
+      "set_code": "oafr",
+      "set_name": "Forgotten Realms Oversized Cards",
+      "printings": 3
+    },
+    {
+      "set_code": "oana",
+      "set_name": "Arena New Player Experience Cards",
+      "printings": 14
+    },
+    {
+      "set_code": "oarc",
+      "set_name": "Archenemy Schemes",
+      "printings": 45
+    },
+    {
+      "set_code": "oc13",
+      "set_name": "Commander 2013 Oversized",
+      "printings": 15
+    },
+    {
+      "set_code": "oc14",
+      "set_name": "Commander 2014 Oversized",
+      "printings": 5
+    },
+    {
+      "set_code": "oc15",
+      "set_name": "Commander 2015 Oversized",
+      "printings": 5
+    },
+    {
+      "set_code": "oc16",
+      "set_name": "Commander 2016 Oversized",
+      "printings": 5
+    },
+    {
+      "set_code": "oc17",
+      "set_name": "Commander 2017 Oversized",
+      "printings": 4
+    },
+    {
+      "set_code": "oc18",
+      "set_name": "Commander 2018 Oversized",
+      "printings": 4
+    },
+    {
+      "set_code": "oc19",
+      "set_name": "Commander 2019 Oversized",
+      "printings": 4
+    },
+    {
+      "set_code": "oc20",
+      "set_name": "Commander 2020 Oversized",
+      "printings": 5
+    },
+    {
+      "set_code": "oc21",
+      "set_name": "Commander 2021 Display Commanders",
+      "printings": 5
+    },
+    {
+      "set_code": "oclb",
+      "set_name": "Battle for Baldur's Gate Oversized Cards",
+      "printings": 1
+    },
+    {
+      "set_code": "ocm1",
+      "set_name": "Commander's Arsenal Oversized",
+      "printings": 10
+    },
+    {
+      "set_code": "ocmd",
+      "set_name": "Commander 2011 Oversized",
+      "printings": 15
+    },
+    {
+      "set_code": "ody",
+      "set_name": "Odyssey",
+      "printings": 3154
+    },
+    {
+      "set_code": "oe01",
+      "set_name": "Archenemy: Nicol Bolas Schemes",
+      "printings": 20
+    },
+    {
+      "set_code": "ogw",
+      "set_name": "Oath of the Gatewatch",
+      "printings": 2009
+    },
+    {
+      "set_code": "ohop",
+      "set_name": "Planechase Planes",
+      "printings": 240
+    },
+    {
+      "set_code": "olep",
+      "set_name": "Oversized League Prizes",
+      "printings": 83
+    },
+    {
+      "set_code": "olgc",
+      "set_name": "Legacy Championship",
+      "printings": 27
+    },
+    {
+      "set_code": "om1",
+      "set_name": "Through the Omenpaths",
+      "printings": 189
+    },
+    {
+      "set_code": "omb",
+      "set_name": "Through the Omenpaths Bonus Sheet",
+      "printings": 40
+    },
+    {
+      "set_code": "omic",
+      "set_name": "Midnight Hunt Commander Display Commanders",
+      "printings": 2
+    },
+    {
+      "set_code": "onc",
+      "set_name": "Phyrexia: All Will Be One Commander",
+      "printings": 1162
+    },
+    {
+      "set_code": "one",
+      "set_name": "Phyrexia: All Will Be One",
+      "printings": 3009
+    },
+    {
+      "set_code": "ons",
+      "set_name": "Onslaught",
+      "printings": 3151
+    },
+    {
+      "set_code": "opc2",
+      "set_name": "Planechase 2012 Planes",
+      "printings": 240
+    },
+    {
+      "set_code": "opca",
+      "set_name": "Planechase Anthology Planes",
+      "printings": 86
+    },
+    {
+      "set_code": "ori",
+      "set_name": "Magic Origins",
+      "printings": 3168
+    },
+    {
+      "set_code": "otc",
+      "set_name": "Outlaws of Thunder Junction Commander",
+      "printings": 2005
+    },
+    {
+      "set_code": "otj",
+      "set_name": "Outlaws of Thunder Junction",
+      "printings": 2804
+    },
+    {
+      "set_code": "otp",
+      "set_name": "Breaking News",
+      "printings": 535
+    },
+    {
+      "set_code": "ovnt",
+      "set_name": "Vintage Championship",
+      "printings": 35
+    },
+    {
+      "set_code": "ovoc",
+      "set_name": "Crimson Vow Commander Display Commanders",
+      "printings": 2
+    },
+    {
+      "set_code": "p02",
+      "set_name": "Portal Second Age",
+      "printings": 1155
+    },
+    {
+      "set_code": "p03",
+      "set_name": "Magic Player Rewards 2003",
+      "printings": 7
+    },
+    {
+      "set_code": "p04",
+      "set_name": "Magic Player Rewards 2004",
+      "printings": 6
+    },
+    {
+      "set_code": "p05",
+      "set_name": "Magic Player Rewards 2005",
+      "printings": 6
+    },
+    {
+      "set_code": "p06",
+      "set_name": "Magic Player Rewards 2006",
+      "printings": 7
+    },
+    {
+      "set_code": "p07",
+      "set_name": "Magic Player Rewards 2007",
+      "printings": 7
+    },
+    {
+      "set_code": "p08",
+      "set_name": "Magic Player Rewards 2008",
+      "printings": 7
+    },
+    {
+      "set_code": "p09",
+      "set_name": "Magic Player Rewards 2009",
+      "printings": 13
+    },
+    {
+      "set_code": "p10",
+      "set_name": "Magic Player Rewards 2010",
+      "printings": 13
+    },
+    {
+      "set_code": "p10e",
+      "set_name": "Tenth Edition Promos",
+      "printings": 3
+    },
+    {
+      "set_code": "p11",
+      "set_name": "Magic Player Rewards 2011",
+      "printings": 7
+    },
+    {
+      "set_code": "p15a",
+      "set_name": "15th Anniversary Cards",
+      "printings": 2
+    },
+    {
+      "set_code": "p22",
+      "set_name": "Judge Gift Cards 2022",
+      "printings": 10
+    },
+    {
+      "set_code": "p23",
+      "set_name": "Judge Gift Cards 2023",
+      "printings": 10
+    },
+    {
+      "set_code": "p2hg",
+      "set_name": "Two-Headed Giant Tournament",
+      "printings": 1
+    },
+    {
+      "set_code": "p30a",
+      "set_name": "30th Anniversary Play Promos",
+      "printings": 30
+    },
+    {
+      "set_code": "p30h",
+      "set_name": "30th Anniversary History Promos",
+      "printings": 20
+    },
+    {
+      "set_code": "p30m",
+      "set_name": "30th Anniversary Misc Promos",
+      "printings": 5
+    },
+    {
+      "set_code": "p30t",
+      "set_name": "30th Anniversary Celebration Tokyo",
+      "printings": 2
+    },
+    {
+      "set_code": "p5dn",
+      "set_name": "Fifth Dawn Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "p8ed",
+      "set_name": "Eighth Edition Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "p9ed",
+      "set_name": "Ninth Edition Promos",
+      "printings": 2
+    },
+    {
+      "set_code": "pa1",
+      "set_name": "Pioneer Anthology 1",
+      "printings": 11
+    },
+    {
+      "set_code": "paer",
+      "set_name": "Aether Revolt Promos",
+      "printings": 65
+    },
+    {
+      "set_code": "pafr",
+      "set_name": "Adventures in the Forgotten Realms Promos",
+      "printings": 241
+    },
+    {
+      "set_code": "pakh",
+      "set_name": "Amonkhet Promos",
+      "printings": 77
+    },
+    {
+      "set_code": "pal00",
+      "set_name": "Arena League 2000",
+      "printings": 11
+    },
+    {
+      "set_code": "pal01",
+      "set_name": "Arena League 2001",
+      "printings": 12
+    },
+    {
+      "set_code": "pal02",
+      "set_name": "Arena League 2002",
+      "printings": 5
+    },
+    {
+      "set_code": "pal03",
+      "set_name": "Arena League 2003",
+      "printings": 8
+    },
+    {
+      "set_code": "pal04",
+      "set_name": "Arena League 2004",
+      "printings": 14
+    },
+    {
+      "set_code": "pal05",
+      "set_name": "Arena League 2005",
+      "printings": 8
+    },
+    {
+      "set_code": "pal06",
+      "set_name": "Arena League 2006",
+      "printings": 9
+    },
+    {
+      "set_code": "pal99",
+      "set_name": "Arena League 1999",
+      "printings": 10
+    },
+    {
+      "set_code": "pala",
+      "set_name": "Shards of Alara Promos",
+      "printings": 2
+    },
+    {
+      "set_code": "palp",
+      "set_name": "Asia Pacific Land Program",
+      "printings": 15
+    },
+    {
+      "set_code": "pana",
+      "set_name": "MTG Arena Promos",
+      "printings": 83
+    },
+    {
+      "set_code": "papc",
+      "set_name": "Apocalypse Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "parb",
+      "set_name": "Alara Reborn Promos",
+      "printings": 3
+    },
+    {
+      "set_code": "parl",
+      "set_name": "Arena League 1996",
+      "printings": 7
+    },
+    {
+      "set_code": "past",
+      "set_name": "Astral Cards",
+      "printings": 12
+    },
+    {
+      "set_code": "pavr",
+      "set_name": "Avacyn Restored Promos",
+      "printings": 6
+    },
+    {
+      "set_code": "pbbd",
+      "set_name": "Battlebond Promos",
+      "printings": 22
+    },
+    {
+      "set_code": "pbfz",
+      "set_name": "Battle for Zendikar Promos",
+      "printings": 90
+    },
+    {
+      "set_code": "pbig",
+      "set_name": "The Big Score Promos",
+      "printings": 30
+    },
+    {
+      "set_code": "pblb",
+      "set_name": "Bloomburrow Promos",
+      "printings": 160
+    },
+    {
+      "set_code": "pbng",
+      "set_name": "Born of the Gods Promos",
+      "printings": 9
+    },
+    {
+      "set_code": "pbok",
+      "set_name": "Betrayers of Kamigawa Promos",
+      "printings": 2
+    },
+    {
+      "set_code": "pbro",
+      "set_name": "The Brothers' War Promos",
+      "printings": 171
+    },
+    {
+      "set_code": "pc2",
+      "set_name": "Planechase 2012",
+      "printings": 936
+    },
+    {
+      "set_code": "pca",
+      "set_name": "Planechase Anthology",
+      "printings": 156
+    },
+    {
+      "set_code": "pcbb",
+      "set_name": "Cowboy Bebop",
+      "printings": 10
+    },
+    {
+      "set_code": "pcel",
+      "set_name": "Celebration Cards",
+      "printings": 9
+    },
+    {
+      "set_code": "pchk",
+      "set_name": "Champions of Kamigawa Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "pclb",
+      "set_name": "Battle for Baldur's Gate Promos",
+      "printings": 104
+    },
+    {
+      "set_code": "pcmd",
+      "set_name": "Commander 2011 Launch Party",
+      "printings": 5
+    },
+    {
+      "set_code": "pcmp",
+      "set_name": "Champs and States",
+      "printings": 12
+    },
+    {
+      "set_code": "pcmr",
+      "set_name": "Commander Legends Promos",
+      "printings": 6
+    },
+    {
+      "set_code": "pcns",
+      "set_name": "Conspiracy Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "pcon",
+      "set_name": "Conflux Promos",
+      "printings": 2
+    },
+    {
+      "set_code": "pcsp",
+      "set_name": "Coldsnap Promos",
+      "printings": 2
+    },
+    {
+      "set_code": "pcy",
+      "set_name": "Prophecy",
+      "printings": 1144
+    },
+    {
+      "set_code": "pd2",
+      "set_name": "Premium Deck Series: Fire and Lightning",
+      "printings": 34
+    },
+    {
+      "set_code": "pd3",
+      "set_name": "Premium Deck Series: Graveborn",
+      "printings": 30
+    },
+    {
+      "set_code": "pdft",
+      "set_name": "Aetherdrift Promos",
+      "printings": 160
+    },
+    {
+      "set_code": "pdgm",
+      "set_name": "Dragon's Maze Promos",
+      "printings": 6
+    },
+    {
+      "set_code": "pdis",
+      "set_name": "Dissension Promos",
+      "printings": 2
+    },
+    {
+      "set_code": "pdka",
+      "set_name": "Dark Ascension Promos",
+      "printings": 5
+    },
+    {
+      "set_code": "pdmu",
+      "set_name": "Dominaria United Promos",
+      "printings": 161
+    },
+    {
+      "set_code": "pdom",
+      "set_name": "Dominaria Promos",
+      "printings": 118
+    },
+    {
+      "set_code": "pdp10",
+      "set_name": "Duels of the Planeswalkers 2010 Promos",
+      "printings": 2
+    },
+    {
+      "set_code": "pdp12",
+      "set_name": "Duels of the Planeswalkers 2012 Promos",
+      "printings": 3
+    },
+    {
+      "set_code": "pdp13",
+      "set_name": "Duels of the Planeswalkers 2013 Promos",
+      "printings": 3
+    },
+    {
+      "set_code": "pdp14",
+      "set_name": "Duels of the Planeswalkers 2014 Promos",
+      "printings": 3
+    },
+    {
+      "set_code": "pdp15",
+      "set_name": "Duels of the Planeswalkers 2015 Promos",
+      "printings": 2
+    },
+    {
+      "set_code": "pdrc",
+      "set_name": "Dragon Con",
+      "printings": 1
+    },
+    {
+      "set_code": "pdsk",
+      "set_name": "Duskmourn: House of Horror Promos",
+      "printings": 160
+    },
+    {
+      "set_code": "pdst",
+      "set_name": "Darksteel Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "pdtk",
+      "set_name": "Dragons of Tarkir Promos",
+      "printings": 51
+    },
+    {
+      "set_code": "pdtp",
+      "set_name": "Duels of the Planeswalkers 2009 Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "pecl",
+      "set_name": "Lorwyn Eclipsed Promos",
+      "printings": 80
+    },
+    {
+      "set_code": "peld",
+      "set_name": "Throne of Eldraine Promos",
+      "printings": 138
+    },
+    {
+      "set_code": "pelp",
+      "set_name": "European Land Program",
+      "printings": 15
+    },
+    {
+      "set_code": "pemn",
+      "set_name": "Eldritch Moon Promos",
+      "printings": 77
+    },
+    {
+      "set_code": "peoe",
+      "set_name": "Edge of Eternities Promos",
+      "printings": 160
+    },
+    {
+      "set_code": "peve",
+      "set_name": "Eventide Promos",
+      "printings": 2
+    },
+    {
+      "set_code": "pewk",
+      "set_name": "Eternal Weekend",
+      "printings": 10
+    },
+    {
+      "set_code": "pexo",
+      "set_name": "Exodus Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "pf19",
+      "set_name": "MagicFest 2019",
+      "printings": 7
+    },
+    {
+      "set_code": "pf20",
+      "set_name": "MagicFest 2020",
+      "printings": 6
+    },
+    {
+      "set_code": "pf23",
+      "set_name": "MagicFest 2023",
+      "printings": 4
+    },
+    {
+      "set_code": "pf24",
+      "set_name": "MagicFest 2024",
+      "printings": 2
+    },
+    {
+      "set_code": "pf25",
+      "set_name": "MagicFest 2025",
+      "printings": 20
+    },
+    {
+      "set_code": "pf26",
+      "set_name": "MagicFest 2026",
+      "printings": 17
+    },
+    {
+      "set_code": "pf27",
+      "set_name": "MagicFest 2027",
+      "printings": 1
+    },
+    {
+      "set_code": "pfdn",
+      "set_name": "Foundations Promos",
+      "printings": 106
+    },
+    {
+      "set_code": "pfin",
+      "set_name": "Final Fantasy Promos",
+      "printings": 94
+    },
+    {
+      "set_code": "pfra",
+      "set_name": "Reality Fracture Promos",
+      "printings": 90
+    },
+    {
+      "set_code": "pfrf",
+      "set_name": "Fate Reforged Promos",
+      "printings": 43
+    },
+    {
+      "set_code": "pfut",
+      "set_name": "Future Sight Promos",
+      "printings": 2
+    },
+    {
+      "set_code": "pgpt",
+      "set_name": "Guildpact Promos",
+      "printings": 2
+    },
+    {
+      "set_code": "pgpx",
+      "set_name": "Grand Prix Promos",
+      "printings": 20
+    },
+    {
+      "set_code": "pgrn",
+      "set_name": "Guilds of Ravnica Promos",
+      "printings": 130
+    },
+    {
+      "set_code": "pgru",
+      "set_name": "Guru",
+      "printings": 5
+    },
+    {
+      "set_code": "pgtc",
+      "set_name": "Gatecrash Promos",
+      "printings": 10
+    },
+    {
+      "set_code": "ph17",
+      "set_name": "2017 Heroes of the Realm",
+      "printings": 3
+    },
+    {
+      "set_code": "ph18",
+      "set_name": "2018 Heroes of the Realm",
+      "printings": 5
+    },
+    {
+      "set_code": "ph19",
+      "set_name": "2019 Heroes of the Realm",
+      "printings": 7
+    },
+    {
+      "set_code": "ph20",
+      "set_name": "2020 Heroes of the Realm",
+      "printings": 3
+    },
+    {
+      "set_code": "ph21",
+      "set_name": "2021 Heroes of the Realm",
+      "printings": 4
+    },
+    {
+      "set_code": "ph22",
+      "set_name": "2022 Heroes of the Realm",
+      "printings": 5
+    },
+    {
+      "set_code": "ph23",
+      "set_name": "2023 Heroes of the Realm",
+      "printings": 2
+    },
+    {
+      "set_code": "phel",
+      "set_name": "Open the Helvault",
+      "printings": 6
+    },
+    {
+      "set_code": "phop",
+      "set_name": "Planechase Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "phou",
+      "set_name": "Hour of Devastation Promos",
+      "printings": 62
+    },
+    {
+      "set_code": "phpr",
+      "set_name": "HarperPrism Book Promos",
+      "printings": 23
+    },
+    {
+      "set_code": "phtr",
+      "set_name": "2016 Heroes of the Realm",
+      "printings": 3
+    },
+    {
+      "set_code": "phuk",
+      "set_name": "Hachette UK",
+      "printings": 60
+    },
+    {
+      "set_code": "pidw",
+      "set_name": "IDW Comics Inserts",
+      "printings": 17
+    },
+    {
+      "set_code": "piko",
+      "set_name": "Ikoria: Lair of Behemoths Promos",
+      "printings": 137
+    },
+    {
+      "set_code": "pinv",
+      "set_name": "Invasion Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "pio",
+      "set_name": "Pioneer Masters",
+      "printings": 398
+    },
+    {
+      "set_code": "pip",
+      "set_name": "Fallout",
+      "printings": 3432
+    },
+    {
+      "set_code": "pisd",
+      "set_name": "Innistrad Promos",
+      "printings": 5
+    },
+    {
+      "set_code": "pj21",
+      "set_name": "Judge Gift Cards 2021",
+      "printings": 10
+    },
+    {
+      "set_code": "pjas",
+      "set_name": "Junior APAC Series",
+      "printings": 6
+    },
+    {
+      "set_code": "pjjt",
+      "set_name": "Japan Junior Tournament",
+      "printings": 12
+    },
+    {
+      "set_code": "pjou",
+      "set_name": "Journey into Nyx Promos",
+      "printings": 10
+    },
+    {
+      "set_code": "pjsc",
+      "set_name": "Japan Standard Cup",
+      "printings": 6
+    },
+    {
+      "set_code": "pjse",
+      "set_name": "Junior Series Europe",
+      "printings": 8
+    },
+    {
+      "set_code": "pjud",
+      "set_name": "Judgment Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "pkhm",
+      "set_name": "Kaldheim Promos",
+      "printings": 158
+    },
+    {
+      "set_code": "pkld",
+      "set_name": "Kaladesh Promos",
+      "printings": 83
+    },
+    {
+      "set_code": "pktk",
+      "set_name": "Khans of Tarkir Promos",
+      "printings": 56
+    },
+    {
+      "set_code": "pl21",
+      "set_name": "Year of the Ox 2021",
+      "printings": 16
+    },
+    {
+      "set_code": "pl22",
+      "set_name": "Year of the Tiger 2022",
+      "printings": 20
+    },
+    {
+      "set_code": "pl23",
+      "set_name": "Year of the Rabbit 2023",
+      "printings": 18
+    },
+    {
+      "set_code": "pl24",
+      "set_name": "Year of the Dragon 2024",
+      "printings": 21
+    },
+    {
+      "set_code": "pl25",
+      "set_name": "Year of the Snake 2025",
+      "printings": 6
+    },
+    {
+      "set_code": "pl26",
+      "set_name": "Year of the Horse 2026",
+      "printings": 5
+    },
+    {
+      "set_code": "plc",
+      "set_name": "Planar Chaos",
+      "printings": 1485
+    },
+    {
+      "set_code": "plci",
+      "set_name": "The Lost Caverns of Ixalan Promos",
+      "printings": 136
+    },
+    {
+      "set_code": "plg20",
+      "set_name": "Love Your LGS 2020",
+      "printings": 2
+    },
+    {
+      "set_code": "plg21",
+      "set_name": "Love Your LGS 2021",
+      "printings": 13
+    },
+    {
+      "set_code": "plg22",
+      "set_name": "Love Your LGS 2022",
+      "printings": 2
+    },
+    {
+      "set_code": "plg24",
+      "set_name": "Love Your LGS 2024",
+      "printings": 7
+    },
+    {
+      "set_code": "plg25",
+      "set_name": "Love Your LGS 2025",
+      "printings": 2
+    },
+    {
+      "set_code": "plgm",
+      "set_name": "DCI Legend Membership",
+      "printings": 2
+    },
+    {
+      "set_code": "plgn",
+      "set_name": "Legions Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "plny",
+      "set_name": "Lunar New Year 2018",
+      "printings": 1
+    },
+    {
+      "set_code": "plrw",
+      "set_name": "Lorwyn Promos",
+      "printings": 3
+    },
+    {
+      "set_code": "pls",
+      "set_name": "Planeshift",
+      "printings": 1307
+    },
+    {
+      "set_code": "plst",
+      "set_name": "The List",
+      "printings": 5664
+    },
+    {
+      "set_code": "pltc",
+      "set_name": "Tales of Middle-earth Deluxe Commander Kit",
+      "printings": 4
+    },
+    {
+      "set_code": "pltr",
+      "set_name": "Tales of Middle-earth Promos",
+      "printings": 86
+    },
+    {
+      "set_code": "pm10",
+      "set_name": "Magic 2010 Promos",
+      "printings": 3
+    },
+    {
+      "set_code": "pm11",
+      "set_name": "Magic 2011 Promos",
+      "printings": 6
+    },
+    {
+      "set_code": "pm12",
+      "set_name": "Magic 2012 Promos",
+      "printings": 3
+    },
+    {
+      "set_code": "pm13",
+      "set_name": "Magic 2013 Promos",
+      "printings": 6
+    },
+    {
+      "set_code": "pm14",
+      "set_name": "Magic 2014 Promos",
+      "printings": 6
+    },
+    {
+      "set_code": "pm15",
+      "set_name": "Magic 2015 Promos",
+      "printings": 14
+    },
+    {
+      "set_code": "pm19",
+      "set_name": "Core Set 2019 Promos",
+      "printings": 96
+    },
+    {
+      "set_code": "pm20",
+      "set_name": "Core Set 2020 Promos",
+      "printings": 144
+    },
+    {
+      "set_code": "pm21",
+      "set_name": "Core Set 2021 Promos",
+      "printings": 137
+    },
+    {
+      "set_code": "pmat",
+      "set_name": "March of the Machine: The Aftermath Promos",
+      "printings": 8
+    },
+    {
+      "set_code": "pmbs",
+      "set_name": "Mirrodin Besieged Promos",
+      "printings": 4
+    },
+    {
+      "set_code": "pmda",
+      "set_name": "Magic × Duel Masters Promos",
+      "printings": 4
+    },
+    {
+      "set_code": "pmei",
+      "set_name": "Media and Collaboration Promos",
+      "printings": 113
+    },
+    {
+      "set_code": "pmh1",
+      "set_name": "Modern Horizons Promos",
+      "printings": 2
+    },
+    {
+      "set_code": "pmh2",
+      "set_name": "Modern Horizons 2 Promos",
+      "printings": 86
+    },
+    {
+      "set_code": "pmh3",
+      "set_name": "Modern Horizons 3 Promos",
+      "printings": 92
+    },
+    {
+      "set_code": "pmic",
+      "set_name": "MicroProse Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "pmid",
+      "set_name": "Innistrad: Midnight Hunt Promos",
+      "printings": 155
+    },
+    {
+      "set_code": "pmkm",
+      "set_name": "Murders at Karlov Manor Promos",
+      "printings": 180
+    },
+    {
+      "set_code": "pmmq",
+      "set_name": "Mercadian Masques Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "pmoa",
+      "set_name": "Magic Online Avatars",
+      "printings": 85
+    },
+    {
+      "set_code": "pmom",
+      "set_name": "March of the Machine Promos",
+      "printings": 134
+    },
+    {
+      "set_code": "pmor",
+      "set_name": "Morningtide Promos",
+      "printings": 2
+    },
+    {
+      "set_code": "pmps",
+      "set_name": "Magic Premiere Shop 2005",
+      "printings": 20
+    },
+    {
+      "set_code": "pmps06",
+      "set_name": "Magic Premiere Shop 2006",
+      "printings": 5
+    },
+    {
+      "set_code": "pmps07",
+      "set_name": "Magic Premiere Shop 2007",
+      "printings": 5
+    },
+    {
+      "set_code": "pmps08",
+      "set_name": "Magic Premiere Shop 2008",
+      "printings": 6
+    },
+    {
+      "set_code": "pmps09",
+      "set_name": "Magic Premiere Shop 2009",
+      "printings": 5
+    },
+    {
+      "set_code": "pmps10",
+      "set_name": "Magic Premiere Shop 2010",
+      "printings": 5
+    },
+    {
+      "set_code": "pmps11",
+      "set_name": "Magic Premiere Shop 2011",
+      "printings": 5
+    },
+    {
+      "set_code": "pmrd",
+      "set_name": "Mirrodin Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "pnat",
+      "set_name": "Nationals Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "pncc",
+      "set_name": "New Capenna Commander Promos",
+      "printings": 75
+    },
+    {
+      "set_code": "pnem",
+      "set_name": "Nemesis Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "pneo",
+      "set_name": "Kamigawa: Neon Dynasty Promos",
+      "printings": 148
+    },
+    {
+      "set_code": "pnph",
+      "set_name": "New Phyrexia Promos",
+      "printings": 4
+    },
+    {
+      "set_code": "pody",
+      "set_name": "Odyssey Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "pogw",
+      "set_name": "Oath of the Gatewatch Promos",
+      "printings": 65
+    },
+    {
+      "set_code": "pone",
+      "set_name": "Phyrexia: All Will Be One Promos",
+      "printings": 160
+    },
+    {
+      "set_code": "pons",
+      "set_name": "Onslaught Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "por",
+      "set_name": "Portal",
+      "printings": 1547
+    },
+    {
+      "set_code": "pori",
+      "set_name": "Magic Origins Promos",
+      "printings": 54
+    },
+    {
+      "set_code": "potj",
+      "set_name": "Outlaws of Thunder Junction Promos",
+      "printings": 160
+    },
+    {
+      "set_code": "ppc1",
+      "set_name": "M15 Prerelease Challenge",
+      "printings": 2
+    },
+    {
+      "set_code": "ppcy",
+      "set_name": "Prophecy Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "pplc",
+      "set_name": "Planar Chaos Promos",
+      "printings": 2
+    },
+    {
+      "set_code": "ppls",
+      "set_name": "Planeshift Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "ppp1",
+      "set_name": "M20 Promo Packs",
+      "printings": 5
+    },
+    {
+      "set_code": "ppro",
+      "set_name": "Pro Tour Promos",
+      "printings": 18
+    },
+    {
+      "set_code": "pptk",
+      "set_name": "Portal Three Kingdoms Promos",
+      "printings": 2
+    },
+    {
+      "set_code": "pr2",
+      "set_name": "Magic Player Rewards 2002",
+      "printings": 6
+    },
+    {
+      "set_code": "pr23",
+      "set_name": "Regional Championship Qualifiers 2023",
+      "printings": 3
+    },
+    {
+      "set_code": "prav",
+      "set_name": "Ravnica: City of Guilds Promos",
+      "printings": 2
+    },
+    {
+      "set_code": "prcq",
+      "set_name": "Regional Championship Qualifiers 2022",
+      "printings": 3
+    },
+    {
+      "set_code": "pred",
+      "set_name": "Redemption Program",
+      "printings": 1
+    },
+    {
+      "set_code": "prix",
+      "set_name": "Rivals of Ixalan Promos",
+      "printings": 98
+    },
+    {
+      "set_code": "prm",
+      "set_name": "Magic Online Promos",
+      "printings": 3095
+    },
+    {
+      "set_code": "prna",
+      "set_name": "Ravnica Allegiance Promos",
+      "printings": 81
+    },
+    {
+      "set_code": "proe",
+      "set_name": "Rise of the Eldrazi Promos",
+      "printings": 4
+    },
+    {
+      "set_code": "prtr",
+      "set_name": "Return to Ravnica Promos",
+      "printings": 10
+    },
+    {
+      "set_code": "prw2",
+      "set_name": "RNA Ravnica Weekend",
+      "printings": 10
+    },
+    {
+      "set_code": "prwk",
+      "set_name": "GRN Ravnica Weekend",
+      "printings": 10
+    },
+    {
+      "set_code": "ps11",
+      "set_name": "Salvat 2011",
+      "printings": 224
+    },
+    {
+      "set_code": "ps14",
+      "set_name": "San Diego Comic-Con 2014",
+      "printings": 6
+    },
+    {
+      "set_code": "ps15",
+      "set_name": "San Diego Comic-Con 2015",
+      "printings": 5
+    },
+    {
+      "set_code": "ps16",
+      "set_name": "San Diego Comic-Con 2016",
+      "printings": 5
+    },
+    {
+      "set_code": "ps17",
+      "set_name": "San Diego Comic-Con 2017",
+      "printings": 6
+    },
+    {
+      "set_code": "ps18",
+      "set_name": "San Diego Comic-Con 2018",
+      "printings": 5
+    },
+    {
+      "set_code": "ps19",
+      "set_name": "San Diego Comic-Con 2019",
+      "printings": 5
+    },
+    {
+      "set_code": "psal",
+      "set_name": "Salvat 2005",
+      "printings": 1920
+    },
+    {
+      "set_code": "pscg",
+      "set_name": "Scourge Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "psdc",
+      "set_name": "San Diego Comic-Con 2013",
+      "printings": 5
+    },
+    {
+      "set_code": "psdg",
+      "set_name": "Sega Dreamcast Cards",
+      "printings": 10
+    },
+    {
+      "set_code": "pshm",
+      "set_name": "Shadowmoor Promos",
+      "printings": 2
+    },
+    {
+      "set_code": "psnc",
+      "set_name": "Streets of New Capenna Promos",
+      "printings": 161
+    },
+    {
+      "set_code": "psoi",
+      "set_name": "Shadows over Innistrad Promos",
+      "printings": 90
+    },
+    {
+      "set_code": "psok",
+      "set_name": "Saviors of Kamigawa Promos",
+      "printings": 2
+    },
+    {
+      "set_code": "psom",
+      "set_name": "Scars of Mirrodin Promos",
+      "printings": 4
+    },
+    {
+      "set_code": "psos",
+      "set_name": "Secrets of Strixhaven Promos",
+      "printings": 80
+    },
+    {
+      "set_code": "pspl",
+      "set_name": "Spotlight Series",
+      "printings": 13
+    },
+    {
+      "set_code": "pspm",
+      "set_name": "Marvel's Spider-Man Promos",
+      "printings": 68
+    },
+    {
+      "set_code": "pss1",
+      "set_name": "BFZ Standard Series",
+      "printings": 5
+    },
+    {
+      "set_code": "pss2",
+      "set_name": "XLN Standard Showdown",
+      "printings": 5
+    },
+    {
+      "set_code": "pss3",
+      "set_name": "M19 Standard Showdown",
+      "printings": 5
+    },
+    {
+      "set_code": "pss4",
+      "set_name": "MKM Standard Showdown",
+      "printings": 5
+    },
+    {
+      "set_code": "pss5",
+      "set_name": "FIN Standard Showdown",
+      "printings": 2
+    },
+    {
+      "set_code": "pssc",
+      "set_name": "Secret Lair Showcase Planes",
+      "printings": 10
+    },
+    {
+      "set_code": "psth",
+      "set_name": "Stronghold Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "pstx",
+      "set_name": "Strixhaven: School of Mages Promos",
+      "printings": 164
+    },
+    {
+      "set_code": "psus",
+      "set_name": "Junior Super Series",
+      "printings": 18
+    },
+    {
+      "set_code": "psvc",
+      "set_name": "Summer Vacation Promos 2022",
+      "printings": 3
+    },
+    {
+      "set_code": "ptbro",
+      "set_name": "The Brothers' War Southeast Asia Tokens",
+      "printings": 3
+    },
+    {
+      "set_code": "ptc",
+      "set_name": "Pro Tour Collector Set",
+      "printings": 308
+    },
+    {
+      "set_code": "ptdm",
+      "set_name": "Tarkir: Dragonstorm Promos",
+      "printings": 160
+    },
+    {
+      "set_code": "ptdmu",
+      "set_name": "Dominaria United Southeast Asia Tokens",
+      "printings": 3
+    },
+    {
+      "set_code": "ptg",
+      "set_name": "Ponies: The Galloping",
+      "printings": 3
+    },
+    {
+      "set_code": "pthb",
+      "set_name": "Theros Beyond Death Promos",
+      "printings": 137
+    },
+    {
+      "set_code": "pths",
+      "set_name": "Theros Promos",
+      "printings": 10
+    },
+    {
+      "set_code": "ptk",
+      "set_name": "Portal Three Kingdoms",
+      "printings": 720
+    },
+    {
+      "set_code": "ptkdf",
+      "set_name": "Tarkir Dragonfury",
+      "printings": 4
+    },
+    {
+      "set_code": "ptla",
+      "set_name": "Avatar: The Last Airbender Promos",
+      "printings": 80
+    },
+    {
+      "set_code": "ptmp",
+      "set_name": "Tempest Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "ptor",
+      "set_name": "Torment Promos",
+      "printings": 3
+    },
+    {
+      "set_code": "ptsnc",
+      "set_name": "Streets of New Capenna Southeast Asia Tokens",
+      "printings": 6
+    },
+    {
+      "set_code": "ptsp",
+      "set_name": "Time Spiral Promos",
+      "printings": 3
+    },
+    {
+      "set_code": "ptsr",
+      "set_name": "Time Spiral Remastered Promos",
+      "printings": 3
+    },
+    {
+      "set_code": "puds",
+      "set_name": "Urza's Destiny Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "pulg",
+      "set_name": "Urza's Legacy Promos",
+      "printings": 2
+    },
+    {
+      "set_code": "puma",
+      "set_name": "Ultimate Box Topper",
+      "printings": 40
+    },
+    {
+      "set_code": "punh",
+      "set_name": "Unhinged Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "punk",
+      "set_name": "Black Lotus Unknown Planechase",
+      "printings": 52
+    },
+    {
+      "set_code": "purl",
+      "set_name": "URL/Convention Promos",
+      "printings": 19
+    },
+    {
+      "set_code": "pusg",
+      "set_name": "Urza's Saga Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "pust",
+      "set_name": "Unstable Promos",
+      "printings": 1
+    },
+    {
+      "set_code": "pvan",
+      "set_name": "Vanguard Series",
+      "printings": 32
+    },
+    {
+      "set_code": "pvow",
+      "set_name": "Innistrad: Crimson Vow Promos",
+      "printings": 121
+    },
+    {
+      "set_code": "pw11",
+      "set_name": "Wizards Play Network 2011",
+      "printings": 3
+    },
+    {
+      "set_code": "pw12",
+      "set_name": "Wizards Play Network 2012",
+      "printings": 3
+    },
+    {
+      "set_code": "pw21",
+      "set_name": "Wizards Play Network 2021",
+      "printings": 6
+    },
+    {
+      "set_code": "pw22",
+      "set_name": "Wizards Play Network 2022",
+      "printings": 6
+    },
+    {
+      "set_code": "pw23",
+      "set_name": "Wizards Play Network 2023",
+      "printings": 13
+    },
+    {
+      "set_code": "pw24",
+      "set_name": "Wizards Play Network 2024",
+      "printings": 25
+    },
+    {
+      "set_code": "pw25",
+      "set_name": "Wizards Play Network 2025",
+      "printings": 16
+    },
+    {
+      "set_code": "pw26",
+      "set_name": "Wizards Play Network 2026",
+      "printings": 23
+    },
+    {
+      "set_code": "pwar",
+      "set_name": "War of the Spark Promos",
+      "printings": 176
+    },
+    {
+      "set_code": "pwcs",
+      "set_name": "Planeswalker Championship Promos",
+      "printings": 46
+    },
+    {
+      "set_code": "pwoe",
+      "set_name": "Wilds of Eldraine Promos",
+      "printings": 160
+    },
+    {
+      "set_code": "pwor",
+      "set_name": "World Championship Promos",
+      "printings": 2
+    },
+    {
+      "set_code": "pwos",
+      "set_name": "Wizards of the Coast Online Store",
+      "printings": 1
+    },
+    {
+      "set_code": "pwwk",
+      "set_name": "Worldwake Promos",
+      "printings": 6
+    },
+    {
+      "set_code": "pxln",
+      "set_name": "Ixalan Promos",
+      "printings": 120
+    },
+    {
+      "set_code": "pxtc",
+      "set_name": "XLN Treasure Chest",
+      "printings": 10
+    },
+    {
+      "set_code": "pz1",
+      "set_name": "Legendary Cube Prize Pack",
+      "printings": 149
+    },
+    {
+      "set_code": "pz2",
+      "set_name": "Treasure Chest",
+      "printings": 270
+    },
+    {
+      "set_code": "pza",
+      "set_name": "Teenage Mutant Ninja Turtles Source Material",
+      "printings": 120
+    },
+    {
+      "set_code": "pzen",
+      "set_name": "Zendikar Promos",
+      "printings": 6
+    },
+    {
+      "set_code": "pznr",
+      "set_name": "Zendikar Rising Promos",
+      "printings": 153
+    },
+    {
+      "set_code": "q06",
+      "set_name": "Pioneer Challenger Decks 2021",
+      "printings": 10
+    },
+    {
+      "set_code": "q07",
+      "set_name": "Challenger Decks 2022",
+      "printings": 1
+    },
+    {
+      "set_code": "rav",
+      "set_name": "Ravnica: City of Guilds",
+      "printings": 2741
+    },
+    {
+      "set_code": "ren",
+      "set_name": "Renaissance",
+      "printings": 244
+    },
+    {
+      "set_code": "rex",
+      "set_name": "Jurassic World Collection",
+      "printings": 227
+    },
+    {
+      "set_code": "rfin",
+      "set_name": "Final Fantasy Regional Promos",
+      "printings": 2
+    },
+    {
+      "set_code": "rin",
+      "set_name": "Rinascimento",
+      "printings": 69
+    },
+    {
+      "set_code": "rix",
+      "set_name": "Rivals of Ixalan",
+      "printings": 2255
+    },
+    {
+      "set_code": "rna",
+      "set_name": "Ravnica Allegiance",
+      "printings": 2969
+    },
+    {
+      "set_code": "roe",
+      "set_name": "Rise of the Eldrazi",
+      "printings": 2232
+    },
+    {
+      "set_code": "rqs",
+      "set_name": "Rivals Quick Start Set",
+      "printings": 65
+    },
+    {
+      "set_code": "rtr",
+      "set_name": "Return to Ravnica",
+      "printings": 3014
+    },
+    {
+      "set_code": "rvr",
+      "set_name": "Ravnica Remastered",
+      "printings": 3617
+    },
+    {
+      "set_code": "s00",
+      "set_name": "Starter 2000",
+      "printings": 120
+    },
+    {
+      "set_code": "s99",
+      "set_name": "Starter 1999",
+      "printings": 173
+    },
+    {
+      "set_code": "sbro",
+      "set_name": "The Brothers' War Substitute Cards",
+      "printings": 1
+    },
+    {
+      "set_code": "scd",
+      "set_name": "Starter Commander Decks",
+      "printings": 352
+    },
+    {
+      "set_code": "scg",
+      "set_name": "Scourge",
+      "printings": 1287
+    },
+    {
+      "set_code": "sch",
+      "set_name": "Store Championships",
+      "printings": 53
+    },
+    {
+      "set_code": "sds",
+      "set_name": "Stardates",
+      "printings": 1
+    },
+    {
+      "set_code": "shm",
+      "set_name": "Shadowmoor",
+      "printings": 2718
+    },
+    {
+      "set_code": "sir",
+      "set_name": "Shadows over Innistrad Remastered",
+      "printings": 294
+    },
+    {
+      "set_code": "sis",
+      "set_name": "Shadows of the Past",
+      "printings": 76
+    },
+    {
+      "set_code": "skhm",
+      "set_name": "Kaldheim Substitute Cards",
+      "printings": 9
+    },
+    {
+      "set_code": "slc",
+      "set_name": "Secret Lair Countdown",
+      "printings": 84
+    },
+    {
+      "set_code": "slci",
+      "set_name": "The Lost Caverns of Ixalan Substitute Cards",
+      "printings": 1
+    },
+    {
+      "set_code": "sld",
+      "set_name": "Secret Lair Drop",
+      "printings": 2925
+    },
+    {
+      "set_code": "slp",
+      "set_name": "Secret Lair Promo",
+      "printings": 57
+    },
+    {
+      "set_code": "slu",
+      "set_name": "Secret Lair: Ultimate Edition",
+      "printings": 16
+    },
+    {
+      "set_code": "slx",
+      "set_name": "Universes Within",
+      "printings": 30
+    },
+    {
+      "set_code": "slz",
+      "set_name": "The Zeta Set",
+      "printings": 363
+    },
+    {
+      "set_code": "smh3",
+      "set_name": "Modern Horizons 3 Substitute Cards",
+      "printings": 1
+    },
+    {
+      "set_code": "smid",
+      "set_name": "Innistrad: Midnight Hunt Substitute Cards",
+      "printings": 9
+    },
+    {
+      "set_code": "smom",
+      "set_name": "March of the Machine Substitute Cards",
+      "printings": 1
+    },
+    {
+      "set_code": "snc",
+      "set_name": "Streets of New Capenna",
+      "printings": 4245
+    },
+    {
+      "set_code": "sneo",
+      "set_name": "Kamigawa: Neon Dynasty Substitute Cards",
+      "printings": 9
+    },
+    {
+      "set_code": "soa",
+      "set_name": "Secrets of Strixhaven Mystical Archive",
+      "printings": 520
+    },
+    {
+      "set_code": "soc",
+      "set_name": "Secrets of Strixhaven Commander",
+      "printings": 1702
+    },
+    {
+      "set_code": "soi",
+      "set_name": "Shadows over Innistrad",
+      "printings": 3272
+    },
+    {
+      "set_code": "sok",
+      "set_name": "Saviors of Kamigawa",
+      "printings": 1285
+    },
+    {
+      "set_code": "som",
+      "set_name": "Scars of Mirrodin",
+      "printings": 2490
+    },
+    {
+      "set_code": "sos",
+      "set_name": "Secrets of Strixhaven",
+      "printings": 2068
+    },
+    {
+      "set_code": "spe",
+      "set_name": "Marvel's Spider-Man Eternal",
+      "printings": 104
+    },
+    {
+      "set_code": "spg",
+      "set_name": "Special Guests",
+      "printings": 969
+    },
+    {
+      "set_code": "spm",
+      "set_name": "Marvel's Spider-Man",
+      "printings": 1564
+    },
+    {
+      "set_code": "ss1",
+      "set_name": "Signature Spellbook: Jace",
+      "printings": 8
+    },
+    {
+      "set_code": "ss2",
+      "set_name": "Signature Spellbook: Gideon",
+      "printings": 8
+    },
+    {
+      "set_code": "ss3",
+      "set_name": "Signature Spellbook: Chandra",
+      "printings": 8
+    },
+    {
+      "set_code": "sstx",
+      "set_name": "Strixhaven: School of Mages Substitute Cards",
+      "printings": 9
+    },
+    {
+      "set_code": "sta",
+      "set_name": "Strixhaven Mystical Archive",
+      "printings": 756
+    },
+    {
+      "set_code": "sth",
+      "set_name": "Stronghold",
+      "printings": 1287
+    },
+    {
+      "set_code": "stx",
+      "set_name": "Strixhaven: School of Mages",
+      "printings": 3703
+    },
+    {
+      "set_code": "sum",
+      "set_name": "Summer Magic / Edgar",
+      "printings": 306
+    },
+    {
+      "set_code": "sunf",
+      "set_name": "Unfinity Sticker Sheets",
+      "printings": 48
+    },
+    {
+      "set_code": "svow",
+      "set_name": "Innistrad: Crimson Vow Substitute Cards",
+      "printings": 9
+    },
+    {
+      "set_code": "sznr",
+      "set_name": "Zendikar Rising Substitute Cards",
+      "printings": 9
+    },
+    {
+      "set_code": "t10e",
+      "set_name": "Tenth Edition Tokens",
+      "printings": 6
+    },
+    {
+      "set_code": "t2x2",
+      "set_name": "Double Masters 2022 Tokens",
+      "printings": 24
+    },
+    {
+      "set_code": "t2xm",
+      "set_name": "Double Masters Tokens",
+      "printings": 31
+    },
+    {
+      "set_code": "t30a",
+      "set_name": "30th Anniversary Tokens",
+      "printings": 16
+    },
+    {
+      "set_code": "t40k",
+      "set_name": "Warhammer 40,000 Tokens",
+      "printings": 31
+    },
+    {
+      "set_code": "ta25",
+      "set_name": "Masters 25 Tokens",
+      "printings": 16
+    },
+    {
+      "set_code": "tacr",
+      "set_name": "Assassin's Creed Tokens",
+      "printings": 8
+    },
+    {
+      "set_code": "taer",
+      "set_name": "Aether Revolt Tokens",
+      "printings": 4
+    },
+    {
+      "set_code": "tafc",
+      "set_name": "Forgotten Realms Commander Tokens",
+      "printings": 13
+    },
+    {
+      "set_code": "tafr",
+      "set_name": "Adventures in the Forgotten Realms Tokens",
+      "printings": 22
+    },
+    {
+      "set_code": "takh",
+      "set_name": "Amonkhet Tokens",
+      "printings": 26
+    },
+    {
+      "set_code": "tala",
+      "set_name": "Shards of Alara Tokens",
+      "printings": 10
+    },
+    {
+      "set_code": "tarb",
+      "set_name": "Alara Reborn Tokens",
+      "printings": 4
+    },
+    {
+      "set_code": "tavr",
+      "set_name": "Avacyn Restored Tokens",
+      "printings": 8
+    },
+    {
+      "set_code": "tbbd",
+      "set_name": "Battlebond Tokens",
+      "printings": 8
+    },
+    {
+      "set_code": "tbfz",
+      "set_name": "Battle for Zendikar Tokens",
+      "printings": 14
+    },
+    {
+      "set_code": "tbig",
+      "set_name": "The Big Score Tokens",
+      "printings": 7
+    },
+    {
+      "set_code": "tblb",
+      "set_name": "Bloomburrow Tokens",
+      "printings": 30
+    },
+    {
+      "set_code": "tblc",
+      "set_name": "Bloomburrow Commander Tokens",
+      "printings": 41
+    },
+    {
+      "set_code": "tbng",
+      "set_name": "Born of the Gods Tokens",
+      "printings": 11
+    },
+    {
+      "set_code": "tbot",
+      "set_name": "Transformers Tokens",
+      "printings": 2
+    },
+    {
+      "set_code": "tbrc",
+      "set_name": "The Brothers' War Commander Tokens",
+      "printings": 14
+    },
+    {
+      "set_code": "tbro",
+      "set_name": "The Brothers' War Tokens",
+      "printings": 12
+    },
+    {
+      "set_code": "tbth",
+      "set_name": "Battle the Horde",
+      "printings": 15
+    },
+    {
+      "set_code": "tc14",
+      "set_name": "Commander 2014 Tokens",
+      "printings": 36
+    },
+    {
+      "set_code": "tc15",
+      "set_name": "Commander 2015 Tokens",
+      "printings": 25
+    },
+    {
+      "set_code": "tc16",
+      "set_name": "Commander 2016 Tokens",
+      "printings": 21
+    },
+    {
+      "set_code": "tc17",
+      "set_name": "Commander 2017 Tokens",
+      "printings": 11
+    },
+    {
+      "set_code": "tc18",
+      "set_name": "Commander 2018 Tokens",
+      "printings": 26
+    },
+    {
+      "set_code": "tc19",
+      "set_name": "Commander 2019 Tokens",
+      "printings": 29
+    },
+    {
+      "set_code": "tc20",
+      "set_name": "Commander 2020 Tokens",
+      "printings": 20
+    },
+    {
+      "set_code": "tc21",
+      "set_name": "Commander 2021 Tokens",
+      "printings": 30
+    },
+    {
+      "set_code": "tclb",
+      "set_name": "Battle for Baldur's Gate Tokens",
+      "printings": 51
+    },
+    {
+      "set_code": "tcm2",
+      "set_name": "Commander Anthology Volume II Tokens",
+      "printings": 19
+    },
+    {
+      "set_code": "tcma",
+      "set_name": "Commander Anthology Tokens",
+      "printings": 20
+    },
+    {
+      "set_code": "tcmm",
+      "set_name": "Commander Masters Tokens",
+      "printings": 81
+    },
+    {
+      "set_code": "tcmr",
+      "set_name": "Commander Legends Tokens",
+      "printings": 23
+    },
+    {
+      "set_code": "tcn2",
+      "set_name": "Conspiracy: Take the Crown Tokens",
+      "printings": 12
+    },
+    {
+      "set_code": "tcns",
+      "set_name": "Conspiracy Tokens",
+      "printings": 9
+    },
+    {
+      "set_code": "tcon",
+      "set_name": "Conflux Tokens",
+      "printings": 2
+    },
+    {
+      "set_code": "td0",
+      "set_name": "Magic Online Theme Decks",
+      "printings": 197
+    },
+    {
+      "set_code": "td2",
+      "set_name": "Duel Decks: Mirrodin Pure vs. New Phyrexia",
+      "printings": 88
+    },
+    {
+      "set_code": "tdag",
+      "set_name": "Defeat a God",
+      "printings": 15
+    },
+    {
+      "set_code": "tdc",
+      "set_name": "Tarkir: Dragonstorm Commander",
+      "printings": 2382
+    },
+    {
+      "set_code": "tdd1",
+      "set_name": "Duel Decks: Elves vs. Goblins Tokens",
+      "printings": 3
+    },
+    {
+      "set_code": "tdd2",
+      "set_name": "Duel Decks: Jace vs. Chandra Tokens",
+      "printings": 1
+    },
+    {
+      "set_code": "tddc",
+      "set_name": "Duel Decks: Divine vs. Demonic Tokens",
+      "printings": 3
+    },
+    {
+      "set_code": "tddd",
+      "set_name": "Duel Decks: Garruk vs. Liliana Tokens",
+      "printings": 3
+    },
+    {
+      "set_code": "tdde",
+      "set_name": "Duel Decks: Phyrexia vs. the Coalition Tokens",
+      "printings": 3
+    },
+    {
+      "set_code": "tddf",
+      "set_name": "Duel Decks: Elspeth vs. Tezzeret Tokens",
+      "printings": 1
+    },
+    {
+      "set_code": "tddg",
+      "set_name": "Duel Decks: Knights vs. Dragons Tokens",
+      "printings": 1
+    },
+    {
+      "set_code": "tddh",
+      "set_name": "Duel Decks: Ajani vs. Nicol Bolas Tokens",
+      "printings": 2
+    },
+    {
+      "set_code": "tddi",
+      "set_name": "Duel Decks: Venser vs. Koth Tokens",
+      "printings": 2
+    },
+    {
+      "set_code": "tddj",
+      "set_name": "Duel Decks: Izzet vs. Golgari Tokens",
+      "printings": 1
+    },
+    {
+      "set_code": "tddk",
+      "set_name": "Duel Decks: Sorin vs. Tibalt Tokens",
+      "printings": 1
+    },
+    {
+      "set_code": "tddl",
+      "set_name": "Duel Decks: Heroes vs. Monsters Tokens",
+      "printings": 2
+    },
+    {
+      "set_code": "tddm",
+      "set_name": "Duel Decks: Jace vs. Vraska Tokens",
+      "printings": 1
+    },
+    {
+      "set_code": "tdds",
+      "set_name": "Duel Decks: Mind vs. Might Tokens",
+      "printings": 7
+    },
+    {
+      "set_code": "tddt",
+      "set_name": "Duel Decks: Merfolk vs. Goblins Tokens",
+      "printings": 3
+    },
+    {
+      "set_code": "tddu",
+      "set_name": "Duel Decks: Elves vs. Inventors Tokens",
+      "printings": 4
+    },
+    {
+      "set_code": "tdft",
+      "set_name": "Aetherdrift Tokens",
+      "printings": 14
+    },
+    {
+      "set_code": "tdgm",
+      "set_name": "Dragon's Maze Tokens",
+      "printings": 1
+    },
+    {
+      "set_code": "tdka",
+      "set_name": "Dark Ascension Tokens",
+      "printings": 4
+    },
+    {
+      "set_code": "tdm",
+      "set_name": "Tarkir: Dragonstorm",
+      "printings": 2395
+    },
+    {
+      "set_code": "tdmc",
+      "set_name": "Dominaria United Commander Tokens",
+      "printings": 12
+    },
+    {
+      "set_code": "tdmr",
+      "set_name": "Dominaria Remastered Tokens",
+      "printings": 14
+    },
+    {
+      "set_code": "tdmu",
+      "set_name": "Dominaria United Tokens",
+      "printings": 26
+    },
+    {
+      "set_code": "tdom",
+      "set_name": "Dominaria Tokens",
+      "printings": 16
+    },
+    {
+      "set_code": "tdrc",
+      "set_name": "Aetherdrift Commander Tokens",
+      "printings": 17
+    },
+    {
+      "set_code": "tdsc",
+      "set_name": "Duskmourn Commander Tokens",
+      "printings": 23
+    },
+    {
+      "set_code": "tdsk",
+      "set_name": "Duskmourn: House of Horror Tokens",
+      "printings": 19
+    },
+    {
+      "set_code": "tdtk",
+      "set_name": "Dragons of Tarkir Tokens",
+      "printings": 8
+    },
+    {
+      "set_code": "tdvd",
+      "set_name": "Duel Decks Anthology: Divine vs. Demonic Tokens",
+      "printings": 3
+    },
+    {
+      "set_code": "te01",
+      "set_name": "Archenemy: Nicol Bolas Tokens",
+      "printings": 5
+    },
+    {
+      "set_code": "tecc",
+      "set_name": "Lorwyn Eclipsed Commander Tokens",
+      "printings": 13
+    },
+    {
+      "set_code": "tecl",
+      "set_name": "Lorwyn Eclipsed Tokens",
+      "printings": 13
+    },
+    {
+      "set_code": "teld",
+      "set_name": "Throne of Eldraine Tokens",
+      "printings": 20
+    },
+    {
+      "set_code": "tema",
+      "set_name": "Eternal Masters Tokens",
+      "printings": 16
+    },
+    {
+      "set_code": "temn",
+      "set_name": "Eldritch Moon Tokens",
+      "printings": 11
+    },
+    {
+      "set_code": "teoc",
+      "set_name": "Edge of Eternities Commander Tokens",
+      "printings": 16
+    },
+    {
+      "set_code": "teoe",
+      "set_name": "Edge of Eternities Tokens",
+      "printings": 12
+    },
+    {
+      "set_code": "teve",
+      "set_name": "Eventide Tokens",
+      "printings": 7
+    },
+    {
+      "set_code": "tevg",
+      "set_name": "Duel Decks Anthology: Elves vs. Goblins Tokens",
+      "printings": 3
+    },
+    {
+      "set_code": "tfdc",
+      "set_name": "Foundations Commander Tokens",
+      "printings": 17
+    },
+    {
+      "set_code": "tfdn",
+      "set_name": "Foundations Tokens",
+      "printings": 33
+    },
+    {
+      "set_code": "tfic",
+      "set_name": "Final Fantasy Commander Tokens",
+      "printings": 11
+    },
+    {
+      "set_code": "tfin",
+      "set_name": "Final Fantasy Tokens",
+      "printings": 37
+    },
+    {
+      "set_code": "tfra",
+      "set_name": "Reality Fracture Tokens",
+      "printings": 18
+    },
+    {
+      "set_code": "tfrc",
+      "set_name": "Reality Fracture Commander Tokens",
+      "printings": 17
+    },
+    {
+      "set_code": "tfrf",
+      "set_name": "Fate Reforged Tokens",
+      "printings": 4
+    },
+    {
+      "set_code": "tfth",
+      "set_name": "Face the Hydra",
+      "printings": 15
+    },
+    {
+      "set_code": "tgk1",
+      "set_name": "GRN Guild Kit Tokens",
+      "printings": 10
+    },
+    {
+      "set_code": "tgk2",
+      "set_name": "RNA Guild Kit Tokens",
+      "printings": 9
+    },
+    {
+      "set_code": "tgn2",
+      "set_name": "Game Night 2019 Tokens",
+      "printings": 3
+    },
+    {
+      "set_code": "tgn3",
+      "set_name": "Game Night: Free-for-All Tokens",
+      "printings": 10
+    },
+    {
+      "set_code": "tgrn",
+      "set_name": "Guilds of Ravnica Tokens",
+      "printings": 8
+    },
+    {
+      "set_code": "tgtc",
+      "set_name": "Gatecrash Tokens",
+      "printings": 8
+    },
+    {
+      "set_code": "tgvl",
+      "set_name": "Duel Decks Anthology: Garruk vs. Liliana Tokens",
+      "printings": 4
+    },
+    {
+      "set_code": "thb",
+      "set_name": "Theros Beyond Death",
+      "printings": 3188
+    },
+    {
+      "set_code": "thob",
+      "set_name": "The Hobbit Tokens",
+      "printings": 15
+    },
+    {
+      "set_code": "thou",
+      "set_name": "Hour of Devastation Tokens",
+      "printings": 13
+    },
+    {
+      "set_code": "thp1",
+      "set_name": "Theros Hero's Path",
+      "printings": 7
+    },
+    {
+      "set_code": "thp2",
+      "set_name": "Born of the Gods Hero's Path",
+      "printings": 7
+    },
+    {
+      "set_code": "thp3",
+      "set_name": "Journey into Nyx Hero's Path",
+      "printings": 8
+    },
+    {
+      "set_code": "ths",
+      "set_name": "Theros",
+      "printings": 2739
+    },
+    {
+      "set_code": "tiko",
+      "set_name": "Ikoria: Lair of Behemoths Tokens",
+      "printings": 14
+    },
+    {
+      "set_code": "tima",
+      "set_name": "Iconic Masters Tokens",
+      "printings": 7
+    },
+    {
+      "set_code": "tinr",
+      "set_name": "Innistrad Remastered Tokens",
+      "printings": 27
+    },
+    {
+      "set_code": "tisd",
+      "set_name": "Innistrad Tokens",
+      "printings": 13
+    },
+    {
+      "set_code": "tjou",
+      "set_name": "Journey into Nyx Tokens",
+      "printings": 6
+    },
+    {
+      "set_code": "tjvc",
+      "set_name": "Duel Decks Anthology: Jace vs. Chandra Tokens",
+      "printings": 1
+    },
+    {
+      "set_code": "tkhc",
+      "set_name": "Kaldheim Commander Tokens",
+      "printings": 8
+    },
+    {
+      "set_code": "tkhm",
+      "set_name": "Kaldheim Tokens",
+      "printings": 23
+    },
+    {
+      "set_code": "tkld",
+      "set_name": "Kaladesh Tokens",
+      "printings": 13
+    },
+    {
+      "set_code": "tktk",
+      "set_name": "Khans of Tarkir Tokens",
+      "printings": 13
+    },
+    {
+      "set_code": "tla",
+      "set_name": "Avatar: The Last Airbender",
+      "printings": 1854
+    },
+    {
+      "set_code": "tlcc",
+      "set_name": "The Lost Caverns of Ixalan Commander Tokens",
+      "printings": 18
+    },
+    {
+      "set_code": "tlci",
+      "set_name": "The Lost Caverns of Ixalan Tokens",
+      "printings": 19
+    },
+    {
+      "set_code": "tle",
+      "set_name": "Avatar: The Last Airbender Eternal",
+      "printings": 1341
+    },
+    {
+      "set_code": "tlrw",
+      "set_name": "Lorwyn Tokens",
+      "printings": 11
+    },
+    {
+      "set_code": "tltc",
+      "set_name": "Tales of Middle-earth Commander Tokens",
+      "printings": 15
+    },
+    {
+      "set_code": "tltr",
+      "set_name": "Tales of Middle-earth Tokens",
+      "printings": 25
+    },
+    {
+      "set_code": "tm10",
+      "set_name": "Magic 2010 Tokens",
+      "printings": 8
+    },
+    {
+      "set_code": "tm11",
+      "set_name": "Magic 2011 Tokens",
+      "printings": 6
+    },
+    {
+      "set_code": "tm12",
+      "set_name": "Magic 2012 Tokens",
+      "printings": 7
+    },
+    {
+      "set_code": "tm13",
+      "set_name": "Magic 2013 Tokens",
+      "printings": 11
+    },
+    {
+      "set_code": "tm14",
+      "set_name": "Magic 2014 Tokens",
+      "printings": 13
+    },
+    {
+      "set_code": "tm15",
+      "set_name": "Magic 2015 Tokens",
+      "printings": 14
+    },
+    {
+      "set_code": "tm19",
+      "set_name": "Core Set 2019 Tokens",
+      "printings": 18
+    },
+    {
+      "set_code": "tm20",
+      "set_name": "Core Set 2020 Tokens",
+      "printings": 12
+    },
+    {
+      "set_code": "tm21",
+      "set_name": "Core Set 2021 Tokens",
+      "printings": 20
+    },
+    {
+      "set_code": "tm3c",
+      "set_name": "Modern Horizons 3 Commander Tokens",
+      "printings": 28
+    },
+    {
+      "set_code": "tmbs",
+      "set_name": "Mirrodin Besieged Tokens",
+      "printings": 6
+    },
+    {
+      "set_code": "tmc",
+      "set_name": "Teenage Mutant Ninja Turtles Eternal",
+      "printings": 420
+    },
+    {
+      "set_code": "tmd1",
+      "set_name": "Modern Event Deck 2014 Tokens",
+      "printings": 4
+    },
+    {
+      "set_code": "tmdd",
+      "set_name": "Marvel: Darkhold Destiny Tokens",
+      "printings": 6
+    },
+    {
+      "set_code": "tmed",
+      "set_name": "Mythic Edition Tokens",
+      "printings": 16
+    },
+    {
+      "set_code": "tmh1",
+      "set_name": "Modern Horizons Tokens",
+      "printings": 21
+    },
+    {
+      "set_code": "tmh2",
+      "set_name": "Modern Horizons 2 Tokens",
+      "printings": 21
+    },
+    {
+      "set_code": "tmh3",
+      "set_name": "Modern Horizons 3 Tokens",
+      "printings": 43
+    },
+    {
+      "set_code": "tmic",
+      "set_name": "Midnight Hunt Commander Tokens",
+      "printings": 11
+    },
+    {
+      "set_code": "tmid",
+      "set_name": "Innistrad: Midnight Hunt Tokens",
+      "printings": 19
+    },
+    {
+      "set_code": "tmkc",
+      "set_name": "Murders at Karlov Manor Commander Tokens",
+      "printings": 31
+    },
+    {
+      "set_code": "tmkm",
+      "set_name": "Murders at Karlov Manor Tokens",
+      "printings": 22
+    },
+    {
+      "set_code": "tmm2",
+      "set_name": "Modern Masters 2015 Tokens",
+      "printings": 16
+    },
+    {
+      "set_code": "tmm3",
+      "set_name": "Modern Masters 2017 Tokens",
+      "printings": 21
+    },
+    {
+      "set_code": "tmma",
+      "set_name": "Modern Masters Tokens",
+      "printings": 16
+    },
+    {
+      "set_code": "tmoc",
+      "set_name": "March of the Machine Commander Tokens",
+      "printings": 46
+    },
+    {
+      "set_code": "tmom",
+      "set_name": "March of the Machine Tokens",
+      "printings": 23
+    },
+    {
+      "set_code": "tmor",
+      "set_name": "Morningtide Tokens",
+      "printings": 3
+    },
+    {
+      "set_code": "tmp",
+      "set_name": "Tempest",
+      "printings": 3150
+    },
+    {
+      "set_code": "tmsc",
+      "set_name": "Marvel Super Heroes Commander Tokens",
+      "printings": 32
+    },
+    {
+      "set_code": "tmsh",
+      "set_name": "Marvel Super Heroes Tokens",
+      "printings": 27
+    },
+    {
+      "set_code": "tmt",
+      "set_name": "Teenage Mutant Ninja Turtles",
+      "printings": 1620
+    },
+    {
+      "set_code": "tmul",
+      "set_name": "Multiverse Legends Tokens",
+      "printings": 2
+    },
+    {
+      "set_code": "tnau",
+      "set_name": "Nauctis: The Sunken Realm Tokens",
+      "printings": 1
+    },
+    {
+      "set_code": "tncc",
+      "set_name": "New Capenna Commander Tokens",
+      "printings": 36
+    },
+    {
+      "set_code": "tnec",
+      "set_name": "Neon Dynasty Commander Tokens",
+      "printings": 12
+    },
+    {
+      "set_code": "tneo",
+      "set_name": "Kamigawa: Neon Dynasty Tokens",
+      "printings": 19
+    },
+    {
+      "set_code": "tnph",
+      "set_name": "New Phyrexia Tokens",
+      "printings": 5
+    },
+    {
+      "set_code": "togw",
+      "set_name": "Oath of the Gatewatch Tokens",
+      "printings": 11
+    },
+    {
+      "set_code": "tonc",
+      "set_name": "Phyrexia: All Will Be One Commander Tokens",
+      "printings": 23
+    },
+    {
+      "set_code": "tone",
+      "set_name": "Phyrexia: All Will Be One Tokens",
+      "printings": 14
+    },
+    {
+      "set_code": "tor",
+      "set_name": "Torment",
+      "printings": 1287
+    },
+    {
+      "set_code": "tori",
+      "set_name": "Magic Origins Tokens",
+      "printings": 15
+    },
+    {
+      "set_code": "totc",
+      "set_name": "Outlaws of Thunder Junction Commander Tokens",
+      "printings": 41
+    },
+    {
+      "set_code": "totj",
+      "set_name": "Outlaws of Thunder Junction Tokens",
+      "printings": 19
+    },
+    {
+      "set_code": "totp",
+      "set_name": "Breaking News Tokens",
+      "printings": 5
+    },
+    {
+      "set_code": "tpca",
+      "set_name": "Planechase Anthology Tokens",
+      "printings": 19
+    },
+    {
+      "set_code": "tpip",
+      "set_name": "Fallout Tokens",
+      "printings": 22
+    },
+    {
+      "set_code": "tpr",
+      "set_name": "Tempest Remastered",
+      "printings": 269
+    },
+    {
+      "set_code": "trc",
+      "set_name": "Star Trek Commander",
+      "printings": 41
+    },
+    {
+      "set_code": "trex",
+      "set_name": "Jurassic World Collection Tokens",
+      "printings": 2
+    },
+    {
+      "set_code": "trix",
+      "set_name": "Rivals of Ixalan Tokens",
+      "printings": 7
+    },
+    {
+      "set_code": "trk",
+      "set_name": "Star Trek",
+      "printings": 135
+    },
+    {
+      "set_code": "trna",
+      "set_name": "Ravnica Allegiance Tokens",
+      "printings": 13
+    },
+    {
+      "set_code": "troe",
+      "set_name": "Rise of the Eldrazi Tokens",
+      "printings": 7
+    },
+    {
+      "set_code": "trtr",
+      "set_name": "Return to Ravnica Tokens",
+      "printings": 12
+    },
+    {
+      "set_code": "trvr",
+      "set_name": "Ravnica Remastered Tokens",
+      "printings": 20
+    },
+    {
+      "set_code": "tsb",
+      "set_name": "Time Spiral Timeshifted",
+      "printings": 1089
+    },
+    {
+      "set_code": "tscd",
+      "set_name": "Starter Commander Deck Tokens",
+      "printings": 27
+    },
+    {
+      "set_code": "tshm",
+      "set_name": "Shadowmoor Tokens",
+      "printings": 12
+    },
+    {
+      "set_code": "tsnc",
+      "set_name": "Streets of New Capenna Tokens",
+      "printings": 19
+    },
+    {
+      "set_code": "tsoc",
+      "set_name": "Secrets of Strixhaven Commander Tokens",
+      "printings": 30
+    },
+    {
+      "set_code": "tsoi",
+      "set_name": "Shadows over Innistrad Tokens",
+      "printings": 20
+    },
+    {
+      "set_code": "tsom",
+      "set_name": "Scars of Mirrodin Tokens",
+      "printings": 10
+    },
+    {
+      "set_code": "tsos",
+      "set_name": "Secrets of Strixhaven Tokens",
+      "printings": 14
+    },
+    {
+      "set_code": "tsp",
+      "set_name": "Time Spiral",
+      "printings": 2709
+    },
+    {
+      "set_code": "tspm",
+      "set_name": "Marvel's Spider-Man Tokens",
+      "printings": 7
+    },
+    {
+      "set_code": "tsr",
+      "set_name": "Time Spiral Remastered",
+      "printings": 4104
+    },
+    {
+      "set_code": "tstx",
+      "set_name": "Strixhaven: School of Mages Tokens",
+      "printings": 9
+    },
+    {
+      "set_code": "ttdc",
+      "set_name": "Tarkir: Dragonstorm Commander Tokens",
+      "printings": 34
+    },
+    {
+      "set_code": "ttdm",
+      "set_name": "Tarkir: Dragonstorm Tokens",
+      "printings": 16
+    },
+    {
+      "set_code": "tthb",
+      "set_name": "Theros Beyond Death Tokens",
+      "printings": 14
+    },
+    {
+      "set_code": "tths",
+      "set_name": "Theros Tokens",
+      "printings": 11
+    },
+    {
+      "set_code": "ttla",
+      "set_name": "Avatar: The Last Airbender Tokens",
+      "printings": 22
+    },
+    {
+      "set_code": "ttle",
+      "set_name": "Avatar: The Last Airbender Eternal Tokens",
+      "printings": 2
+    },
+    {
+      "set_code": "ttmc",
+      "set_name": "Teenage Mutant Ninja Turtles Eternal Tokens",
+      "printings": 31
+    },
+    {
+      "set_code": "ttmt",
+      "set_name": "Teenage Mutant Ninja Turtles Tokens",
+      "printings": 10
+    },
+    {
+      "set_code": "ttrk",
+      "set_name": "Star Trek Tokens",
+      "printings": 1
+    },
+    {
+      "set_code": "ttsr",
+      "set_name": "Time Spiral Remastered Tokens",
+      "printings": 15
+    },
+    {
+      "set_code": "tugl",
+      "set_name": "Unglued Tokens",
+      "printings": 6
+    },
+    {
+      "set_code": "tuma",
+      "set_name": "Ultimate Masters Tokens",
+      "printings": 16
+    },
+    {
+      "set_code": "tund",
+      "set_name": "Unsanctioned Tokens",
+      "printings": 6
+    },
+    {
+      "set_code": "tunf",
+      "set_name": "Unfinity Tokens",
+      "printings": 14
+    },
+    {
+      "set_code": "tust",
+      "set_name": "Unstable Tokens",
+      "printings": 20
+    },
+    {
+      "set_code": "tvoc",
+      "set_name": "Crimson Vow Commander Tokens",
+      "printings": 6
+    },
+    {
+      "set_code": "tvow",
+      "set_name": "Innistrad: Crimson Vow Tokens",
+      "printings": 21
+    },
+    {
+      "set_code": "twar",
+      "set_name": "War of the Spark Tokens",
+      "printings": 19
+    },
+    {
+      "set_code": "twho",
+      "set_name": "Doctor Who Tokens",
+      "printings": 64
+    },
+    {
+      "set_code": "twoc",
+      "set_name": "Wilds of Eldraine Commander Tokens",
+      "printings": 10
+    },
+    {
+      "set_code": "twoe",
+      "set_name": "Wilds of Eldraine Tokens",
+      "printings": 18
+    },
+    {
+      "set_code": "twwk",
+      "set_name": "Worldwake Tokens",
+      "printings": 6
+    },
+    {
+      "set_code": "txln",
+      "set_name": "Ixalan Tokens",
+      "printings": 11
+    },
+    {
+      "set_code": "tzen",
+      "set_name": "Zendikar Tokens",
+      "printings": 11
+    },
+    {
+      "set_code": "tznc",
+      "set_name": "Zendikar Rising Commander Tokens",
+      "printings": 11
+    },
+    {
+      "set_code": "tznr",
+      "set_name": "Zendikar Rising Tokens",
+      "printings": 12
+    },
+    {
+      "set_code": "uds",
+      "set_name": "Urza's Destiny",
+      "printings": 1144
+    },
+    {
+      "set_code": "ugin",
+      "set_name": "Ugin's Fate",
+      "printings": 286
+    },
+    {
+      "set_code": "ugl",
+      "set_name": "Unglued",
+      "printings": 88
+    },
+    {
+      "set_code": "ulg",
+      "set_name": "Urza's Legacy",
+      "printings": 1144
+    },
+    {
+      "set_code": "ulst",
+      "set_name": "The List (Unfinity Foil Edition)",
+      "printings": 62
+    },
+    {
+      "set_code": "uma",
+      "set_name": "Ultimate Masters",
+      "printings": 508
+    },
+    {
+      "set_code": "und",
+      "set_name": "Unsanctioned",
+      "printings": 96
+    },
+    {
+      "set_code": "unf",
+      "set_name": "Unfinity",
+      "printings": 639
+    },
+    {
+      "set_code": "unh",
+      "set_name": "Unhinged",
+      "printings": 168
+    },
+    {
+      "set_code": "unk",
+      "set_name": "Unknown Event",
+      "printings": 527
+    },
+    {
+      "set_code": "usg",
+      "set_name": "Urza's Saga",
+      "printings": 3501
+    },
+    {
+      "set_code": "ust",
+      "set_name": "Unstable",
+      "printings": 268
+    },
+    {
+      "set_code": "v09",
+      "set_name": "From the Vault: Exiled",
+      "printings": 15
+    },
+    {
+      "set_code": "v10",
+      "set_name": "From the Vault: Relics",
+      "printings": 15
+    },
+    {
+      "set_code": "v11",
+      "set_name": "From the Vault: Legends",
+      "printings": 15
+    },
+    {
+      "set_code": "v12",
+      "set_name": "From the Vault: Realms",
+      "printings": 15
+    },
+    {
+      "set_code": "v13",
+      "set_name": "From the Vault: Twenty",
+      "printings": 20
+    },
+    {
+      "set_code": "v14",
+      "set_name": "From the Vault: Annihilation",
+      "printings": 15
+    },
+    {
+      "set_code": "v15",
+      "set_name": "From the Vault: Angels",
+      "printings": 15
+    },
+    {
+      "set_code": "v16",
+      "set_name": "From the Vault: Lore",
+      "printings": 16
+    },
+    {
+      "set_code": "v17",
+      "set_name": "From the Vault: Transform",
+      "printings": 16
+    },
+    {
+      "set_code": "vis",
+      "set_name": "Visions",
+      "printings": 1503
+    },
+    {
+      "set_code": "vma",
+      "set_name": "Vintage Masters",
+      "printings": 325
+    },
+    {
+      "set_code": "voc",
+      "set_name": "Crimson Vow Commander",
+      "printings": 1644
+    },
+    {
+      "set_code": "vow",
+      "set_name": "Innistrad: Crimson Vow",
+      "printings": 3814
+    },
+    {
+      "set_code": "w16",
+      "set_name": "Welcome Deck 2016",
+      "printings": 176
+    },
+    {
+      "set_code": "w17",
+      "set_name": "Welcome Deck 2017",
+      "printings": 330
+    },
+    {
+      "set_code": "war",
+      "set_name": "War of the Spark",
+      "printings": 3044
+    },
+    {
+      "set_code": "wc00",
+      "set_name": "World Championship Decks 2000",
+      "printings": 117
+    },
+    {
+      "set_code": "wc01",
+      "set_name": "World Championship Decks 2001",
+      "printings": 138
+    },
+    {
+      "set_code": "wc02",
+      "set_name": "World Championship Decks 2002",
+      "printings": 153
+    },
+    {
+      "set_code": "wc03",
+      "set_name": "World Championship Decks 2003",
+      "printings": 142
+    },
+    {
+      "set_code": "wc04",
+      "set_name": "World Championship Decks 2004",
+      "printings": 103
+    },
+    {
+      "set_code": "wc97",
+      "set_name": "World Championship Decks 1997",
+      "printings": 131
+    },
+    {
+      "set_code": "wc98",
+      "set_name": "World Championship Decks 1998",
+      "printings": 117
+    },
+    {
+      "set_code": "wc99",
+      "set_name": "World Championship Decks 1999",
+      "printings": 111
+    },
+    {
+      "set_code": "wdmu",
+      "set_name": "DMU Japanese Promo Tokens",
+      "printings": 5
+    },
+    {
+      "set_code": "wfin",
+      "set_name": "FIN Asia WPN Promo Tokens",
+      "printings": 3
+    },
+    {
+      "set_code": "who",
+      "set_name": "Doctor Who",
+      "printings": 2482
+    },
+    {
+      "set_code": "wmc",
+      "set_name": "World Magic Cup Qualifiers",
+      "printings": 5
+    },
+    {
+      "set_code": "wmkm",
+      "set_name": "MKM Japanese Promo Tokens",
+      "printings": 4
+    },
+    {
+      "set_code": "wmom",
+      "set_name": "MOM Japanese Promo Tokens",
+      "printings": 12
+    },
+    {
+      "set_code": "woc",
+      "set_name": "Wilds of Eldraine Commander",
+      "printings": 1026
+    },
+    {
+      "set_code": "woe",
+      "set_name": "Wilds of Eldraine",
+      "printings": 2740
+    },
+    {
+      "set_code": "wone",
+      "set_name": "ONE Japanese Promo Tokens",
+      "printings": 6
+    },
+    {
+      "set_code": "wot",
+      "set_name": "Wilds of Eldraine: Enchanting Tales",
+      "printings": 564
+    },
+    {
+      "set_code": "wth",
+      "set_name": "Weatherlight",
+      "printings": 1503
+    },
+    {
+      "set_code": "wwk",
+      "set_name": "Worldwake",
+      "printings": 1305
+    },
+    {
+      "set_code": "wwoe",
+      "set_name": "WOE Japanese Promo Tokens",
+      "printings": 6
+    },
+    {
+      "set_code": "xana",
+      "set_name": "Arena New Player Experience Extras",
+      "printings": 20
+    },
+    {
+      "set_code": "xln",
+      "set_name": "Ixalan",
+      "printings": 3179
+    },
+    {
+      "set_code": "yblb",
+      "set_name": "Alchemy: Bloomburrow",
+      "printings": 30
+    },
+    {
+      "set_code": "ybro",
+      "set_name": "Alchemy: The Brothers' War",
+      "printings": 31
+    },
+    {
+      "set_code": "ydft",
+      "set_name": "Alchemy: Aetherdrift",
+      "printings": 31
+    },
+    {
+      "set_code": "ydmu",
+      "set_name": "Alchemy: Dominaria",
+      "printings": 39
+    },
+    {
+      "set_code": "ydsk",
+      "set_name": "Alchemy: Duskmourn",
+      "printings": 30
+    },
+    {
+      "set_code": "yecl",
+      "set_name": "Alchemy: Lorwyn Eclipsed",
+      "printings": 33
+    },
+    {
+      "set_code": "yeoe",
+      "set_name": "Alchemy: Edge of Eternities",
+      "printings": 41
+    },
+    {
+      "set_code": "yfra",
+      "set_name": "Alchemy: Reality Fracture",
+      "printings": 1
+    },
+    {
+      "set_code": "ylci",
+      "set_name": "Alchemy: Ixalan",
+      "printings": 31
+    },
+    {
+      "set_code": "ymid",
+      "set_name": "Alchemy: Innistrad",
+      "printings": 63
+    },
+    {
+      "set_code": "ymkm",
+      "set_name": "Alchemy: Murders at Karlov Manor",
+      "printings": 30
+    },
+    {
+      "set_code": "yneo",
+      "set_name": "Alchemy: Kamigawa",
+      "printings": 30
+    },
+    {
+      "set_code": "yone",
+      "set_name": "Alchemy: Phyrexia",
+      "printings": 31
+    },
+    {
+      "set_code": "yotj",
+      "set_name": "Alchemy: Outlaws of Thunder Junction",
+      "printings": 30
+    },
+    {
+      "set_code": "ysnc",
+      "set_name": "Alchemy: New Capenna",
+      "printings": 30
+    },
+    {
+      "set_code": "ysos",
+      "set_name": "Alchemy: Secrets of Strixhaven",
+      "printings": 32
+    },
+    {
+      "set_code": "ytdm",
+      "set_name": "Alchemy: Tarkir",
+      "printings": 30
+    },
+    {
+      "set_code": "ywoe",
+      "set_name": "Alchemy: Wilds of Eldraine",
+      "printings": 31
+    },
+    {
+      "set_code": "zen",
+      "set_name": "Zendikar",
+      "printings": 2104
+    },
+    {
+      "set_code": "znc",
+      "set_name": "Zendikar Rising Commander",
+      "printings": 1257
+    },
+    {
+      "set_code": "zne",
+      "set_name": "Zendikar Rising Expeditions",
+      "printings": 330
+    },
+    {
+      "set_code": "znr",
+      "set_name": "Zendikar Rising",
+      "printings": 3669
+    }
+  ],
+  "layouts": [
+    {
+      "layout": "adventure",
+      "printings": 1765
+    },
+    {
+      "layout": "art_series",
+      "printings": 2655
+    },
+    {
+      "layout": "augment",
+      "printings": 17
+    },
+    {
+      "layout": "case",
+      "printings": 115
+    },
+    {
+      "layout": "class",
+      "printings": 305
+    },
+    {
+      "layout": "double_faced_token",
+      "printings": 121
+    },
+    {
+      "layout": "emblem",
+      "printings": 140
+    },
+    {
+      "layout": "flip",
+      "printings": 54
+    },
+    {
+      "layout": "front_card",
+      "printings": 317
+    },
+    {
+      "layout": "host",
+      "printings": 29
+    },
+    {
+      "layout": "leveler",
+      "printings": 311
+    },
+    {
+      "layout": "meld",
+      "printings": 231
+    },
+    {
+      "layout": "modal_dfc",
+      "printings": 1282
+    },
+    {
+      "layout": "mutate",
+      "printings": 570
+    },
+    {
+      "layout": "normal",
+      "printings": 525049
+    },
+    {
+      "layout": "planar",
+      "printings": 1187
+    },
+    {
+      "layout": "prepare",
+      "printings": 546
+    },
+    {
+      "layout": "prototype",
+      "printings": 210
+    },
+    {
+      "layout": "reversible_card",
+      "printings": 83
+    },
+    {
+      "layout": "saga",
+      "printings": 1866
+    },
+    {
+      "layout": "scheme",
+      "printings": 310
+    },
+    {
+      "layout": "split",
+      "printings": 1499
+    },
+    {
+      "layout": "token",
+      "printings": 3051
+    },
+    {
+      "layout": "transform",
+      "printings": 4305
+    },
+    {
+      "layout": "vanguard",
+      "printings": 119
+    }
+  ],
+  "categories": [
+    {
+      "category": "art_card",
+      "printings": 2655
+    },
+    {
+      "category": "auxiliary",
+      "printings": 1616
+    },
+    {
+      "category": "card",
+      "printings": 538554
+    },
+    {
+      "category": "emblem",
+      "printings": 140
+    },
+    {
+      "category": "token",
+      "printings": 3172
+    }
+  ],
+  "game_combinations": [
+    {
+      "games_json": "[\"arena\",\"mtgo\"]",
+      "printings": 40
+    },
+    {
+      "games_json": "[\"arena\",\"paper\",\"mtgo\"]",
+      "printings": 59462
+    },
+    {
+      "games_json": "[\"arena\",\"paper\"]",
+      "printings": 482
+    },
+    {
+      "games_json": "[\"arena\"]",
+      "printings": 3466
+    },
+    {
+      "games_json": "[\"astral\"]",
+      "printings": 12
+    },
+    {
+      "games_json": "[\"mtgo\",\"arena\",\"paper\"]",
+      "printings": 1
+    },
+    {
+      "games_json": "[\"mtgo\",\"arena\"]",
+      "printings": 8
+    },
+    {
+      "games_json": "[\"mtgo\",\"paper\",\"arena\"]",
+      "printings": 144
+    },
+    {
+      "games_json": "[\"mtgo\",\"paper\"]",
+      "printings": 30
+    },
+    {
+      "games_json": "[\"mtgo\"]",
+      "printings": 5601
+    },
+    {
+      "games_json": "[\"paper\",\"arena\",\"mtgo\"]",
+      "printings": 38784
+    },
+    {
+      "games_json": "[\"paper\",\"arena\"]",
+      "printings": 5218
+    },
+    {
+      "games_json": "[\"paper\",\"mtgo\",\"arena\"]",
+      "printings": 39459
+    },
+    {
+      "games_json": "[\"paper\",\"mtgo\"]",
+      "printings": 271125
+    },
+    {
+      "games_json": "[\"paper\"]",
+      "printings": 122295
+    },
+    {
+      "games_json": "[\"sega\"]",
+      "printings": 10
+    }
+  ],
+  "ambiguous_printing_tuples": [],
+  "quarantine": [],
+  "sqlite_integrity_check": [
+    "ok"
+  ],
+  "foreign_key_issues": [],
+  "lookup_query_plans": {
+    "by_scryfall_id": [
+      "SEARCH printings USING INDEX sqlite_autoindex_printings_1 (id=?)"
+    ],
+    "by_printing_tuple": [
+      "SEARCH printings USING INDEX printings_by_tuple (set_code=? AND collector_number=? AND lang=?)"
+    ]
+  },
+  "processing_seconds": 166.12,
+  "notes": [
+    "Absent credit/art IDs are retained and reported; they do not imply no artist.",
+    "Root artist arrays and face credits are preserved separately; joint credit strings are never split into assumed identities.",
+    "Name collisions and tuple ambiguity require review before use in confirmed matching.",
+    "Category is a layout-based staging label; raw type/set/game data remains intact for later counting-scope decisions.",
+    "No attendee data, reviewed aliases, or per-artist illustrated-card totals are generated in WBS 1.0."
+  ]
+}

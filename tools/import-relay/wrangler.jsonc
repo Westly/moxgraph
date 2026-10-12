@@ -1,0 +1,13 @@
+{
+  "name": "moxgraph-import-relay-probe",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-10-11",
+  "workers_dev": true,
+  "preview_urls": false,
+  "observability": {"enabled": false},
+  "ratelimits": [
+    {"name": "IMPORT_BURST_LIMIT", "namespace_id": "97431001", "simple": {"limit": 2, "period": 10}},
+    {"name": "IMPORT_IP_LIMIT", "namespace_id": "97431002", "simple": {"limit": 12, "period": 60}},
+    {"name": "IMPORT_PROVIDER_LIMIT", "namespace_id": "97431003", "simple": {"limit": 60, "period": 60}}
+  ]
+}

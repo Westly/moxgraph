@@ -1,0 +1,311 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "magiccon-atlanta-2026-20261011T195408Z",
+  "generated_at": "2026-10-11T20:01:44.500541Z",
+  "status": "complete",
+  "counts": {
+    "people_in_feed": 218,
+    "guest_entries": 65,
+    "people_outside_public_artist_selection": 153,
+    "exhibitor_entries": 65,
+    "source_entries": 130,
+    "profiles_retrieved": 130,
+    "distinct_attendees": 65,
+    "merged_duplicate_entries": 65,
+    "duplicate_ids_within_source": 0,
+    "unaccounted_entries": 0,
+    "retrieval_failures": 0,
+    "missing_guest_portraits": 6,
+    "missing_exhibitor_portraits": 7,
+    "attendees_missing_all_portraits": 3,
+    "attendees_without_published_social_fields": 36,
+    "published_link_observations": 149,
+    "flagged_link_observations": 7,
+    "links_without_usable_published_destination": 5,
+    "links_using_valid_overview_destination": 2,
+    "featured_exhibitors": 3,
+    "source_name_differences": 11,
+    "unreviewed_exhibitor_identities": 0
+  },
+  "missing_portrait_attendees": [
+    "John Stanko",
+    "Martina Fačková",
+    "Phil Foglio"
+  ],
+  "without_published_social_fields": [
+    "Aaron Miller",
+    "Alayna Danner",
+    "Alessandra Pisano",
+    "Alix Branwyn",
+    "Andrea Radeck",
+    "Ben Hill",
+    "Bruce Brenneise",
+    "Chris Rahn",
+    "Chris Rallis",
+    "Chris Seaman",
+    "Danny Schwartz",
+    "Douglas Shuler",
+    "Eli Minaya",
+    "Gabor Szikszai",
+    "Jason Engle",
+    "Joe Slucher",
+    "John Stanko",
+    "Josiah \"Jo\" Cameron",
+    "Josu Solano",
+    "Kai Carpenter",
+    "Kaja Foglio",
+    "Martina Fačková",
+    "Paul Scott Canavan",
+    "Phil Foglio",
+    "Phil Stone",
+    "Pindurski",
+    "Richard Kane Ferguson",
+    "RK Post",
+    "Ryan Pancoast",
+    "Sam Burley",
+    "SchmandrewART",
+    "Steve Prescott",
+    "Thomas Baxa",
+    "Tom Wänerstrand",
+    "Vincent Proce",
+    "Wizard of Barge"
+  ],
+  "link_issues": [
+    {
+      "attendee": "Alessandra Pisano",
+      "source_field": "website",
+      "source_value": "Alesspisano.com ",
+      "label": "Website",
+      "published_href": "http://Alesspisano.com ",
+      "platform": null,
+      "origin": "profile_link",
+      "status": "malformed_url",
+      "overview_published_href": null,
+      "overview_href_status": null,
+      "usable_url": null,
+      "usable_url_source": null,
+      "source_profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668812&exhibitor-name=Alessandra-Pisano"
+    },
+    {
+      "attendee": "Jarel Threat",
+      "source_field": "youtube",
+      "source_value": "www.youtube.com/c/JarelThreat",
+      "label": "Watch on Youtube",
+      "published_href": "www.youtube.com/c/JarelThreat",
+      "platform": "youtube",
+      "origin": "profile_link",
+      "status": "malformed_url",
+      "overview_published_href": "http://www.youtube.com/c/JarelThreat",
+      "overview_href_status": "valid_syntax",
+      "usable_url": "http://www.youtube.com/c/JarelThreat",
+      "usable_url_source": "overview",
+      "source_profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379922&guest-name=Jarel-Threat"
+    },
+    {
+      "attendee": "Justine Jones",
+      "source_field": "twitter",
+      "source_value": "@teanwitch",
+      "label": "Follow on X",
+      "published_href": "@teanwitch",
+      "platform": "twitter",
+      "origin": "profile_link",
+      "status": "malformed_url",
+      "overview_published_href": "http://@teanwitch",
+      "overview_href_status": "malformed_url",
+      "usable_url": null,
+      "usable_url_source": null,
+      "source_profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379927&guest-name=Justine-Jones"
+    },
+    {
+      "attendee": "Justine Jones",
+      "source_field": "instagram",
+      "source_value": "@tean_witch ",
+      "label": "Follow on Instagram",
+      "published_href": "@tean_witch ",
+      "platform": "instagram",
+      "origin": "profile_link",
+      "status": "malformed_url",
+      "overview_published_href": "http://@tean_witch ",
+      "overview_href_status": "malformed_url",
+      "usable_url": null,
+      "usable_url_source": null,
+      "source_profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379927&guest-name=Justine-Jones"
+    },
+    {
+      "attendee": "kelogsloops",
+      "source_field": "instagram",
+      "source_value": "www.instagram.com/kelogsloops",
+      "label": "Follow on Instagram",
+      "published_href": "www.instagram.com/kelogsloops",
+      "platform": "instagram",
+      "origin": "profile_link",
+      "status": "malformed_url",
+      "overview_published_href": "http://www.instagram.com/kelogsloops",
+      "overview_href_status": "valid_syntax",
+      "usable_url": "http://www.instagram.com/kelogsloops",
+      "usable_url_source": "overview",
+      "source_profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379930&guest-name=kelogsloops"
+    },
+    {
+      "attendee": "Olena \"Lena\" Richards",
+      "source_field": "instagram",
+      "source_value": "https://www.lenarichards.com",
+      "label": "Follow on Instagram",
+      "published_href": "https://www.lenarichards.com",
+      "platform": "instagram",
+      "origin": "profile_link",
+      "status": "platform_mismatch",
+      "overview_published_href": "https://www.lenarichards.com",
+      "overview_href_status": "platform_mismatch",
+      "usable_url": null,
+      "usable_url_source": null,
+      "source_profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379934&guest-name=Olena-and-quotLena-and-quot-Richards"
+    },
+    {
+      "attendee": "Winona Nelson",
+      "source_field": "instagram",
+      "source_value": "instragram.com/winonanelsonart",
+      "label": "Follow on Instagram",
+      "published_href": "instragram.com/winonanelsonart",
+      "platform": "instagram",
+      "origin": "profile_link",
+      "status": "malformed_url",
+      "overview_published_href": "http://instragram.com/winonanelsonart",
+      "overview_href_status": "platform_mismatch",
+      "usable_url": null,
+      "usable_url_source": null,
+      "source_profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379955&guest-name=Winona-Nelson"
+    }
+  ],
+  "source_name_differences": [
+    {
+      "guest_id": "379918",
+      "exhibitor_id": "668812",
+      "names": [
+        "Alessandra Pisano ",
+        "Alessandra Pisano"
+      ],
+      "method": "unique_normalized_name_within_official_event_sections"
+    },
+    {
+      "guest_id": "378578",
+      "exhibitor_id": "668804",
+      "names": [
+        "Cynthia Sheppard",
+        "Cynthia Shepard"
+      ],
+      "method": "reviewed_biographies"
+    },
+    {
+      "guest_id": "379909",
+      "exhibitor_id": "668826",
+      "names": [
+        "Eli  Minaya",
+        "Eli Minaya"
+      ],
+      "method": "unique_normalized_name_within_official_event_sections"
+    },
+    {
+      "guest_id": "379913",
+      "exhibitor_id": "668835",
+      "names": [
+        "John Stanko",
+        "John stanko"
+      ],
+      "method": "unique_normalized_name_within_official_event_sections"
+    },
+    {
+      "guest_id": "379938",
+      "exhibitor_id": "668871",
+      "names": [
+        "Josiah \"Jo\" Cameron ",
+        "Josiah \"Jo\" Cameron"
+      ],
+      "method": "unique_normalized_name_within_official_event_sections"
+    },
+    {
+      "guest_id": "379916",
+      "exhibitor_id": "668846",
+      "names": [
+        "Michael Bierek",
+        "Mike Bierek"
+      ],
+      "method": "reviewed_biographies"
+    },
+    {
+      "guest_id": "379923",
+      "exhibitor_id": "668849",
+      "names": [
+        "Phil Stone",
+        "phil stone"
+      ],
+      "method": "unique_normalized_name_within_official_event_sections"
+    },
+    {
+      "guest_id": "379924",
+      "exhibitor_id": "668816",
+      "names": [
+        "Pindurski",
+        "PINDURSKI"
+      ],
+      "method": "unique_normalized_name_within_official_event_sections"
+    },
+    {
+      "guest_id": "379942",
+      "exhibitor_id": "668853",
+      "names": [
+        "RK Post",
+        "rk post"
+      ],
+      "method": "unique_normalized_name_within_official_event_sections"
+    },
+    {
+      "guest_id": "379939",
+      "exhibitor_id": "668873",
+      "names": [
+        "SchmandrewART ",
+        "SchmandrewART"
+      ],
+      "method": "unique_normalized_name_within_official_event_sections"
+    },
+    {
+      "guest_id": "379949",
+      "exhibitor_id": "668866",
+      "names": [
+        "Tom Wänerstrand",
+        "Tomas Wanerstrand"
+      ],
+      "method": "reviewed_biographies"
+    }
+  ],
+  "link_status_counts": {
+    "valid_syntax": 142,
+    "malformed_url": 6,
+    "platform_mismatch": 1
+  },
+  "attendance_days": {
+    "Fri,Sat,Sun": 64,
+    "Fri,Sat": 1
+  },
+  "attendance_day_exceptions": [
+    {
+      "name": "Paul Scott Canavan",
+      "days": [
+        "Fri",
+        "Sat"
+      ]
+    }
+  ],
+  "browser_audit": {
+    "path": "reports/magiccon-browser-audit.json",
+    "sha256": "35a936a384146b88c8fd4ae5379cc2a62b6d6bdb55582617a1fce5222f6e4166"
+  },
+  "completeness": {
+    "method": "Complete arrays loaded by official renderer; browser roster IDs independently reviewed",
+    "feed_pagination": "No pagination metadata; renderer performs one unfiltered request per source and filters locally",
+    "unresolved_pagination_gaps": 0
+  },
+  "external_link_reachability": "not_probed; syntax/platform validation only",
+  "portrait_reachability": "source URLs captured; browser spot checks only",
+  "wbs_3_started": false
+}

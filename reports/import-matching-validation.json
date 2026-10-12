@@ -1,0 +1,74 @@
+{
+  "wbs": "7.0",
+  "status": "complete",
+  "reviewDateLocal": "2026-10-11",
+  "timezone": "America/Denver",
+  "utcReportDate": "2026-10-12",
+  "dataVersion": "v1-0313a3107f243872",
+  "scope": "Import, exact-printing matching and results only. WBS 8 persistence and WBS 9/10 release gates remain unstarted.",
+  "checks": {
+    "appTests": {"passed": 32, "failed": 0, "command": "npm test", "runtime": "Node 24.11.0", "note": "Windows sandbox os.userInfo ENOMEM requires the approved external-sandbox local test run."},
+    "typecheck": "passed",
+    "fullStaticBuild": "passed, including all source/output checksums, references, coverage and file limits",
+    "lastChanges": "After the full build, copy labels and mobile form CSS were adjusted; TypeScript and Vite build pass, with the final output checked again.",
+    "releaseFiles": 7610,
+    "largestAssetBytes": 1321239,
+    "shellGzipBytesApprox": 43540,
+    "catalogueCoverage": {"printings": 546137, "languages": 19, "artists": 2434, "attendees": 65, "faces": 24629},
+    "forbiddenHandlersRawDatabasesAndSecretsInOutput": "absent",
+    "fixtureAudit": "reports/import-matching-audit.json",
+    "selectedSourceLines": 351,
+    "exactSelectedIds": 350,
+    "guardedLegacyAliases": 1,
+    "officialCsvLinesEqualApi": 114,
+    "moxfieldText": {"lines": 87, "copies": 100, "ambiguous": 86, "unknown": 1},
+    "supplementalV2QuantityMismatch": "rejected; 1187 expanded versus 975 declared; no endpoint fallback"
+  },
+  "browser": {
+    "name": "Codex in-app Chromium on Windows",
+    "frontendOrigin": "http://localhost:3000",
+    "relay": "https://moxgraph-import-relay-probe.westlywhite.workers.dev",
+    "requestRelationship": "real cross-origin browser requests through the existing approved relay",
+    "productionDomainTested": false,
+    "liveImports": [
+      {"provider":"moxfield","deckId":"3x55_3CFz060qxL2xac3NA","lines":111,"copies":139,"unresolved":0,"defaultMatchedCopies":17,"defaultMatchedLines":17,"defaultMatchedPrintings":17,"defaultArtists":13},
+      {"provider":"moxfield","deckId":"zB7a13TqOUWlUZuylE905Q","lines":126,"copies":139,"unresolved":0,"defaultMatchedCopies":34,"defaultMatchedLines":21,"defaultMatchedPrintings":21,"defaultArtists":15},
+      {"provider":"archidekt","deckId":"19780118","lines":114,"copies":114,"unresolved":0,"defaultMatchedCopies":19,"defaultMatchedLines":19,"defaultMatchedPrintings":19,"defaultArtists":16}
+    ],
+    "actualFilePicker": {"file":"tests/fixtures/import-feasibility/archidekt-official.csv","lines":114,"copies":114,"defaultMatchedCopies":19,"defaultArtists":16},
+    "flows": [
+      "Soldiers maybeboard toggle: 20 matched copies / 20 printings / 15 artists; copy sort and artist search",
+      "Exact Myrel PBRO 18p foil image and Scryfall link; Orzhov Elenda LCC 268 nonfoil image/Chris Rahn credit",
+      "Japanese Vampiric Tutor SOA 100 retained; not substituted with another artist's printing",
+      "Digital-only UNF 107m Goblin retained and excluded from physical totals",
+      "Moxfield text Teysa SLD 1235 remains unresolved despite only one candidate; explicit preview then manual English/foil/commander confirmation",
+      "Manual label and source identity available after confirmation",
+      "Invalid host and synthetic inconsistent section quantities show errors and retain the prior CSV result",
+      "Cancelled live retrieval retains the previously confirmed in-memory deck",
+      "Final error receives focus and is visibly scrolled into view",
+      "Reviewed Chris Rahn alias search and profile/gallery links retained",
+      "No matching artists state is distinct from unresolved printing review"
+    ],
+    "responsive": [
+      {"viewportWidth":1280,"viewportHeight":720,"horizontalOverflow":false},
+      {"viewportWidth":390,"viewportHeight":844,"clientWidth":375,"scrollWidth":375,"horizontalOverflow":false,"view":"results and expanded card"},
+      {"viewportWidth":320,"viewportHeight":740,"clientWidth":305,"scrollWidth":305,"horizontalOverflow":false,"view":"expanded import form after min-content overflow fix"}
+    ],
+    "iconTargetPixels":44,
+    "keyboardAndPointer":true,
+    "finalConsoleErrorsOrWarnings":[],
+    "bugsFixedDuringReview":["Browser fetch must be called without binding this to ImportClient","Narrow file/paste grid must allow children to shrink","Error status must be focused and visible; progress updates must preserve the Cancel button"],
+    "screenshots":["reports/screenshots/wbs7-desktop.jpg","reports/screenshots/wbs7-results.jpg","reports/screenshots/wbs7-mobile.jpg","reports/screenshots/wbs7-review.jpg","reports/screenshots/wbs7-error.jpg"]
+  },
+  "failureCoverage": {
+    "mockedOnly":["provider/relay 429 and Retry-After cooldown","403/404 private/missing/blocked","502/503 including possible free-quota exhaustion","malformed/non-JSON payload","source response identity mismatch","missing/corrupt/oversize catalogue data","joint and distinct-face synthetic credits"],
+    "noAutomaticRetries":true,
+    "currentRelayRetryAfter":"Emits fixed 60 seconds without cross-origin exposure; client fallback matches. Forwarding a longer upstream delay and header exposure remain release relay review.",
+    "noPaidFallback":true,
+    "persistentSavedDataFailureTesting":"Deferred to WBS 8; WBS 7 verifies in-memory transaction preservation only."
+  },
+  "currentBlockers":[],
+  "laterGates":["WBS 8 browser-local persistence and backup/migrations","WBS 9 real transfer/performance, browsers, accessibility and provider/account abuse controls","WBS 10 GitHub/Cloudflare production and final-origin/CSP/cache-header verification"],
+  "externalChanges":{"github":false,"cloudflare":false,"dns":false,"billing":false},
+  "nextParent":"8.0 — Implement browser-local saved decks; wait for owner request"
+}

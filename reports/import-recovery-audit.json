@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "baseline": "scryfall-all-cards-20261011091913",
+  "legacyPrinting": {
+    "source": {
+      "rowId": "Arcane Signet",
+      "section": "mainboard",
+      "name": "Arcane Signet",
+      "quantity": 1,
+      "finish": "etched",
+      "id": "f0deab39-dfa3-4652-a05f-b221b979009a",
+      "set": "p30a",
+      "cn": "1F",
+      "lang": "en",
+      "layout": "normal",
+      "summaryIdDiffers": false,
+      "sourcePrintingId": "2zQaK"
+    },
+    "resolvedId": "7910ce6c-5cde-436e-8d28-62723f0fd592",
+    "artist": "Gaboleps",
+    "artistIds": [
+      "0c37cdfe-5651-4ae6-a3c8-e7153509f970"
+    ],
+    "resolution": "reviewed-provider-alias",
+    "notice": "Legacy Moxfield printing identifier mapped to a reviewed Scryfall printing; original details retained."
+  },
+  "quantityRecovery": {
+    "status": "verified-alternate-snapshot",
+    "selectedApi": "v3-research-candidate",
+    "runtimeFallbackEnabled": false,
+    "recoveryNeeded": true,
+    "originalV2Issues": [
+      "mainboard: 1187 copies vs 975 declared"
+    ],
+    "version": 4,
+    "lastUpdatedAtUtc": "2026-10-09T12:52:23.293Z",
+    "rows": 975,
+    "copies": 975,
+    "languages": {
+      "ja": 255,
+      "en": 719,
+      "de": 1
+    },
+    "spiritPrintings": [
+      {
+        "rowId": "E0OOb",
+        "section": "mainboard",
+        "name": "Spirit",
+        "quantity": 1,
+        "finish": "nonFoil",
+        "id": "4779bfe3-2039-4eb9-8f3b-7d8e2ed6f1df",
+        "set": "wmom",
+        "cn": "11",
+        "lang": "ja",
+        "layout": "token",
+        "summaryIdDiffers": false,
+        "sourcePrintingId": "WaMar"
+      },
+      {
+        "rowId": "YjQQz",
+        "section": "mainboard",
+        "name": "Spirit",
+        "quantity": 1,
+        "finish": "foil",
+        "id": "00b75290-4d07-4c97-bf3e-3db9c4026b08",
+        "set": "wmkm",
+        "cn": "2",
+        "lang": "ja",
+        "layout": "token",
+        "summaryIdDiffers": false,
+        "sourcePrintingId": "WavXr"
+      },
+      {
+        "rowId": "YjQQz",
+        "section": "mainboard",
+        "name": "Spirit",
+        "quantity": 1,
+        "finish": "nonFoil",
+        "id": "b4311508-d045-4992-af44-703284de7e5a",
+        "set": "wmom",
+        "cn": "8",
+        "lang": "ja",
+        "layout": "token",
+        "summaryIdDiffers": true,
+        "sourcePrintingId": "na6a3"
+      }
+    ],
+    "notice": "Moxfield v2 supplied inconsistent quantities. A complete v3 snapshot of the same revision was verified separately; no rows or quantities were guessed or merged."
+  },
+  "sourceAuditRetained": true,
+  "frozenCatalogueModified": false
+}

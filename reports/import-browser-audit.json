@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "observedDate": "2026-10-11",
+  "browser": "Codex in-app browser (Chromium)",
+  "probe": "tools/import-probe/",
+  "previewUrl": "https://moxgraph-import-probe.pages.dev",
+  "request": {"method":"GET","mode":"cors","credentials":"omit","customHeaders":false,"timeoutMs":20000},
+  "recordingMethod": "Results transcribed from the probe's rendered JSON output. Two downloaded result files are also retained. No raw deck bodies or credentials are in this browser report.",
+  "consoleLimitation": "The browser log API returned an empty list. Failed fetch messages alone do not prove a specific cause. Separate anonymous HTTP header observations in import-http-headers.json establish absent/mismatched CORS permission for the tested origins.",
+  "tests": [
+    {"observedAt":"2026-10-11T20:36:02.824Z","origin":"http://localhost:3000","provider":"moxfield","apiVersion":"v3","deckId":"3x55_3CFz060qxL2xac3NA","url":"https://api2.moxfield.com/v3/decks/all/3x55_3CFz060qxL2xac3NA","outcome":"failed","errorName":"TypeError","errorMessage":"Failed to fetch"},
+    {"observedAt":"2026-10-11T20:37:28.038Z","origin":"http://localhost:3000","provider":"archidekt","deckId":"19780118","url":"https://archidekt.com/api/decks/19780118/","outcome":"readable-json","status":200,"responseType":"cors","exposedHeaders":{"content-type":"application/json"},"cardRows":114},
+    {"observedAt":"2026-10-11T21:43:32.084Z","origin":"http://localhost:3000","provider":"moxfield","apiVersion":"v2","deckId":"3x55_3CFz060qxL2xac3NA","url":"https://api.moxfield.com/v2/decks/all/3x55_3CFz060qxL2xac3NA","outcome":"failed","errorName":"TypeError","errorMessage":"Failed to fetch"},
+    {"observedAt":"2026-10-11T21:46:27.536Z","origin":"https://moxgraph-import-probe.pages.dev","provider":"moxfield","apiVersion":"v2","deckId":"3x55_3CFz060qxL2xac3NA","url":"https://api.moxfield.com/v2/decks/all/3x55_3CFz060qxL2xac3NA","outcome":"failed","errorName":"TypeError","errorMessage":"Failed to fetch"},
+    {"observedAt":"2026-10-11T21:47:05.713Z","origin":"https://moxgraph-import-probe.pages.dev","provider":"archidekt","deckId":"19780118","url":"https://archidekt.com/api/decks/19780118/","outcome":"failed","errorName":"TypeError","errorMessage":"Failed to fetch"},
+    {"observedAt":"2026-10-11T21:47:06.025Z","origin":"http://localhost:3000","provider":"moxfield","apiVersion":"v2","deckId":"zB7a13TqOUWlUZuylE905Q","url":"https://api.moxfield.com/v2/decks/all/zB7a13TqOUWlUZuylE905Q","outcome":"failed","errorName":"TypeError","errorMessage":"Failed to fetch"},
+    {"observedAt":"2026-10-11T21:48:40.854Z","origin":"https://moxgraph-import-probe.pages.dev","provider":"moxfield","apiVersion":"v2","deckId":"zB7a13TqOUWlUZuylE905Q","url":"https://api.moxfield.com/v2/decks/all/zB7a13TqOUWlUZuylE905Q","outcome":"failed","errorName":"TypeError","errorMessage":"Failed to fetch"}
+  ],
+  "productionOrigin": {"url":"https://moxgraph.com","realBrowserTestPerformed":false,"separateOriginHeaderProbePerformed":true,"note":"Header requests showed the same missing/mismatched CORS permission. This is not a production-domain browser test."},
+  "access": {"publicAnonymousApiRead":true,"privateDeckTestPerformed":false,"authenticationAdded":false,"rateLimitLoadTestPerformed":false,"observed429":false,"observedChallenge":false},
+  "deployment": {"project":"moxgraph-import-probe","type":"Cloudflare Pages Direct Upload","dashboardSuccessVerified":true,"assets":["index.html","probe.js","_headers"],"functions":false,"worker":false,"customDomainAdded":false,"gitIntegrationConfigured":false,"paidUpgrade":false,"scope":"Temporary WBS 4.3 feasibility origin. Production project moxgraph remains uncreated."}
+}

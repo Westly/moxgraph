@@ -1,0 +1,141 @@
+{
+  "wbs": "9.0",
+  "date": "2026-10-12",
+  "status": "complete",
+  "nextWbs": "10.0 — only on owner request",
+  "tests": {
+    "app": 50,
+    "relay": 9,
+    "releasePolicy": 2,
+    "python": 64,
+    "total": 125,
+    "status": "passed"
+  },
+  "build": {
+    "status": "passed",
+    "staticFiles": 7610,
+    "printings": 546137,
+    "attendees": 65,
+    "functions": false,
+    "workerInStaticOutput": false
+  },
+  "browser": {
+    "engine": "Chromium 154 (Codex in-app browser)",
+    "platform": "Windows",
+    "notTested": [
+      "Firefox",
+      "Safari",
+      "Edge application",
+      "real iOS",
+      "real Android",
+      "private browsing",
+      "NVDA/VoiceOver spoken output"
+    ],
+    "axe": {
+      "version": "4.14.0",
+      "library": {
+        "passes": 44,
+        "violations": 0,
+        "incomplete": 0
+      },
+      "results": {
+        "passes": 45,
+        "violations": 0,
+        "incomplete": 0
+      },
+      "directory65Artists": {
+        "passes": 45,
+        "violations": 0,
+        "incomplete": 0
+      },
+      "renameDialog": {
+        "passes": 22,
+        "violations": 0,
+        "incomplete": 0
+      },
+      "manualCandidateDialog": {
+        "passes": 30,
+        "violations": 0,
+        "incomplete": 0
+      }
+    },
+    "responsiveWidths": [
+      320,
+      390,
+      768,
+      1280
+    ],
+    "backupRoundTrip": {
+      "decks": 2,
+      "lines": 240,
+      "downloadBytes": 736703,
+      "actualFileChooserRestore": true
+    },
+    "sortRenderLayoutMs": {
+      "samples": 20,
+      "median": 11.3,
+      "p95": 17.3,
+      "max": 17.6
+    },
+    "finalConsoleWarningsOrErrors": 0,
+    "screenshot": "reports/screenshots/wbs9-desktop.jpg"
+  },
+  "relay": {
+    "workerVersion": "d1ad7fe1-133b-44d9-9d60-04649b17eaf3",
+    "sourceSha256": "5f73d3cdd13a2b583963c127a965fff444a801164b2a67256105f6a71db6065f",
+    "plan": "Workers Free — verified 2026-10-12",
+    "cpuDashboard": {
+      "filter": "Actively deployed versions",
+      "range": "Last 24 hours",
+      "p50Ms": 4.88,
+      "p90Ms": 7.12,
+      "p99Ms": 7.12,
+      "p999Ms": 7.12,
+      "sampleLimit": "Bounded smoke tests, not a production-load guarantee"
+    },
+    "settings": {
+      "logs": false,
+      "traces": false,
+      "issues": false,
+      "cache": false,
+      "variablesOrSecrets": false,
+      "cronTriggers": false,
+      "previewUrls": false,
+      "rateBindings": [
+        "IMPORT_BURST_LIMIT",
+        "IMPORT_IP_LIMIT",
+        "IMPORT_PROVIDER_LIMIT"
+      ],
+      "deckStorage": false,
+      "paidBindings": false
+    },
+    "liveBrowser": {
+      "origin": "http://localhost:3000",
+      "moxfield": {
+        "successfulRefresh": true,
+        "sourceLines": 111,
+        "capturedCopies": 139,
+        "matchedCopies": 17,
+        "uniquePrintings": 17,
+        "artists": 13,
+        "reviewLines": 0
+      },
+      "archidekt": {
+        "successfulRefresh": true,
+        "sourceLines": 114,
+        "capturedCopies": 114,
+        "matchedCopies": 19,
+        "uniquePrintings": 19,
+        "artists": 16,
+        "reviewLines": 0
+      }
+    },
+    "commandLineLimitation": "Moxfield returned provider_http_403 twice; the script stopped on the first case each time. No passing three-deck CLI audit is claimed. No bypass introduced.",
+    "credentialStorage": "Wrangler encrypted file with key in Windows Credential Manager; outside repository"
+  },
+  "productionDeployed": false,
+  "productionDnsChanged": false,
+  "githubCreated": false,
+  "limitationsDocument": "docs/release-checklist.md",
+  "blockers": []
+}

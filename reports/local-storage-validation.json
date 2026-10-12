@@ -1,0 +1,99 @@
+{
+  "wbs": "8.0",
+  "status": "complete",
+  "verifiedAt": "2026-10-12T00:44:01.362590+00:00",
+  "scope": "Browser-local decks only. WBS 9 and 10 not started.",
+  "database": {
+    "name": "moxgraph-local",
+    "version": 2,
+    "stores": [
+      "decks",
+      "lines",
+      "choices",
+      "cache",
+      "settings"
+    ],
+    "transaction": "All stores atomic; serialized writes; revision conflict protection",
+    "v1": "Documented migration fixture only, not a previously released storage format"
+  },
+  "limits": {
+    "backupBytes": 33554432,
+    "libraryDecks": 50,
+    "librarySourceLines": 25000,
+    "deckSourceLines": 5000,
+    "deckCopies": 100000
+  },
+  "checks": {
+    "appTests": {
+      "passed": 47,
+      "failed": 0,
+      "storageTests": 15,
+      "runner": "npm test; fake-indexeddb 6.2.5 for storage cases"
+    },
+    "typecheck": "passed",
+    "fullSourceAndOutputAudits": "passed",
+    "productionBuild": "passed",
+    "finalUiTextChanges": "TypeScript and Vite build passed after full build; final browser uses the rebuilt output",
+    "staticRecords": 546137,
+    "attendees": 65,
+    "releaseFiles": 7610
+  },
+  "browser": {
+    "name": "Codex in-app browser on Windows",
+    "origin": "http://localhost:3000",
+    "results": [
+      "Live Orzhov import saved: 126 lines, 139 copies; default 34 matching copies / 21 printings / 15 artists",
+      "Renamed to Orzhov · Atlanta signing list; Rahn search, most-copies sort and maybeboard selected survived reload",
+      "Source refresh preserved local title, filters and exact printing results",
+      "Same provider/ID prompted update versus separate copy; separate copy created a second entry",
+      "Downloaded 749563-byte two-deck backup; actual local JSON file selected with file chooser; preview showed merge add 1 / keep 1 and replace alternative",
+      "Deleted duplicate copy; merge restore recovered it and left existing internal ID unchanged",
+      "Clear all reduced list to zero; Undo restored both local decks",
+      "Pasted Teysa Karlov SLD 1235 foil; explicitly confirmed UUID 4a80fbb2-4b3a-46fc-b105-09e512bc414a and commander section; tab close/reopen preserved manual badge, exact printing, finish and section",
+      "Second tab stale rename refused with visible not-saved banner and backup option; reload recovered the newer saved name",
+      "Malformed pasted backup rejected with Nothing was replaced; three saved decks remained",
+      "Final preview console contained no warn/error messages"
+    ],
+    "responsive": [
+      {
+        "width": 390,
+        "clientWidth": 375,
+        "scrollWidth": 375
+      },
+      {
+        "width": 320,
+        "clientWidth": 305,
+        "scrollWidth": 305,
+        "dialogClientWidth": 265,
+        "dialogScrollWidth": 265
+      }
+    ],
+    "automationNote": "Download event notification timed out, but the browser saved the expected file in Downloads. Its actual size and successful file restore confirmed the download. No workaround changed production behavior."
+  },
+  "automatedFailureCoverage": [
+    "QuotaExceededError injected after transaction clears/partial writes: all original data retained",
+    "Denied SecurityError: in-memory results and valid backup retained",
+    "Failed/cancelled refresh: previous result and metadata untouched",
+    "Bad backup checksum/schema/URL/reference/ID/quantity/size constraints rejected",
+    "Serial save then clear: no resurrection",
+    "Two database connections: stale revision refused",
+    "V1 migration success; invalid V1 migration abort; future version rejected; blocked upgrade returns error",
+    "Updated event data recomputes matches, missing printing IDs stay pinned, and restored IDs recover",
+    "Multi-deck order, selection and per-deck filters retained across reopen"
+  ],
+  "screenshots": [
+    "reports/screenshots/wbs8-library.jpg",
+    "reports/screenshots/wbs8-restore.jpg",
+    "reports/screenshots/wbs8-mobile.jpg",
+    "reports/screenshots/wbs8-storage-error.jpg"
+  ],
+  "limitations": [
+    "Full Chrome/Edge/Firefox/Safari and actual private-mode matrix remains WBS 9",
+    "Quota/denial and schema failures simulated with fake-indexeddb rather than filling the user browser disk",
+    "No offline app-shell guarantee or service worker",
+    "Browser data can be evicted or cleared; backups required for durable copies",
+    "No GitHub repository, cloud deployment, paid resources or credential changes in this WBS"
+  ],
+  "blockers": [],
+  "nextWbs": "9.0 (not started)"
+}

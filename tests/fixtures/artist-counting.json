@@ -1,0 +1,1204 @@
+{
+  "source_snapshot": "scryfall-all-cards-20261011091913",
+  "cards": {
+    "heliod_regular": {
+      "object": "card",
+      "id": "01a8576e-cadc-4521-aadd-3a05f0bc4d20",
+      "oracle_id": "63e596a2-9126-4af6-8782-c38687d664ad",
+      "multiverse_ids": [
+        476269
+      ],
+      "mtgo_id": 79160,
+      "arena_id": 70529,
+      "tcgplayer_id": 206666,
+      "cardmarket_id": 430249,
+      "name": "Heliod, Sun-Crowned",
+      "lang": "en",
+      "released_at": "2020-01-24",
+      "uri": "https://api.scryfall.com/cards/01a8576e-cadc-4521-aadd-3a05f0bc4d20",
+      "scryfall_uri": "https://scryfall.com/card/thb/18/heliod-sun-crowned?utm_source=api",
+      "layout": "normal",
+      "highres_image": true,
+      "image_status": "highres_scan",
+      "image_updated_at": "2026-07-13T08:33:17Z",
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/0/1/01a8576e-cadc-4521-aadd-3a05f0bc4d20.jpg?1783931597",
+        "normal": "https://cards.scryfall.io/normal/front/0/1/01a8576e-cadc-4521-aadd-3a05f0bc4d20.jpg?1783931597",
+        "large": "https://cards.scryfall.io/large/front/0/1/01a8576e-cadc-4521-aadd-3a05f0bc4d20.jpg?1783931597",
+        "png": "https://cards.scryfall.io/png/front/0/1/01a8576e-cadc-4521-aadd-3a05f0bc4d20.png?1783931597",
+        "art_crop": "https://cards.scryfall.io/art_crop/front/0/1/01a8576e-cadc-4521-aadd-3a05f0bc4d20.jpg?1783931597",
+        "border_crop": "https://cards.scryfall.io/border_crop/front/0/1/01a8576e-cadc-4521-aadd-3a05f0bc4d20.jpg?1783931597",
+        "thumb": "https://cards.scryfall.io/thumb/front/0/1/01a8576e-cadc-4521-aadd-3a05f0bc4d20.webp?1783931597",
+        "grid": "https://cards.scryfall.io/grid/front/0/1/01a8576e-cadc-4521-aadd-3a05f0bc4d20.webp?1783931597",
+        "display": "https://cards.scryfall.io/display/front/0/1/01a8576e-cadc-4521-aadd-3a05f0bc4d20.webp?1783931597",
+        "art": "https://cards.scryfall.io/art/front/0/1/01a8576e-cadc-4521-aadd-3a05f0bc4d20.webp?1783931597",
+        "crop": "https://cards.scryfall.io/crop/front/0/1/01a8576e-cadc-4521-aadd-3a05f0bc4d20.webp?1783931597"
+      },
+      "mana_cost": "{2}{W}",
+      "cmc": 3.0,
+      "type_line": "Legendary Enchantment Creature — God",
+      "oracle_text": "Indestructible\nAs long as your devotion to white is less than five, Heliod isn't a creature.\nWhenever you gain life, put a +1/+1 counter on target creature or enchantment you control.\n{1}{W}: Another target creature gains lifelink until end of turn.",
+      "power": "5",
+      "toughness": "5",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "keywords": [
+        "Indestructible"
+      ],
+      "legalities": {
+        "standard": "not_legal",
+        "future": "not_legal",
+        "historic": "legal",
+        "timeless": "legal",
+        "gladiator": "legal",
+        "pioneer": "legal",
+        "modern": "legal",
+        "legacy": "legal",
+        "pauper": "not_legal",
+        "vintage": "legal",
+        "penny": "not_legal",
+        "commander": "legal",
+        "oathbreaker": "legal",
+        "standardbrawl": "not_legal",
+        "brawl": "legal",
+        "competitivebrawl": "legal",
+        "alchemy": "not_legal",
+        "paupercommander": "not_legal",
+        "duel": "legal",
+        "oldschool": "not_legal",
+        "premodern": "not_legal",
+        "predh": "not_legal",
+        "tlr": "legal"
+      },
+      "games": [
+        "arena",
+        "paper",
+        "mtgo"
+      ],
+      "reserved": false,
+      "game_changer": false,
+      "foil": true,
+      "nonfoil": true,
+      "finishes": [
+        "nonfoil",
+        "foil"
+      ],
+      "oversized": false,
+      "promo": false,
+      "reprint": false,
+      "variation": false,
+      "set_id": "5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set": "thb",
+      "set_name": "Theros Beyond Death",
+      "set_type": "expansion",
+      "set_uri": "https://api.scryfall.com/sets/5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Athb&unique=prints",
+      "scryfall_set_uri": "https://scryfall.com/sets/thb?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/01a8576e-cadc-4521-aadd-3a05f0bc4d20/rulings",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A63e596a2-9126-4af6-8782-c38687d664ad&unique=prints",
+      "collector_number": "18",
+      "digital": false,
+      "rarity": "mythic",
+      "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+      "artist": "Lius Lasahido",
+      "artist_ids": [
+        "0a0e9093-ce44-4a69-93a7-09b63e7c330d"
+      ],
+      "illustration_id": "34204632-3d52-4405-929a-58bd1e69fa6e",
+      "border_color": "black",
+      "frame": "2015",
+      "frame_effects": [
+        "enchantment",
+        "legendary"
+      ],
+      "security_stamp": "oval",
+      "full_art": false,
+      "textless": false,
+      "booster": true,
+      "story_spotlight": false,
+      "edhrec_rank": 1016,
+      "preview": {
+        "source": "Sean Plott (Day9TV)",
+        "source_uri": "https://twitter.com/day9tv/status/1212055819606462464",
+        "previewed_at": "2019-12-31"
+      },
+      "prices": {
+        "usd": "20.25",
+        "usd_foil": "24.05",
+        "usd_etched": null,
+        "eur": "15.76",
+        "eur_foil": "16.86",
+        "tix": "0.14"
+      },
+      "related_uris": {
+        "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=476269&printed=false",
+        "tcgplayer_infinite_articles": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Farticles&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Farticles%3FproductLineName%3Dmagic%26q%3DHeliod%252C%2BSun-Crowned",
+        "tcgplayer_infinite_decks": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Fdecks&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fdecks%3FproductLineName%3Dmagic%26q%3DHeliod%252C%2BSun-Crowned",
+        "edhrec": "https://edhrec.com/route/?cc=Heliod%2C+Sun-Crowned"
+      },
+      "purchase_uris": {
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F206666%3Fpage%3D1",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products?idProduct=430249&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards/79160?affiliate_id=scryfall&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+      }
+    },
+    "heliod_regular_ja": {
+      "object": "card",
+      "id": "0fd2f4c0-3579-4247-aab4-6b5274f73e09",
+      "oracle_id": "63e596a2-9126-4af6-8782-c38687d664ad",
+      "multiverse_ids": [
+        477539
+      ],
+      "name": "Heliod, Sun-Crowned",
+      "printed_name": "太陽冠のヘリオッド",
+      "lang": "ja",
+      "released_at": "2020-01-24",
+      "uri": "https://api.scryfall.com/cards/0fd2f4c0-3579-4247-aab4-6b5274f73e09",
+      "scryfall_uri": "https://scryfall.com/card/thb/18/ja/%E5%A4%AA%E9%99%BD%E5%86%A0%E3%81%AE%E3%83%98%E3%83%AA%E3%82%AA%E3%83%83%E3%83%89-(heliod-sun-crowned)?utm_source=api",
+      "layout": "normal",
+      "highres_image": false,
+      "image_status": "lowres",
+      "image_updated_at": "2026-07-01T13:20:05Z",
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/0/f/0fd2f4c0-3579-4247-aab4-6b5274f73e09.jpg?1782912005",
+        "normal": "https://cards.scryfall.io/normal/front/0/f/0fd2f4c0-3579-4247-aab4-6b5274f73e09.jpg?1782912005",
+        "large": "https://cards.scryfall.io/large/front/0/f/0fd2f4c0-3579-4247-aab4-6b5274f73e09.jpg?1782912005",
+        "png": "https://cards.scryfall.io/png/front/0/f/0fd2f4c0-3579-4247-aab4-6b5274f73e09.png?1782912005",
+        "art_crop": "https://cards.scryfall.io/art_crop/front/0/f/0fd2f4c0-3579-4247-aab4-6b5274f73e09.jpg?1782912005",
+        "border_crop": "https://cards.scryfall.io/border_crop/front/0/f/0fd2f4c0-3579-4247-aab4-6b5274f73e09.jpg?1782912005",
+        "thumb": "https://cards.scryfall.io/thumb/front/0/f/0fd2f4c0-3579-4247-aab4-6b5274f73e09.webp?1782912005",
+        "grid": "https://cards.scryfall.io/grid/front/0/f/0fd2f4c0-3579-4247-aab4-6b5274f73e09.webp?1782912005",
+        "display": "https://cards.scryfall.io/display/front/0/f/0fd2f4c0-3579-4247-aab4-6b5274f73e09.webp?1782912005",
+        "art": "https://cards.scryfall.io/art/front/0/f/0fd2f4c0-3579-4247-aab4-6b5274f73e09.webp?1782912005",
+        "crop": "https://cards.scryfall.io/crop/front/0/f/0fd2f4c0-3579-4247-aab4-6b5274f73e09.webp?1782912005"
+      },
+      "mana_cost": "{2}{W}",
+      "cmc": 3.0,
+      "type_line": "Legendary Enchantment Creature — God",
+      "printed_type_line": "伝説のクリーチャー・エンチャント — 神",
+      "oracle_text": "Indestructible\nAs long as your devotion to white is less than five, Heliod isn't a creature.\nWhenever you gain life, put a +1/+1 counter on target creature or enchantment you control.\n{1}{W}: Another target creature gains lifelink until end of turn.",
+      "printed_text": "破壊不能\nあなたの白への信心が５未満であるかぎり、太陽冠のヘリオッドはクリーチャーではない。\nあなたがライフを得るたび、あなたがコントロールしている、クリーチャー１体かエンチャント１つを対象とし、それの上に＋１/＋１カウンターを１個置く。\n{1}{W}：他のクリーチャー１体を対象とする。ターン終了時まで、それは絆魂を得る。",
+      "power": "5",
+      "toughness": "5",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "keywords": [
+        "Indestructible"
+      ],
+      "legalities": {
+        "standard": "not_legal",
+        "future": "not_legal",
+        "historic": "legal",
+        "timeless": "legal",
+        "gladiator": "legal",
+        "pioneer": "legal",
+        "modern": "legal",
+        "legacy": "legal",
+        "pauper": "not_legal",
+        "vintage": "legal",
+        "penny": "not_legal",
+        "commander": "legal",
+        "oathbreaker": "legal",
+        "standardbrawl": "not_legal",
+        "brawl": "legal",
+        "competitivebrawl": "legal",
+        "alchemy": "not_legal",
+        "paupercommander": "not_legal",
+        "duel": "legal",
+        "oldschool": "not_legal",
+        "premodern": "not_legal",
+        "predh": "not_legal",
+        "tlr": "legal"
+      },
+      "games": [
+        "arena",
+        "paper",
+        "mtgo"
+      ],
+      "reserved": false,
+      "game_changer": false,
+      "foil": true,
+      "nonfoil": true,
+      "finishes": [
+        "nonfoil",
+        "foil"
+      ],
+      "oversized": false,
+      "promo": false,
+      "reprint": false,
+      "variation": false,
+      "set_id": "5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set": "thb",
+      "set_name": "Theros Beyond Death",
+      "set_type": "expansion",
+      "set_uri": "https://api.scryfall.com/sets/5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Athb&unique=prints",
+      "scryfall_set_uri": "https://scryfall.com/sets/thb?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/0fd2f4c0-3579-4247-aab4-6b5274f73e09/rulings",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A63e596a2-9126-4af6-8782-c38687d664ad&unique=prints",
+      "collector_number": "18",
+      "digital": false,
+      "rarity": "mythic",
+      "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+      "artist": "Lius Lasahido",
+      "artist_ids": [
+        "0a0e9093-ce44-4a69-93a7-09b63e7c330d"
+      ],
+      "illustration_id": "34204632-3d52-4405-929a-58bd1e69fa6e",
+      "border_color": "black",
+      "frame": "2015",
+      "frame_effects": [
+        "legendary"
+      ],
+      "security_stamp": "oval",
+      "full_art": false,
+      "textless": false,
+      "booster": true,
+      "story_spotlight": false,
+      "edhrec_rank": 1016,
+      "prices": {
+        "usd": null,
+        "usd_foil": null,
+        "usd_etched": null,
+        "eur": null,
+        "eur_foil": null,
+        "tix": null
+      },
+      "related_uris": {
+        "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=477539&printed=true",
+        "tcgplayer_infinite_articles": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Farticles&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Farticles%3FproductLineName%3Dmagic%26q%3DHeliod%252C%2BSun-Crowned",
+        "tcgplayer_infinite_decks": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Fdecks&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fdecks%3FproductLineName%3Dmagic%26q%3DHeliod%252C%2BSun-Crowned",
+        "edhrec": "https://edhrec.com/route/?cc=Heliod%2C+Sun-Crowned"
+      },
+      "purchase_uris": {
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DHeliod%252C%2BSun-Crowned%26view%3Dgrid",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Heliod%2C+Sun-Crowned&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Heliod%2C+Sun-Crowned&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+      }
+    },
+    "heliod_constellation": {
+      "object": "card",
+      "id": "e11cf760-da35-41f2-8cf5-a5141103eeb3",
+      "oracle_id": "63e596a2-9126-4af6-8782-c38687d664ad",
+      "multiverse_ids": [],
+      "arena_id": 73752,
+      "tcgplayer_id": 206693,
+      "cardmarket_id": 430379,
+      "name": "Heliod, Sun-Crowned",
+      "lang": "en",
+      "released_at": "2020-01-24",
+      "uri": "https://api.scryfall.com/cards/e11cf760-da35-41f2-8cf5-a5141103eeb3",
+      "scryfall_uri": "https://scryfall.com/card/thb/259/heliod-sun-crowned?utm_source=api",
+      "layout": "normal",
+      "highres_image": true,
+      "image_status": "highres_scan",
+      "image_updated_at": "2026-07-13T08:31:46Z",
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/e/1/e11cf760-da35-41f2-8cf5-a5141103eeb3.jpg?1783931506",
+        "normal": "https://cards.scryfall.io/normal/front/e/1/e11cf760-da35-41f2-8cf5-a5141103eeb3.jpg?1783931506",
+        "large": "https://cards.scryfall.io/large/front/e/1/e11cf760-da35-41f2-8cf5-a5141103eeb3.jpg?1783931506",
+        "png": "https://cards.scryfall.io/png/front/e/1/e11cf760-da35-41f2-8cf5-a5141103eeb3.png?1783931506",
+        "art_crop": "https://cards.scryfall.io/art_crop/front/e/1/e11cf760-da35-41f2-8cf5-a5141103eeb3.jpg?1783931506",
+        "border_crop": "https://cards.scryfall.io/border_crop/front/e/1/e11cf760-da35-41f2-8cf5-a5141103eeb3.jpg?1783931506",
+        "thumb": "https://cards.scryfall.io/thumb/front/e/1/e11cf760-da35-41f2-8cf5-a5141103eeb3.webp?1783931506",
+        "grid": "https://cards.scryfall.io/grid/front/e/1/e11cf760-da35-41f2-8cf5-a5141103eeb3.webp?1783931506",
+        "display": "https://cards.scryfall.io/display/front/e/1/e11cf760-da35-41f2-8cf5-a5141103eeb3.webp?1783931506",
+        "art": "https://cards.scryfall.io/art/front/e/1/e11cf760-da35-41f2-8cf5-a5141103eeb3.webp?1783931506",
+        "crop": "https://cards.scryfall.io/crop/front/e/1/e11cf760-da35-41f2-8cf5-a5141103eeb3.webp?1783931506"
+      },
+      "mana_cost": "{2}{W}",
+      "cmc": 3.0,
+      "type_line": "Legendary Enchantment Creature — God",
+      "oracle_text": "Indestructible\nAs long as your devotion to white is less than five, Heliod isn't a creature.\nWhenever you gain life, put a +1/+1 counter on target creature or enchantment you control.\n{1}{W}: Another target creature gains lifelink until end of turn.",
+      "power": "5",
+      "toughness": "5",
+      "colors": [
+        "W"
+      ],
+      "color_identity": [
+        "W"
+      ],
+      "keywords": [
+        "Indestructible"
+      ],
+      "legalities": {
+        "standard": "not_legal",
+        "future": "not_legal",
+        "historic": "legal",
+        "timeless": "legal",
+        "gladiator": "legal",
+        "pioneer": "legal",
+        "modern": "legal",
+        "legacy": "legal",
+        "pauper": "not_legal",
+        "vintage": "legal",
+        "penny": "not_legal",
+        "commander": "legal",
+        "oathbreaker": "legal",
+        "standardbrawl": "not_legal",
+        "brawl": "legal",
+        "competitivebrawl": "legal",
+        "alchemy": "not_legal",
+        "paupercommander": "not_legal",
+        "duel": "legal",
+        "oldschool": "not_legal",
+        "premodern": "not_legal",
+        "predh": "not_legal",
+        "tlr": "legal"
+      },
+      "games": [
+        "arena",
+        "paper",
+        "mtgo"
+      ],
+      "reserved": false,
+      "game_changer": false,
+      "foil": true,
+      "nonfoil": true,
+      "finishes": [
+        "nonfoil",
+        "foil"
+      ],
+      "oversized": false,
+      "promo": false,
+      "reprint": false,
+      "variation": false,
+      "set_id": "5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set": "thb",
+      "set_name": "Theros Beyond Death",
+      "set_type": "expansion",
+      "set_uri": "https://api.scryfall.com/sets/5f23a78d-cda1-462a-8be3-a62b40c34913",
+      "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Athb&unique=prints",
+      "scryfall_set_uri": "https://scryfall.com/sets/thb?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/e11cf760-da35-41f2-8cf5-a5141103eeb3/rulings",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A63e596a2-9126-4af6-8782-c38687d664ad&unique=prints",
+      "collector_number": "259",
+      "digital": false,
+      "rarity": "mythic",
+      "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+      "artist": "Jason A. Engle",
+      "artist_ids": [
+        "02e2b5de-4341-464c-8fdb-a1adbf873bc0"
+      ],
+      "illustration_id": "6e935860-7052-435f-81d5-fdd7c5e894f3",
+      "border_color": "black",
+      "frame": "2015",
+      "frame_effects": [
+        "enchantment",
+        "showcase",
+        "legendary",
+        "inverted"
+      ],
+      "security_stamp": "oval",
+      "full_art": false,
+      "textless": false,
+      "booster": false,
+      "story_spotlight": false,
+      "promo_types": [
+        "boosterfun"
+      ],
+      "edhrec_rank": 1016,
+      "preview": {
+        "source": "Wizards of the Coast",
+        "source_uri": "https://magic.wizards.com/en/articles/archive/card-image-gallery/theros-beyond-death-variants",
+        "previewed_at": "2020-01-02"
+      },
+      "prices": {
+        "usd": "19.57",
+        "usd_foil": "29.32",
+        "usd_etched": null,
+        "eur": "15.62",
+        "eur_foil": "22.50",
+        "tix": null
+      },
+      "related_uris": {
+        "tcgplayer_infinite_articles": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Farticles&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Farticles%3FproductLineName%3Dmagic%26q%3DHeliod%252C%2BSun-Crowned",
+        "tcgplayer_infinite_decks": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Fdecks&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fdecks%3FproductLineName%3Dmagic%26q%3DHeliod%252C%2BSun-Crowned",
+        "edhrec": "https://edhrec.com/route/?cc=Heliod%2C+Sun-Crowned"
+      },
+      "purchase_uris": {
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F206693%3Fpage%3D1",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products?idProduct=430379&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Heliod%2C+Sun-Crowned&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+      }
+    },
+    "reversible_token": {
+      "object": "card",
+      "id": "5d02dee4-2071-448f-9fd3-58d63635d712",
+      "multiverse_ids": [],
+      "tcgplayer_id": 617843,
+      "cardmarket_id": 810759,
+      "name": "Mechtitan // Mechtitan",
+      "lang": "en",
+      "released_at": "2025-02-10",
+      "uri": "https://api.scryfall.com/cards/5d02dee4-2071-448f-9fd3-58d63635d712",
+      "scryfall_uri": "https://scryfall.com/card/sld/1969/mechtitan-mechtitan?utm_source=api",
+      "layout": "reversible_card",
+      "highres_image": true,
+      "image_status": "highres_scan",
+      "image_updated_at": "2026-07-13T01:58:47Z",
+      "color_identity": [
+        "B",
+        "G",
+        "R",
+        "U",
+        "W"
+      ],
+      "keywords": [
+        "Flying",
+        "Lifelink",
+        "Vigilance",
+        "Haste",
+        "Trample"
+      ],
+      "card_faces": [
+        {
+          "object": "card_face",
+          "oracle_id": "a4fecf0a-a7b3-49e4-bbb2-9690dff5a8f4",
+          "layout": "token",
+          "name": "Mechtitan",
+          "mana_cost": "",
+          "cmc": 0.0,
+          "type_line": "Token Legendary Artifact Creature — Construct",
+          "oracle_text": "Mechtitan is all colors.\nFlying, vigilance, trample, lifelink, haste",
+          "colors": [
+            "B",
+            "G",
+            "R",
+            "U",
+            "W"
+          ],
+          "power": "10",
+          "toughness": "10",
+          "artist": "Ivan Shavrin",
+          "artist_id": "48432182-db18-4106-81c8-7b83100316d6",
+          "illustration_id": "fd08aa25-e490-48d0-b10e-e5c464e9c4c1",
+          "image_uris": {
+            "small": "https://cards.scryfall.io/small/front/5/d/5d02dee4-2071-448f-9fd3-58d63635d712.jpg?1783907927",
+            "normal": "https://cards.scryfall.io/normal/front/5/d/5d02dee4-2071-448f-9fd3-58d63635d712.jpg?1783907927",
+            "large": "https://cards.scryfall.io/large/front/5/d/5d02dee4-2071-448f-9fd3-58d63635d712.jpg?1783907927",
+            "png": "https://cards.scryfall.io/png/front/5/d/5d02dee4-2071-448f-9fd3-58d63635d712.png?1783907927",
+            "art_crop": "https://cards.scryfall.io/art_crop/front/5/d/5d02dee4-2071-448f-9fd3-58d63635d712.jpg?1783907927",
+            "border_crop": "https://cards.scryfall.io/border_crop/front/5/d/5d02dee4-2071-448f-9fd3-58d63635d712.jpg?1783907927",
+            "thumb": "https://cards.scryfall.io/thumb/front/5/d/5d02dee4-2071-448f-9fd3-58d63635d712.webp?1783907927",
+            "grid": "https://cards.scryfall.io/grid/front/5/d/5d02dee4-2071-448f-9fd3-58d63635d712.webp?1783907927",
+            "display": "https://cards.scryfall.io/display/front/5/d/5d02dee4-2071-448f-9fd3-58d63635d712.webp?1783907927",
+            "art": "https://cards.scryfall.io/art/front/5/d/5d02dee4-2071-448f-9fd3-58d63635d712.webp?1783907927",
+            "crop": "https://cards.scryfall.io/crop/front/5/d/5d02dee4-2071-448f-9fd3-58d63635d712.webp?1783907927"
+          }
+        },
+        {
+          "object": "card_face",
+          "oracle_id": "a4fecf0a-a7b3-49e4-bbb2-9690dff5a8f4",
+          "layout": "token",
+          "name": "Mechtitan",
+          "mana_cost": "",
+          "cmc": 0.0,
+          "type_line": "Token Legendary Artifact Creature — Construct",
+          "oracle_text": "Mechtitan is all colors.\nFlying, vigilance, trample, lifelink, haste",
+          "colors": [
+            "B",
+            "G",
+            "R",
+            "U",
+            "W"
+          ],
+          "power": "10",
+          "toughness": "10",
+          "artist": "Rob Pavic",
+          "artist_id": "dc002799-b1e7-4f09-844d-6e02d2e0b3e4",
+          "illustration_id": "713dc5dd-cd25-4e24-9d83-d9d89ce0d6a5",
+          "image_uris": {
+            "small": "https://cards.scryfall.io/small/back/5/d/5d02dee4-2071-448f-9fd3-58d63635d712.jpg?1783907927",
+            "normal": "https://cards.scryfall.io/normal/back/5/d/5d02dee4-2071-448f-9fd3-58d63635d712.jpg?1783907927",
+            "large": "https://cards.scryfall.io/large/back/5/d/5d02dee4-2071-448f-9fd3-58d63635d712.jpg?1783907927",
+            "png": "https://cards.scryfall.io/png/back/5/d/5d02dee4-2071-448f-9fd3-58d63635d712.png?1783907927",
+            "art_crop": "https://cards.scryfall.io/art_crop/back/5/d/5d02dee4-2071-448f-9fd3-58d63635d712.jpg?1783907927",
+            "border_crop": "https://cards.scryfall.io/border_crop/back/5/d/5d02dee4-2071-448f-9fd3-58d63635d712.jpg?1783907927",
+            "thumb": "https://cards.scryfall.io/thumb/back/5/d/5d02dee4-2071-448f-9fd3-58d63635d712.webp?1783907927",
+            "grid": "https://cards.scryfall.io/grid/back/5/d/5d02dee4-2071-448f-9fd3-58d63635d712.webp?1783907927",
+            "display": "https://cards.scryfall.io/display/back/5/d/5d02dee4-2071-448f-9fd3-58d63635d712.webp?1783907927",
+            "art": "https://cards.scryfall.io/art/back/5/d/5d02dee4-2071-448f-9fd3-58d63635d712.webp?1783907927",
+            "crop": "https://cards.scryfall.io/crop/back/5/d/5d02dee4-2071-448f-9fd3-58d63635d712.webp?1783907927"
+          }
+        }
+      ],
+      "all_parts": [
+        {
+          "object": "related_card",
+          "id": "5d02dee4-2071-448f-9fd3-58d63635d712",
+          "component": "token",
+          "name": "Mechtitan // Mechtitan",
+          "type_line": "Token Legendary Artifact Creature — Construct // Token Legendary Artifact Creature — Construct",
+          "uri": "https://api.scryfall.com/cards/5d02dee4-2071-448f-9fd3-58d63635d712"
+        },
+        {
+          "object": "related_card",
+          "id": "913f0aca-ac61-4377-b3b1-cd556b950df2",
+          "component": "combo_piece",
+          "name": "Mechtitan Core // Mechtitan Core",
+          "type_line": "Artifact — Vehicle // Artifact — Vehicle",
+          "uri": "https://api.scryfall.com/cards/913f0aca-ac61-4377-b3b1-cd556b950df2"
+        }
+      ],
+      "legalities": {
+        "standard": "not_legal",
+        "future": "not_legal",
+        "historic": "not_legal",
+        "timeless": "not_legal",
+        "gladiator": "not_legal",
+        "pioneer": "not_legal",
+        "modern": "not_legal",
+        "legacy": "not_legal",
+        "pauper": "not_legal",
+        "vintage": "not_legal",
+        "penny": "not_legal",
+        "commander": "not_legal",
+        "oathbreaker": "not_legal",
+        "standardbrawl": "not_legal",
+        "brawl": "not_legal",
+        "competitivebrawl": "not_legal",
+        "alchemy": "not_legal",
+        "paupercommander": "not_legal",
+        "duel": "not_legal",
+        "oldschool": "not_legal",
+        "premodern": "not_legal",
+        "predh": "not_legal",
+        "tlr": "not_legal"
+      },
+      "games": [
+        "paper"
+      ],
+      "reserved": false,
+      "game_changer": false,
+      "foil": true,
+      "nonfoil": true,
+      "finishes": [
+        "nonfoil",
+        "foil"
+      ],
+      "oversized": false,
+      "promo": false,
+      "reprint": true,
+      "variation": false,
+      "set_id": "4d92a8a7-ccb0-437d-abdc-9d70fc5ed672",
+      "set": "sld",
+      "set_name": "Secret Lair Drop",
+      "set_type": "box",
+      "set_uri": "https://api.scryfall.com/sets/4d92a8a7-ccb0-437d-abdc-9d70fc5ed672",
+      "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Asld&unique=prints",
+      "scryfall_set_uri": "https://scryfall.com/sets/sld?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/5d02dee4-2071-448f-9fd3-58d63635d712/rulings",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3Aa4fecf0a-a7b3-49e4-bbb2-9690dff5a8f4&unique=prints",
+      "collector_number": "1969",
+      "digital": false,
+      "rarity": "common",
+      "artist": "Ivan Shavrin & Rob Pavic",
+      "artist_ids": [
+        "48432182-db18-4106-81c8-7b83100316d6",
+        "dc002799-b1e7-4f09-844d-6e02d2e0b3e4"
+      ],
+      "border_color": "borderless",
+      "frame": "2015",
+      "frame_effects": [
+        "legendary"
+      ],
+      "security_stamp": "oval",
+      "full_art": true,
+      "textless": false,
+      "booster": false,
+      "story_spotlight": false,
+      "promo_types": [
+        "poster"
+      ],
+      "prices": {
+        "usd": "4.55",
+        "usd_foil": "4.42",
+        "usd_etched": null,
+        "eur": "2.55",
+        "eur_foil": "2.88",
+        "tix": null
+      },
+      "related_uris": {
+        "tcgplayer_infinite_articles": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Farticles&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Farticles%3FproductLineName%3Dmagic%26q%3DMechtitan%2B%252F%252F%2BMechtitan",
+        "tcgplayer_infinite_decks": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Fdecks&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fdecks%3FproductLineName%3Dmagic%26q%3DMechtitan%2B%252F%252F%2BMechtitan",
+        "edhrec": "https://edhrec.com/route/?cc=Mechtitan+%2F%2F+Mechtitan"
+      },
+      "purchase_uris": {
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F617843%3Fpage%3D1",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products?idProduct=810759&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Mechtitan+%2F%2F+Mechtitan&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+      }
+    },
+    "reversible_game": {
+      "object": "card",
+      "id": "018830b2-dff9-45f3-9cc2-dc5b2eec0e54",
+      "multiverse_ids": [],
+      "tcgplayer_id": 533913,
+      "name": "Jinnie Fay, Jetmir's Second // Jinnie Fay, Jetmir's Second",
+      "lang": "en",
+      "released_at": "2024-01-22",
+      "uri": "https://api.scryfall.com/cards/018830b2-dff9-45f3-9cc2-dc5b2eec0e54",
+      "scryfall_uri": "https://scryfall.com/card/sld/1556/jinnie-fay-jetmirs-second-jinnie-fay-jetmirs-second?utm_source=api",
+      "layout": "reversible_card",
+      "highres_image": true,
+      "image_status": "highres_scan",
+      "image_updated_at": "2026-07-19T17:42:14Z",
+      "color_identity": [
+        "G",
+        "R",
+        "W"
+      ],
+      "keywords": [],
+      "card_faces": [
+        {
+          "object": "card_face",
+          "oracle_id": "61fbaaf2-4286-4e9a-b9cb-aa31262b596a",
+          "layout": "normal",
+          "name": "Jinnie Fay, Jetmir's Second",
+          "mana_cost": "{R/G}{G}{G/W}",
+          "cmc": 3.0,
+          "type_line": "Legendary Creature — Elf Druid",
+          "oracle_text": "If you would create one or more tokens, you may instead create that many 2/2 green Cat creature tokens with haste or that many 3/1 green Dog creature tokens with vigilance.",
+          "colors": [
+            "G",
+            "R",
+            "W"
+          ],
+          "power": "3",
+          "toughness": "3",
+          "flavor_text": "\"Raffine, Xander, Falco, Ziatora, Jetmir—heel!\"",
+          "artist": "Jack Hughes",
+          "artist_id": "ac1a1722-4d2b-499b-b8a9-2d642d3292cc",
+          "illustration_id": "6b8fb6bb-c0d1-4715-a4df-e4f4695c6130",
+          "image_uris": {
+            "small": "https://cards.scryfall.io/small/front/0/1/018830b2-dff9-45f3-9cc2-dc5b2eec0e54.jpg?1784482934",
+            "normal": "https://cards.scryfall.io/normal/front/0/1/018830b2-dff9-45f3-9cc2-dc5b2eec0e54.jpg?1784482934",
+            "large": "https://cards.scryfall.io/large/front/0/1/018830b2-dff9-45f3-9cc2-dc5b2eec0e54.jpg?1784482934",
+            "png": "https://cards.scryfall.io/png/front/0/1/018830b2-dff9-45f3-9cc2-dc5b2eec0e54.png?1784482934",
+            "art_crop": "https://cards.scryfall.io/art_crop/front/0/1/018830b2-dff9-45f3-9cc2-dc5b2eec0e54.jpg?1784482934",
+            "border_crop": "https://cards.scryfall.io/border_crop/front/0/1/018830b2-dff9-45f3-9cc2-dc5b2eec0e54.jpg?1784482934",
+            "thumb": "https://cards.scryfall.io/thumb/front/0/1/018830b2-dff9-45f3-9cc2-dc5b2eec0e54.webp?1784482934",
+            "grid": "https://cards.scryfall.io/grid/front/0/1/018830b2-dff9-45f3-9cc2-dc5b2eec0e54.webp?1784482934",
+            "display": "https://cards.scryfall.io/display/front/0/1/018830b2-dff9-45f3-9cc2-dc5b2eec0e54.webp?1784482934",
+            "art": "https://cards.scryfall.io/art/front/0/1/018830b2-dff9-45f3-9cc2-dc5b2eec0e54.webp?1784482934",
+            "crop": "https://cards.scryfall.io/crop/front/0/1/018830b2-dff9-45f3-9cc2-dc5b2eec0e54.webp?1784482934"
+          }
+        },
+        {
+          "object": "card_face",
+          "oracle_id": "61fbaaf2-4286-4e9a-b9cb-aa31262b596a",
+          "layout": "normal",
+          "name": "Jinnie Fay, Jetmir's Second",
+          "mana_cost": "{R/G}{G}{G/W}",
+          "cmc": 3.0,
+          "type_line": "Legendary Creature — Elf Druid",
+          "oracle_text": "If you would create one or more tokens, you may instead create that many 2/2 green Cat creature tokens with haste or that many 3/1 green Dog creature tokens with vigilance.",
+          "colors": [
+            "G",
+            "R",
+            "W"
+          ],
+          "power": "3",
+          "toughness": "3",
+          "flavor_text": "\"Mister Mittens, you would not be-*lieve* the day I had.\"",
+          "artist": "Jack Hughes",
+          "artist_id": "ac1a1722-4d2b-499b-b8a9-2d642d3292cc",
+          "illustration_id": "faebc2ac-9b6e-477d-869e-cee314d26cc0",
+          "image_uris": {
+            "small": "https://cards.scryfall.io/small/back/0/1/018830b2-dff9-45f3-9cc2-dc5b2eec0e54.jpg?1784482934",
+            "normal": "https://cards.scryfall.io/normal/back/0/1/018830b2-dff9-45f3-9cc2-dc5b2eec0e54.jpg?1784482934",
+            "large": "https://cards.scryfall.io/large/back/0/1/018830b2-dff9-45f3-9cc2-dc5b2eec0e54.jpg?1784482934",
+            "png": "https://cards.scryfall.io/png/back/0/1/018830b2-dff9-45f3-9cc2-dc5b2eec0e54.png?1784482934",
+            "art_crop": "https://cards.scryfall.io/art_crop/back/0/1/018830b2-dff9-45f3-9cc2-dc5b2eec0e54.jpg?1784482934",
+            "border_crop": "https://cards.scryfall.io/border_crop/back/0/1/018830b2-dff9-45f3-9cc2-dc5b2eec0e54.jpg?1784482934",
+            "thumb": "https://cards.scryfall.io/thumb/back/0/1/018830b2-dff9-45f3-9cc2-dc5b2eec0e54.webp?1784482934",
+            "grid": "https://cards.scryfall.io/grid/back/0/1/018830b2-dff9-45f3-9cc2-dc5b2eec0e54.webp?1784482934",
+            "display": "https://cards.scryfall.io/display/back/0/1/018830b2-dff9-45f3-9cc2-dc5b2eec0e54.webp?1784482934",
+            "art": "https://cards.scryfall.io/art/back/0/1/018830b2-dff9-45f3-9cc2-dc5b2eec0e54.webp?1784482934",
+            "crop": "https://cards.scryfall.io/crop/back/0/1/018830b2-dff9-45f3-9cc2-dc5b2eec0e54.webp?1784482934"
+          }
+        }
+      ],
+      "all_parts": [
+        {
+          "object": "related_card",
+          "id": "018830b2-dff9-45f3-9cc2-dc5b2eec0e54",
+          "component": "combo_piece",
+          "name": "Jinnie Fay, Jetmir's Second // Jinnie Fay, Jetmir's Second",
+          "type_line": "Legendary Creature — Elf Druid // Legendary Creature — Elf Druid",
+          "uri": "https://api.scryfall.com/cards/018830b2-dff9-45f3-9cc2-dc5b2eec0e54"
+        },
+        {
+          "object": "related_card",
+          "id": "53f30e6b-602d-4e7d-b217-8c8d6b9ecc27",
+          "component": "token",
+          "name": "Dog",
+          "type_line": "Token Creature — Dog",
+          "uri": "https://api.scryfall.com/cards/53f30e6b-602d-4e7d-b217-8c8d6b9ecc27"
+        },
+        {
+          "object": "related_card",
+          "id": "687bbd21-ae87-43b9-9d32-e981e7a78d76",
+          "component": "token",
+          "name": "Cat",
+          "type_line": "Token Creature — Cat",
+          "uri": "https://api.scryfall.com/cards/687bbd21-ae87-43b9-9d32-e981e7a78d76"
+        }
+      ],
+      "legalities": {
+        "standard": "not_legal",
+        "future": "not_legal",
+        "historic": "legal",
+        "timeless": "legal",
+        "gladiator": "legal",
+        "pioneer": "legal",
+        "modern": "legal",
+        "legacy": "legal",
+        "pauper": "not_legal",
+        "vintage": "legal",
+        "penny": "legal",
+        "commander": "legal",
+        "oathbreaker": "legal",
+        "standardbrawl": "not_legal",
+        "brawl": "legal",
+        "competitivebrawl": "legal",
+        "alchemy": "not_legal",
+        "paupercommander": "not_legal",
+        "duel": "legal",
+        "oldschool": "not_legal",
+        "premodern": "not_legal",
+        "predh": "not_legal",
+        "tlr": "legal"
+      },
+      "games": [
+        "paper"
+      ],
+      "reserved": false,
+      "game_changer": false,
+      "foil": false,
+      "nonfoil": true,
+      "finishes": [
+        "nonfoil"
+      ],
+      "oversized": false,
+      "promo": false,
+      "reprint": true,
+      "variation": false,
+      "set_id": "4d92a8a7-ccb0-437d-abdc-9d70fc5ed672",
+      "set": "sld",
+      "set_name": "Secret Lair Drop",
+      "set_type": "box",
+      "set_uri": "https://api.scryfall.com/sets/4d92a8a7-ccb0-437d-abdc-9d70fc5ed672",
+      "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Asld&unique=prints",
+      "scryfall_set_uri": "https://scryfall.com/sets/sld?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/018830b2-dff9-45f3-9cc2-dc5b2eec0e54/rulings",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A61fbaaf2-4286-4e9a-b9cb-aa31262b596a&unique=prints",
+      "collector_number": "1556",
+      "digital": false,
+      "rarity": "rare",
+      "artist": "Jack Hughes",
+      "artist_ids": [
+        "ac1a1722-4d2b-499b-b8a9-2d642d3292cc"
+      ],
+      "border_color": "borderless",
+      "frame": "2015",
+      "frame_effects": [
+        "legendary",
+        "inverted"
+      ],
+      "security_stamp": "oval",
+      "full_art": false,
+      "textless": false,
+      "booster": false,
+      "story_spotlight": false,
+      "promo_types": [
+        "thick"
+      ],
+      "edhrec_rank": 4375,
+      "penny_rank": 5471,
+      "prices": {
+        "usd": "4.30",
+        "usd_foil": null,
+        "usd_etched": null,
+        "eur": null,
+        "eur_foil": null,
+        "tix": null
+      },
+      "related_uris": {
+        "tcgplayer_infinite_articles": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Farticles&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Farticles%3FproductLineName%3Dmagic%26q%3DJinnie%2BFay%252C%2BJetmir%2527s%2BSecond%2B%252F%252F%2BJinnie%2BFay%252C%2BJetmir%2527s%2BSecond",
+        "tcgplayer_infinite_decks": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Fdecks&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fdecks%3FproductLineName%3Dmagic%26q%3DJinnie%2BFay%252C%2BJetmir%2527s%2BSecond%2B%252F%252F%2BJinnie%2BFay%252C%2BJetmir%2527s%2BSecond",
+        "edhrec": "https://edhrec.com/route/?cc=Jinnie+Fay%2C+Jetmir%27s+Second+%2F%2F+Jinnie+Fay%2C+Jetmir%27s+Second"
+      },
+      "purchase_uris": {
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F533913%3Fpage%3D1",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Jinnie+Fay%2C+Jetmir%27s+Second+%2F%2F+Jinnie+Fay%2C+Jetmir%27s+Second&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Jinnie+Fay%2C+Jetmir%27s+Second+%2F%2F+Jinnie+Fay%2C+Jetmir%27s+Second&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+      }
+    },
+    "different_face_artists": {
+      "object": "card",
+      "id": "0ee427c2-4445-44ed-8170-d1d02170e873",
+      "oracle_id": "432b37a5-d32a-4b78-91ab-860aa026b7cc",
+      "multiverse_ids": [],
+      "tcgplayer_id": 496148,
+      "cardmarket_id": 714703,
+      "name": "Archangel Avacyn // Avacyn, the Purifier",
+      "lang": "en",
+      "released_at": "2023-05-08",
+      "uri": "https://api.scryfall.com/cards/0ee427c2-4445-44ed-8170-d1d02170e873",
+      "scryfall_uri": "https://scryfall.com/card/sld/1209/archangel-avacyn-avacyn-the-purifier?utm_source=api",
+      "layout": "transform",
+      "highres_image": true,
+      "image_status": "highres_scan",
+      "image_updated_at": "2026-10-08T14:48:14Z",
+      "cmc": 5.0,
+      "type_line": "Legendary Creature — Angel // Legendary Creature — Angel",
+      "color_identity": [
+        "R",
+        "W"
+      ],
+      "keywords": [
+        "Flying",
+        "Vigilance",
+        "Transform",
+        "Flash"
+      ],
+      "card_faces": [
+        {
+          "object": "card_face",
+          "name": "Archangel Avacyn",
+          "mana_cost": "{3}{W}{W}",
+          "type_line": "Legendary Creature — Angel",
+          "oracle_text": "Flash\nFlying, vigilance\nWhen Archangel Avacyn enters, creatures you control gain indestructible until end of turn.\nWhen a non-Angel creature you control dies, transform Archangel Avacyn at the beginning of the next upkeep.",
+          "colors": [
+            "W"
+          ],
+          "power": "4",
+          "toughness": "4",
+          "artist": "Nana Qi",
+          "artist_id": "0debd35b-0bdc-4cee-8a11-78193a9c73df",
+          "illustration_id": "61f429a2-cbe2-43a5-975f-f4dac6b1b878",
+          "image_uris": {
+            "small": "https://cards.scryfall.io/small/front/0/e/0ee427c2-4445-44ed-8170-d1d02170e873.jpg?1791470894",
+            "normal": "https://cards.scryfall.io/normal/front/0/e/0ee427c2-4445-44ed-8170-d1d02170e873.jpg?1791470894",
+            "large": "https://cards.scryfall.io/large/front/0/e/0ee427c2-4445-44ed-8170-d1d02170e873.jpg?1791470894",
+            "png": "https://cards.scryfall.io/png/front/0/e/0ee427c2-4445-44ed-8170-d1d02170e873.png?1791470894",
+            "art_crop": "https://cards.scryfall.io/art_crop/front/0/e/0ee427c2-4445-44ed-8170-d1d02170e873.jpg?1791470894",
+            "border_crop": "https://cards.scryfall.io/border_crop/front/0/e/0ee427c2-4445-44ed-8170-d1d02170e873.jpg?1791470894",
+            "thumb": "https://cards.scryfall.io/thumb/front/0/e/0ee427c2-4445-44ed-8170-d1d02170e873.webp?1791470894",
+            "grid": "https://cards.scryfall.io/grid/front/0/e/0ee427c2-4445-44ed-8170-d1d02170e873.webp?1791470894",
+            "display": "https://cards.scryfall.io/display/front/0/e/0ee427c2-4445-44ed-8170-d1d02170e873.webp?1791470894",
+            "art": "https://cards.scryfall.io/art/front/0/e/0ee427c2-4445-44ed-8170-d1d02170e873.webp?1791470894",
+            "crop": "https://cards.scryfall.io/crop/front/0/e/0ee427c2-4445-44ed-8170-d1d02170e873.webp?1791470894"
+          }
+        },
+        {
+          "object": "card_face",
+          "name": "Avacyn, the Purifier",
+          "mana_cost": "",
+          "type_line": "Legendary Creature — Angel",
+          "oracle_text": "Flying\nWhen this creature transforms into Avacyn, the Purifier, it deals 3 damage to each other creature and each opponent.",
+          "colors": [
+            "R"
+          ],
+          "color_indicator": [
+            "R"
+          ],
+          "power": "6",
+          "toughness": "5",
+          "flavor_text": "Pray.",
+          "artist": "GodMachine",
+          "artist_id": "5ad61ffb-a337-4140-bdce-b0a251b135ae",
+          "illustration_id": "f024d86d-8f30-48a4-980e-94d444cdbd62",
+          "image_uris": {
+            "small": "https://cards.scryfall.io/small/back/0/e/0ee427c2-4445-44ed-8170-d1d02170e873.jpg?1791470894",
+            "normal": "https://cards.scryfall.io/normal/back/0/e/0ee427c2-4445-44ed-8170-d1d02170e873.jpg?1791470894",
+            "large": "https://cards.scryfall.io/large/back/0/e/0ee427c2-4445-44ed-8170-d1d02170e873.jpg?1791470894",
+            "png": "https://cards.scryfall.io/png/back/0/e/0ee427c2-4445-44ed-8170-d1d02170e873.png?1791470894",
+            "art_crop": "https://cards.scryfall.io/art_crop/back/0/e/0ee427c2-4445-44ed-8170-d1d02170e873.jpg?1791470894",
+            "border_crop": "https://cards.scryfall.io/border_crop/back/0/e/0ee427c2-4445-44ed-8170-d1d02170e873.jpg?1791470894",
+            "thumb": "https://cards.scryfall.io/thumb/back/0/e/0ee427c2-4445-44ed-8170-d1d02170e873.webp?1791470894",
+            "grid": "https://cards.scryfall.io/grid/back/0/e/0ee427c2-4445-44ed-8170-d1d02170e873.webp?1791470894",
+            "display": "https://cards.scryfall.io/display/back/0/e/0ee427c2-4445-44ed-8170-d1d02170e873.webp?1791470894",
+            "art": "https://cards.scryfall.io/art/back/0/e/0ee427c2-4445-44ed-8170-d1d02170e873.webp?1791470894",
+            "crop": "https://cards.scryfall.io/crop/back/0/e/0ee427c2-4445-44ed-8170-d1d02170e873.webp?1791470894"
+          }
+        }
+      ],
+      "all_parts": [
+        {
+          "object": "related_card",
+          "id": "0ee427c2-4445-44ed-8170-d1d02170e873",
+          "component": "combo_piece",
+          "name": "Archangel Avacyn // Avacyn, the Purifier",
+          "type_line": "Legendary Creature — Angel // Legendary Creature — Angel",
+          "uri": "https://api.scryfall.com/cards/0ee427c2-4445-44ed-8170-d1d02170e873"
+        },
+        {
+          "object": "related_card",
+          "id": "4825c59d-9e27-4a12-ba84-642b8540e573",
+          "component": "combo_piece",
+          "name": "Shadows Over Innistrad Checklist 2",
+          "type_line": "Card",
+          "uri": "https://api.scryfall.com/cards/4825c59d-9e27-4a12-ba84-642b8540e573"
+        }
+      ],
+      "legalities": {
+        "standard": "not_legal",
+        "future": "not_legal",
+        "historic": "legal",
+        "timeless": "legal",
+        "gladiator": "legal",
+        "pioneer": "legal",
+        "modern": "legal",
+        "legacy": "legal",
+        "pauper": "not_legal",
+        "vintage": "legal",
+        "penny": "legal",
+        "commander": "legal",
+        "oathbreaker": "legal",
+        "standardbrawl": "not_legal",
+        "brawl": "legal",
+        "competitivebrawl": "legal",
+        "alchemy": "not_legal",
+        "paupercommander": "not_legal",
+        "duel": "legal",
+        "oldschool": "not_legal",
+        "premodern": "not_legal",
+        "predh": "not_legal",
+        "tlr": "not_legal"
+      },
+      "games": [
+        "paper"
+      ],
+      "reserved": false,
+      "game_changer": false,
+      "foil": false,
+      "nonfoil": true,
+      "finishes": [
+        "nonfoil"
+      ],
+      "oversized": false,
+      "promo": false,
+      "reprint": true,
+      "variation": false,
+      "set_id": "4d92a8a7-ccb0-437d-abdc-9d70fc5ed672",
+      "set": "sld",
+      "set_name": "Secret Lair Drop",
+      "set_type": "box",
+      "set_uri": "https://api.scryfall.com/sets/4d92a8a7-ccb0-437d-abdc-9d70fc5ed672",
+      "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Asld&unique=prints",
+      "scryfall_set_uri": "https://scryfall.com/sets/sld?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/0ee427c2-4445-44ed-8170-d1d02170e873/rulings",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A432b37a5-d32a-4b78-91ab-860aa026b7cc&unique=prints",
+      "collector_number": "1209",
+      "digital": false,
+      "rarity": "mythic",
+      "artist": "Nana Qi & GodMachine",
+      "artist_ids": [
+        "0debd35b-0bdc-4cee-8a11-78193a9c73df",
+        "5ad61ffb-a337-4140-bdce-b0a251b135ae"
+      ],
+      "border_color": "borderless",
+      "frame": "2015",
+      "frame_effects": [
+        "legendary"
+      ],
+      "security_stamp": "oval",
+      "full_art": false,
+      "textless": false,
+      "booster": false,
+      "story_spotlight": false,
+      "promo_types": [
+        "thick"
+      ],
+      "edhrec_rank": 7520,
+      "penny_rank": 2893,
+      "prices": {
+        "usd": "7.04",
+        "usd_foil": null,
+        "usd_etched": null,
+        "eur": "2.65",
+        "eur_foil": null,
+        "tix": null
+      },
+      "related_uris": {
+        "tcgplayer_infinite_articles": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Farticles&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Farticles%3FproductLineName%3Dmagic%26q%3DArchangel%2BAvacyn%2B%252F%252F%2BAvacyn%252C%2Bthe%2BPurifier",
+        "tcgplayer_infinite_decks": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Fdecks&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fdecks%3FproductLineName%3Dmagic%26q%3DArchangel%2BAvacyn%2B%252F%252F%2BAvacyn%252C%2Bthe%2BPurifier",
+        "edhrec": "https://edhrec.com/route/?cc=Archangel+Avacyn"
+      },
+      "purchase_uris": {
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fproduct%2F496148%3Fpage%3D1",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products?idProduct=714703&referrer=scryfall&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Archangel+Avacyn&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+      }
+    },
+    "shared_split_art": {
+      "object": "card",
+      "id": "00031562-3818-49f9-b45c-ab28a521284c",
+      "oracle_id": "98a5bf1a-1088-4339-9a9b-6ee5e4956cf1",
+      "multiverse_ids": [
+        428539
+      ],
+      "name": "Cut // Ribbons",
+      "lang": "ko",
+      "released_at": "2017-04-28",
+      "uri": "https://api.scryfall.com/cards/00031562-3818-49f9-b45c-ab28a521284c",
+      "scryfall_uri": "https://scryfall.com/card/akh/223/ko/%EC%A0%88%EB%8B%A8-%EB%9D%A0-(cut-ribbons)?utm_source=api",
+      "layout": "split",
+      "highres_image": false,
+      "image_status": "lowres",
+      "image_updated_at": "2026-07-01T21:39:47Z",
+      "image_uris": {
+        "small": "https://cards.scryfall.io/small/front/0/0/00031562-3818-49f9-b45c-ab28a521284c.jpg?1782941987",
+        "normal": "https://cards.scryfall.io/normal/front/0/0/00031562-3818-49f9-b45c-ab28a521284c.jpg?1782941987",
+        "large": "https://cards.scryfall.io/large/front/0/0/00031562-3818-49f9-b45c-ab28a521284c.jpg?1782941987",
+        "png": "https://cards.scryfall.io/png/front/0/0/00031562-3818-49f9-b45c-ab28a521284c.png?1782941987",
+        "art_crop": "https://cards.scryfall.io/art_crop/front/0/0/00031562-3818-49f9-b45c-ab28a521284c.jpg?1782941987",
+        "border_crop": "https://cards.scryfall.io/border_crop/front/0/0/00031562-3818-49f9-b45c-ab28a521284c.jpg?1782941987",
+        "thumb": "https://cards.scryfall.io/thumb/front/0/0/00031562-3818-49f9-b45c-ab28a521284c.webp?1782941987",
+        "grid": "https://cards.scryfall.io/grid/front/0/0/00031562-3818-49f9-b45c-ab28a521284c.webp?1782941987",
+        "display": "https://cards.scryfall.io/display/front/0/0/00031562-3818-49f9-b45c-ab28a521284c.webp?1782941987",
+        "art": "https://cards.scryfall.io/art/front/0/0/00031562-3818-49f9-b45c-ab28a521284c.webp?1782941987",
+        "crop": "https://cards.scryfall.io/crop/front/0/0/00031562-3818-49f9-b45c-ab28a521284c.webp?1782941987"
+      },
+      "mana_cost": "{1}{R} // {X}{B}{B}",
+      "cmc": 4.0,
+      "type_line": "Sorcery // Sorcery",
+      "colors": [
+        "B",
+        "R"
+      ],
+      "color_identity": [
+        "B",
+        "R"
+      ],
+      "keywords": [
+        "Aftermath"
+      ],
+      "card_faces": [
+        {
+          "object": "card_face",
+          "name": "Cut",
+          "printed_name": "절단",
+          "mana_cost": "{1}{R}",
+          "type_line": "Sorcery",
+          "printed_type_line": "집중마법",
+          "oracle_text": "Cut deals 4 damage to target creature.",
+          "printed_text": "생물을 목표로 정한다. 절단은 그 생물에게 피해 4점을 입힌다.",
+          "artist": "Raymond Swanland",
+          "artist_id": "e956bacc-077d-4c12-b6bc-ba798b718af9",
+          "illustration_id": "4acf8e25-40bb-484f-972f-eae19863a877"
+        },
+        {
+          "object": "card_face",
+          "name": "Ribbons",
+          "printed_name": "띠",
+          "mana_cost": "{X}{B}{B}",
+          "type_line": "Sorcery",
+          "printed_type_line": "집중마법",
+          "oracle_text": "Aftermath (Cast this spell only from your graveyard. Then exile it.)\nEach opponent loses X life.",
+          "printed_text": "여파 (당신의 무덤에서만 이 주문을 발동할 수 있다. 그 후, 이 카드를 추방한다.)\n각 상대는 생명 X점을 잃는다.",
+          "artist": "Raymond Swanland",
+          "artist_id": "e956bacc-077d-4c12-b6bc-ba798b718af9"
+        }
+      ],
+      "legalities": {
+        "standard": "not_legal",
+        "future": "not_legal",
+        "historic": "legal",
+        "timeless": "legal",
+        "gladiator": "legal",
+        "pioneer": "legal",
+        "modern": "legal",
+        "legacy": "legal",
+        "pauper": "not_legal",
+        "vintage": "legal",
+        "penny": "legal",
+        "commander": "legal",
+        "oathbreaker": "legal",
+        "standardbrawl": "not_legal",
+        "brawl": "legal",
+        "competitivebrawl": "legal",
+        "alchemy": "not_legal",
+        "paupercommander": "not_legal",
+        "duel": "legal",
+        "oldschool": "not_legal",
+        "premodern": "not_legal",
+        "predh": "not_legal",
+        "tlr": "legal"
+      },
+      "games": [
+        "paper",
+        "mtgo"
+      ],
+      "reserved": false,
+      "game_changer": false,
+      "foil": true,
+      "nonfoil": true,
+      "finishes": [
+        "nonfoil",
+        "foil"
+      ],
+      "oversized": false,
+      "promo": false,
+      "reprint": false,
+      "variation": false,
+      "set_id": "02d1c536-68bc-4208-9b65-7741ef1f9da8",
+      "set": "akh",
+      "set_name": "Amonkhet",
+      "set_type": "expansion",
+      "set_uri": "https://api.scryfall.com/sets/02d1c536-68bc-4208-9b65-7741ef1f9da8",
+      "set_search_uri": "https://api.scryfall.com/cards/search?order=set&q=e%3Aakh&unique=prints",
+      "scryfall_set_uri": "https://scryfall.com/sets/akh?utm_source=api",
+      "rulings_uri": "https://api.scryfall.com/cards/00031562-3818-49f9-b45c-ab28a521284c/rulings",
+      "prints_search_uri": "https://api.scryfall.com/cards/search?order=released&q=oracleid%3A98a5bf1a-1088-4339-9a9b-6ee5e4956cf1&unique=prints",
+      "collector_number": "223",
+      "digital": false,
+      "rarity": "rare",
+      "card_back_id": "0aeebaf5-8c7d-4636-9e82-8c27447861f7",
+      "artist": "Raymond Swanland",
+      "artist_ids": [
+        "e956bacc-077d-4c12-b6bc-ba798b718af9"
+      ],
+      "illustration_id": "4acf8e25-40bb-484f-972f-eae19863a877",
+      "border_color": "black",
+      "frame": "2015",
+      "security_stamp": "oval",
+      "full_art": false,
+      "textless": false,
+      "booster": true,
+      "story_spotlight": false,
+      "edhrec_rank": 8651,
+      "penny_rank": 1814,
+      "prices": {
+        "usd": null,
+        "usd_foil": null,
+        "usd_etched": null,
+        "eur": null,
+        "eur_foil": null,
+        "tix": null
+      },
+      "related_uris": {
+        "gatherer": "https://gatherer.wizards.com/Pages/Card/Details.aspx?multiverseid=428539&printed=true",
+        "tcgplayer_infinite_articles": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Farticles&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Farticles%3FproductLineName%3Dmagic%26q%3DCut%2B%252F%252F%2BRibbons",
+        "tcgplayer_infinite_decks": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&trafcat=tcgplayer.com%2Fsearch%2Fdecks&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fdecks%3FproductLineName%3Dmagic%26q%3DCut%2B%252F%252F%2BRibbons",
+        "edhrec": "https://edhrec.com/route/?cc=Cut+%2F%2F+Ribbons"
+      },
+      "purchase_uris": {
+        "tcgplayer": "https://partner.tcgplayer.com/c/4931599/1830156/21018?subId1=api&u=https%3A%2F%2Fwww.tcgplayer.com%2Fsearch%2Fmagic%2Fproduct%3FproductLineName%3Dmagic%26q%3DCut%2B%252F%252F%2BRibbons%26view%3Dgrid",
+        "cardmarket": "https://www.cardmarket.com/en/Magic/Products/Search?referrer=scryfall&searchString=Cut+%2F%2F+Ribbons&utm_campaign=card_prices&utm_medium=text&utm_source=scryfall",
+        "cardhoarder": "https://www.cardhoarder.com/cards?affiliate_id=scryfall&data%5Bsearch%5D=Cut+%2F%2F+Ribbons&ref=card-profile&utm_campaign=affiliate&utm_medium=card&utm_source=scryfall"
+      }
+    }
+  }
+}

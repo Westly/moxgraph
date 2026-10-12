@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-10-11T20:36:02.824Z",
+  "origin": "http://localhost:3000",
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit",
+  "customHeaders": false,
+  "provider": "moxfield",
+  "url": "https://api2.moxfield.com/v3/decks/all/3x55_3CFz060qxL2xac3NA",
+  "outcome": "failed",
+  "error": {
+    "name": "TypeError",
+    "message": "Failed to fetch"
+  },
+  "note": "A failed fetch alone does not distinguish CORS, a challenge, or network failure. Inspect the browser console for the cause. No response body is retained."
+}

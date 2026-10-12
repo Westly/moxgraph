@@ -1,0 +1,1429 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://moxgraph.com/schemas/contracts-v1.json",
+  "title": "Contracts",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "SourceSnapshot": {
+      "$ref": "#/$defs/SourceSnapshot"
+    },
+    "PrintingFace": {
+      "$ref": "#/$defs/PrintingFace"
+    },
+    "CardPrinting": {
+      "$ref": "#/$defs/CardPrinting"
+    },
+    "Artist": {
+      "$ref": "#/$defs/Artist"
+    },
+    "ArtistMapping": {
+      "$ref": "#/$defs/ArtistMapping"
+    },
+    "ArtistLink": {
+      "$ref": "#/$defs/ArtistLink"
+    },
+    "Attendance": {
+      "$ref": "#/$defs/Attendance"
+    },
+    "ArtistStatistics": {
+      "$ref": "#/$defs/ArtistStatistics"
+    },
+    "Event": {
+      "$ref": "#/$defs/Event"
+    },
+    "SavedDeck": {
+      "$ref": "#/$defs/SavedDeck"
+    },
+    "DeckLine": {
+      "$ref": "#/$defs/DeckLine"
+    },
+    "MatchResult": {
+      "$ref": "#/$defs/MatchResult"
+    },
+    "EventDirectory": {
+      "$ref": "#/$defs/EventDirectory"
+    },
+    "FileDescriptor": {
+      "$ref": "#/$defs/FileDescriptor"
+    },
+    "DataManifest": {
+      "$ref": "#/$defs/DataManifest"
+    },
+    "ActiveManifest": {
+      "$ref": "#/$defs/ActiveManifest"
+    }
+  },
+  "required": [
+    "SourceSnapshot",
+    "PrintingFace",
+    "CardPrinting",
+    "Artist",
+    "ArtistMapping",
+    "ArtistLink",
+    "Attendance",
+    "ArtistStatistics",
+    "Event",
+    "SavedDeck",
+    "DeckLine",
+    "MatchResult",
+    "EventDirectory",
+    "FileDescriptor",
+    "DataManifest",
+    "ActiveManifest"
+  ],
+  "$defs": {
+    "SourceSnapshot": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "source": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "url": {
+          "type": "string",
+          "pattern": "^[hH][tT][tT][pP][sS]?://[^\\s]+$"
+        },
+        "sourceUpdatedAt": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?(?:Z|[+-]\\d{2}:\\d{2})$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "retrievedAt": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?(?:Z|[+-]\\d{2}:\\d{2})$"
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "records": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "parserVersion": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "status": {
+          "enum": [
+            "complete"
+          ]
+        }
+      },
+      "required": [
+        "id",
+        "source",
+        "url",
+        "sourceUpdatedAt",
+        "retrievedAt",
+        "sha256",
+        "bytes",
+        "records",
+        "parserVersion",
+        "status"
+      ]
+    },
+    "PrintingFace": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "index": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "name": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "[\\s\\S]"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "oracleId": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sourceArtistCredit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "artistIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+          }
+        },
+        "illustrationId": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "imageUrl": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[hH][tT][tT][pP][sS]?://[^\\s]+$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "index",
+        "name",
+        "oracleId",
+        "sourceArtistCredit",
+        "artistIds",
+        "illustrationId",
+        "imageUrl"
+      ]
+    },
+    "CardPrinting": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+        },
+        "oracleIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+          }
+        },
+        "name": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "printedName": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "[\\s\\S]"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "setCode": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "setName": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "[\\s\\S]"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "collectorNumber": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "language": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "finishes": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "nonfoil",
+              "foil",
+              "etched"
+            ]
+          }
+        },
+        "layout": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "games": {
+          "type": "array",
+          "items": {
+            "enum": [
+              "paper",
+              "mtgo",
+              "arena",
+              "astral",
+              "sega"
+            ]
+          }
+        },
+        "paper": {
+          "type": "boolean"
+        },
+        "digital": {
+          "type": "boolean"
+        },
+        "category": {
+          "enum": [
+            "card",
+            "token",
+            "emblem",
+            "art_card",
+            "auxiliary"
+          ]
+        },
+        "sourceArtistCredit": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "artistIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+          }
+        },
+        "illustrationId": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "imageUrl": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[hH][tT][tT][pP][sS]?://[^\\s]+$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "scryfallUrl": {
+          "type": "string",
+          "pattern": "^[hH][tT][tT][pP][sS]?://[^\\s]+$"
+        },
+        "faces": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/PrintingFace"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "oracleIds",
+        "name",
+        "printedName",
+        "setCode",
+        "setName",
+        "collectorNumber",
+        "language",
+        "finishes",
+        "layout",
+        "games",
+        "paper",
+        "digital",
+        "category",
+        "sourceArtistCredit",
+        "artistIds",
+        "illustrationId",
+        "imageUrl",
+        "scryfallUrl",
+        "faces"
+      ]
+    },
+    "Artist": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "key": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "displayName": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "[\\s\\S]"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sourceIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+          }
+        },
+        "sourceNames": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "[\\s\\S]"
+          }
+        },
+        "kind": {
+          "enum": [
+            "individual",
+            "collective",
+            "unknown"
+          ]
+        }
+      },
+      "required": [
+        "key",
+        "displayName",
+        "sourceIds",
+        "sourceNames",
+        "kind"
+      ]
+    },
+    "ArtistMapping": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "eventId": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "attendanceId": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "magicconNames": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "[\\s\\S]"
+          }
+        },
+        "artistKeys": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "[\\s\\S]"
+          }
+        },
+        "sourceArtistIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+          }
+        },
+        "scryfallNames": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "[\\s\\S]"
+            }
+          }
+        },
+        "status": {
+          "enum": [
+            "verified",
+            "review_needed",
+            "unmatched"
+          ]
+        },
+        "method": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "evidenceUrls": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[hH][tT][tT][pP][sS]?://[^\\s]+$"
+          }
+        },
+        "reviewedAt": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "eventId",
+        "attendanceId",
+        "magicconNames",
+        "artistKeys",
+        "sourceArtistIds",
+        "scryfallNames",
+        "status",
+        "method",
+        "evidenceUrls",
+        "reviewedAt",
+        "notes"
+      ]
+    },
+    "ArtistLink": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "type": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "platform": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "[\\s\\S]"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "label": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "originalUrl": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "displayUrl": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[hH][tT][tT][pP][sS]?://[^\\s]+$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sourceProfileUrl": {
+          "type": "string",
+          "pattern": "^[hH][tT][tT][pP][sS]?://[^\\s]+$"
+        },
+        "retrievedAt": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?(?:Z|[+-]\\d{2}:\\d{2})$"
+        }
+      },
+      "required": [
+        "id",
+        "type",
+        "platform",
+        "label",
+        "originalUrl",
+        "displayUrl",
+        "sourceProfileUrl",
+        "retrievedAt"
+      ]
+    },
+    "Attendance": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "eventId": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "rawName": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "guestId": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "[\\s\\S]"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "mappingId": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "profileUrl": {
+          "type": "string",
+          "pattern": "^[hH][tT][tT][pP][sS]?://[^\\s]+$"
+        },
+        "portraitUrl": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[hH][tT][tT][pP][sS]?://[^\\s]+$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "portraitAttribution": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "booth": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "[\\s\\S]"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "days": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "[\\s\\S]"
+          }
+        },
+        "status": {
+          "enum": [
+            "listed",
+            "cancelled",
+            "unknown"
+          ]
+        },
+        "sourceUrls": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[hH][tT][tT][pP][sS]?://[^\\s]+$"
+          }
+        },
+        "links": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ArtistLink"
+          }
+        }
+      },
+      "required": [
+        "id",
+        "eventId",
+        "rawName",
+        "guestId",
+        "mappingId",
+        "profileUrl",
+        "portraitUrl",
+        "portraitAttribution",
+        "booth",
+        "days",
+        "status",
+        "sourceUrls",
+        "links"
+      ]
+    },
+    "ArtistStatistics": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "artistKey": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "snapshotId": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "scope": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "uniqueCards": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "printingEditions": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "languagePrintings": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "uniqueArtworks": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "supplementalObjects": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "missingOracleIds": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "missingIllustrations": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "artistKey",
+        "snapshotId",
+        "scope",
+        "uniqueCards",
+        "printingEditions",
+        "languagePrintings",
+        "uniqueArtworks",
+        "supplementalObjects",
+        "missingOracleIds",
+        "missingIllustrations"
+      ]
+    },
+    "Event": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "name": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "startsAt": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "endsAt": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "location": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "directoryUrl": {
+          "type": "string",
+          "pattern": "^[hH][tT][tT][pP][sS]?://[^\\s]+$"
+        },
+        "snapshotId": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "retrievedAt": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?(?:Z|[+-]\\d{2}:\\d{2})$"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "startsAt",
+        "endsAt",
+        "location",
+        "directoryUrl",
+        "snapshotId",
+        "retrievedAt"
+      ]
+    },
+    "SavedDeck": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+        },
+        "provider": {
+          "enum": [
+            "moxfield",
+            "archidekt",
+            "file"
+          ]
+        },
+        "sourceDeckId": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "[\\s\\S]"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sourceUrl": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[hH][tT][tT][pP][sS]?://[^\\s]+$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "title": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "importedAt": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?(?:Z|[+-]\\d{2}:\\d{2})$"
+        },
+        "refreshedAt": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?(?:Z|[+-]\\d{2}:\\d{2})$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sourceChecksum": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "schemaVersion": {
+          "const": 1
+        },
+        "dataVersion": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "mappingRevision": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        }
+      },
+      "required": [
+        "id",
+        "provider",
+        "sourceDeckId",
+        "sourceUrl",
+        "title",
+        "importedAt",
+        "refreshedAt",
+        "sourceChecksum",
+        "schemaVersion",
+        "dataVersion",
+        "mappingRevision"
+      ]
+    },
+    "DeckLine": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "deckId": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+        },
+        "sourceLineKey": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "sourcePrintingId": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "[\\s\\S]"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "sourceScryfallId": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "name": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "quantity": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "section": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "categories": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "[\\s\\S]"
+          }
+        },
+        "setCode": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "[\\s\\S]"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "collectorNumber": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "[\\s\\S]"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "language": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "[\\s\\S]"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "finish": {
+          "anyOf": [
+            {
+              "enum": [
+                "nonfoil",
+                "foil",
+                "etched"
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "rawFinish": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "[\\s\\S]"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "resolvedPrintingId": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "resolutionStatus": {
+          "enum": [
+            "exact",
+            "manual",
+            "alias",
+            "ambiguous",
+            "unknown",
+            "conflict"
+          ]
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "[\\s\\S]"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "manualChoice": {
+          "anyOf": [
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "selectedAt": {
+                  "type": "string",
+                  "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?(?:Z|[+-]\\d{2}:\\d{2})$"
+                },
+                "printingId": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+                },
+                "reason": {
+                  "type": "string",
+                  "pattern": "[\\s\\S]"
+                }
+              },
+              "required": [
+                "selectedAt",
+                "printingId",
+                "reason"
+              ]
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "deckId",
+        "sourceLineKey",
+        "sourcePrintingId",
+        "sourceScryfallId",
+        "name",
+        "quantity",
+        "section",
+        "categories",
+        "setCode",
+        "collectorNumber",
+        "language",
+        "finish",
+        "rawFinish",
+        "resolvedPrintingId",
+        "resolutionStatus",
+        "reason",
+        "manualChoice"
+      ]
+    },
+    "MatchResult": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "sourceLineKey": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "eventId": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "printingId": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "artistKey": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "[\\s\\S]"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "faceIndexes": {
+          "type": "array",
+          "items": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "attendanceIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "[\\s\\S]"
+          }
+        },
+        "dataVersion": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "state": {
+          "enum": [
+            "attending",
+            "no_listed_attendee",
+            "artist_unmapped",
+            "credit_missing",
+            "data_unavailable"
+          ]
+        },
+        "reason": {
+          "anyOf": [
+            {
+              "type": "string",
+              "pattern": "[\\s\\S]"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "required": [
+        "sourceLineKey",
+        "eventId",
+        "printingId",
+        "artistKey",
+        "faceIndexes",
+        "attendanceIds",
+        "dataVersion",
+        "state",
+        "reason"
+      ]
+    },
+    "EventDirectory": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "event": {
+          "$ref": "#/$defs/Event"
+        },
+        "attendance": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Attendance"
+          }
+        },
+        "mappings": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ArtistMapping"
+          }
+        },
+        "statistics": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/ArtistStatistics"
+          }
+        }
+      },
+      "required": [
+        "event",
+        "attendance",
+        "mappings",
+        "statistics"
+      ]
+    },
+    "FileDescriptor": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "sha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "bytes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "gzipBytes": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "records": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "kind": {
+          "enum": [
+            "printings",
+            "tuples",
+            "artist-index",
+            "artists",
+            "event",
+            "sources"
+          ]
+        }
+      },
+      "required": [
+        "sha256",
+        "bytes",
+        "gzipBytes",
+        "records",
+        "kind"
+      ]
+    },
+    "DataManifest": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "schemaVersion": {
+          "const": 1
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^v1-[0-9a-f]{16}$"
+        },
+        "cardSnapshotId": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "eventSnapshotId": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "sourceUpdatedAt": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?(?:Z|[+-]\\d{2}:\\d{2})$"
+        },
+        "eventRetrievedAt": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}(?:\\.\\d+)?(?:Z|[+-]\\d{2}:\\d{2})$"
+        },
+        "mappingRevision": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "generatorVersion": {
+          "type": "string",
+          "pattern": "[\\s\\S]"
+        },
+        "uuidPrefixLength": {
+          "const": 3
+        },
+        "printingColumns": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "[\\s\\S]"
+          }
+        },
+        "coverage": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "printings": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "languages": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "sets": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "artists": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "attendees": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "faces": {
+              "type": "integer",
+              "minimum": 0
+            }
+          },
+          "required": [
+            "printings",
+            "languages",
+            "sets",
+            "artists",
+            "attendees",
+            "faces"
+          ]
+        },
+        "files": {
+          "type": "object",
+          "propertyNames": {
+            "type": "string",
+            "pattern": "^(?:[a-z0-9_-]+/)*[a-z0-9_-]+\\.json$"
+          },
+          "additionalProperties": {
+            "$ref": "#/$defs/FileDescriptor"
+          }
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "version",
+        "cardSnapshotId",
+        "eventSnapshotId",
+        "sourceUpdatedAt",
+        "eventRetrievedAt",
+        "mappingRevision",
+        "generatorVersion",
+        "uuidPrefixLength",
+        "printingColumns",
+        "coverage",
+        "files"
+      ]
+    },
+    "ActiveManifest": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "schemaVersion": {
+          "const": 1
+        },
+        "version": {
+          "type": "string",
+          "pattern": "^v1-[0-9a-f]{16}$"
+        },
+        "manifestSha256": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "manifestBytes": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 4194304
+        }
+      },
+      "required": [
+        "schemaVersion",
+        "version",
+        "manifestSha256",
+        "manifestBytes"
+      ]
+    }
+  }
+}

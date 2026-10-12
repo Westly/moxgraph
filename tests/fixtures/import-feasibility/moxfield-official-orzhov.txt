@@ -1,0 +1,87 @@
+1 Teysa Karlov (SLD) 1235 *F*
+1 Adeline, Resplendent Cathar (MID) 1 *F*
+1 Ainok Strike Leader (TDC) 51
+1 Anguished Unmaking (2X2) 170 *F*
+1 Arcane Signet (P30A) 1F *E*
+1 Ashnod's Altar (CHR) 92
+1 Bastion of Remembrance (IKO) 73 *F*
+1 Batwing Brume (EVE) 81 *F*
+1 Bitterbloom Bearer (ECL) 310 *F*
+1 Bitterblossom (G11) 1 *F*
+1 Black Market Connections (ACR) 198 *E*
+1 Bleachbone Verge (DFT) 371 *F*
+1 Blood Artist (2X2) 352 *F*
+1 Brightclimb Pathway / Grimclimb Pathway (SLU) 14 *F*
+1 Call the Coppercoats (C20) 23
+1 Carrier Thrall (CMM) 142 *F*
+1 Carrion Feeder (F04) 6 *F*
+1 Caves of Koilos (APC) 140 *F*
+1 Chthonian Nightmare (MH3) 330 *F*
+1 Cloud, Midgar Mercenary (FIN) 564 *F*
+1 Command Tower (SLD) 1697 *F*
+1 Continue? (TMC) 7 *F*
+1 Cruel Celebrant (WAR) 188 *F*
+1 Damn (MH2) 396 *E*
+1 Dark Prophecy (M14) 93 *F*
+1 Demonic Tutor (SLD) 1856
+1 Desolate Mire (PIP) 966 *F*
+1 Drivnod, Carnage Dominus (ONE) 350 *F*
+1 Elas il-Kor, Sadistic Pilgrim (DMU) 198 *F*
+1 Elenda, the Dusk Rose (LCC) 268
+1 Elenda's Hierophant (LCC) 71
+1 Endless Foot Assault (TMC) 8 *F*
+1 Fabled Passage (PELD) 244p *F*
+1 Fetid Heath (2XM) 316 *F*
+1 Fracture (STX) 188
+1 Godless Shrine (RVR) 294 *F*
+1 Grim Haruspex (PKTK) 73s *F*
+1 Harvester of Souls (P30A) 20 *F*
+1 High Market (MMQ) 320
+1 Indebted Spirit (MH3) 31 *F*
+1 Isolated Chapel (PIP) 1028 *F*
+1 Lightning Greaves (F09) 8 *F*
+1 Liliana, Dreadhorde General (PWAR) 97s *F*
+1 Marsh Flats (MH2) 248
+1 Midgar, City of Mako / Reactor Raid (FIN) 313 *F*
+1 Ministrant of Obligation (RNA) 16 *F*
+1 Morbid Opportunist (SPG) 32 *F*
+1 Nether Traitor (TSP) 120 *F*
+1 Novice Occultist (DBL) 117 *F*
+1 Ocelot Pride (SCH) 47 *F*
+1 Ogre Slumlord (CMM) 518 *E*
+1 Orzhov Basilica (2X2) 409 *F*
+1 Orzhov Signet (SLD) 294 *E*
+1 Path to Exile (PF20) 1 *F*
+1 Phyrexian Altar (SLC) 16 *F*
+1 Phyrexian Tower (MH3) 303 *F*
+8 Plains (CMM) 439 *F*
+1 Ratadrabik of Urborg (DMU) 353 *F*
+1 Reliquary Monk (UDS) 14 *F*
+1 Scrubland (3ED) 286
+1 Sephiroth, Fabled SOLDIER / Sephiroth, One-Winged Angel (FIN) 317 *F*
+1 Shattered Sanctum (PVOW) 264s *F*
+1 Skullclamp (DST) 140 *F*
+1 Sol Ring (SLD) 1696 *F*
+1 Spawning Pit (DST) 141 *F*
+1 Spymaster's Vault (MH3) 358
+7 Swamp (CMM) 445 *F*
+1 Swords to Plowshares (DMR) 275 *F*
+1 Syr Konrad, the Grim (PW23) 5 *F*
+1 Syr Vondam, Sunstar Exemplar (EOE) 302 *F*
+1 Tainted Field (TOR) 140 *F*
+1 Talisman of Hierarchy (SLD) 1057 *E*
+1 Teysa, Orzhov Scion (GPT) 134 *F*
+1 The Emperor, Hell Tyrant (FCA) 11 *F*
+1 The Meathook Massacre (INR) 486 *F*
+1 Transmogrant's Crown (BRO) 334 *F*
+1 Umbral Collar Zealot (EOE) 395 *F*
+1 Urborg, Tomb of Yawgmoth (TSR) 287 *F*
+1 Vampiric Tutor (SOA) 100
+1 Vault of Champions (CMM) 621 *E*
+1 Vengeful Bloodwitch (FDN) 325 *F*
+1 Vindicate (MH2) 322 *F*
+1 Viscera Seer (CMR) 158 *F*
+1 Vogar, Necropolis Tyrant (GN3) 3 *F*
+1 Westvale Abbey / Ormendahl, Profane Prince (PSOI) 281s *F*
+1 Wriggling Grub (J25) 12
+1 Zulaport Cutthroat (SLD) 156 *F*

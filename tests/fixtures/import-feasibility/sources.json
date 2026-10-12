@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "observedDate": "2026-10-11",
+  "note": "Anonymous public reads. Whitelisted deck/printing fields only; no owner profiles, descriptions, prices, credentials or unrelated metadata.",
+  "sources": [
+    {
+      "provider": "moxfield",
+      "apiVersion": "v3",
+      "deckId": "3x55_3CFz060qxL2xac3NA",
+      "sourceUrl": "https://moxfield.com/decks/3x55_3CFz060qxL2xac3NA",
+      "apiUrl": "https://api2.moxfield.com/v3/decks/all/3x55_3CFz060qxL2xac3NA",
+      "rawSha256": "b8d0f33eee9afae10e64582830872cba93793ed08b1ab0055724661d91f00b61",
+      "rawBytes": 618602,
+      "fixture": "tests/fixtures/import-feasibility/moxfield-3x55_3CFz060qxL2xac3NA.json",
+      "fixtureSha256": "ee262623a2e3587972f601ae5ede38255efe13dcc3ce80bdd58ee0df789492e9"
+    },
+    {
+      "provider": "moxfield",
+      "apiVersion": "v3",
+      "deckId": "SbEkgxN4CEqiCG5B94rkkg",
+      "sourceUrl": "https://moxfield.com/decks/SbEkgxN4CEqiCG5B94rkkg",
+      "apiUrl": "https://api2.moxfield.com/v3/decks/all/SbEkgxN4CEqiCG5B94rkkg",
+      "rawSha256": "b300aac0487788cf20b2061feb9ace53ed940f36fb1a3484951fd1aff6381416",
+      "rawBytes": 11252851,
+      "fixture": "tests/fixtures/import-feasibility/moxfield-SbEkgxN4CEqiCG5B94rkkg.json",
+      "fixtureSha256": "2e90069346fb5c4a1edb2d1bc162a52bbfed2dcf971c3157985ea960351a6c34"
+    },
+    {
+      "provider": "moxfield",
+      "apiVersion": "v3",
+      "deckId": "zB7a13TqOUWlUZuylE905Q",
+      "sourceUrl": "https://moxfield.com/decks/zB7a13TqOUWlUZuylE905Q",
+      "apiUrl": "https://api2.moxfield.com/v3/decks/all/zB7a13TqOUWlUZuylE905Q",
+      "rawSha256": "0cd39ca4ba7d31e95c0ae472469ec3ef90796b349393ea1e7db7045395c9db96",
+      "rawBytes": 835052,
+      "fixture": "tests/fixtures/import-feasibility/moxfield-zB7a13TqOUWlUZuylE905Q.json",
+      "fixtureSha256": "09f7413e9be8e0322eb877211864dfaa70fd3c32fc52b6cf3827f197ce440700"
+    },
+    {
+      "provider": "moxfield",
+      "apiVersion": "v2",
+      "deckId": "3x55_3CFz060qxL2xac3NA",
+      "sourceUrl": "https://moxfield.com/decks/3x55_3CFz060qxL2xac3NA",
+      "apiUrl": "https://api.moxfield.com/v2/decks/all/3x55_3CFz060qxL2xac3NA",
+      "rawSha256": "8a980e149d51fdd6a814b492fb1a4294ed988987c7eebe90e4caee3f233c373f",
+      "rawBytes": 566598,
+      "fixture": "tests/fixtures/import-feasibility/moxfield-v2-3x55_3CFz060qxL2xac3NA.json",
+      "fixtureSha256": "53f3e880c710bf52170261185294941875c652716f29e6a9ad251b4252d0be11"
+    },
+    {
+      "provider": "moxfield",
+      "apiVersion": "v2",
+      "deckId": "SbEkgxN4CEqiCG5B94rkkg",
+      "sourceUrl": "https://moxfield.com/decks/SbEkgxN4CEqiCG5B94rkkg",
+      "apiUrl": "https://api.moxfield.com/v2/decks/all/SbEkgxN4CEqiCG5B94rkkg",
+      "rawSha256": "05c74b7f5a5f29956df24398e8a5cb8c7dfffd39f2fa8a86a96d420329362eeb",
+      "rawBytes": 7878170,
+      "fixture": "tests/fixtures/import-feasibility/moxfield-v2-SbEkgxN4CEqiCG5B94rkkg.json",
+      "fixtureSha256": "258a4186f63eaade22d8e5b3f8f3fe701712b6e41560681feb339c2de46f856c"
+    },
+    {
+      "provider": "moxfield",
+      "apiVersion": "v2",
+      "deckId": "zB7a13TqOUWlUZuylE905Q",
+      "sourceUrl": "https://moxfield.com/decks/zB7a13TqOUWlUZuylE905Q",
+      "apiUrl": "https://api.moxfield.com/v2/decks/all/zB7a13TqOUWlUZuylE905Q",
+      "rawSha256": "b942fe5bce2067da6e1b50c74cea8fcea6664bcab4ab557547b2c611645b172a",
+      "rawBytes": 741307,
+      "fixture": "tests/fixtures/import-feasibility/moxfield-v2-zB7a13TqOUWlUZuylE905Q.json",
+      "fixtureSha256": "fedb02ba5e202e64c72f919ebb8cfa63fdfb9df57a7b4e6de58b6f17315a0d51"
+    },
+    {
+      "provider": "archidekt",
+      "apiVersion": null,
+      "deckId": 19780118,
+      "sourceUrl": "https://archidekt.com/decks/19780118",
+      "apiUrl": "https://archidekt.com/api/decks/19780118/",
+      "rawSha256": "34510c766adbeba885efb8e05c1c70d25735b23408576f7a1f33e66935abe20c",
+      "rawBytes": 360402,
+      "fixture": "tests/fixtures/import-feasibility/archidekt-19780118.json",
+      "fixtureSha256": "d986ea9caceba3646f96c7898a633b2b274902f448b3fe335dffbadd02d1db53"
+    }
+  ]
+}

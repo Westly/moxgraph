@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "scope": "WBS 4.7 research relay only",
+  "observedDate": "2026-10-11",
+  "isBrowserTest": true,
+  "browser": "Codex in-app browser",
+  "method": "Enter a public deck URL in the deployed probe, click Test public deck retrieval, read the rendered JSON result",
+  "browserOrigin": "https://moxgraph-import-relay-probe.westlywhite.workers.dev",
+  "requestRelationship": "same-origin HTTPS browser to Worker; Worker retrieves public provider JSON",
+  "pagesCrossOriginBrowserTested": false,
+  "productionDomainBrowserTested": false,
+  "deployment": {
+    "name": "moxgraph-import-relay-probe",
+    "url": "https://moxgraph-import-relay-probe.westlywhite.workers.dev",
+    "activeCodeVersionDisplayed": "51823ab3",
+    "authorization": "Owner explicitly approved the described deployment and narrow Free Worker exception after the initial automatic approval rejection",
+    "sourcePath": "tools/import-relay/worker.mjs",
+    "sourceSha256": "6df9f0e7dd3019536fef440a068ba5eb73512c121c834811afe1a2e475128b52",
+    "editorContentsEqualSourceAfterNewlineNormalization": true,
+    "temporaryHelloWorldReplaced": true,
+    "planVerifiedBeforeCreation": "Workers Free — $0 — Current plan",
+    "paidUpgrade": false,
+    "productionDnsChanged": false,
+    "settingsObservedAfterDeployment": {
+      "logs": "off",
+      "traces": "off",
+      "issues": "off",
+      "cache": "disabled",
+      "variablesOrSecrets": [],
+      "bindings": [],
+      "scheduledTriggers": [],
+      "gitConnection": null,
+      "customDomainsOrRoutes": [],
+      "workersDevEnabled": true,
+      "compatibilityDate": "2026-10-11"
+    }
+  },
+  "notes": [
+    "Results are the probe's rendered observations, not an implemented production importer or artist matcher.",
+    "moxfieldApi is harness configuration metadata; it does not identify the Archidekt API version.",
+    "Archidekt quantities and printing fields were independently compared with direct-provider fixtures in import-relay-http-audit.json.",
+    "The browser proof covers transport and Moxfield section counts. Exact catalogue matching, alias application and quantity recovery are separate offline evidence."
+  ],
+  "results": [
+    {
+      "observedAt": "2026-10-11T22:19:45.084Z",
+      "origin": "https://moxgraph-import-relay-probe.westlywhite.workers.dev",
+      "transport": "cloudflare-free-worker",
+      "moxfieldApi": "v2",
+      "provider": "moxfield",
+      "deckId": "3x55_3CFz060qxL2xac3NA",
+      "status": 200,
+      "boards": {
+        "mainboard": {"rows": 72, "copies": 100, "declared": 100},
+        "commanders": {"rows": 1, "copies": 1, "declared": 1},
+        "sideboard": {"rows": 8, "copies": 8, "declared": 8},
+        "maybeboard": {"rows": 30, "copies": 30, "declared": 30}
+      },
+      "quantityIssues": [],
+      "printingRows": 111,
+      "outcome": "readable-json"
+    },
+    {
+      "observedAt": "2026-10-11T22:19:54.251Z",
+      "origin": "https://moxgraph-import-relay-probe.westlywhite.workers.dev",
+      "transport": "cloudflare-free-worker",
+      "moxfieldApi": "v2",
+      "provider": "moxfield",
+      "deckId": "zB7a13TqOUWlUZuylE905Q",
+      "status": 200,
+      "boards": {
+        "mainboard": {"rows": 86, "copies": 99, "declared": 99},
+        "commanders": {"rows": 1, "copies": 1, "declared": 1},
+        "maybeboard": {"rows": 39, "copies": 39, "declared": 39}
+      },
+      "quantityIssues": [],
+      "printingRows": 126,
+      "outcome": "readable-json"
+    },
+    {
+      "observedAt": "2026-10-11T22:19:59.874Z",
+      "origin": "https://moxgraph-import-relay-probe.westlywhite.workers.dev",
+      "transport": "cloudflare-free-worker",
+      "moxfieldApi": "v2",
+      "provider": "archidekt",
+      "deckId": "19780118",
+      "status": 200,
+      "boards": {},
+      "quantityIssues": [],
+      "printingRows": 114,
+      "outcome": "readable-json"
+    },
+    {
+      "observedAt": "2026-10-11T22:20:08.299Z",
+      "origin": "https://moxgraph-import-relay-probe.westlywhite.workers.dev",
+      "transport": "cloudflare-free-worker",
+      "moxfieldApi": "v2",
+      "provider": "moxfield",
+      "deckId": "SbEkgxN4CEqiCG5B94rkkg",
+      "status": 200,
+      "boards": {
+        "mainboard": {"rows": 973, "copies": 1187, "declared": 975}
+      },
+      "quantityIssues": ["mainboard"],
+      "printingRows": 973,
+      "outcome": "readable-json-needs-quantity-review"
+    }
+  ]
+}

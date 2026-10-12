@@ -1,0 +1,76 @@
+{
+  "schemaVersion": 1,
+  "archidektCsv": {
+    "rows": 114,
+    "selectedFieldsEqualApi": true,
+    "categoryCounts": {
+      "Creature": 45,
+      "Land": 26,
+      "Sideboard": 14,
+      "Sorcery": 12,
+      "Artifact": 5,
+      "Instant": 5,
+      "Planeswalker": 2,
+      "Enchantment": 3,
+      "Commander": 2
+    },
+    "printingIdentity": "Scryfall ID"
+  },
+  "moxfieldText": {
+    "rows": 87,
+    "copies": 100,
+    "setNumberQuantityFinishEqualApiMainAndCommander": true,
+    "omittedMaybeboardCopies": 39,
+    "explicitLanguage": false,
+    "explicitScryfallId": false,
+    "uniqueTupleRowsAcrossAllLanguages": 29,
+    "ambiguousLanguageRows": 57,
+    "unknownTupleRows": [
+      {
+        "line": "1 Arcane Signet (P30A) 1F *E*",
+        "candidateCount": 0,
+        "candidateLanguages": []
+      }
+    ],
+    "ambiguousExamples": [
+      {
+        "line": "1 Adeline, Resplendent Cathar (MID) 1 *F*",
+        "candidateCount": 11,
+        "candidateLanguages": [
+          "de",
+          "en",
+          "es",
+          "fr",
+          "it",
+          "ja",
+          "ko",
+          "pt",
+          "ru",
+          "zhs",
+          "zht"
+        ]
+      },
+      {
+        "line": "1 Ainok Strike Leader (TDC) 51",
+        "candidateCount": 4,
+        "candidateLanguages": [
+          "de",
+          "en",
+          "fr",
+          "ja"
+        ]
+      },
+      {
+        "line": "1 Anguished Unmaking (2X2) 170 *F*",
+        "candidateCount": 5,
+        "candidateLanguages": [
+          "de",
+          "en",
+          "fr",
+          "ja",
+          "zhs"
+        ]
+      }
+    ]
+  }
+}

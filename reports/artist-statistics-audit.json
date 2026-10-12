@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "statistics_version": "1.0.0",
+  "card_snapshot_id": "scryfall-all-cards-20261011091913",
+  "event_snapshot_id": "magiccon-atlanta-2026-20261011T195408Z",
+  "mapping_revision": "atlanta-2026-r1",
+  "scope": "paper_game_cards; supplemental and digital records separate; no release-date cutoff",
+  "null_policy": "Unresolved event counts are null; verified zero is numeric zero.",
+  "counting_contract": "docs/artist-statistics.md",
+  "generated_at": "2026-10-11T20:17:24.755792+00:00",
+  "source_hashes": {
+    "database": "38f66ab64952f8039800c3db582c35c631b56599fbb1f3667a769c320307c6e0",
+    "mappings": "0eb6a10fae6ba05367e3e074a69864f9ab51e2249e99bc23c44306b6437ac9ee",
+    "event": "b965653673e7f686db75005594c28edc35a49eb604e3b8942971afdd898578de",
+    "statistics_script": "35318a7664b89d574ebf97627d8c1539d5ca735a7ddf1b3bda3898d9993827b1"
+  },
+  "scope_records": {
+    "nonpaper_game_card": 9046,
+    "nonpaper_plane_or_phenomenon": 6,
+    "nonpaper_vanguard": 85,
+    "paper_art_card": 2655,
+    "paper_dungeon": 7,
+    "paper_emblem": 140,
+    "paper_front_card": 317,
+    "paper_game_card": 529030,
+    "paper_hero": 21,
+    "paper_plane_or_phenomenon": 1181,
+    "paper_reference_card": 72,
+    "paper_scheme": 310,
+    "paper_stickers": 53,
+    "paper_token": 3180,
+    "paper_vanguard": 34,
+    "records_total": 546137
+  },
+  "source_artists": 2434,
+  "event_rows": 65,
+  "event_match_statuses": {
+    "verified": 65
+  },
+  "global_distinct_credited_game_cards": 33291,
+  "global_distinct_credited_game_artworks": 49867,
+  "discrepancy_counts": {
+    "unmapped_attendees": 0,
+    "verified_zero_eligible_cards": 0,
+    "source_artist_name_unknown": 93,
+    "not_listed_in_event_snapshot": 2369,
+    "credit_missing": 936,
+    "edition_identity_fallback": 702
+  },
+  "artist_totals_overlap": true,
+  "global_counts_exclude_objects_without_explicit_artist_ids": true
+}

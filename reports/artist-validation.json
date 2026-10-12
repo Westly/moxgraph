@@ -1,0 +1,1197 @@
+{
+  "checked_at": "2026-10-11T20:26:14.748121+00:00",
+  "card_snapshot_id": "scryfall-all-cards-20261011091913",
+  "status": "pass",
+  "source_rows": 2434,
+  "event_rows": 65,
+  "csv_checks": [
+    {
+      "path": "reports/artists-all.csv",
+      "rows": 2434,
+      "sha256": "636f5a8be2574c6468aeb6cc0c63d846c6352adb374a770cd2aef8e9e69de09b"
+    },
+    {
+      "path": "reports/artists-atlanta-2026.csv",
+      "rows": 65,
+      "sha256": "810f829ca97f1fd71e12be4f7cd3a92645eeb41640814a6862c092376119ac33"
+    }
+  ],
+  "independent_sql_paper_scope": 529030,
+  "independent_sql_attendee_counts": [
+    {
+      "guest_id": "379869",
+      "unique_cards_total": 142,
+      "language_printings_total": 1959,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379885",
+      "unique_cards_total": 105,
+      "language_printings_total": 1727,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379918",
+      "unique_cards_total": 34,
+      "language_printings_total": 337,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379908",
+      "unique_cards_total": 57,
+      "language_printings_total": 504,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379919",
+      "unique_cards_total": 31,
+      "language_printings_total": 136,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379937",
+      "unique_cards_total": 28,
+      "language_printings_total": 252,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379920",
+      "unique_cards_total": 32,
+      "language_printings_total": 307,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379887",
+      "unique_cards_total": 124,
+      "language_printings_total": 1937,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379888",
+      "unique_cards_total": 249,
+      "language_printings_total": 3694,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379889",
+      "unique_cards_total": 166,
+      "language_printings_total": 2322,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379890",
+      "unique_cards_total": 128,
+      "language_printings_total": 1129,
+      "result": "pass"
+    },
+    {
+      "guest_id": "378578",
+      "unique_cards_total": 69,
+      "language_printings_total": 1030,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379921",
+      "unique_cards_total": 31,
+      "language_printings_total": 224,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379892",
+      "unique_cards_total": 192,
+      "language_printings_total": 2360,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379894",
+      "unique_cards_total": 137,
+      "language_printings_total": 1758,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379895",
+      "unique_cards_total": 137,
+      "language_printings_total": 1800,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379909",
+      "unique_cards_total": 40,
+      "language_printings_total": 351,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379896",
+      "unique_cards_total": 189,
+      "language_printings_total": 2967,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379910",
+      "unique_cards_total": 57,
+      "language_printings_total": 592,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379897",
+      "unique_cards_total": 180,
+      "language_printings_total": 2704,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379899",
+      "unique_cards_total": 231,
+      "language_printings_total": 3410,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379922",
+      "unique_cards_total": 57,
+      "language_printings_total": 496,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379900",
+      "unique_cards_total": 193,
+      "language_printings_total": 2257,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379901",
+      "unique_cards_total": 155,
+      "language_printings_total": 1669,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379911",
+      "unique_cards_total": 68,
+      "language_printings_total": 847,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379913",
+      "unique_cards_total": 86,
+      "language_printings_total": 1143,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379938",
+      "unique_cards_total": 26,
+      "language_printings_total": 190,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379926",
+      "unique_cards_total": 39,
+      "language_printings_total": 287,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379927",
+      "unique_cards_total": 36,
+      "language_printings_total": 279,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379928",
+      "unique_cards_total": 44,
+      "language_printings_total": 379,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379914",
+      "unique_cards_total": 64,
+      "language_printings_total": 733,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379930",
+      "unique_cards_total": 11,
+      "language_printings_total": 16,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379902",
+      "unique_cards_total": 251,
+      "language_printings_total": 3126,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379915",
+      "unique_cards_total": 59,
+      "language_printings_total": 547,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379903",
+      "unique_cards_total": 164,
+      "language_printings_total": 2053,
+      "result": "pass"
+    },
+    {
+      "guest_id": "378577",
+      "unique_cards_total": 180,
+      "language_printings_total": 2249,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379904",
+      "unique_cards_total": 214,
+      "language_printings_total": 3067,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379931",
+      "unique_cards_total": 32,
+      "language_printings_total": 344,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379905",
+      "unique_cards_total": 161,
+      "language_printings_total": 2148,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379916",
+      "unique_cards_total": 97,
+      "language_printings_total": 1782,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379907",
+      "unique_cards_total": 124,
+      "language_printings_total": 1419,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379933",
+      "unique_cards_total": 40,
+      "language_printings_total": 364,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379934",
+      "unique_cards_total": 58,
+      "language_printings_total": 594,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379936",
+      "unique_cards_total": 40,
+      "language_printings_total": 496,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379917",
+      "unique_cards_total": 61,
+      "language_printings_total": 427,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379923",
+      "unique_cards_total": 22,
+      "language_printings_total": 212,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379924",
+      "unique_cards_total": 43,
+      "language_printings_total": 520,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379940",
+      "unique_cards_total": 219,
+      "language_printings_total": 2709,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379941",
+      "unique_cards_total": 96,
+      "language_printings_total": 849,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379942",
+      "unique_cards_total": 128,
+      "language_printings_total": 1688,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379943",
+      "unique_cards_total": 181,
+      "language_printings_total": 2585,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379944",
+      "unique_cards_total": 91,
+      "language_printings_total": 2031,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379939",
+      "unique_cards_total": 9,
+      "language_printings_total": 40,
+      "result": "pass"
+    },
+    {
+      "guest_id": "378595",
+      "unique_cards_total": 49,
+      "language_printings_total": 348,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379945",
+      "unique_cards_total": 238,
+      "language_printings_total": 3193,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379946",
+      "unique_cards_total": 185,
+      "language_printings_total": 3418,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379947",
+      "unique_cards_total": 370,
+      "language_printings_total": 5346,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379948",
+      "unique_cards_total": 131,
+      "language_printings_total": 1395,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379949",
+      "unique_cards_total": 64,
+      "language_printings_total": 833,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379950",
+      "unique_cards_total": 148,
+      "language_printings_total": 1862,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379951",
+      "unique_cards_total": 113,
+      "language_printings_total": 824,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379952",
+      "unique_cards_total": 171,
+      "language_printings_total": 2118,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379953",
+      "unique_cards_total": 117,
+      "language_printings_total": 1797,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379955",
+      "unique_cards_total": 142,
+      "language_printings_total": 2200,
+      "result": "pass"
+    },
+    {
+      "guest_id": "379956",
+      "unique_cards_total": 31,
+      "language_printings_total": 39,
+      "result": "pass"
+    }
+  ],
+  "profile_sample_review": [
+    {
+      "guest_id": "379919",
+      "event_names": [
+        "Andrea Radeck",
+        "Andrea Radeck"
+      ],
+      "source_names": {
+        "2560b932-96b5-4308-9d32-298641ef326e": [
+          "Andrea Radeck",
+          "Andrea Radeck, age 35"
+        ]
+      },
+      "method": "reviewed_exact_name",
+      "notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Additional Scryfall names are retained because they are explicitly attached to this same UUID; no cross-UUID name merge is inferred.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379919&guest-name=Andrea-Radeck",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668814&exhibitor-name=Andrea-Radeck",
+        "https://scryfall.com/card/unf/228f/squirrel-stack?utm_source=api",
+        "https://scryfall.com/card/j22/802/es/familiar-del-taumaturgo-(thaumaturges-familiar)?utm_source=api"
+      ],
+      "printing_examples": [
+        {
+          "artist_id": "2560b932-96b5-4308-9d32-298641ef326e",
+          "printing_id": "04423fcd-fdfe-477a-9d92-eda91dc16f85",
+          "name": "Squirrel Stack",
+          "raw_credit": "Andrea Radeck",
+          "scryfall_uri": "https://scryfall.com/card/unf/228f/squirrel-stack?utm_source=api"
+        },
+        {
+          "artist_id": "2560b932-96b5-4308-9d32-298641ef326e",
+          "printing_id": "07f4d7ec-3748-4853-9beb-34e955835140",
+          "name": "Thaumaturge's Familiar",
+          "raw_credit": "Andrea Radeck",
+          "scryfall_uri": "https://scryfall.com/card/j22/802/es/familiar-del-taumaturgo-(thaumaturges-familiar)?utm_source=api"
+        }
+      ]
+    },
+    {
+      "guest_id": "379888",
+      "event_names": [
+        "Chris Rahn",
+        "Chris Rahn"
+      ],
+      "source_names": {
+        "7742047e-0f80-4c0f-a530-d07460165e86": [
+          "Chris Rahn",
+          "Chris Rahn, age 36"
+        ]
+      },
+      "method": "reviewed_exact_name",
+      "notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Additional Scryfall names are retained because they are explicitly attached to this same UUID; no cross-UUID name merge is inferred.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379888&guest-name=Chris-Rahn",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668819&exhibitor-name=Chris-Rahn",
+        "https://scryfall.com/card/snc/231/zhs/%E7%84%9A%E7%82%8E%E9%AD%94%E9%BD%90%E6%9C%B5%E6%8B%89-(ziatora-the-incinerator)?utm_source=api",
+        "https://scryfall.com/card/j25/366/fr/manteau-%C3%A9toil%C3%A9-(starlit-mantle)?utm_source=api"
+      ],
+      "printing_examples": [
+        {
+          "artist_id": "7742047e-0f80-4c0f-a530-d07460165e86",
+          "printing_id": "0001cbd0-e8c5-47ca-97b2-2984276366c4",
+          "name": "Ziatora, the Incinerator",
+          "raw_credit": "Chris Rahn",
+          "scryfall_uri": "https://scryfall.com/card/snc/231/zhs/%E7%84%9A%E7%82%8E%E9%AD%94%E9%BD%90%E6%9C%B5%E6%8B%89-(ziatora-the-incinerator)?utm_source=api"
+        },
+        {
+          "artist_id": "7742047e-0f80-4c0f-a530-d07460165e86",
+          "printing_id": "000b503f-ff0f-4c80-a153-26feea89bd73",
+          "name": "Starlit Mantle",
+          "raw_credit": "Chris Rahn",
+          "scryfall_uri": "https://scryfall.com/card/j25/366/fr/manteau-%C3%A9toil%C3%A9-(starlit-mantle)?utm_source=api"
+        }
+      ]
+    },
+    {
+      "guest_id": "378578",
+      "event_names": [
+        "Cynthia Sheppard",
+        "Cynthia Shepard"
+      ],
+      "source_names": {
+        "9dfbdd58-65e6-40cf-951a-80e141061939": [
+          "Cynthia Sheppard"
+        ]
+      },
+      "method": "reviewed_exact_name",
+      "notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Event-section alias review: Both biographies begin with Cynthia Sheppard, Seattle-area artist, art educator and former MtG art director, and describe the same 2015–2021 role and sets. The showroom's website is cynthia-sheppard.com.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=378578&guest-name=Cynthia-Sheppard",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668804&exhibitor-name=Cynthia-Shepard",
+        "https://scryfall.com/card/rtr/59/cremate?utm_source=api",
+        "https://scryfall.com/card/bfz/38/ko/%EC%95%94%EC%84%9D%EC%88%A0%EC%82%AC%EC%9D%98-%EC%A7%91%EC%A4%91-(lithomancers-focus)?utm_source=api"
+      ],
+      "printing_examples": [
+        {
+          "artist_id": "9dfbdd58-65e6-40cf-951a-80e141061939",
+          "printing_id": "013d5260-f906-4f6a-97ed-725197743b60",
+          "name": "Cremate",
+          "raw_credit": "Cynthia Sheppard",
+          "scryfall_uri": "https://scryfall.com/card/rtr/59/cremate?utm_source=api"
+        },
+        {
+          "artist_id": "9dfbdd58-65e6-40cf-951a-80e141061939",
+          "printing_id": "01442cb9-c376-4455-917d-fde8c01f0a3e",
+          "name": "Lithomancer's Focus",
+          "raw_credit": "Cynthia Sheppard",
+          "scryfall_uri": "https://scryfall.com/card/bfz/38/ko/%EC%95%94%EC%84%9D%EC%88%A0%EC%82%AC%EC%9D%98-%EC%A7%91%EC%A4%91-(lithomancers-focus)?utm_source=api"
+        }
+      ]
+    },
+    {
+      "guest_id": "379894",
+      "event_names": [
+        "David Palumbo",
+        "David Palumbo"
+      ],
+      "source_names": {
+        "04ce1c75-e30c-4b7a-8cb0-b53e4ecc2f39": [
+          "David Palumbo"
+        ]
+      },
+      "method": "reviewed_exact_name",
+      "notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379894&guest-name=David-Palumbo",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668824&exhibitor-name=David-Palumbo",
+        "https://scryfall.com/card/rna/103/ja/%E3%82%B4%E3%83%BC%E3%82%A2%E6%97%8F%E3%81%AE%E7%A0%B4%E5%A3%8A%E8%80%85-(ghor-clan-wrecker)?utm_source=api",
+        "https://scryfall.com/card/con/3/fr/%C3%A9cuyer-avemain-(aven-squire)?utm_source=api"
+      ],
+      "printing_examples": [
+        {
+          "artist_id": "04ce1c75-e30c-4b7a-8cb0-b53e4ecc2f39",
+          "printing_id": "002f52fc-0f55-40e2-8903-bf93692c8ed6",
+          "name": "Ghor-Clan Wrecker",
+          "raw_credit": "David Palumbo",
+          "scryfall_uri": "https://scryfall.com/card/rna/103/ja/%E3%82%B4%E3%83%BC%E3%82%A2%E6%97%8F%E3%81%AE%E7%A0%B4%E5%A3%8A%E8%80%85-(ghor-clan-wrecker)?utm_source=api"
+        },
+        {
+          "artist_id": "04ce1c75-e30c-4b7a-8cb0-b53e4ecc2f39",
+          "printing_id": "00496b7e-b27b-48a6-9e45-c31da5d2950b",
+          "name": "Aven Squire",
+          "raw_credit": "David Palumbo",
+          "scryfall_uri": "https://scryfall.com/card/con/3/fr/%C3%A9cuyer-avemain-(aven-squire)?utm_source=api"
+        }
+      ]
+    },
+    {
+      "guest_id": "379899",
+      "event_names": [
+        "Izzy",
+        "Izzy"
+      ],
+      "source_names": {
+        "2c3d2473-ff5d-4309-8194-e0b2def2ab65": [
+          "Izzy"
+        ]
+      },
+      "method": "reviewed_exact_name",
+      "notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379899&guest-name=Izzy",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668830&exhibitor-name=Izzy",
+        "https://scryfall.com/card/m15/40/ru/%D1%83%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D1%83%D1%85%D0%B0-(triplicate-spirits)?utm_source=api",
+        "https://scryfall.com/card/otj/171/ornery-tumblewagg?utm_source=api"
+      ],
+      "printing_examples": [
+        {
+          "artist_id": "2c3d2473-ff5d-4309-8194-e0b2def2ab65",
+          "printing_id": "00107644-054f-491d-ac7e-46c1f69fff2a",
+          "name": "Triplicate Spirits",
+          "raw_credit": "Izzy",
+          "scryfall_uri": "https://scryfall.com/card/m15/40/ru/%D1%83%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5-%D0%B4%D1%83%D1%85%D0%B0-(triplicate-spirits)?utm_source=api"
+        },
+        {
+          "artist_id": "2c3d2473-ff5d-4309-8194-e0b2def2ab65",
+          "printing_id": "0020c31b-002a-4121-bc61-2c2c16e9afc8",
+          "name": "Ornery Tumblewagg",
+          "raw_credit": "Izzy",
+          "scryfall_uri": "https://scryfall.com/card/otj/171/ornery-tumblewagg?utm_source=api"
+        }
+      ]
+    },
+    {
+      "guest_id": "379900",
+      "event_names": [
+        "Jason Engle",
+        "Jason Engle"
+      ],
+      "source_names": {
+        "02e2b5de-4341-464c-8fdb-a1adbf873bc0": [
+          "Jason A. Engle"
+        ]
+      },
+      "method": "reviewed_alias_with_primary_evidence",
+      "notes": "The official Jason Engle biography describes his constellation gods illustrations. The snapshot credits the constellation Heliod, Sun-Crowned (THB 259) to Jason A. Engle. His official JAE Studio site identifies Jason Engle and the same fantasy publishing career. Middle initial accepted from this combined evidence; not from fuzzy similarity alone.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379900&guest-name=Jason-Engle",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668832&exhibitor-name=Jason-Engle",
+        "https://www.jaestudio.com/contact",
+        "https://scryfall.com/card/thb/259/heliod-sun-crowned",
+        "https://scryfall.com/card/mkm/30/pt/ao-trabalho-(on-the-job)?utm_source=api",
+        "https://scryfall.com/card/mul/49/es/kroxa-tit%C3%A1n-del-hambre-mortal-(kroxa-titan-of-deaths-hunger)?utm_source=api"
+      ],
+      "printing_examples": [
+        {
+          "artist_id": "02e2b5de-4341-464c-8fdb-a1adbf873bc0",
+          "printing_id": "000fb615-4ecb-49a9-a638-0c6a1f3d1745",
+          "name": "On the Job",
+          "raw_credit": "Jason A. Engle",
+          "scryfall_uri": "https://scryfall.com/card/mkm/30/pt/ao-trabalho-(on-the-job)?utm_source=api"
+        },
+        {
+          "artist_id": "02e2b5de-4341-464c-8fdb-a1adbf873bc0",
+          "printing_id": "00425566-84ec-4ab5-ba43-65530d842ae6",
+          "name": "Kroxa, Titan of Death's Hunger",
+          "raw_credit": "Jason A. Engle",
+          "scryfall_uri": "https://scryfall.com/card/mul/49/es/kroxa-tit%C3%A1n-del-hambre-mortal-(kroxa-titan-of-deaths-hunger)?utm_source=api"
+        }
+      ]
+    },
+    {
+      "guest_id": "379930",
+      "event_names": [
+        "kelogsloops",
+        "kelogsloops"
+      ],
+      "source_names": {
+        "10ab6961-89a9-44bf-bf5a-ff2548403a83": [
+          "Kelogsloops"
+        ]
+      },
+      "method": "reviewed_normalized_name",
+      "notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379930&guest-name=kelogsloops",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668839&exhibitor-name=kelogsloops",
+        "https://scryfall.com/card/sld/2144/island?utm_source=api",
+        "https://scryfall.com/card/sld/2139/dand%C3%A2n?utm_source=api"
+      ],
+      "printing_examples": [
+        {
+          "artist_id": "10ab6961-89a9-44bf-bf5a-ff2548403a83",
+          "printing_id": "123368da-1d72-45e1-bd07-4b3a506012d1",
+          "name": "Island",
+          "raw_credit": "Kelogsloops",
+          "scryfall_uri": "https://scryfall.com/card/sld/2144/island?utm_source=api"
+        },
+        {
+          "artist_id": "10ab6961-89a9-44bf-bf5a-ff2548403a83",
+          "printing_id": "1a056620-f9a3-4643-bf4a-1b7cfe2fcb63",
+          "name": "Dandân",
+          "raw_credit": "Kelogsloops",
+          "scryfall_uri": "https://scryfall.com/card/sld/2139/dand%C3%A2n?utm_source=api"
+        }
+      ]
+    },
+    {
+      "guest_id": "379904",
+      "event_names": [
+        "Mark Tedin",
+        "Mark Tedin"
+      ],
+      "source_names": {
+        "9ee9a9cc-c09e-486f-918b-69f80cbc4188": [
+          "Mark Tedin",
+          "Mark “It’s teh-DEEN” Tedin"
+        ]
+      },
+      "method": "reviewed_exact_name",
+      "notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Additional Scryfall names are retained because they are explicitly attached to this same UUID; no cross-UUID name merge is inferred.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379904&guest-name=Mark-Tedin",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668843&exhibitor-name=Mark-Tedin",
+        "https://scryfall.com/card/tsb/23/fr/l%C3%A9viathan-(leviathan)?utm_source=api",
+        "https://scryfall.com/card/p02/48/de/luftschiff-der-talas-(talas-air-ship)?utm_source=api"
+      ],
+      "printing_examples": [
+        {
+          "artist_id": "9ee9a9cc-c09e-486f-918b-69f80cbc4188",
+          "printing_id": "00076ede-74dd-4d94-afab-79a03c66e237",
+          "name": "Leviathan",
+          "raw_credit": "Mark Tedin",
+          "scryfall_uri": "https://scryfall.com/card/tsb/23/fr/l%C3%A9viathan-(leviathan)?utm_source=api"
+        },
+        {
+          "artist_id": "9ee9a9cc-c09e-486f-918b-69f80cbc4188",
+          "printing_id": "0015f7a2-a34e-483f-8961-dce4e6874218",
+          "name": "Talas Air Ship",
+          "raw_credit": "Mark Tedin",
+          "scryfall_uri": "https://scryfall.com/card/p02/48/de/luftschiff-der-talas-(talas-air-ship)?utm_source=api"
+        }
+      ]
+    },
+    {
+      "guest_id": "379931",
+      "event_names": [
+        "Martina Fačková",
+        "Martina Fačková"
+      ],
+      "source_names": {
+        "6338124e-8e53-498d-8bf9-93a55db2f61c": [
+          "Martina Fačková"
+        ]
+      },
+      "method": "reviewed_exact_name",
+      "notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379931&guest-name=Martina-Fa%C4%8Dkov%C3%A1",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668844&exhibitor-name=Martina-Fa%C4%8Dkov%C3%A1",
+        "https://scryfall.com/card/khm/106/zhs/%E9%9A%8F%E6%BD%AE%E5%BD%92%E5%8E%BB-(return-upon-the-tide)?utm_source=api",
+        "https://scryfall.com/card/dmu/97/zhs/%E9%9D%A2%E7%BA%B1%E7%9A%84%E8%8E%89%E8%8E%B2%E5%A8%9C-(liliana-of-the-veil)?utm_source=api"
+      ],
+      "printing_examples": [
+        {
+          "artist_id": "6338124e-8e53-498d-8bf9-93a55db2f61c",
+          "printing_id": "001bfcc5-409f-4c76-8ae8-bb5c4efa9b0c",
+          "name": "Return Upon the Tide",
+          "raw_credit": "Martina Fačková",
+          "scryfall_uri": "https://scryfall.com/card/khm/106/zhs/%E9%9A%8F%E6%BD%AE%E5%BD%92%E5%8E%BB-(return-upon-the-tide)?utm_source=api"
+        },
+        {
+          "artist_id": "6338124e-8e53-498d-8bf9-93a55db2f61c",
+          "printing_id": "007d0f03-01bc-400e-aaf4-47e9a5de9bdf",
+          "name": "Liliana of the Veil",
+          "raw_credit": "Martina Fačková",
+          "scryfall_uri": "https://scryfall.com/card/dmu/97/zhs/%E9%9D%A2%E7%BA%B1%E7%9A%84%E8%8E%89%E8%8E%B2%E5%A8%9C-(liliana-of-the-veil)?utm_source=api"
+        }
+      ]
+    },
+    {
+      "guest_id": "379916",
+      "event_names": [
+        "Michael Bierek",
+        "Mike Bierek"
+      ],
+      "source_names": {
+        "e5f52ef5-1a2e-4128-90b0-ccc71cd47ea7": [
+          "Mike Bierek"
+        ]
+      },
+      "method": "reviewed_exact_name",
+      "notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Event-section alias review: Both biographies explicitly call the artist Mike Bierek and describe the same illustration and Legion Art Collective tattoo work. The guest's Instagram is mikebierektattoos and the showroom website is michael-bierek.artstation.com.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379916&guest-name=Michael-Bierek",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668846&exhibitor-name=Mike-Bierek",
+        "https://scryfall.com/card/blc/320/de/oran-rief-das-riesenholz-(oran-rief-the-vastwood)?utm_source=api",
+        "https://scryfall.com/card/grn/43/de/maximale-flugh%C3%B6he-(maximize-altitude)?utm_source=api"
+      ],
+      "printing_examples": [
+        {
+          "artist_id": "e5f52ef5-1a2e-4128-90b0-ccc71cd47ea7",
+          "printing_id": "00171ea6-c1c0-41aa-ab89-279450ad4222",
+          "name": "Oran-Rief, the Vastwood",
+          "raw_credit": "Mike Bierek",
+          "scryfall_uri": "https://scryfall.com/card/blc/320/de/oran-rief-das-riesenholz-(oran-rief-the-vastwood)?utm_source=api"
+        },
+        {
+          "artist_id": "e5f52ef5-1a2e-4128-90b0-ccc71cd47ea7",
+          "printing_id": "00318562-4e9b-41fe-8bb4-321f3e75990e",
+          "name": "Maximize Altitude",
+          "raw_credit": "Mike Bierek",
+          "scryfall_uri": "https://scryfall.com/card/grn/43/de/maximale-flugh%C3%B6he-(maximize-altitude)?utm_source=api"
+        }
+      ]
+    },
+    {
+      "guest_id": "379934",
+      "event_names": [
+        "Olena \"Lena\" Richards",
+        "Olena \"Lena\" Richards"
+      ],
+      "source_names": {
+        "fad4282c-49d1-4b5b-be1d-713369fc8bc8": [
+          "Olena Richards"
+        ]
+      },
+      "method": "reviewed_alias_with_primary_evidence",
+      "notes": "MagicCon displays Olena \"Lena\" Richards; its biography calls her Lena and links lenarichards.com. The published official gallery link explicitly uses olena_richards, matching the single-ID Scryfall credit. The nickname is preserved in the event name.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379934&guest-name=Olena-and-quotLena-and-quot-Richards",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668847&exhibitor-name=Olena-Lena-Richards",
+        "https://www.lenarichards.com/",
+        "https://gatherer.wizards.com/search?artistName=eq~olena_richards",
+        "https://scryfall.com/card/fdn/443/de/himmlischer-harnisch-(celestial-armor)?utm_source=api",
+        "https://scryfall.com/card/sta/15/ru/%D0%BE%D1%82%D0%BC%D0%B5%D0%BD%D0%B0-%D0%B7%D0%B0%D0%BA%D0%BB%D0%B8%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F-(counterspell)?utm_source=api"
+      ],
+      "printing_examples": [
+        {
+          "artist_id": "fad4282c-49d1-4b5b-be1d-713369fc8bc8",
+          "printing_id": "00484873-4daf-4873-89ce-d77f09753dea",
+          "name": "Celestial Armor",
+          "raw_credit": "Olena Richards",
+          "scryfall_uri": "https://scryfall.com/card/fdn/443/de/himmlischer-harnisch-(celestial-armor)?utm_source=api"
+        },
+        {
+          "artist_id": "fad4282c-49d1-4b5b-be1d-713369fc8bc8",
+          "printing_id": "007ba9b8-49a5-4825-babb-0b01bc1afe10",
+          "name": "Counterspell",
+          "raw_credit": "Olena Richards",
+          "scryfall_uri": "https://scryfall.com/card/sta/15/ru/%D0%BE%D1%82%D0%BC%D0%B5%D0%BD%D0%B0-%D0%B7%D0%B0%D0%BA%D0%BB%D0%B8%D0%BD%D0%B0%D0%BD%D0%B8%D1%8F-(counterspell)?utm_source=api"
+        }
+      ]
+    },
+    {
+      "guest_id": "379917",
+      "event_names": [
+        "Phil Foglio",
+        "Phil Foglio"
+      ],
+      "source_names": {
+        "3bfc0fd7-f6ce-4c3f-a755-aaafc84ac704": [
+          "Phil Foglio",
+          "Claymore J. Flapdoodle"
+        ]
+      },
+      "method": "reviewed_exact_name",
+      "notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Additional Scryfall names are retained because they are explicitly attached to this same UUID; no cross-UUID name merge is inferred.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379917&guest-name=Phil-Foglio",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668859&exhibitor-name=Phil-Foglio",
+        "https://scryfall.com/card/tmp/29/pt/chamariz-magistral-(master-decoy)?utm_source=api",
+        "https://scryfall.com/card/ice/62/de/traumhauch-(breath-of-dreams)?utm_source=api"
+      ],
+      "printing_examples": [
+        {
+          "artist_id": "3bfc0fd7-f6ce-4c3f-a755-aaafc84ac704",
+          "printing_id": "003565c9-7693-4f21-9be7-0a956b5ff3fd",
+          "name": "Master Decoy",
+          "raw_credit": "Phil Foglio",
+          "scryfall_uri": "https://scryfall.com/card/tmp/29/pt/chamariz-magistral-(master-decoy)?utm_source=api"
+        },
+        {
+          "artist_id": "3bfc0fd7-f6ce-4c3f-a755-aaafc84ac704",
+          "printing_id": "010c29ef-8f02-4e1e-9770-6559623b712a",
+          "name": "Breath of Dreams",
+          "raw_credit": "Phil Foglio",
+          "scryfall_uri": "https://scryfall.com/card/ice/62/de/traumhauch-(breath-of-dreams)?utm_source=api"
+        }
+      ]
+    },
+    {
+      "guest_id": "379924",
+      "event_names": [
+        "Pindurski",
+        "PINDURSKI"
+      ],
+      "source_names": {
+        "f333a7f0-7330-40e9-8c58-667eea2f0f60": [
+          "PINDURSKI"
+        ]
+      },
+      "method": "reviewed_exact_name",
+      "notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379924&guest-name=Pindurski",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668816&exhibitor-name=PINDURSKI",
+        "https://scryfall.com/card/avow/5/angelic-quartermaster-angelic-quartermaster?utm_source=api",
+        "https://scryfall.com/card/blb/382/shoreline-looter?utm_source=api"
+      ],
+      "printing_examples": [
+        {
+          "artist_id": "f333a7f0-7330-40e9-8c58-667eea2f0f60",
+          "printing_id": "00be17d8-32ae-422f-847c-0c2ceb3f02cc",
+          "name": "Angelic Quartermaster // Angelic Quartermaster",
+          "raw_credit": "PINDURSKI",
+          "scryfall_uri": "https://scryfall.com/card/avow/5/angelic-quartermaster-angelic-quartermaster?utm_source=api"
+        },
+        {
+          "artist_id": "f333a7f0-7330-40e9-8c58-667eea2f0f60",
+          "printing_id": "00cb0b3c-a403-4212-93d3-3340c3f1e9db",
+          "name": "Shoreline Looter",
+          "raw_credit": "PINDURSKI",
+          "scryfall_uri": "https://scryfall.com/card/blb/382/shoreline-looter?utm_source=api"
+        }
+      ]
+    },
+    {
+      "guest_id": "379939",
+      "event_names": [
+        "SchmandrewART ",
+        "SchmandrewART"
+      ],
+      "source_names": {
+        "a0310985-79bb-4925-a9be-19e4323a60dc": [
+          "SchmandrewART"
+        ]
+      },
+      "method": "reviewed_exact_name",
+      "notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379939&guest-name=SchmandrewART",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668873&exhibitor-name=SchmandrewART",
+        "https://scryfall.com/card/adsk/35/waltz-of-rage-waltz-of-rage?utm_source=api",
+        "https://scryfall.com/card/dsk/312/unstoppable-slasher?utm_source=api"
+      ],
+      "printing_examples": [
+        {
+          "artist_id": "a0310985-79bb-4925-a9be-19e4323a60dc",
+          "printing_id": "079682d3-c6e5-408f-a594-0d6dccbb0627",
+          "name": "Waltz of Rage // Waltz of Rage",
+          "raw_credit": "SchmandrewART",
+          "scryfall_uri": "https://scryfall.com/card/adsk/35/waltz-of-rage-waltz-of-rage?utm_source=api"
+        },
+        {
+          "artist_id": "a0310985-79bb-4925-a9be-19e4323a60dc",
+          "printing_id": "0a30a301-8e87-46e7-89aa-cd55b1a14420",
+          "name": "Unstoppable Slasher",
+          "raw_credit": "SchmandrewART",
+          "scryfall_uri": "https://scryfall.com/card/dsk/312/unstoppable-slasher?utm_source=api"
+        }
+      ]
+    },
+    {
+      "guest_id": "379945",
+      "event_names": [
+        "Steve Prescott",
+        "Steve Prescott"
+      ],
+      "source_names": {
+        "a1139fb8-41f5-4a9e-9a74-f662e1a23b35": [
+          "Steve Prescott",
+          "Steve Prescott, age 48"
+        ]
+      },
+      "method": "reviewed_exact_name",
+      "notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Additional Scryfall names are retained because they are explicitly attached to this same UUID; no cross-UUID name merge is inferred.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379945&guest-name=Steve-Prescott",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668856&exhibitor-name=Steve-Prescott",
+        "https://scryfall.com/card/ktk/124/fr/sonnerie-de-trompe-(trumpet-blast)?utm_source=api",
+        "https://scryfall.com/card/plst/DSC-300/spinerock-knoll?utm_source=api"
+      ],
+      "printing_examples": [
+        {
+          "artist_id": "a1139fb8-41f5-4a9e-9a74-f662e1a23b35",
+          "printing_id": "003d3267-53e8-43a9-b2d9-dbe4b6b17a4d",
+          "name": "Trumpet Blast",
+          "raw_credit": "Steve Prescott",
+          "scryfall_uri": "https://scryfall.com/card/ktk/124/fr/sonnerie-de-trompe-(trumpet-blast)?utm_source=api"
+        },
+        {
+          "artist_id": "a1139fb8-41f5-4a9e-9a74-f662e1a23b35",
+          "printing_id": "007d53d3-3fb7-4ca5-8195-203fb96fafa7",
+          "name": "Spinerock Knoll",
+          "raw_credit": "Steve Prescott",
+          "scryfall_uri": "https://scryfall.com/card/plst/DSC-300/spinerock-knoll?utm_source=api"
+        }
+      ]
+    },
+    {
+      "guest_id": "379948",
+      "event_names": [
+        "Thomas Baxa",
+        "Thomas Baxa"
+      ],
+      "source_names": {
+        "ff346569-557d-4043-ae44-97c2c7cabd7d": [
+          "Thomas M. Baxa"
+        ]
+      },
+      "method": "reviewed_alias_with_primary_evidence",
+      "notes": "MagicCon identifies Thomas Baxa and links BaxaArt.com. The artist-owned portfolio explicitly identifies Thomas M. Baxa, also called Tom, and his Magic illustration work. This establishes the middle-initial alias.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379948&guest-name=Thomas-Baxa",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668862&exhibitor-name=Thomas-Baxa",
+        "https://www.baxaart.com/portfolio_index.htm",
+        "https://scryfall.com/card/jud/57/pt/dragonete-dent%C3%ADgero-(wormfang-drake)?utm_source=api",
+        "https://scryfall.com/card/9ed/130/festering-goblin?utm_source=api"
+      ],
+      "printing_examples": [
+        {
+          "artist_id": "ff346569-557d-4043-ae44-97c2c7cabd7d",
+          "printing_id": "00011897-9c8b-482f-8d64-9f2cd8403b6a",
+          "name": "Wormfang Drake",
+          "raw_credit": "Thomas M. Baxa",
+          "scryfall_uri": "https://scryfall.com/card/jud/57/pt/dragonete-dent%C3%ADgero-(wormfang-drake)?utm_source=api"
+        },
+        {
+          "artist_id": "ff346569-557d-4043-ae44-97c2c7cabd7d",
+          "printing_id": "00444e40-7436-48c3-9cbb-e6d8b96c1a3a",
+          "name": "Festering Goblin",
+          "raw_credit": "Thomas M. Baxa",
+          "scryfall_uri": "https://scryfall.com/card/9ed/130/festering-goblin?utm_source=api"
+        }
+      ]
+    },
+    {
+      "guest_id": "379949",
+      "event_names": [
+        "Tom Wänerstrand",
+        "Tomas Wanerstrand"
+      ],
+      "source_names": {
+        "c4e0aa7c-a008-4d71-80ce-d5a1ca0b251b": [
+          "Tom Wänerstrand"
+        ]
+      },
+      "method": "reviewed_exact_name",
+      "notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Event-section alias review: The two biographies have the same career, card examples and personal history with an accent difference in their opening name. The showroom biography says Tom Wanerstrand and links tomwanerstrand.com. The attendee is the individual described, not a separate studio inferred from registration fields.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379949&guest-name=Tom-W%C3%A4nerstrand",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668866&exhibitor-name=Tomas-Wanerstrand",
+        "https://scryfall.com/card/pcy/143/it/mesa-della-luna-invernale-(wintermoon-mesa)?utm_source=api",
+        "https://scryfall.com/card/6ed/321/fr/cit%C3%A9-dairain-(city-of-brass)?utm_source=api"
+      ],
+      "printing_examples": [
+        {
+          "artist_id": "c4e0aa7c-a008-4d71-80ce-d5a1ca0b251b",
+          "printing_id": "0045086c-91b1-4d70-bb83-424ee2380b32",
+          "name": "Wintermoon Mesa",
+          "raw_credit": "Tom Wänerstrand",
+          "scryfall_uri": "https://scryfall.com/card/pcy/143/it/mesa-della-luna-invernale-(wintermoon-mesa)?utm_source=api"
+        },
+        {
+          "artist_id": "c4e0aa7c-a008-4d71-80ce-d5a1ca0b251b",
+          "printing_id": "008ac738-013c-4c71-9944-9b4a50406526",
+          "name": "City of Brass",
+          "raw_credit": "Tom Wänerstrand",
+          "scryfall_uri": "https://scryfall.com/card/6ed/321/fr/cit%C3%A9-dairain-(city-of-brass)?utm_source=api"
+        }
+      ]
+    },
+    {
+      "guest_id": "379950",
+      "event_names": [
+        "Tyler Jacobson",
+        "Tyler Jacobson"
+      ],
+      "source_names": {
+        "522af130-8db4-4b4b-950c-6e2b246339cf": [
+          "Tyler Jacobson",
+          "Tyler Jacobson, age 39"
+        ]
+      },
+      "method": "reviewed_exact_name",
+      "notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Additional Scryfall names are retained because they are explicitly attached to this same UUID; no cross-UUID name merge is inferred.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379950&guest-name=Tyler-Jacobson",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668863&exhibitor-name=Tyler-Jacobson",
+        "https://scryfall.com/card/aer/190/it/tezzeret-maestro-del-metallo-(tezzeret-master-of-metal)?utm_source=api",
+        "https://scryfall.com/card/plst/DDR-37/altars-reap?utm_source=api"
+      ],
+      "printing_examples": [
+        {
+          "artist_id": "522af130-8db4-4b4b-950c-6e2b246339cf",
+          "printing_id": "000f7d59-f3cc-41f4-b658-81137174f051",
+          "name": "Tezzeret, Master of Metal",
+          "raw_credit": "Tyler Jacobson",
+          "scryfall_uri": "https://scryfall.com/card/aer/190/it/tezzeret-maestro-del-metallo-(tezzeret-master-of-metal)?utm_source=api"
+        },
+        {
+          "artist_id": "522af130-8db4-4b4b-950c-6e2b246339cf",
+          "printing_id": "00108a1c-e620-4124-9b31-3bb3ff2a0407",
+          "name": "Altar's Reap",
+          "raw_credit": "Tyler Jacobson",
+          "scryfall_uri": "https://scryfall.com/card/plst/DDR-37/altars-reap?utm_source=api"
+        }
+      ]
+    },
+    {
+      "guest_id": "379956",
+      "event_names": [
+        "Wizard of Barge",
+        "Wizard of Barge"
+      ],
+      "source_names": {
+        "b1b7118a-fce9-4f28-9617-5cea5146e33c": [
+          "Wizard of Barge"
+        ]
+      },
+      "method": "reviewed_exact_name",
+      "notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379956&guest-name=Wizard-of-Barge",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668870&exhibitor-name=Wizard-of-Barge",
+        "https://scryfall.com/card/sld/2412/empty-the-warrens?utm_source=api",
+        "https://scryfall.com/card/sld/2416/skullclamp?utm_source=api"
+      ],
+      "printing_examples": [
+        {
+          "artist_id": "b1b7118a-fce9-4f28-9617-5cea5146e33c",
+          "printing_id": "07e5e725-c482-4dbc-9612-d3155ed71a75",
+          "name": "Empty the Warrens",
+          "raw_credit": "Wizard of Barge",
+          "scryfall_uri": "https://scryfall.com/card/sld/2412/empty-the-warrens?utm_source=api"
+        },
+        {
+          "artist_id": "b1b7118a-fce9-4f28-9617-5cea5146e33c",
+          "printing_id": "080f004f-0601-4566-83df-049264eaa7d9",
+          "name": "Skullclamp",
+          "raw_credit": "Wizard of Barge",
+          "scryfall_uri": "https://scryfall.com/card/sld/2416/skullclamp?utm_source=api"
+        }
+      ]
+    }
+  ],
+  "biography_named_card_checks": [
+    {
+      "guest_id": "379894",
+      "name": "Totally Lost",
+      "printing_id": "ec8e4142-7c46-4d2f-aaa6-6410f323d9f0",
+      "set": "gtc",
+      "collector_number": "54",
+      "raw_credit": "David Palumbo",
+      "scryfall_uri": "https://scryfall.com/card/gtc/54/totally-lost?utm_source=api",
+      "official_profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379894&guest-name=David-Palumbo",
+      "result": "pass"
+    },
+    {
+      "guest_id": "379888",
+      "name": "Craterhoof Behemoth",
+      "printing_id": "a249be17-73ed-4108-89c0-f7e87939beb8",
+      "set": "avr",
+      "collector_number": "172",
+      "raw_credit": "Chris Rahn",
+      "scryfall_uri": "https://scryfall.com/card/avr/172/craterhoof-behemoth?utm_source=api",
+      "official_profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379888&guest-name=Chris-Rahn",
+      "result": "pass"
+    },
+    {
+      "guest_id": "379916",
+      "name": "Stoneforge Mystic",
+      "printing_id": "19557351-b65f-4b04-b971-66abdc07000a",
+      "set": "wwk",
+      "collector_number": "20",
+      "raw_credit": "Mike Bierek",
+      "scryfall_uri": "https://scryfall.com/card/wwk/20/stoneforge-mystic?utm_source=api",
+      "official_profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379916&guest-name=Michael-Bierek",
+      "result": "pass"
+    },
+    {
+      "guest_id": "379945",
+      "name": "Shriekmaw",
+      "printing_id": "ea19eb5e-0d70-42e6-bda2-b13757e08ca6",
+      "set": "lrw",
+      "collector_number": "139",
+      "raw_credit": "Steve Prescott",
+      "scryfall_uri": "https://scryfall.com/card/lrw/139/shriekmaw?utm_source=api",
+      "official_profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379945&guest-name=Steve-Prescott",
+      "result": "pass"
+    },
+    {
+      "guest_id": "379949",
+      "name": "Blood Moon",
+      "printing_id": "78373616-e2d6-4ccf-998f-09f02bea45b4",
+      "set": "drk",
+      "collector_number": "58",
+      "raw_credit": "Tom Wänerstrand",
+      "scryfall_uri": "https://scryfall.com/card/drk/58/blood-moon?utm_source=api",
+      "official_profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379949&guest-name=Tom-W%C3%A4nerstrand",
+      "result": "pass"
+    },
+    {
+      "guest_id": "379900",
+      "name": "Heliod, Sun-Crowned",
+      "printing_id": "e11cf760-da35-41f2-8cf5-a5141103eeb3",
+      "set": "thb",
+      "collector_number": "259",
+      "raw_credit": "Jason A. Engle",
+      "scryfall_uri": "https://scryfall.com/card/thb/259/heliod-sun-crowned?utm_source=api",
+      "official_profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379900&guest-name=Jason-Engle",
+      "result": "pass"
+    }
+  ],
+  "review_limit": "19 profiles sampled in depth, including all three nonexact source aliases. Every attendee has explicit reviewed name evidence and UUID-checked printing examples. Empty biographies do not supply invented evidence.",
+  "name_only_counterexample": {
+    "name": "Heliod, Sun-Crowned",
+    "oracle_id": "63e596a2-9126-4af6-8782-c38687d664ad",
+    "regular": {
+      "printing_id": "01a8576e-cadc-4521-aadd-3a05f0bc4d20",
+      "set": "thb",
+      "collector_number": "18",
+      "artist": "Lius Lasahido",
+      "attendance": "not_listed_in_snapshot"
+    },
+    "constellation": {
+      "printing_id": "e11cf760-da35-41f2-8cf5-a5141103eeb3",
+      "set": "thb",
+      "collector_number": "259",
+      "artist": "Jason A. Engle",
+      "guest_id": "379900",
+      "attendance": "listed"
+    }
+  }
+}

@@ -1,0 +1,905 @@
+{
+  "schemaVersion": 1,
+  "baseline": "scryfall-all-cards-20261011091913",
+  "decks": [
+    {
+      "provider": "moxfield",
+      "apiVersion": "v3",
+      "deckId": "3x55_3CFz060qxL2xac3NA",
+      "title": "⚔️ My Soldiers Rage 😤",
+      "fixture": "tests/fixtures/import-feasibility/moxfield-3x55_3CFz060qxL2xac3NA.json",
+      "expandedRows": 112,
+      "copiesBySection": {
+        "mainboard": 100,
+        "sideboard": 8,
+        "maybeboard": 30,
+        "commanders": 1,
+        "tokens": 1
+      },
+      "verifiedPrintingRows": 112,
+      "languages": {
+        "en": 112
+      },
+      "finishes": {
+        "foil": 50,
+        "nonFoil": 61,
+        "etched": 1
+      },
+      "rowsWithSummaryUuidDifferentFromSelected": 0,
+      "namesWithMultiplePrintings": {},
+      "doubleFacedOrMultifaceRows": 0,
+      "issues": [],
+      "examples": [
+        {
+          "rowId": "EWvjV",
+          "section": "commanders",
+          "name": "Myrel, Shield of Argive",
+          "quantity": 1,
+          "finish": "foil",
+          "id": "fbd149db-6d8e-4db5-80d8-682f270ba2ec",
+          "set": "pbro",
+          "cn": "18p",
+          "lang": "en",
+          "layout": "normal",
+          "summaryIdDiffers": false,
+          "sourcePrintingId": "bRQ9J",
+          "resolvedLanguage": "en",
+          "artist": "Ryan Pancoast",
+          "faces": []
+        },
+        {
+          "rowId": "LGwnx",
+          "section": "mainboard",
+          "name": "Cavern of Souls",
+          "quantity": 1,
+          "finish": "foil",
+          "id": "fcc626a1-cfb0-4e1f-80fc-7c1ff07ee424",
+          "set": "lci",
+          "cn": "410b",
+          "lang": "en",
+          "layout": "normal",
+          "summaryIdDiffers": false,
+          "sourcePrintingId": "5MWGB",
+          "resolvedLanguage": "en",
+          "artist": "Pedro Correa",
+          "faces": []
+        },
+        {
+          "rowId": "Lzzxa",
+          "section": "sideboard",
+          "name": "Palace Jailer",
+          "quantity": 1,
+          "finish": "nonFoil",
+          "id": "9f129968-0af6-4ae4-a0c3-6f911a7bae22",
+          "set": "fic",
+          "cn": "247",
+          "lang": "en",
+          "layout": "normal",
+          "summaryIdDiffers": false,
+          "sourcePrintingId": "GP8d9",
+          "resolvedLanguage": "en",
+          "artist": "Touge369",
+          "faces": []
+        }
+      ],
+      "generatedTokenCandidatesNotDeckQuantities": 0
+    },
+    {
+      "provider": "moxfield",
+      "apiVersion": "v3",
+      "deckId": "SbEkgxN4CEqiCG5B94rkkg",
+      "title": "Anime/Manga/Japanese Art Card list",
+      "fixture": "tests/fixtures/import-feasibility/moxfield-SbEkgxN4CEqiCG5B94rkkg.json",
+      "expandedRows": 975,
+      "copiesBySection": {
+        "mainboard": 975
+      },
+      "verifiedPrintingRows": 975,
+      "languages": {
+        "ja": 255,
+        "en": 719,
+        "de": 1
+      },
+      "finishes": {
+        "nonFoil": 818,
+        "foil": 157
+      },
+      "rowsWithSummaryUuidDifferentFromSelected": 125,
+      "namesWithMultiplePrintings": {
+        "Island": 5,
+        "Mountain": 5,
+        "Plains": 5,
+        "Forest": 5,
+        "Swamp": 5,
+        "Secret Rendezvous": 5,
+        "Spirit": 3,
+        "Zombie": 3,
+        "Llanowar Elves": 3,
+        "Swords to Plowshares": 3,
+        "Squall, SeeD Mercenary": 3,
+        "Treasure": 9,
+        "Brainstorm": 2,
+        "Harmonize": 2,
+        "Lightning Helix": 2,
+        "Mizzix's Mastery": 2,
+        "Plaguecrafter": 2,
+        "Veil of Summer": 2,
+        "Brothers Yamazaki": 2,
+        "Glimpse of Nature": 2,
+        "Doubling Season": 2,
+        "Day of Judgment": 2,
+        "Snapcaster Mage": 2,
+        "Cyclonic Rift": 2,
+        "Narset, Parter of Veils": 2,
+        "Nissa, Who Shakes the World": 2,
+        "Brain Freeze": 2,
+        "Arlinn, Voice of the Pack": 2,
+        "Despark": 2,
+        "Kasmina, Enigmatic Mentor": 2,
+        "Massacre Girl": 2,
+        "Saheeli, Sublime Artificer": 2,
+        "Ugin, the Ineffable": 2,
+        "Snakeskin Veil": 2,
+        "Duskshell Crawler": 2,
+        "Cat": 2,
+        "Kaito Shizuki": 2,
+        "Tezzeret, Betrayer of Flesh": 2,
+        "The Wandering Emperor": 2,
+        "Isshin, Two Heavens as One": 2,
+        "Samurai": 2,
+        "Tidus, Yuna's Guardian": 2,
+        "G'raha Tia, Scion Reborn": 2,
+        "Ardyn, the Usurper": 2,
+        "Balthier and Fran": 2,
+        "Cid, Timeless Artificer": 2,
+        "Clive, Ifrit's Dominant // Ifrit, Warden of Inferno": 2,
+        "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel": 2,
+        "Tifa Lockhart": 2,
+        "Summon: Leviathan": 2,
+        "Esper Origins // Summon: Esper Maduin": 2,
+        "Summon: Valefor": 2,
+        "Summon: Magus Sisters": 2,
+        "Zidane, Tantalus Thief": 2,
+        "Vincent Valentine // Galian Beast": 2,
+        "Summon: Anima": 2,
+        "Lightning Bolt": 3,
+        "Preordain": 3,
+        "Farewell": 3,
+        "Aerith Gainsborough": 3,
+        "Cloud, Midgar Mercenary": 3,
+        "Lightning, Army of One": 3,
+        "Yuna, Hope of Spira": 3,
+        "Serra Angel": 2,
+        "Shivan Dragon": 2,
+        "Disdainful Stroke": 2,
+        "Thopter": 2,
+        "Nicol Bolas, Dragon-God": 2,
+        "Krydle of Baldur's Gate": 2,
+        "Satoru Umezawa": 2,
+        "Giada, Font of Hope": 2,
+        "Destroy Evil": 2,
+        "Brotherhood's End": 2,
+        "Monstrous Rage": 2,
+        "Yuffie, Materia Hunter": 2,
+        "Food": 4
+      },
+      "doubleFacedOrMultifaceRows": 31,
+      "issues": [],
+      "examples": [
+        {
+          "rowId": "kaN49",
+          "section": "mainboard",
+          "name": "Island",
+          "quantity": 1,
+          "finish": "nonFoil",
+          "id": "0da4d5c0-7ad2-446d-b49e-5ee446bb23cd",
+          "set": "sld",
+          "cn": "47",
+          "lang": "ja",
+          "layout": "normal",
+          "summaryIdDiffers": true,
+          "sourcePrintingId": "V2A7R",
+          "resolvedLanguage": "ja",
+          "artist": "Andy Williams",
+          "faces": []
+        },
+        {
+          "rowId": "E0NRJ",
+          "section": "mainboard",
+          "name": "Hypnotic Sprite // Mesmeric Glare",
+          "quantity": 1,
+          "finish": "nonFoil",
+          "id": "4358fcf2-e07c-4a0f-8f69-5d0f83adeb20",
+          "set": "fic",
+          "cn": "264",
+          "lang": "en",
+          "layout": "adventure",
+          "summaryIdDiffers": false,
+          "sourcePrintingId": "r4zwM",
+          "resolvedLanguage": "en",
+          "artist": "Mizutametori",
+          "faces": [
+            {
+              "name": "Hypnotic Sprite",
+              "artist": "Mizutametori"
+            },
+            {
+              "name": "Mesmeric Glare",
+              "artist": "Mizutametori"
+            }
+          ]
+        },
+        {
+          "rowId": "kaN49",
+          "section": "mainboard",
+          "name": "Island",
+          "quantity": 1,
+          "finish": "nonFoil",
+          "id": "f0578f26-1396-4e1d-9986-8fc6c55aeb66",
+          "set": "neo",
+          "cn": "295",
+          "lang": "ja",
+          "layout": "normal",
+          "summaryIdDiffers": true,
+          "sourcePrintingId": "LRXzz",
+          "resolvedLanguage": "ja",
+          "artist": "Amayagido",
+          "faces": []
+        },
+        {
+          "rowId": "LD5lN",
+          "section": "mainboard",
+          "name": "Arcane Denial",
+          "quantity": 1,
+          "finish": "nonFoil",
+          "id": "8a5e5463-2451-48b7-a924-a81d2dd99671",
+          "set": "rfin",
+          "cn": "J2",
+          "lang": "ja",
+          "layout": "normal",
+          "summaryIdDiffers": false,
+          "sourcePrintingId": "KWORK",
+          "resolvedLanguage": "ja",
+          "artist": "Mikio Masuda",
+          "faces": []
+        }
+      ],
+      "generatedTokenCandidatesNotDeckQuantities": 0
+    },
+    {
+      "provider": "moxfield",
+      "apiVersion": "v3",
+      "deckId": "zB7a13TqOUWlUZuylE905Q",
+      "title": "👻 Casual Orzhov Shenanigans👻",
+      "fixture": "tests/fixtures/import-feasibility/moxfield-zB7a13TqOUWlUZuylE905Q.json",
+      "expandedRows": 126,
+      "copiesBySection": {
+        "mainboard": 99,
+        "maybeboard": 39,
+        "commanders": 1
+      },
+      "verifiedPrintingRows": 125,
+      "languages": {
+        "en": 124,
+        "ja": 1
+      },
+      "finishes": {
+        "nonFoil": 30,
+        "foil": 89,
+        "etched": 7
+      },
+      "rowsWithSummaryUuidDifferentFromSelected": 0,
+      "namesWithMultiplePrintings": {},
+      "doubleFacedOrMultifaceRows": 6,
+      "issues": [
+        {
+          "rowId": "k9vvg",
+          "section": "mainboard",
+          "name": "Arcane Signet",
+          "quantity": 1,
+          "finish": "etched",
+          "id": "f0deab39-dfa3-4652-a05f-b221b979009a",
+          "set": "p30a",
+          "cn": "1F",
+          "lang": "en",
+          "layout": "normal",
+          "summaryIdDiffers": false,
+          "sourcePrintingId": "2zQaK",
+          "reason": "UUID absent from frozen snapshot"
+        }
+      ],
+      "examples": [
+        {
+          "rowId": "EJB2A",
+          "section": "commanders",
+          "name": "Teysa Karlov",
+          "quantity": 1,
+          "finish": "foil",
+          "id": "4a80fbb2-4b3a-46fc-b105-09e512bc414a",
+          "set": "sld",
+          "cn": "1235",
+          "lang": "en",
+          "layout": "normal",
+          "summaryIdDiffers": false,
+          "sourcePrintingId": "pRzbJ",
+          "resolvedLanguage": "en",
+          "artist": "Tsubonari",
+          "faces": []
+        },
+        {
+          "rowId": "LGwVB",
+          "section": "mainboard",
+          "name": "Vampiric Tutor",
+          "quantity": 1,
+          "finish": "nonFoil",
+          "id": "7a79190f-de60-4eb6-b925-594eb76ca8c3",
+          "set": "soa",
+          "cn": "100",
+          "lang": "ja",
+          "layout": "normal",
+          "summaryIdDiffers": false,
+          "sourcePrintingId": "61Zv7",
+          "resolvedLanguage": "ja",
+          "artist": "Sumie Okazu",
+          "faces": []
+        },
+        {
+          "rowId": "kOoj4",
+          "section": "mainboard",
+          "name": "Westvale Abbey // Ormendahl, Profane Prince",
+          "quantity": 1,
+          "finish": "foil",
+          "id": "b245e80e-a113-4f34-a089-e3e514eaddc0",
+          "set": "psoi",
+          "cn": "281s",
+          "lang": "en",
+          "layout": "transform",
+          "summaryIdDiffers": false,
+          "sourcePrintingId": "E0mDl",
+          "resolvedLanguage": "en",
+          "artist": "Min Yum",
+          "faces": [
+            {
+              "name": "Westvale Abbey",
+              "artist": "Min Yum"
+            },
+            {
+              "name": "Ormendahl, Profane Prince",
+              "artist": "Min Yum"
+            }
+          ]
+        },
+        {
+          "rowId": "kAnZO",
+          "section": "mainboard",
+          "name": "Liliana, Dreadhorde General",
+          "quantity": 1,
+          "finish": "foil",
+          "id": "921d4181-76de-4143-8941-74c9c62f5af6",
+          "set": "pwar",
+          "cn": "97s",
+          "lang": "en",
+          "layout": "normal",
+          "summaryIdDiffers": false,
+          "sourcePrintingId": "Ydlvr",
+          "resolvedLanguage": "en",
+          "artist": "Chris Rallis",
+          "faces": []
+        }
+      ],
+      "generatedTokenCandidatesNotDeckQuantities": 0
+    },
+    {
+      "provider": "moxfield",
+      "apiVersion": "v2",
+      "deckId": "3x55_3CFz060qxL2xac3NA",
+      "title": "⚔️ My Soldiers Rage 😤",
+      "fixture": "tests/fixtures/import-feasibility/moxfield-v2-3x55_3CFz060qxL2xac3NA.json",
+      "expandedRows": 111,
+      "copiesBySection": {
+        "mainboard": 100,
+        "sideboard": 8,
+        "maybeboard": 30,
+        "commanders": 1
+      },
+      "verifiedPrintingRows": 111,
+      "languages": {
+        "en": 111
+      },
+      "finishes": {
+        "foil": 50,
+        "nonFoil": 60,
+        "etched": 1
+      },
+      "rowsWithSummaryUuidDifferentFromSelected": 0,
+      "namesWithMultiplePrintings": {},
+      "doubleFacedOrMultifaceRows": 0,
+      "issues": [],
+      "examples": [
+        {
+          "rowId": "Myrel, Shield of Argive",
+          "section": "commanders",
+          "name": "Myrel, Shield of Argive",
+          "quantity": 1,
+          "finish": "foil",
+          "id": "fbd149db-6d8e-4db5-80d8-682f270ba2ec",
+          "set": "pbro",
+          "cn": "18p",
+          "lang": "en",
+          "layout": "normal",
+          "summaryIdDiffers": false,
+          "sourcePrintingId": "bRQ9J",
+          "resolvedLanguage": "en",
+          "artist": "Ryan Pancoast",
+          "faces": []
+        },
+        {
+          "rowId": "Cavern of Souls",
+          "section": "mainboard",
+          "name": "Cavern of Souls",
+          "quantity": 1,
+          "finish": "foil",
+          "id": "fcc626a1-cfb0-4e1f-80fc-7c1ff07ee424",
+          "set": "lci",
+          "cn": "410b",
+          "lang": "en",
+          "layout": "normal",
+          "summaryIdDiffers": false,
+          "sourcePrintingId": "5MWGB",
+          "resolvedLanguage": "en",
+          "artist": "Pedro Correa",
+          "faces": []
+        },
+        {
+          "rowId": "Palace Jailer",
+          "section": "sideboard",
+          "name": "Palace Jailer",
+          "quantity": 1,
+          "finish": "nonFoil",
+          "id": "9f129968-0af6-4ae4-a0c3-6f911a7bae22",
+          "set": "fic",
+          "cn": "247",
+          "lang": "en",
+          "layout": "normal",
+          "summaryIdDiffers": false,
+          "sourcePrintingId": "GP8d9",
+          "resolvedLanguage": "en",
+          "artist": "Touge369",
+          "faces": []
+        }
+      ],
+      "generatedTokenCandidatesNotDeckQuantities": 20
+    },
+    {
+      "provider": "moxfield",
+      "apiVersion": "v2",
+      "deckId": "SbEkgxN4CEqiCG5B94rkkg",
+      "title": "Anime/Manga/Japanese Art Card list",
+      "fixture": "tests/fixtures/import-feasibility/moxfield-v2-SbEkgxN4CEqiCG5B94rkkg.json",
+      "expandedRows": 973,
+      "copiesBySection": {
+        "mainboard": 1187
+      },
+      "verifiedPrintingRows": 973,
+      "languages": {
+        "ja": 253,
+        "en": 719,
+        "de": 1
+      },
+      "finishes": {
+        "nonFoil": 817,
+        "foil": 156
+      },
+      "rowsWithSummaryUuidDifferentFromSelected": 124,
+      "namesWithMultiplePrintings": {
+        "Island": 5,
+        "Mountain": 5,
+        "Plains": 5,
+        "Forest": 5,
+        "Swamp": 5,
+        "Secret Rendezvous": 5,
+        "Zombie": 3,
+        "Llanowar Elves": 3,
+        "Swords to Plowshares": 3,
+        "Squall, SeeD Mercenary": 3,
+        "Treasure": 9,
+        "Brainstorm": 2,
+        "Harmonize": 2,
+        "Lightning Helix": 2,
+        "Mizzix's Mastery": 2,
+        "Plaguecrafter": 2,
+        "Veil of Summer": 2,
+        "Brothers Yamazaki": 2,
+        "Glimpse of Nature": 2,
+        "Doubling Season": 2,
+        "Day of Judgment": 2,
+        "Snapcaster Mage": 2,
+        "Cyclonic Rift": 2,
+        "Narset, Parter of Veils": 2,
+        "Nissa, Who Shakes the World": 2,
+        "Brain Freeze": 2,
+        "Arlinn, Voice of the Pack": 2,
+        "Despark": 2,
+        "Kasmina, Enigmatic Mentor": 2,
+        "Massacre Girl": 2,
+        "Saheeli, Sublime Artificer": 2,
+        "Ugin, the Ineffable": 2,
+        "Snakeskin Veil": 2,
+        "Duskshell Crawler": 2,
+        "Cat": 2,
+        "Kaito Shizuki": 2,
+        "Tezzeret, Betrayer of Flesh": 2,
+        "The Wandering Emperor": 2,
+        "Isshin, Two Heavens as One": 2,
+        "Samurai": 2,
+        "Tidus, Yuna's Guardian": 2,
+        "G'raha Tia, Scion Reborn": 2,
+        "Ardyn, the Usurper": 2,
+        "Balthier and Fran": 2,
+        "Cid, Timeless Artificer": 2,
+        "Clive, Ifrit's Dominant // Ifrit, Warden of Inferno": 2,
+        "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel": 2,
+        "Tifa Lockhart": 2,
+        "Summon: Leviathan": 2,
+        "Esper Origins // Summon: Esper Maduin": 2,
+        "Summon: Valefor": 2,
+        "Summon: Magus Sisters": 2,
+        "Zidane, Tantalus Thief": 2,
+        "Vincent Valentine // Galian Beast": 2,
+        "Summon: Anima": 2,
+        "Lightning Bolt": 3,
+        "Preordain": 3,
+        "Farewell": 3,
+        "Aerith Gainsborough": 3,
+        "Cloud, Midgar Mercenary": 3,
+        "Lightning, Army of One": 3,
+        "Yuna, Hope of Spira": 3,
+        "Serra Angel": 2,
+        "Shivan Dragon": 2,
+        "Disdainful Stroke": 2,
+        "Thopter": 2,
+        "Nicol Bolas, Dragon-God": 2,
+        "Krydle of Baldur's Gate": 2,
+        "Satoru Umezawa": 2,
+        "Giada, Font of Hope": 2,
+        "Destroy Evil": 2,
+        "Brotherhood's End": 2,
+        "Monstrous Rage": 2,
+        "Yuffie, Materia Hunter": 2,
+        "Food": 4
+      },
+      "doubleFacedOrMultifaceRows": 31,
+      "issues": [
+        {
+          "section": "mainboard",
+          "reason": "board quantity mismatch",
+          "declaredCount": 975,
+          "expandedCopies": 1187
+        }
+      ],
+      "examples": [
+        {
+          "rowId": "Island",
+          "section": "mainboard",
+          "name": "Island",
+          "quantity": 1,
+          "finish": "nonFoil",
+          "id": "0da4d5c0-7ad2-446d-b49e-5ee446bb23cd",
+          "set": "sld",
+          "cn": "47",
+          "lang": "ja",
+          "layout": "normal",
+          "summaryIdDiffers": true,
+          "sourcePrintingId": "V2A7R",
+          "resolvedLanguage": "ja",
+          "artist": "Andy Williams",
+          "faces": []
+        },
+        {
+          "rowId": "Hypnotic Sprite // Mesmeric Glare",
+          "section": "mainboard",
+          "name": "Hypnotic Sprite // Mesmeric Glare",
+          "quantity": 1,
+          "finish": "nonFoil",
+          "id": "4358fcf2-e07c-4a0f-8f69-5d0f83adeb20",
+          "set": "fic",
+          "cn": "264",
+          "lang": "en",
+          "layout": "adventure",
+          "summaryIdDiffers": false,
+          "sourcePrintingId": "r4zwM",
+          "resolvedLanguage": "en",
+          "artist": "Mizutametori",
+          "faces": [
+            {
+              "name": "Hypnotic Sprite",
+              "artist": "Mizutametori"
+            },
+            {
+              "name": "Mesmeric Glare",
+              "artist": "Mizutametori"
+            }
+          ]
+        },
+        {
+          "rowId": "Island",
+          "section": "mainboard",
+          "name": "Island",
+          "quantity": 1,
+          "finish": "nonFoil",
+          "id": "f0578f26-1396-4e1d-9986-8fc6c55aeb66",
+          "set": "neo",
+          "cn": "295",
+          "lang": "ja",
+          "layout": "normal",
+          "summaryIdDiffers": true,
+          "sourcePrintingId": "LRXzz",
+          "resolvedLanguage": "ja",
+          "artist": "Amayagido",
+          "faces": []
+        },
+        {
+          "rowId": "Arcane Denial",
+          "section": "mainboard",
+          "name": "Arcane Denial",
+          "quantity": 1,
+          "finish": "nonFoil",
+          "id": "8a5e5463-2451-48b7-a924-a81d2dd99671",
+          "set": "rfin",
+          "cn": "J2",
+          "lang": "ja",
+          "layout": "normal",
+          "summaryIdDiffers": false,
+          "sourcePrintingId": "KWORK",
+          "resolvedLanguage": "ja",
+          "artist": "Mikio Masuda",
+          "faces": []
+        }
+      ],
+      "generatedTokenCandidatesNotDeckQuantities": 1066
+    },
+    {
+      "provider": "moxfield",
+      "apiVersion": "v2",
+      "deckId": "zB7a13TqOUWlUZuylE905Q",
+      "title": "👻 Casual Orzhov Shenanigans👻",
+      "fixture": "tests/fixtures/import-feasibility/moxfield-v2-zB7a13TqOUWlUZuylE905Q.json",
+      "expandedRows": 126,
+      "copiesBySection": {
+        "mainboard": 99,
+        "maybeboard": 39,
+        "commanders": 1
+      },
+      "verifiedPrintingRows": 125,
+      "languages": {
+        "en": 124,
+        "ja": 1
+      },
+      "finishes": {
+        "nonFoil": 30,
+        "foil": 89,
+        "etched": 7
+      },
+      "rowsWithSummaryUuidDifferentFromSelected": 0,
+      "namesWithMultiplePrintings": {},
+      "doubleFacedOrMultifaceRows": 6,
+      "issues": [
+        {
+          "rowId": "Arcane Signet",
+          "section": "mainboard",
+          "name": "Arcane Signet",
+          "quantity": 1,
+          "finish": "etched",
+          "id": "f0deab39-dfa3-4652-a05f-b221b979009a",
+          "set": "p30a",
+          "cn": "1F",
+          "lang": "en",
+          "layout": "normal",
+          "summaryIdDiffers": false,
+          "sourcePrintingId": "2zQaK",
+          "reason": "UUID absent from frozen snapshot"
+        }
+      ],
+      "examples": [
+        {
+          "rowId": "Teysa Karlov",
+          "section": "commanders",
+          "name": "Teysa Karlov",
+          "quantity": 1,
+          "finish": "foil",
+          "id": "4a80fbb2-4b3a-46fc-b105-09e512bc414a",
+          "set": "sld",
+          "cn": "1235",
+          "lang": "en",
+          "layout": "normal",
+          "summaryIdDiffers": false,
+          "sourcePrintingId": "pRzbJ",
+          "resolvedLanguage": "en",
+          "artist": "Tsubonari",
+          "faces": []
+        },
+        {
+          "rowId": "Vampiric Tutor",
+          "section": "mainboard",
+          "name": "Vampiric Tutor",
+          "quantity": 1,
+          "finish": "nonFoil",
+          "id": "7a79190f-de60-4eb6-b925-594eb76ca8c3",
+          "set": "soa",
+          "cn": "100",
+          "lang": "ja",
+          "layout": "normal",
+          "summaryIdDiffers": false,
+          "sourcePrintingId": "61Zv7",
+          "resolvedLanguage": "ja",
+          "artist": "Sumie Okazu",
+          "faces": []
+        },
+        {
+          "rowId": "Westvale Abbey // Ormendahl, Profane Prince",
+          "section": "mainboard",
+          "name": "Westvale Abbey // Ormendahl, Profane Prince",
+          "quantity": 1,
+          "finish": "foil",
+          "id": "b245e80e-a113-4f34-a089-e3e514eaddc0",
+          "set": "psoi",
+          "cn": "281s",
+          "lang": "en",
+          "layout": "transform",
+          "summaryIdDiffers": false,
+          "sourcePrintingId": "E0mDl",
+          "resolvedLanguage": "en",
+          "artist": "Min Yum",
+          "faces": [
+            {
+              "name": "Westvale Abbey",
+              "artist": "Min Yum"
+            },
+            {
+              "name": "Ormendahl, Profane Prince",
+              "artist": "Min Yum"
+            }
+          ]
+        },
+        {
+          "rowId": "Liliana, Dreadhorde General",
+          "section": "mainboard",
+          "name": "Liliana, Dreadhorde General",
+          "quantity": 1,
+          "finish": "foil",
+          "id": "921d4181-76de-4143-8941-74c9c62f5af6",
+          "set": "pwar",
+          "cn": "97s",
+          "lang": "en",
+          "layout": "normal",
+          "summaryIdDiffers": false,
+          "sourcePrintingId": "Ydlvr",
+          "resolvedLanguage": "en",
+          "artist": "Chris Rallis",
+          "faces": []
+        }
+      ],
+      "generatedTokenCandidatesNotDeckQuantities": 35
+    },
+    {
+      "provider": "archidekt",
+      "apiVersion": null,
+      "deckId": 19780118,
+      "title": "Rog Thras Japanese Evil Twin",
+      "fixture": "tests/fixtures/import-feasibility/archidekt-19780118.json",
+      "expandedRows": 114,
+      "copiesBySection": {
+        "sideboard": 14,
+        "mainboard": 98,
+        "commanders": 2
+      },
+      "verifiedPrintingRows": 114,
+      "languages": {
+        "en": 114
+      },
+      "finishes": {
+        "Normal": 74,
+        "Foil": 38,
+        "Etched": 2
+      },
+      "rowsWithSummaryUuidDifferentFromSelected": 0,
+      "namesWithMultiplePrintings": {},
+      "doubleFacedOrMultifaceRows": 5,
+      "issues": [],
+      "examples": [
+        {
+          "rowId": "2824326017",
+          "categories": [
+            "Commander"
+          ],
+          "section": "commanders",
+          "name": "Rograkh, Son of Rohgahh",
+          "quantity": 1,
+          "finish": "Etched",
+          "id": "c7e7c27a-47e4-47d1-90b3-88a936839cbc",
+          "set": "cmr",
+          "cn": "575",
+          "lang": null,
+          "oracleLanguageNotPrintingLanguage": "en",
+          "layout": "normal",
+          "sourcePrintingId": 90539,
+          "resolvedLanguage": "en",
+          "artist": "Chris Seaman",
+          "faces": []
+        },
+        {
+          "rowId": "3447940403",
+          "categories": [
+            "Sideboard",
+            "Creature"
+          ],
+          "section": "sideboard",
+          "name": "Wandering Archaic // Explore the Vastlands",
+          "quantity": 1,
+          "finish": "Normal",
+          "id": "18a2bdc8-b705-4eb5-b3a5-ff2e2ab8f312",
+          "set": "stx",
+          "cn": "6",
+          "lang": null,
+          "oracleLanguageNotPrintingLanguage": "en",
+          "layout": "modal_dfc",
+          "sourcePrintingId": 93053,
+          "resolvedLanguage": "en",
+          "artist": "Wayne Reynolds",
+          "faces": [
+            {
+              "name": "Wandering Archaic",
+              "artist": "Wayne Reynolds"
+            },
+            {
+              "name": "Explore the Vastlands",
+              "artist": "Wayne Reynolds"
+            }
+          ]
+        },
+        {
+          "rowId": "2824383704",
+          "categories": [
+            "Creature"
+          ],
+          "section": "mainboard",
+          "name": "\"Name Sticker\" Goblin",
+          "quantity": 1,
+          "finish": "Foil",
+          "id": "fd1442b4-da59-4042-835f-143c8dcaa73b",
+          "set": "unf",
+          "cn": "107m",
+          "lang": null,
+          "oracleLanguageNotPrintingLanguage": "en",
+          "layout": "normal",
+          "sourcePrintingId": 124299,
+          "resolvedLanguage": "en",
+          "artist": "Chuck Lukacs",
+          "faces": []
+        },
+        {
+          "rowId": "3008408379",
+          "categories": [
+            "Sideboard",
+            "Enchantment"
+          ],
+          "section": "sideboard",
+          "name": "Lurking Predators",
+          "quantity": 1,
+          "finish": "Normal",
+          "id": "9952da7c-3cfc-413f-8849-0f10e9c8dceb",
+          "set": "jmp",
+          "cn": "410",
+          "lang": null,
+          "oracleLanguageNotPrintingLanguage": "en",
+          "layout": "normal",
+          "sourcePrintingId": 87547,
+          "resolvedLanguage": "en",
+          "artist": "Mike Bierek",
+          "faces": []
+        }
+      ],
+      "generatedTokenCandidatesNotDeckQuantities": 0
+    }
+  ]
+}

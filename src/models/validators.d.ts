@@ -1,0 +1,16 @@
+export function validateSourceSnapshot(value: unknown): boolean;
+export function validatePrintingFace(value: unknown): boolean;
+export function validateCardPrinting(value: unknown): boolean;
+export function validateArtist(value: unknown): boolean;
+export function validateArtistMapping(value: unknown): boolean;
+export function validateArtistLink(value: unknown): boolean;
+export function validateAttendance(value: unknown): boolean;
+export function validateArtistStatistics(value: unknown): boolean;
+export function validateEvent(value: unknown): boolean;
+export function validateSavedDeck(value: unknown): boolean;
+export function validateDeckLine(value: unknown): boolean;
+export function validateMatchResult(value: unknown): boolean;
+export function validateEventDirectory(value: unknown): boolean;
+export function validateFileDescriptor(value: unknown): boolean;
+export function validateDataManifest(value: unknown): boolean;
+export function validateActiveManifest(value: unknown): boolean;

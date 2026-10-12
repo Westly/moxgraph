@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "reviewedOn": "2026-10-11",
+  "baseline": "scryfall-all-cards-20261011091913",
+  "aliases": [
+    {
+      "provider": "moxfield",
+      "status": "reviewed",
+      "source": {
+        "id": "f0deab39-dfa3-4652-a05f-b221b979009a",
+        "sourcePrintingId": "2zQaK",
+        "name": "Arcane Signet",
+        "set": "p30a",
+        "cn": "1F",
+        "lang": "en",
+        "finish": "etched"
+      },
+      "target": {
+        "id": "7910ce6c-5cde-436e-8d28-62723f0fd592",
+        "set": "p30m",
+        "cn": "1F★",
+        "lang": "en",
+        "finish": "etched",
+        "artist": "Gaboleps",
+        "illustrationId": "941f324d-5b4d-479f-8db7-c98813ce4c3e"
+      },
+      "evidence": [
+        "https://moxfield.com/cards/2zQaK-arcane-signet",
+        "https://assets.moxfield.net/cards/card-2zQaK-normal.jpg?298118922",
+        "https://scryfall.com/card/p30m/1F%E2%98%85/arcane-signet",
+        "https://api.scryfall.com/cards/f0deab39-dfa3-4652-a05f-b221b979009a"
+      ],
+      "basis": "Reviewed inference, not an official Scryfall redirect. The old UUID returns 404. Moxfield identifies this exact provider printing as English, etched-only, with Gaboleps artwork. Both source images show the same artwork and printed 001/001 P Festival, PRM EN and 2022 line. Scryfall P30M 1F★ is the English etched Festival variant. P30M 1F is a distinct nonfoil/foil record; 1P is another foil variant. Never apply this mapping based on name or collector number alone.",
+      "displayNotice": "Legacy Moxfield printing identifier mapped to a reviewed Scryfall printing; original details retained."
+    }
+  ]
+}

@@ -1,0 +1,188 @@
+{
+  "schemaVersion": 1,
+  "observedDate": "2026-10-11",
+  "scope": "WBS 4.0 only",
+  "tests": {
+    "focused": 25,
+    "pythonTotal": 64,
+    "relayTotal": 7,
+    "total": 71,
+    "passed": true,
+    "executionNote": "71 tests passed during relay preparation; source and tests unchanged for deployment. Live browser/HTTP and documentation checks performed after deployment."
+  },
+  "probeJavaScriptSyntax": "passed",
+  "relativeDocumentationLinks": "passed",
+  "artifacts": [
+    {
+      "path": "README.md",
+      "bytes": 2795,
+      "sha256": "f55d697006f693f88990c8b0ce1a062c21d3ce64eddd3f5964420de046a58967"
+    },
+    {
+      "path": "ROADMAP.md",
+      "bytes": 74862,
+      "sha256": "98f29773ae1da1036d490aadc22649b0e86254a6e1e9de3d584bad18b1b0f54b"
+    },
+    {
+      "path": "data/curated/printing-aliases.json",
+      "bytes": 1637,
+      "sha256": "94945a808465e0b1ee313cae28c79b4ba54fb473e92649e8e56dcdbdffdc60da"
+    },
+    {
+      "path": "docs/import-blocker-resolution.md",
+      "bytes": 13163,
+      "sha256": "dfb135f5c37dc8a1c521eda8e0280731ee781efebb0078f0e4006ac3b79a24a0"
+    },
+    {
+      "path": "docs/import-feasibility.md",
+      "bytes": 20528,
+      "sha256": "67394f75bbd1c26de6ad515211320c06e6f101f65a2b560cbbad173fbfcd9056"
+    },
+    {
+      "path": "reports/import-blocker-http.json",
+      "bytes": 2510,
+      "sha256": "8e1ccdc6ce1f1f8e6311a20e0f9c1b41d4ef30062daa6b5016831be671164a7b"
+    },
+    {
+      "path": "reports/import-browser-audit.json",
+      "bytes": 3700,
+      "sha256": "bf28047be9e8ba9f6b494ab84e8f9a503051fd8ae0981f9dfc32d1669ff6c8cc"
+    },
+    {
+      "path": "reports/import-browser-https-v2.json",
+      "bytes": 577,
+      "sha256": "828a836da346ab87eb08183850643eb0a231ac50adb1343917321dc428966011"
+    },
+    {
+      "path": "reports/import-browser-local-v3.json",
+      "bytes": 560,
+      "sha256": "f04eec0fb994697fa90e75b965db14059b5cb820277a0e620276361586aed276"
+    },
+    {
+      "path": "reports/import-export-audit.json",
+      "bytes": 1683,
+      "sha256": "199930b6617fe4ebeab4616020ec4f5ab5e8ed374577b42daf492ff7b9f42000"
+    },
+    {
+      "path": "reports/import-http-headers.json",
+      "bytes": 3076,
+      "sha256": "0e5bbe93260e6de8764e3593754ad9e3458e6d259b98b5a43b66f7cec2ac7689"
+    },
+    {
+      "path": "reports/import-printing-audit.json",
+      "bytes": 27425,
+      "sha256": "0b7c4555cf161787d634b9fee1657ff74f9697205d75c8e5b15412cd901c2768"
+    },
+    {
+      "path": "reports/import-recovery-audit.json",
+      "bytes": 2703,
+      "sha256": "c47fffd1976d5ab338d83a0d1cd7675045f2810bde7a0664c60773b1109b03d3"
+    },
+    {
+      "path": "reports/import-relay-browser-audit.json",
+      "bytes": 4407,
+      "sha256": "5eb57a61e1b8a5730462d7629258061d89634116d28d1c464250c40472f3682a"
+    },
+    {
+      "path": "reports/import-relay-http-audit.json",
+      "bytes": 2442,
+      "sha256": "5f2dd2e53810ac6adb5d9ca5b3c6dd28ab2af676a297c928c6e7b52f0fa31e57"
+    },
+    {
+      "path": "scripts/data/import_recovery.py",
+      "bytes": 5822,
+      "sha256": "a73bdf51f592b9a5879e9b71a5bb5f4128591b0615e65cfe41895d70775faf44"
+    },
+    {
+      "path": "tests/fixtures/import-feasibility/archidekt-19780118.json",
+      "bytes": 82258,
+      "sha256": "d986ea9caceba3646f96c7898a633b2b274902f448b3fe335dffbadd02d1db53"
+    },
+    {
+      "path": "tests/fixtures/import-feasibility/archidekt-official.csv",
+      "bytes": 9647,
+      "sha256": "fb753fd484775d839e2b86268ea45946d140de451fa43d03f4b363900508f83b"
+    },
+    {
+      "path": "tests/fixtures/import-feasibility/moxfield-3x55_3CFz060qxL2xac3NA.json",
+      "bytes": 79463,
+      "sha256": "ee262623a2e3587972f601ae5ede38255efe13dcc3ce80bdd58ee0df789492e9"
+    },
+    {
+      "path": "tests/fixtures/import-feasibility/moxfield-SbEkgxN4CEqiCG5B94rkkg.json",
+      "bytes": 683100,
+      "sha256": "2e90069346fb5c4a1edb2d1bc162a52bbfed2dcf971c3157985ea960351a6c34"
+    },
+    {
+      "path": "tests/fixtures/import-feasibility/moxfield-official-orzhov.txt",
+      "bytes": 2917,
+      "sha256": "8342c5055cb9da712ab666671607d4ae0bfee7629ba160d88d51b0456257fc57"
+    },
+    {
+      "path": "tests/fixtures/import-feasibility/moxfield-v2-3x55_3CFz060qxL2xac3NA.json",
+      "bytes": 75873,
+      "sha256": "53f3e880c710bf52170261185294941875c652716f29e6a9ad251b4252d0be11"
+    },
+    {
+      "path": "tests/fixtures/import-feasibility/moxfield-v2-SbEkgxN4CEqiCG5B94rkkg.json",
+      "bytes": 946591,
+      "sha256": "258a4186f63eaade22d8e5b3f8f3fe701712b6e41560681feb339c2de46f856c"
+    },
+    {
+      "path": "tests/fixtures/import-feasibility/moxfield-v2-zB7a13TqOUWlUZuylE905Q.json",
+      "bytes": 100147,
+      "sha256": "fedb02ba5e202e64c72f919ebb8cfa63fdfb9df57a7b4e6de58b6f17315a0d51"
+    },
+    {
+      "path": "tests/fixtures/import-feasibility/moxfield-zB7a13TqOUWlUZuylE905Q.json",
+      "bytes": 100876,
+      "sha256": "09f7413e9be8e0322eb877211864dfaa70fd3c32fc52b6cf3827f197ce440700"
+    },
+    {
+      "path": "tests/fixtures/import-feasibility/sources.json",
+      "bytes": 4166,
+      "sha256": "b61280d0d73fe47c8c36929637f9a10a7570203edf507ef098cc0bc4b4c073f9"
+    },
+    {
+      "path": "tests/import-relay.test.mjs",
+      "bytes": 3313,
+      "sha256": "c296554f85b1cf9fdcd0d25b90521926f53cb7b5ae3ca15be00c2afd2a0f95ac"
+    },
+    {
+      "path": "tests/test_import_recovery.py",
+      "bytes": 4768,
+      "sha256": "7efbe2d25d126aef3080e6f3af9e1a3648c0dd4b9a861ba6a0fef33b2f3084d2"
+    },
+    {
+      "path": "tools/import-probe/_headers",
+      "bytes": 102,
+      "sha256": "f4707c4c975d69d68fc0839b34b1dde0af1cc54eb99c3d0c4c6e95d12ba72616"
+    },
+    {
+      "path": "tools/import-probe/index.html",
+      "bytes": 1261,
+      "sha256": "d3a796e544e7cd80ab1d4a22b1d375fcf3094e00ed1272845e8ca1321722e1c0"
+    },
+    {
+      "path": "tools/import-probe/probe.js",
+      "bytes": 3077,
+      "sha256": "0e8b08861c7170c0656454983b3d3901f178f44c6e4b4c64e82bd409a78b7e6b"
+    },
+    {
+      "path": "tools/import-relay/worker.mjs",
+      "bytes": 6939,
+      "sha256": "6df9f0e7dd3019536fef440a068ba5eb73512c121c834811afe1a2e475128b52"
+    },
+    {
+      "path": "tools/import-relay/wrangler.jsonc",
+      "bytes": 168,
+      "sha256": "19b6ef44824f932e2229f9c95d8f94171d63e898437cacb4dd46f5a9bfb51896"
+    }
+  ],
+  "relayDeployment": "deployed-on-Workers-Free-after-explicit-owner-approval",
+  "hostedRelayVerified": true,
+  "relayUrl": "https://moxgraph-import-relay-probe.westlywhite.workers.dev",
+  "activeCodeVersionDisplayed": "51823ab3",
+  "pagesCrossOriginBrowserVerified": false,
+  "productionDomainBrowserVerified": false
+}

@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "scope": "WBS 5 only",
+  "observedAt": "2026-10-11T22:47:58.733959+00:00",
+  "dataVersion": "v1-0313a3107f243872",
+  "tests": {
+    "appTests": 12,
+    "passed": true,
+    "typecheck": "passed",
+    "fullCatalogueReleaseAudit": "passed for public and dist"
+  },
+  "coverage": {
+    "printings": 546137,
+    "languages": 19,
+    "sets": 1058,
+    "artists": 2434,
+    "attendees": 65,
+    "faces": 24629
+  },
+  "release": {
+    "files": 7597,
+    "dataBytes": 336778961,
+    "largestAssetBytes": 1321239,
+    "fileGuard": 10000,
+    "assetByteGuard": 20971520,
+    "staticOnly": true
+  },
+  "appShellAssets": [
+    {
+      "path": "dist/index.html",
+      "bytes": 1171,
+      "gzipBytes": 631,
+      "sha256": "1a9588a94952416039b2242c131ad5cfebc7a8b95e423358dd67ad08fff05013"
+    },
+    {
+      "path": "dist/assets/index-BjLl0Mjo.css",
+      "bytes": 385,
+      "gzipBytes": 285,
+      "sha256": "3fe6b56e1d0024f807c93a8c672a7063957d781c295ce09a90d62b72df1361f2"
+    },
+    {
+      "path": "dist/assets/index-BjnsXYZB.js",
+      "bytes": 235814,
+      "gzipBytes": 19798,
+      "sha256": "83af9fac814a06af34356b2904de1d1e3859be7b7fedda4e5866e68770e0ed47"
+    }
+  ],
+  "appShellGzipBytes": 20714,
+  "browser": {
+    "origin": "http://127.0.0.1:4173",
+    "productionBuild": true,
+    "statusText": "546,137 printings across 19 languages. 65 listed artists at MagicCon: Atlanta.",
+    "exactLookup": {
+      "id": "7910ce6c-5cde-436e-8d28-62723f0fd592",
+      "name": "Arcane Signet",
+      "set": "p30m",
+      "collectorNumber": "1F★",
+      "language": "en",
+      "finish": "etched",
+      "credit": "Gaboleps"
+    },
+    "unknownLookup": {
+      "id": "f0deab39-dfa3-4652-a05f-b221b979009a",
+      "message": "Printing absent from this snapshot; artist attendance is unknown."
+    },
+    "consoleErrors": [],
+    "screenshot": "reports/screenshots/wbs5-preview.jpg",
+    "cloudflareHeadersApplied": false
+  },
+  "repeatability": {
+    "schemaVersion": 1,
+    "version": "v1-0313a3107f243872",
+    "sameActivePointer": true,
+    "sameManifestSha256": true,
+    "everyExistingVersionAssetComparedBeforeWrite": true,
+    "durationSeconds": 152.72,
+    "result": "passed"
+  },
+  "remainingReleaseChecks": [
+    "Hosted cache headers and final origin",
+    "WBS 9 measured metadata transfer, request latency and performance target",
+    "Production importer and reviewed alias application in WBS 7"
+  ],
+  "deploymentChanges": false,
+  "wbs6Started": false,
+  "artifacts": [
+    {
+      "path": ".node-version",
+      "bytes": 8,
+      "sha256": "2a42bceee722abfa6c8a7ff6149ada5bca012b841687c62158e5ce60ef528c68"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3277,
+      "sha256": "78000ec14d05f3d0ee7475ce96c90766a549c1fe2b8e56245e2fc9d5a8287272"
+    },
+    {
+      "path": "ROADMAP.md",
+      "bytes": 77100,
+      "sha256": "d054ece3d25b804f80592eda9b7e9b3258be0079acbc2326bef2ec96e31d12f2"
+    },
+    {
+      "path": "docs/static-data.md",
+      "bytes": 9700,
+      "sha256": "68548b48a4275575972be431895e7063288263dd331ec262cb3dd1b01a56e939"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1071,
+      "sha256": "67ac0029976b9197fcf75f579b1af1e92342602d9744659e202eec2c1cef06b6"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 60354,
+      "sha256": "9724f827faef9ffaa3308bb26cdc9f9550f879540c62c8fe0cc69abd3b0c7e0b"
+    },
+    {
+      "path": "package.json",
+      "bytes": 831,
+      "sha256": "6bed2b75b64fa60118089882da09528b8c410cc26090d2d9d0685b86f44d2c53"
+    },
+    {
+      "path": "public/_headers",
+      "bytes": 475,
+      "sha256": "eb8b95586568ee3590bcae7886caee00d07d18888b65571640da212b70da6596"
+    },
+    {
+      "path": "public/data/active.json",
+      "bytes": 159,
+      "sha256": "b023ea6dbe6413f35aedce15040efe0d8ddd9f59f0a93e606d5960e83a45763e"
+    },
+    {
+      "path": "reports/screenshots/wbs5-preview.jpg",
+      "bytes": 38904,
+      "sha256": "17eeb38829afab67ab04bd32fec637887e2dc1803c6dd4043ba1dad7230f0ee1"
+    },
+    {
+      "path": "reports/static-data-packaging.json",
+      "bytes": 3614,
+      "sha256": "5a2e4772b45ffdb27a3e05c544fe9fb283de29d7ae782e7e0f5b4d0ebc78aabd"
+    },
+    {
+      "path": "reports/static-data-repeatability.json",
+      "bytes": 236,
+      "sha256": "a5e5bf0b2e1a8d932024bc3243b1749fc95a9f48d100e30bcc6a60aa35b1f99e"
+    },
+    {
+      "path": "schemas/contracts.schema.json",
+      "bytes": 32239,
+      "sha256": "265db906634c42e41a25282143a4c2bdadb9b60c49ed84ff45397e14fa277c32"
+    },
+    {
+      "path": "schemas/printing-columns.json",
+      "bytes": 229,
+      "sha256": "dadef80b84ac259155d3168965f49bf0572cdb11f78cc86e22b2eadb07c8ae93"
+    },
+    {
+      "path": "scripts/build-contracts.mjs",
+      "bytes": 7496,
+      "sha256": "b297c6fed688692c6cf6a4bca8de03eb9004cd20b6c297de31d94d910a6f0fee"
+    },
+    {
+      "path": "scripts/check-data.mjs",
+      "bytes": 8963,
+      "sha256": "7c7969e8237f8b17d18da6e7b310f524b84732ce3fbf0dfb9108f1a75594c447"
+    },
+    {
+      "path": "scripts/data/publish_static.py",
+      "bytes": 15228,
+      "sha256": "ed3fe88613bb806a6fc6785d2ed6c14354bef35465c5aa26f3955c7add846105"
+    },
+    {
+      "path": "src/app.ts",
+      "bytes": 1338,
+      "sha256": "be89ac9ff6a9b293ea7664cdb421ec6d097c6504a444992402b39245c74e6b4f"
+    },
+    {
+      "path": "src/data/catalogue.ts",
+      "bytes": 7844,
+      "sha256": "f859b5a08d28b40d398dee3652bf37df279dd5aeaeb825a717d2ebcbb0fc994e"
+    },
+    {
+      "path": "src/models/boundaries.ts",
+      "bytes": 1042,
+      "sha256": "033246dd18eabfd9c96da4873bbb20c403131e6a0afe663361fd4b87711e231c"
+    },
+    {
+      "path": "src/models/contracts.ts",
+      "bytes": 5491,
+      "sha256": "65f5fe7ccfdab5ae14c2936f4b8b1f0d475a4c1b303336d5613c7b4e74238d47"
+    },
+    {
+      "path": "src/models/validators.d.ts",
+      "bytes": 996,
+      "sha256": "a24d8b057ddf1142bc25d4b9cacbf4b8f65eeff614bf712418aeed106db88f4d"
+    },
+    {
+      "path": "src/models/validators.js",
+      "bytes": 337419,
+      "sha256": "0a0a82543842ce0b48729b876c6f59f4942c1be2dafa7dfa106dd028f1b547e1"
+    },
+    {
+      "path": "src/styles/base.css",
+      "bytes": 451,
+      "sha256": "c96598a7fbd040c117e74d0b1f91fb04650b8590304204f1a4c21027b266522e"
+    },
+    {
+      "path": "src/vite-env.d.ts",
+      "bytes": 38,
+      "sha256": "65996936fbb042915f7b74a200fcdde7e410f32a669b1ab9597cfaa4b0faddb5"
+    },
+    {
+      "path": "tests/app/catalogue.test.ts",
+      "bytes": 9428,
+      "sha256": "cab704f815f936953d4f313df0d96ffe70a98043e244375d8773cb429c339696"
+    },
+    {
+      "path": "tests/app/release-guards.test.ts",
+      "bytes": 1004,
+      "sha256": "53eb3e4ba3fb782b04afab0722e273f5be4f0841a27d36c1ee42f800d403d332"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 422,
+      "sha256": "ba3d8ef86166f1d6ae4f9a27d57733c36c3682498f66fc62ea3ff7ac578c9826"
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 227,
+      "sha256": "6d7d32fe63e47990cb00a55edcc2111cea3be10dfac231cd32f6318f724de181"
+    }
+  ],
+  "documentationLinks": "passed"
+}

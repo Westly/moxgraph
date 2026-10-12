@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "observedAt": "2026-10-11T21:48:40.854Z",
+  "origin": "https://moxgraph-import-probe.pages.dev",
+  "method": "GET",
+  "mode": "cors",
+  "credentials": "omit",
+  "customHeaders": false,
+  "provider": "moxfield",
+  "url": "https://api.moxfield.com/v2/decks/all/zB7a13TqOUWlUZuylE905Q",
+  "outcome": "failed",
+  "error": {
+    "name": "TypeError",
+    "message": "Failed to fetch"
+  },
+  "note": "A failed fetch alone does not distinguish CORS, a challenge, or network failure. Inspect the browser console for the cause. No response body is retained."
+}

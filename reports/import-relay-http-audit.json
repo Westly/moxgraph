@@ -1,0 +1,62 @@
+[
+  {
+    "observedAt": "2026-10-11T22:21:03.925106+00:00",
+    "provider": "moxfield",
+    "deckId": "3x55_3CFz060qxL2xac3NA",
+    "url": "https://moxgraph-import-relay-probe.westlywhite.workers.dev/api/moxfield/3x55_3CFz060qxL2xac3NA",
+    "status": 200,
+    "bodyBytes": 566598,
+    "bodySha256": "759ca270105c864e1f4ad1b8f7b20f550335f5ddbb704a61b0e57acedd7d4ecc",
+    "printingRows": 111,
+    "selectedPrintingRowsEqualDirectFixture": true,
+    "requestOrigin": "https://moxgraph-import-probe.pages.dev",
+    "headers": {
+      "content-type": "application/json; charset=utf-8",
+      "access-control-allow-origin": "https://moxgraph-import-probe.pages.dev",
+      "cache-control": "no-store",
+      "vary": "Origin",
+      "x-content-type-options": "nosniff"
+    },
+    "isBrowserTest": false
+  },
+  {
+    "observedAt": "2026-10-11T22:21:06.467133+00:00",
+    "provider": "moxfield",
+    "deckId": "zB7a13TqOUWlUZuylE905Q",
+    "url": "https://moxgraph-import-relay-probe.westlywhite.workers.dev/api/moxfield/zB7a13TqOUWlUZuylE905Q",
+    "status": 200,
+    "bodyBytes": 741307,
+    "bodySha256": "68623a56aed49f20294b6de6f6b91590f6aecf332cd84d4aa4f182455b9b0f62",
+    "printingRows": 126,
+    "selectedPrintingRowsEqualDirectFixture": true,
+    "requestOrigin": "https://moxgraph-import-probe.pages.dev",
+    "headers": {
+      "content-type": "application/json; charset=utf-8",
+      "access-control-allow-origin": "https://moxgraph-import-probe.pages.dev",
+      "cache-control": "no-store",
+      "vary": "Origin",
+      "x-content-type-options": "nosniff"
+    },
+    "isBrowserTest": false
+  },
+  {
+    "observedAt": "2026-10-11T22:21:07.866008+00:00",
+    "provider": "archidekt",
+    "deckId": "19780118",
+    "url": "https://moxgraph-import-relay-probe.westlywhite.workers.dev/api/archidekt/19780118",
+    "status": 200,
+    "bodyBytes": 360402,
+    "bodySha256": "7c54e49fbbf3b907ea1a0a82bfd4c3d080f22bd1709f8d8f5d558b58f6b298c1",
+    "printingRows": 114,
+    "selectedPrintingRowsEqualDirectFixture": true,
+    "requestOrigin": "https://moxgraph-import-probe.pages.dev",
+    "headers": {
+      "content-type": "application/json; charset=utf-8",
+      "access-control-allow-origin": "https://moxgraph-import-probe.pages.dev",
+      "cache-control": "no-store",
+      "vary": "Origin",
+      "x-content-type-options": "nosniff"
+    },
+    "isBrowserTest": false
+  }
+]

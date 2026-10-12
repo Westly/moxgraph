@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "scope": "MagicCon sections only; no Scryfall identity decisions",
+  "reviewed_at": "2026-10-11",
+  "pairs": [
+    {
+      "guest_id": "378578",
+      "exhibitor_id": "668804",
+      "guest_name": "Cynthia Sheppard",
+      "exhibitor_name": "Cynthia Shepard",
+      "evidence": "Both biographies begin with Cynthia Sheppard, Seattle-area artist, art educator and former MtG art director, and describe the same 2015–2021 role and sets. The showroom's website is cynthia-sheppard.com.",
+      "required_guest_bio_text": "Cynthia Sheppard is a Seattle-area artist",
+      "required_exhibitor_bio_text": "Cynthia Sheppard is a Seattle-area artist"
+    },
+    {
+      "guest_id": "379916",
+      "exhibitor_id": "668846",
+      "guest_name": "Michael Bierek",
+      "exhibitor_name": "Mike Bierek",
+      "evidence": "Both biographies explicitly call the artist Mike Bierek and describe the same illustration and Legion Art Collective tattoo work. The guest's Instagram is mikebierektattoos and the showroom website is michael-bierek.artstation.com.",
+      "required_guest_bio_text": "Mike Bierek is a professional illustrator",
+      "required_exhibitor_bio_text": "Mike Bierek is a professional illustrator"
+    },
+    {
+      "guest_id": "379949",
+      "exhibitor_id": "668866",
+      "guest_name": "Tom Wänerstrand",
+      "exhibitor_name": "Tomas Wanerstrand",
+      "evidence": "The two biographies have the same career, card examples and personal history with an accent difference in their opening name. The showroom biography says Tom Wanerstrand and links tomwanerstrand.com. The attendee is the individual described, not a separate studio inferred from registration fields.",
+      "required_guest_bio_text": "Tom Wänerstrand is an American illustrator",
+      "required_exhibitor_bio_text": "Tom Wanerstrand is an American illustrator"
+    }
+  ]
+}

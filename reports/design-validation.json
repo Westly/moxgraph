@@ -1,0 +1,153 @@
+{
+  "wbs": "6.0",
+  "status": "complete",
+  "reviewedAt": "2026-10-11T23:18:05.348166+00:00",
+  "dataVersion": "v1-0313a3107f243872",
+  "scope": "Logo, CSS and presentation only. Nine-row example is not a live/full import. WBS 7/8 remain unstarted.",
+  "brand": {
+    "concepts": 3,
+    "selection": "card-and-nib",
+    "productionWordmark": "original geometric SVG paths; no font dependency",
+    "svgAssets": 8,
+    "pngAssets": 5
+  },
+  "checks": {
+    "appTests": {
+      "passed": 15,
+      "failed": 0,
+      "command": "npm test",
+      "note": "Windows sandbox os.userInfo ENOMEM requires approved external-sandbox local test run."
+    },
+    "typecheck": "passed via final npm run build",
+    "fullCatalogueAndReferenceAudit": "passed before and after production build",
+    "releaseFiles": 7610,
+    "largestAssetBytes": 1321239,
+    "forbiddenHandlersAndRawData": "absent",
+    "publishedUsableArtistLinks": "all 65 attendee presentations checked",
+    "exampleProvenance": "all 9 selected rows equal provider and baseline objects",
+    "browser": {
+      "engine": "Codex in-app Chromium on Windows",
+      "viewports": [
+        {
+          "width": 1253,
+          "height": 884
+        },
+        {
+          "width": 1280,
+          "height": 720
+        },
+        {
+          "width": 390,
+          "height": 844
+        },
+        {
+          "width": 320,
+          "height": 740
+        }
+      ],
+      "horizontalOverflow": false,
+      "flows": [
+        "single example action opens groups",
+        "different source URL shows unavailable-live-import status",
+        "main+commander: 8 copies / 8 printings / 5 artists",
+        "maybeboard enabled: 9 copies / 9 printings / 6 artists",
+        "search, count sort and reset",
+        "exact image and printing link after expansion",
+        "65 artist cards and source links",
+        "David Palumbo official/Instagram/Scryfall destinations",
+        "Martina Fackova missing portrait",
+        "Richard Kane Ferguson wraps at 320 px",
+        "44 px icon targets and focus tooltip",
+        "intentional first manifest 503, loading/error, explicit retry restores 65 artists"
+      ],
+      "automaticRetries": 0,
+      "finalDesktopPrimaryActionBottomPx": 680.61,
+      "finalDesktopViewportHeightPx": 720,
+      "cardImagesBeforeExpansion": 0,
+      "finalBuildSmoke": "Example action opens five groups with four section controls; no browser errors."
+    }
+  },
+  "contrast": {
+    "ink/paper": 13.06,
+    "muted/paper": 5.53,
+    "muted/tint": 5.173,
+    "white/accent": 7.051,
+    "accent/tint": 6.13,
+    "control_border/white": 3.603
+  },
+  "appShell": {
+    "scope": "HTML/CSS/JS only; excludes data and images",
+    "bytes": 286121,
+    "gzipBytes": 34548
+  },
+  "evidence": [
+    {
+      "path": "reports/screenshots/wbs6-artists.jpg",
+      "bytes": 57132,
+      "sha256": "455ac61ee2dee2101f024ffcf981875aac66f1ad3ddd4456f41be776b2552890"
+    },
+    {
+      "path": "reports/screenshots/wbs6-desktop.jpg",
+      "bytes": 59491,
+      "sha256": "5fda9e7258eed53816277fe06b1619e2308144dd340edc2c760bf32120ae27de"
+    },
+    {
+      "path": "reports/screenshots/wbs6-error.jpg",
+      "bytes": 46453,
+      "sha256": "ae8edaa3791811753afd2c3fe68bb3ad9e4f9571292d0c66be99928c3d2f5071"
+    },
+    {
+      "path": "reports/screenshots/wbs6-mobile.jpg",
+      "bytes": 31288,
+      "sha256": "4a28700153c3cec9b8fd8735e50365373c798fa4f761b2921aebf0eb86bd5f9a"
+    },
+    {
+      "path": "reports/screenshots/wbs6-portrait-fallback.jpg",
+      "bytes": 28372,
+      "sha256": "9bca188d58575a4c8f92411db29dfaff75571748b2fd74bd411f17a85c944985"
+    },
+    {
+      "path": "reports/screenshots/wbs6-results.jpg",
+      "bytes": 53555,
+      "sha256": "81b8bc311f06748091326cbc135987315b71785c2855f73add0b6a02fd5f9e39"
+    }
+  ],
+  "sourceHashes": {
+    "src/app.ts": "9443dab5129d6df0f1759af47a60184c121977a45757a07c9daa42fbcc5904c4",
+    "src/styles/base.css": "d257a406d48bbc8d72c153bde889dd67d6a53e75d0733166e9f38a00698eac8b",
+    "src/ui/components.ts": "4f2f5b6f988db3903bab33d98337a149f72e15e76f0a768825d6f54084da8ba9",
+    "src/demo/deck.json": "2145b66057a7ae05f48f401a29e25099b4fb2741eba27449e9d303d3e5bc54e3",
+    "src/demo/artist-links.json": "abc29fb1706ca4240de1112276d6928d5e023f28fe662288d5dcb75fb2053b69",
+    "index.html": "4412c4669a9ad61b28aa84391b132fa2ab3ab27acfb0edb7873b1972622dc0a6",
+    "docs/design-system.md": "89397409f92b2a48b38eadd575a5dd497a20eb69524297f3c55a406937ce95f9",
+    "ROADMAP.md": "3874fa13c480e1d474ea1b993e2a4494561e564607232817145ebb6881c083e0",
+    "README.md": "8f6b2a989b2b14538b4ef736289f6aa7ce376f2ee651bfb4e185898130e180e5",
+    "tests/app/presentation.test.ts": "3a31b1a282cc6dc099e485d82688eaf1dfceec539c2f6b9f452347e79cb66d40",
+    "scripts/design/create_brand.py": "eb11ec91033794e812b625f7ddf335fc2650f2808767cb307197e1b14be88328",
+    "scripts/design/export-brand.mjs": "b5e4803f7889d8b54c72b480dd62c7a789ffe5bb8d8367a752de4d5eb1cd3cb2",
+    "scripts/design/qa-server.py": "cd5cf5926f2cee6ea0450ff72f5e648c4076512142bbe9f0c0937b113ae08173",
+    "public/brand/concepts.png": "654846141d953e71a52a8bb4d0277ff33ac9b96a8e951d0016939e4355c6ab23",
+    "public/brand/concepts.svg": "98ad15d578526701825ec892cff27c9c4f722fddff96bf233f1a2dd1208e45d4",
+    "public/brand/favicon.svg": "7243bae4d7043203f6585d8be9f7f09768c52da331e75e3530854a2c65fbac95",
+    "public/brand/icon-180.png": "a50822c868fa1bca72b37e15bbc3b744eaabfe31a67afd7298daec804506867a",
+    "public/brand/icon-32.png": "2c2bc154a6ddd52428615beaf5929aba6d61f7dde40918863bb7a8d69453a07d",
+    "public/brand/icon-512.png": "65733650fe39a8459ca083d931e720b0102fdff2f1ac14a6cd8e270e5961c055",
+    "public/brand/mark-ink.svg": "af1e56c11327ba0d03d7ed349ded6568a788d16f6d2321b42be863323c8c6187",
+    "public/brand/mark-white.svg": "bcaa7a6f6ebbadf2472b6d80cea0b7509eb198b5bed3170f8ced787c824f8cdf",
+    "public/brand/mark.svg": "077c3993ea1b40b051b5a9b2d4ec8e6dfd571ac5b875a225bcf8b5833e9f1e2c",
+    "public/brand/wordmark-ink.svg": "593a9c85d1dc5b23875f035f9379ae07fea92420c7184c8cd60c966eee8727cf",
+    "public/brand/wordmark-white.svg": "1f47b0dc6a26eb6366fdfb6b27210f7a557ba789cc21cd6f3fb9edadc24aeeae",
+    "public/brand/wordmark.png": "b2f561aa293e8dc5ae7067d1eef85b3976b94b62abad655954a2e58562f474fc",
+    "public/brand/wordmark.svg": "3707ddcd5aae35b9cb4b710650dc3d1b71c672002d40b8c5be0052c911caefeb",
+    "docs/static-data.md": "8fa641220d7eb39c43edcad89bcae06dc7b6e269f542719f443600a1d8096873"
+  },
+  "blockers": [],
+  "deferred": [
+    "WBS 7 live adapters, identity resolution, multi-face/shared-artist totals",
+    "WBS 8 persistence and backup",
+    "WBS 9 Firefox/Safari/real mobile/screen reader and full accessibility/performance review",
+    "WBS 9 original raw deck metadata transfer target",
+    "WBS 10 hosted headers, Git integration and production-origin proof"
+  ],
+  "cloudOrGitHubMutations": false
+}

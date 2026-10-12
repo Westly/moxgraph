@@ -1,0 +1,187 @@
+{
+  "wbs": "7.0",
+  "generatedAt": "2026-10-12T00:07:13.380Z",
+  "dataVersion": "v1-0313a3107f243872",
+  "networkRequests": 0,
+  "fixtures": [
+    {
+      "title": "⚔️ My Soldiers Rage 😤",
+      "source": "https://moxfield.com/decks/3x55_3CFz060qxL2xac3NA",
+      "format": "moxfield-v2",
+      "lines": 111,
+      "copies": 139,
+      "sections": {
+        "mainboard": 100,
+        "commanders": 1,
+        "sideboard": 8,
+        "maybeboard": 30
+      },
+      "resolution": {
+        "exact": 111,
+        "alias": 0,
+        "manual": 0,
+        "ambiguous": 0,
+        "unknown": 0,
+        "conflict": 0
+      },
+      "nonpaper": [],
+      "defaultView": {
+        "physicalCopies": 17,
+        "sourceLines": 17,
+        "uniquePrintings": 17,
+        "artists": 13
+      },
+      "allSections": {
+        "physicalCopies": 20,
+        "sourceLines": 20,
+        "uniquePrintings": 20,
+        "artists": 15
+      }
+    },
+    {
+      "title": "👻 Casual Orzhov Shenanigans👻",
+      "source": "https://moxfield.com/decks/zB7a13TqOUWlUZuylE905Q",
+      "format": "moxfield-v2",
+      "lines": 126,
+      "copies": 139,
+      "sections": {
+        "mainboard": 99,
+        "commanders": 1,
+        "maybeboard": 39
+      },
+      "resolution": {
+        "exact": 125,
+        "alias": 1,
+        "manual": 0,
+        "ambiguous": 0,
+        "unknown": 0,
+        "conflict": 0
+      },
+      "nonpaper": [],
+      "defaultView": {
+        "physicalCopies": 34,
+        "sourceLines": 21,
+        "uniquePrintings": 21,
+        "artists": 15
+      },
+      "allSections": {
+        "physicalCopies": 39,
+        "sourceLines": 26,
+        "uniquePrintings": 25,
+        "artists": 16
+      }
+    },
+    {
+      "title": "Rog Thras Japanese Evil Twin",
+      "source": "https://archidekt.com/decks/19780118",
+      "format": "archidekt-json",
+      "lines": 114,
+      "copies": 114,
+      "sections": {
+        "sideboard": 14,
+        "mainboard": 98,
+        "commanders": 2
+      },
+      "resolution": {
+        "exact": 114,
+        "alias": 0,
+        "manual": 0,
+        "ambiguous": 0,
+        "unknown": 0,
+        "conflict": 0
+      },
+      "nonpaper": [
+        {
+          "name": "\"Name Sticker\" Goblin",
+          "id": "fd1442b4-da59-4042-835f-143c8dcaa73b"
+        }
+      ],
+      "defaultView": {
+        "physicalCopies": 19,
+        "sourceLines": 19,
+        "uniquePrintings": 19,
+        "artists": 16
+      },
+      "allSections": {
+        "physicalCopies": 23,
+        "sourceLines": 23,
+        "uniquePrintings": 23,
+        "artists": 18
+      }
+    },
+    {
+      "title": "Official Archidekt CSV",
+      "source": null,
+      "format": "archidekt-csv",
+      "lines": 114,
+      "copies": 114,
+      "sections": {
+        "mainboard": 98,
+        "sideboard": 14,
+        "commanders": 2
+      },
+      "resolution": {
+        "exact": 114,
+        "alias": 0,
+        "manual": 0,
+        "ambiguous": 0,
+        "unknown": 0,
+        "conflict": 0
+      },
+      "nonpaper": [
+        {
+          "name": "\"Name Sticker\" Goblin",
+          "id": "fd1442b4-da59-4042-835f-143c8dcaa73b"
+        }
+      ],
+      "defaultView": {
+        "physicalCopies": 19,
+        "sourceLines": 19,
+        "uniquePrintings": 19,
+        "artists": 16
+      },
+      "allSections": {
+        "physicalCopies": 23,
+        "sourceLines": 23,
+        "uniquePrintings": 23,
+        "artists": 18
+      }
+    },
+    {
+      "title": "Official Orzhov text",
+      "source": null,
+      "format": "moxfield-text",
+      "lines": 87,
+      "copies": 100,
+      "sections": {
+        "imported": 100
+      },
+      "resolution": {
+        "exact": 0,
+        "alias": 0,
+        "manual": 0,
+        "ambiguous": 86,
+        "unknown": 1,
+        "conflict": 0
+      },
+      "nonpaper": [],
+      "defaultView": {
+        "physicalCopies": 0,
+        "sourceLines": 0,
+        "uniquePrintings": 0,
+        "artists": 0
+      },
+      "allSections": {
+        "physicalCopies": 0,
+        "sourceLines": 0,
+        "uniquePrintings": 0,
+        "artists": 0
+      }
+    }
+  ],
+  "supplementalV2": {
+    "accepted": false,
+    "reason": "Moxfield supplied inconsistent mainboard quantities: 1187 copies versus 975 declared. Nothing was imported. Refresh the source or use a complete export; no quantities have been guessed.",
+    "fallback": "Explicit fresh v2 import or complete export only. No automatic v3 request."
+  }
+}

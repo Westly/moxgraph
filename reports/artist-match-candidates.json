@@ -1,0 +1,1350 @@
+{
+  "snapshot_id": "magiccon-atlanta-2026-20261011T195408Z",
+  "attendees": [
+    {
+      "guest_id": "379869",
+      "event_names": [
+        "Aaron Miller",
+        "Aaron Miller"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "fc021f3d-773a-4706-bbe7-f602324f511f",
+          "names": [
+            "Aaron Miller"
+          ],
+          "method": "exact",
+          "score": 1.0
+        },
+        {
+          "scryfall_artist_id": "d2200e9f-c40d-45d4-8d87-3f1412c61770",
+          "names": [
+            "Ian Miller"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.8182
+        },
+        {
+          "scryfall_artist_id": "0e1cb038-c983-4291-9759-bfd71fb6afb0",
+          "names": [
+            "Danny Miller"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "guest_id": "379885",
+      "event_names": [
+        "Alayna Danner",
+        "Alayna Danner"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "bb677b1a-ce51-4888-83d6-5a94de461ff9",
+          "names": [
+            "Alayna Danner"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379918",
+      "event_names": [
+        "Alessandra Pisano ",
+        "Alessandra Pisano"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "15869690-bf3c-4498-a577-409a6bde5c83",
+          "names": [
+            "Alessandra Pisano"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379908",
+      "event_names": [
+        "Alix Branwyn",
+        "Alix Branwyn"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "4f0a0e38-d74c-4e0b-ad91-fecccb1afa5d",
+          "names": [
+            "Alix Branwyn"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379919",
+      "event_names": [
+        "Andrea Radeck",
+        "Andrea Radeck"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "2560b932-96b5-4308-9d32-298641ef326e",
+          "names": [
+            "Andrea Radeck",
+            "Andrea Radeck, age 35"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379937",
+      "event_names": [
+        "Ben Hill",
+        "Ben Hill"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "35785d29-9538-407e-852d-a9b3ab626388",
+          "names": [
+            "Ben Hill"
+          ],
+          "method": "exact",
+          "score": 1.0
+        },
+        {
+          "scryfall_artist_id": "02d444dc-4018-4e16-b9ee-bc469b1d524f",
+          "names": [
+            "Ben Millar"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.7778
+        }
+      ]
+    },
+    {
+      "guest_id": "379920",
+      "event_names": [
+        "Bruce Brenneise",
+        "Bruce Brenneise"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "91d65465-e8a6-4a4e-8b0e-0e07466cfa0f",
+          "names": [
+            "Bruce Brenneise"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379887",
+      "event_names": [
+        "Chase Stone",
+        "Chase Stone"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "2d753f61-5f5b-468e-97ea-8e0fdd347340",
+          "names": [
+            "Chase Stone"
+          ],
+          "method": "exact",
+          "score": 1.0
+        },
+        {
+          "scryfall_artist_id": "eea62687-23a7-4525-9db3-3c1051f45f4d",
+          "names": [
+            "Chic Stone"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.7619
+        },
+        {
+          "scryfall_artist_id": "fe11c66b-bf9e-4417-815c-81c5caf924b3",
+          "names": [
+            "Alex Stone"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.7619
+        }
+      ]
+    },
+    {
+      "guest_id": "379888",
+      "event_names": [
+        "Chris Rahn",
+        "Chris Rahn"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "7742047e-0f80-4c0f-a530-d07460165e86",
+          "names": [
+            "Chris Rahn",
+            "Chris Rahn, age 36"
+          ],
+          "method": "exact",
+          "score": 1.0
+        },
+        {
+          "scryfall_artist_id": "0e28b51a-3b7f-47a3-9248-91257ad9ccba",
+          "names": [
+            "Chris Tulach"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.7273
+        },
+        {
+          "scryfall_artist_id": "8a2fd5b7-a191-44ca-8e68-3bbfc93676a0",
+          "names": [
+            "Chris Mangum"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.7273
+        },
+        {
+          "scryfall_artist_id": "a8e7b854-b15a-421a-b66d-6e68187ae285",
+          "names": [
+            "Chris Rallis"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.7273
+        },
+        {
+          "scryfall_artist_id": "b9c49463-6f55-4039-9d32-c02a658af100",
+          "names": [
+            "Chris Seaman"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.7273
+        },
+        {
+          "scryfall_artist_id": "3a80465c-a1dc-4e1f-8ced-d31dd013d57e",
+          "names": [
+            "Chris Appelhans"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.72
+        }
+      ]
+    },
+    {
+      "guest_id": "379889",
+      "event_names": [
+        "Chris Rallis",
+        "Chris Rallis"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "a8e7b854-b15a-421a-b66d-6e68187ae285",
+          "names": [
+            "Chris Rallis"
+          ],
+          "method": "exact",
+          "score": 1.0
+        },
+        {
+          "scryfall_artist_id": "7742047e-0f80-4c0f-a530-d07460165e86",
+          "names": [
+            "Chris Rahn",
+            "Chris Rahn, age 36"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.7273
+        }
+      ]
+    },
+    {
+      "guest_id": "379890",
+      "event_names": [
+        "Chris Seaman",
+        "Chris Seaman"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "b9c49463-6f55-4039-9d32-c02a658af100",
+          "names": [
+            "Chris Seaman"
+          ],
+          "method": "exact",
+          "score": 1.0
+        },
+        {
+          "scryfall_artist_id": "8a2fd5b7-a191-44ca-8e68-3bbfc93676a0",
+          "names": [
+            "Chris Mangum"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.75
+        },
+        {
+          "scryfall_artist_id": "7742047e-0f80-4c0f-a530-d07460165e86",
+          "names": [
+            "Chris Rahn",
+            "Chris Rahn, age 36"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.7273
+        },
+        {
+          "scryfall_artist_id": "b3a27389-05c5-4d16-8ce6-9dd315a99530",
+          "names": [
+            "Chris Dien"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.7273
+        }
+      ]
+    },
+    {
+      "guest_id": "378578",
+      "event_names": [
+        "Cynthia Sheppard",
+        "Cynthia Shepard"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "9dfbdd58-65e6-40cf-951a-80e141061939",
+          "names": [
+            "Cynthia Sheppard"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379921",
+      "event_names": [
+        "Danny Schwartz",
+        "Danny Schwartz"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "48e30a4a-5b4d-48e2-9c53-03125085374e",
+          "names": [
+            "Danny Schwartz"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379892",
+      "event_names": [
+        "Daren Bader",
+        "Daren Bader"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "7da1a585-c875-45e4-b322-5da9e8e1f651",
+          "names": [
+            "Daren Bader"
+          ],
+          "method": "exact",
+          "score": 1.0
+        },
+        {
+          "scryfall_artist_id": "a8c4ef83-94ad-41c7-861f-95debea16868",
+          "names": [
+            "Drew Baker"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.7619
+        }
+      ]
+    },
+    {
+      "guest_id": "379894",
+      "event_names": [
+        "David Palumbo",
+        "David Palumbo"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "04ce1c75-e30c-4b7a-8cb0-b53e4ecc2f39",
+          "names": [
+            "David Palumbo"
+          ],
+          "method": "exact",
+          "score": 1.0
+        },
+        {
+          "scryfall_artist_id": "4b065a8b-3d15-45cf-bd6f-f3736df6292b",
+          "names": [
+            "David Szabo"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.75
+        }
+      ]
+    },
+    {
+      "guest_id": "379895",
+      "event_names": [
+        "Douglas Shuler",
+        "Douglas Shuler"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "a9ddb513-51c7-455c-ab8f-5b90aae9f75b",
+          "names": [
+            "Douglas Shuler"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379909",
+      "event_names": [
+        "Eli  Minaya",
+        "Eli Minaya"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "fee369ac-08b5-4a69-8ef8-f2b42b81e807",
+          "names": [
+            "Eli Minaya"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379896",
+      "event_names": [
+        "Eric Deschamps",
+        "Eric Deschamps"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "37970e22-9cee-44c1-af44-5ee27cf26b76",
+          "names": [
+            "Eric Deschamps"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379910",
+      "event_names": [
+        "Evyn Fong",
+        "Evyn Fong"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "6777be9f-5724-4fdb-b6a0-a83f63efa4ca",
+          "names": [
+            "Evyn Fong"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379897",
+      "event_names": [
+        "Gabor Szikszai",
+        "Gabor Szikszai"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "44c3877f-8771-43dc-9e40-f4c765f59d2e",
+          "names": [
+            "Gabor Szikszai"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379899",
+      "event_names": [
+        "Izzy",
+        "Izzy"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "2c3d2473-ff5d-4309-8194-e0b2def2ab65",
+          "names": [
+            "Izzy"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379922",
+      "event_names": [
+        "Jarel Threat",
+        "Jarel Threat"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "0fd89fbd-bd59-4ded-890e-731a8982f278",
+          "names": [
+            "Jarel Threat"
+          ],
+          "method": "exact",
+          "score": 1.0
+        },
+        {
+          "scryfall_artist_id": "acaba9f2-ef15-499c-9660-bf91cab2dbd6",
+          "names": [
+            "Ariel Orea"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.7273
+        }
+      ]
+    },
+    {
+      "guest_id": "379900",
+      "event_names": [
+        "Jason Engle",
+        "Jason Engle"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "02e2b5de-4341-464c-8fdb-a1adbf873bc0",
+          "names": [
+            "Jason A. Engle"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.88
+        },
+        {
+          "scryfall_artist_id": "0df1a507-bb72-4353-a35c-ad7a554fc93f",
+          "names": [
+            "Jason Seiler"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.7826
+        },
+        {
+          "scryfall_artist_id": "064b9176-e325-44f6-a413-2cadb7505851",
+          "names": [
+            "Jason Kang"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.7619
+        },
+        {
+          "scryfall_artist_id": "af42a44c-8ec3-47a7-9047-5d29ddad186d",
+          "names": [
+            "Jason Felix"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.7273
+        }
+      ]
+    },
+    {
+      "guest_id": "379901",
+      "event_names": [
+        "Jeff Miracola",
+        "Jeff Miracola"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "9b465bde-3656-4495-ace4-af4ce29999ed",
+          "names": [
+            "Jeff Miracola"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379911",
+      "event_names": [
+        "Joe Slucher",
+        "Joe Slucher"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "13b6c9ee-f7a8-46a4-934f-ea6b4a1b14b2",
+          "names": [
+            "Joe Slucher"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379913",
+      "event_names": [
+        "John Stanko",
+        "John stanko"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "b0f038a0-73b5-4806-918e-9cd11b5f92e1",
+          "names": [
+            "John Stanko"
+          ],
+          "method": "exact",
+          "score": 1.0
+        },
+        {
+          "scryfall_artist_id": "0dba3399-1f74-4955-9e86-4e1687d9798a",
+          "names": [
+            "Ono Tako"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.7368
+        }
+      ]
+    },
+    {
+      "guest_id": "379938",
+      "event_names": [
+        "Josiah \"Jo\" Cameron ",
+        "Josiah \"Jo\" Cameron"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "2a8b4b91-ddff-4477-ba10-b92bc04a4358",
+          "names": [
+            "Josiah \"Jo\" Cameron"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379926",
+      "event_names": [
+        "Josu Solano",
+        "Josu Solano"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "fb7b61a8-13c5-4813-a749-9d3396801906",
+          "names": [
+            "Josu Solano"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379927",
+      "event_names": [
+        "Justine Jones",
+        "Justine Jones"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "51041d8d-35e6-47a2-95b1-528fa4d82134",
+          "names": [
+            "Justine Jones"
+          ],
+          "method": "exact",
+          "score": 1.0
+        },
+        {
+          "scryfall_artist_id": "c9262e90-7510-47d5-a74d-ead450e1d198",
+          "names": [
+            "Justin Ponsor"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.7692
+        },
+        {
+          "scryfall_artist_id": "92f6c2c1-fa57-4b52-99c4-0fd866c13dc9",
+          "names": [
+            "Jaime Jones"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.75
+        },
+        {
+          "scryfall_artist_id": "851c62e2-7fa1-4f75-97b8-bca3d0d6171a",
+          "names": [
+            "Justin Cornell"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.7407
+        }
+      ]
+    },
+    {
+      "guest_id": "379928",
+      "event_names": [
+        "Kai Carpenter",
+        "Kai Carpenter"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "dcd3cf0d-67b7-4b73-8e62-1d318bf6209c",
+          "names": [
+            "Kai Carpenter"
+          ],
+          "method": "exact",
+          "score": 1.0
+        },
+        {
+          "scryfall_artist_id": "e8132c41-342d-4dad-9c49-6fa87ff17395",
+          "names": [
+            "Jeff Carpenter"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.7407
+        }
+      ]
+    },
+    {
+      "guest_id": "379914",
+      "event_names": [
+        "Kaja Foglio",
+        "Kaja Foglio"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "e8b85539-756a-4eac-ac66-a2258d7cf547",
+          "names": [
+            "Kaja Foglio"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379930",
+      "event_names": [
+        "kelogsloops",
+        "kelogsloops"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "10ab6961-89a9-44bf-bf5a-ff2548403a83",
+          "names": [
+            "Kelogsloops"
+          ],
+          "method": "normalized",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379902",
+      "event_names": [
+        "Kieran Yanner",
+        "Kieran Yanner"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "aa7e89ed-d294-4633-9057-ce04dacfcfa4",
+          "names": [
+            "Kieran Yanner"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379915",
+      "event_names": [
+        "Leon Tukker",
+        "Leon Tukker"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "669b8b90-758d-4f9e-b4f7-98cd6742eb97",
+          "names": [
+            "Leon Tukker"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379903",
+      "event_names": [
+        "Lucas Graciano",
+        "Lucas Graciano"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "ce98f39c-7cdd-47e6-a520-6c50443bb4c2",
+          "names": [
+            "Lucas Graciano"
+          ],
+          "method": "exact",
+          "score": 1.0
+        },
+        {
+          "scryfall_artist_id": "09797cd0-90a4-4bd5-8d8a-fc85f3e6d55a",
+          "names": [
+            "Lucas Firmino"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.7407
+        }
+      ]
+    },
+    {
+      "guest_id": "378577",
+      "event_names": [
+        "Mark Poole",
+        "Mark Poole"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "bfdeaf09-f915-4058-8e8b-bcac3bc43c33",
+          "names": [
+            "Mark Poole"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379904",
+      "event_names": [
+        "Mark Tedin",
+        "Mark Tedin"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "9ee9a9cc-c09e-486f-918b-69f80cbc4188",
+          "names": [
+            "Mark Tedin",
+            "Mark “It’s teh-DEEN” Tedin"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379931",
+      "event_names": [
+        "Martina Fačková",
+        "Martina Fačková"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "6338124e-8e53-498d-8bf9-93a55db2f61c",
+          "names": [
+            "Martina Fačková"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379905",
+      "event_names": [
+        "Mathias Kollros",
+        "Mathias Kollros"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "2ae0dd12-047c-4efb-80d7-bccc3bac5fba",
+          "names": [
+            "Mathias Kollros"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379916",
+      "event_names": [
+        "Michael Bierek",
+        "Mike Bierek"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "e5f52ef5-1a2e-4128-90b0-ccc71cd47ea7",
+          "names": [
+            "Mike Bierek"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379907",
+      "event_names": [
+        "Nicholas Gregory",
+        "Nicholas Gregory"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "a1bba8ff-63b4-4786-b1c4-f1bfe5d3ab1c",
+          "names": [
+            "Nicholas Gregory"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379933",
+      "event_names": [
+        "Nino Vecia",
+        "Nino Vecia"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "21466232-678a-4836-89fd-82cb15f52366",
+          "names": [
+            "Nino Vecia"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379934",
+      "event_names": [
+        "Olena \"Lena\" Richards",
+        "Olena \"Lena\" Richards"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "fad4282c-49d1-4b5b-be1d-713369fc8bc8",
+          "names": [
+            "Olena Richards"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.8
+        }
+      ]
+    },
+    {
+      "guest_id": "379936",
+      "event_names": [
+        "Paul Scott Canavan",
+        "Paul Scott Canavan"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "c19bfb77-5099-4f7c-8585-6eaf367712c9",
+          "names": [
+            "Paul Scott Canavan"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379917",
+      "event_names": [
+        "Phil Foglio",
+        "Phil Foglio"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "3bfc0fd7-f6ce-4c3f-a755-aaafc84ac704",
+          "names": [
+            "Phil Foglio",
+            "Claymore J. Flapdoodle"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379923",
+      "event_names": [
+        "Phil Stone",
+        "phil stone"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "86942b2a-49d3-4edd-908c-551f6f07dd00",
+          "names": [
+            "Phil Stone"
+          ],
+          "method": "exact",
+          "score": 1.0
+        },
+        {
+          "scryfall_artist_id": "eea62687-23a7-4525-9db3-3c1051f45f4d",
+          "names": [
+            "Chic Stone"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.8
+        }
+      ]
+    },
+    {
+      "guest_id": "379924",
+      "event_names": [
+        "Pindurski",
+        "PINDURSKI"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "f333a7f0-7330-40e9-8c58-667eea2f0f60",
+          "names": [
+            "PINDURSKI"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379940",
+      "event_names": [
+        "Randy Gallegos",
+        "Randy Gallegos"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "a5048cc7-438a-4378-98e4-da99b78e1db0",
+          "names": [
+            "Randy Gallegos"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379941",
+      "event_names": [
+        "Richard Kane Ferguson",
+        "Richard Kane Ferguson"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "191620ed-2361-444e-96a6-1fe7ce32ef3b",
+          "names": [
+            "Richard Kane Ferguson"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379942",
+      "event_names": [
+        "RK Post",
+        "rk post"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "81ae0f3f-1d88-4125-9aeb-b15b4c734c82",
+          "names": [
+            "rk post"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379943",
+      "event_names": [
+        "Ryan Pancoast",
+        "Ryan Pancoast"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "89cc9475-dda2-4d13-bf88-54b92867a25c",
+          "names": [
+            "Ryan Pancoast"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379944",
+      "event_names": [
+        "Sam Burley",
+        "Sam Burley"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "f89f4b78-cefb-41f7-b7cb-4f4d28de0c4f",
+          "names": [
+            "Sam Burley"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379939",
+      "event_names": [
+        "SchmandrewART ",
+        "SchmandrewART"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "a0310985-79bb-4925-a9be-19e4323a60dc",
+          "names": [
+            "SchmandrewART"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "378595",
+      "event_names": [
+        "Serena Malyon",
+        "Serena Malyon"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "d9fee7a6-7c5e-48a5-8639-bba25abc8a06",
+          "names": [
+            "Serena Malyon"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379945",
+      "event_names": [
+        "Steve Prescott",
+        "Steve Prescott"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "a1139fb8-41f5-4a9e-9a74-f662e1a23b35",
+          "names": [
+            "Steve Prescott",
+            "Steve Prescott, age 48"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379946",
+      "event_names": [
+        "Steven Belledin",
+        "Steven Belledin"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "f07d73b9-52a0-4fe5-858b-61f7b42174a5",
+          "names": [
+            "Steven Belledin"
+          ],
+          "method": "exact",
+          "score": 1.0
+        },
+        {
+          "scryfall_artist_id": "39d8411c-2187-426c-8ad3-d4f688b22db1",
+          "names": [
+            "Steve Ellis"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.7692
+        }
+      ]
+    },
+    {
+      "guest_id": "379947",
+      "event_names": [
+        "Svetlin Velinov",
+        "Svetlin Velinov"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "ffd063ae-c097-4f26-b2e6-b1e2137708bc",
+          "names": [
+            "Svetlin Velinov"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379948",
+      "event_names": [
+        "Thomas Baxa",
+        "Thomas Baxa"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "ff346569-557d-4043-ae44-97c2c7cabd7d",
+          "names": [
+            "Thomas M. Baxa"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.88
+        }
+      ]
+    },
+    {
+      "guest_id": "379949",
+      "event_names": [
+        "Tom Wänerstrand",
+        "Tomas Wanerstrand"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "c4e0aa7c-a008-4d71-80ce-d5a1ca0b251b",
+          "names": [
+            "Tom Wänerstrand"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379950",
+      "event_names": [
+        "Tyler Jacobson",
+        "Tyler Jacobson"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "522af130-8db4-4b4b-950c-6e2b246339cf",
+          "names": [
+            "Tyler Jacobson",
+            "Tyler Jacobson, age 39"
+          ],
+          "method": "exact",
+          "score": 1.0
+        },
+        {
+          "scryfall_artist_id": "a075b28d-d0d7-4fe6-a33b-29aaa48f0c64",
+          "names": [
+            "Tyler Crook"
+          ],
+          "method": "fuzzy_candidate_only",
+          "score": 0.72
+        }
+      ]
+    },
+    {
+      "guest_id": "379951",
+      "event_names": [
+        "Tyler Walpole",
+        "Tyler Walpole"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "70c4c8c7-61a8-44e7-8fb1-161b7f943e7e",
+          "names": [
+            "Tyler Walpole"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379952",
+      "event_names": [
+        "Victor Adame Minguez",
+        "Victor Adame Minguez"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "bd8f7368-5b10-4554-b6b8-d052c6aca89f",
+          "names": [
+            "Victor Adame Minguez"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379953",
+      "event_names": [
+        "Vincent Proce",
+        "Vincent Proce"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "d82b1138-76d3-49f7-9d8c-bc2e2d3e0b0a",
+          "names": [
+            "Vincent Proce"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379955",
+      "event_names": [
+        "Winona Nelson",
+        "Winona Nelson"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "e45fe8d3-75d6-42c9-a2df-e945ad81ea27",
+          "names": [
+            "Winona Nelson"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "guest_id": "379956",
+      "event_names": [
+        "Wizard of Barge",
+        "Wizard of Barge"
+      ],
+      "candidates": [
+        {
+          "scryfall_artist_id": "b1b7118a-fce9-4f28-9617-5cea5146e33c",
+          "names": [
+            "Wizard of Barge"
+          ],
+          "method": "exact",
+          "score": 1.0
+        }
+      ]
+    }
+  ]
+}
