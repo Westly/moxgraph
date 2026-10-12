@@ -8,13 +8,13 @@
     "end": "2026-11-15"
   },
   "location": "Atlanta, GA",
-  "snapshot_id": "magiccon-atlanta-2026-20261011T195408Z",
+  "snapshot_id": "magiccon-atlanta-2026-20261012T180941Z",
   "source_urls": [
     "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
     "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html"
   ],
-  "retrieved_from": "2026-10-11T19:54:08.430483Z",
-  "retrieved_through": "2026-10-11T19:55:36.959126Z",
+  "retrieved_from": "2026-10-12T18:09:41.416934Z",
+  "retrieved_through": "2026-10-12T18:11:08.527822Z",
   "portrait_policy": {
     "mode": "remote_source_url",
     "local_copies": false,
@@ -62,7 +62,7 @@
           "display_name_raw": "Aaron Miller",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379869&guest-name=Aaron-Miller",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:45.464370Z",
+          "retrieved_at": "2026-10-12T18:10:18.953036Z",
           "categories": [
             {
               "id": "20591",
@@ -104,7 +104,7 @@
           "display_name_raw": "Aaron Miller",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668810&exhibitor-name=Aaron-Miller",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:54:58.006212Z",
+          "retrieved_at": "2026-10-12T18:10:31.601921Z",
           "categories": [
             {
               "id": "20591",
@@ -239,7 +239,7 @@
           "display_name_raw": "Alayna Danner",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379885&guest-name=Alayna-Danner",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:47.525009Z",
+          "retrieved_at": "2026-10-12T18:10:20.817537Z",
           "categories": [
             {
               "id": "20591",
@@ -281,7 +281,7 @@
           "display_name_raw": "Alayna Danner",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668811&exhibitor-name=Alayna-Danner",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:54:59.387411Z",
+          "retrieved_at": "2026-10-12T18:10:32.505192Z",
           "categories": [
             {
               "id": "20591",
@@ -416,7 +416,7 @@
           "display_name_raw": "Alessandra Pisano ",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379918&guest-name=Alessandra-Pisano",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:22.779248Z",
+          "retrieved_at": "2026-10-12T18:09:56.280502Z",
           "categories": [
             {
               "id": "20601",
@@ -458,7 +458,7 @@
           "display_name_raw": "Alessandra Pisano",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668812&exhibitor-name=Alessandra-Pisano",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:54:59.352213Z",
+          "retrieved_at": "2026-10-12T18:10:32.747218Z",
           "categories": [
             {
               "id": "20591",
@@ -593,7 +593,7 @@
           "display_name_raw": "Alix Branwyn",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379908&guest-name=Alix-Branwyn",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:16.814550Z",
+          "retrieved_at": "2026-10-12T18:09:50.964683Z",
           "categories": [
             {
               "id": "20591",
@@ -635,7 +635,7 @@
           "display_name_raw": "Alix Branwyn",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668813&exhibitor-name=Alix-Branwyn",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:54:59.775743Z",
+          "retrieved_at": "2026-10-12T18:10:33.293981Z",
           "categories": [
             {
               "id": "20591",
@@ -770,7 +770,7 @@
           "display_name_raw": "Andrea Radeck",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379919&guest-name=Andrea-Radeck",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:22.629544Z",
+          "retrieved_at": "2026-10-12T18:09:56.526836Z",
           "categories": [
             {
               "id": "20601",
@@ -812,7 +812,7 @@
           "display_name_raw": "Andrea Radeck",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668814&exhibitor-name=Andrea-Radeck",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:02.195787Z",
+          "retrieved_at": "2026-10-12T18:10:34.155085Z",
           "categories": [
             {
               "id": "20591",
@@ -912,7 +912,7 @@
           "display_name_raw": "Ben Hill",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379937&guest-name=Ben-Hill",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:32.046851Z",
+          "retrieved_at": "2026-10-12T18:10:05.669817Z",
           "categories": [
             {
               "id": "20591",
@@ -954,7 +954,7 @@
           "display_name_raw": "Ben Hill",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668872&exhibitor-name=Ben-Hill",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:01.539005Z",
+          "retrieved_at": "2026-10-12T18:10:34.488253Z",
           "categories": [
             {
               "id": "20591",
@@ -1089,7 +1089,7 @@
           "display_name_raw": "Bruce Brenneise",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379920&guest-name=Bruce-Brenneise",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:22.787269Z",
+          "retrieved_at": "2026-10-12T18:09:57.036953Z",
           "categories": [
             {
               "id": "20601",
@@ -1131,7 +1131,7 @@
           "display_name_raw": "Bruce Brenneise",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668817&exhibitor-name=Bruce-Brenneise",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:02.325586Z",
+          "retrieved_at": "2026-10-12T18:10:35.035166Z",
           "categories": [
             {
               "id": "20591",
@@ -1266,7 +1266,7 @@
           "display_name_raw": "Chase Stone",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379887&guest-name=Chase-Stone",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:47.799467Z",
+          "retrieved_at": "2026-10-12T18:10:21.178852Z",
           "categories": [
             {
               "id": "20591",
@@ -1323,7 +1323,7 @@
           "display_name_raw": "Chase Stone",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668818&exhibitor-name=Chase-Stone",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:03.519138Z",
+          "retrieved_at": "2026-10-12T18:10:35.887671Z",
           "categories": [
             {
               "id": "20591",
@@ -1472,7 +1472,7 @@
           "display_name_raw": "Chris Rahn",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379888&guest-name=Chris-Rahn",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:47.967928Z",
+          "retrieved_at": "2026-10-12T18:10:21.576110Z",
           "categories": [
             {
               "id": "20591",
@@ -1514,7 +1514,7 @@
           "display_name_raw": "Chris Rahn",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668819&exhibitor-name=Chris-Rahn",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:03.988000Z",
+          "retrieved_at": "2026-10-12T18:10:36.254791Z",
           "categories": [
             {
               "id": "20591",
@@ -1649,7 +1649,7 @@
           "display_name_raw": "Chris Rallis",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379889&guest-name=Chris-Rallis",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:49.305238Z",
+          "retrieved_at": "2026-10-12T18:10:22.567071Z",
           "categories": [
             {
               "id": "20591",
@@ -1691,7 +1691,7 @@
           "display_name_raw": "Chris Rallis",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668850&exhibitor-name=Chris-Rallis",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:04.304361Z",
+          "retrieved_at": "2026-10-12T18:10:36.759125Z",
           "categories": [
             {
               "id": "20591",
@@ -1826,7 +1826,7 @@
           "display_name_raw": "Chris Seaman",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379890&guest-name=Chris-Seaman",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:49.630987Z",
+          "retrieved_at": "2026-10-12T18:10:23.027920Z",
           "categories": [
             {
               "id": "20601",
@@ -1868,7 +1868,7 @@
           "display_name_raw": "Chris Seaman",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668820&exhibitor-name=Chris-Seaman",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:05.580081Z",
+          "retrieved_at": "2026-10-12T18:10:37.609289Z",
           "categories": [
             {
               "id": "20591",
@@ -2003,7 +2003,7 @@
           "display_name_raw": "Cynthia Sheppard",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=378578&guest-name=Cynthia-Sheppard",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:45.698444Z",
+          "retrieved_at": "2026-10-12T18:10:19.118822Z",
           "categories": [
             {
               "id": "20611",
@@ -2065,7 +2065,7 @@
           "display_name_raw": "Cynthia Shepard",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668804&exhibitor-name=Cynthia-Shepard",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:54:56.190216Z",
+          "retrieved_at": "2026-10-12T18:10:29.914865Z",
           "categories": [
             {
               "id": "20591",
@@ -2215,7 +2215,7 @@
           "display_name_raw": "Danny Schwartz",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379921&guest-name=Danny-Schwartz",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:24.559497Z",
+          "retrieved_at": "2026-10-12T18:09:58.032884Z",
           "categories": [
             {
               "id": "20601",
@@ -2257,7 +2257,7 @@
           "display_name_raw": "Danny Schwartz",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668822&exhibitor-name=Danny-Schwartz",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:05.885839Z",
+          "retrieved_at": "2026-10-12T18:10:37.982176Z",
           "categories": [
             {
               "id": "20591",
@@ -2392,7 +2392,7 @@
           "display_name_raw": "Daren Bader",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379892&guest-name=Daren-Bader",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:49.913548Z",
+          "retrieved_at": "2026-10-12T18:10:23.472654Z",
           "categories": [
             {
               "id": "20591",
@@ -2449,7 +2449,7 @@
           "display_name_raw": "Daren Bader",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668823&exhibitor-name=Daren-Bader",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:06.188369Z",
+          "retrieved_at": "2026-10-12T18:10:38.434184Z",
           "categories": [
             {
               "id": "20591",
@@ -2598,7 +2598,7 @@
           "display_name_raw": "David Palumbo",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379894&guest-name=David-Palumbo",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:50.350253Z",
+          "retrieved_at": "2026-10-12T18:10:24.472474Z",
           "categories": [
             {
               "id": "20591",
@@ -2655,7 +2655,7 @@
           "display_name_raw": "David Palumbo",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668824&exhibitor-name=David-Palumbo",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:06.821178Z",
+          "retrieved_at": "2026-10-12T18:10:39.149321Z",
           "categories": [
             {
               "id": "20591",
@@ -2804,7 +2804,7 @@
           "display_name_raw": "Douglas Shuler",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379895&guest-name=Douglas-Shuler",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:51.374197Z",
+          "retrieved_at": "2026-10-12T18:10:24.767150Z",
           "categories": [
             {
               "id": "20591",
@@ -2846,7 +2846,7 @@
           "display_name_raw": "Douglas Shuler",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668825&exhibitor-name=Douglas-Shuler",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:07.584492Z",
+          "retrieved_at": "2026-10-12T18:10:39.657983Z",
           "categories": [
             {
               "id": "20591",
@@ -2981,7 +2981,7 @@
           "display_name_raw": "Eli  Minaya",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379909&guest-name=Eli-Minaya",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:17.062591Z",
+          "retrieved_at": "2026-10-12T18:09:51.374017Z",
           "categories": [
             {
               "id": "20601",
@@ -3023,7 +3023,7 @@
           "display_name_raw": "Eli Minaya",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668826&exhibitor-name=Eli-Minaya",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:07.992905Z",
+          "retrieved_at": "2026-10-12T18:10:40.126897Z",
           "categories": [
             {
               "id": "20591",
@@ -3158,7 +3158,7 @@
           "display_name_raw": "Eric Deschamps",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379896&guest-name=Eric-Deschamps",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:51.948211Z",
+          "retrieved_at": "2026-10-12T18:10:25.341347Z",
           "categories": [
             {
               "id": "20601",
@@ -3215,7 +3215,7 @@
           "display_name_raw": "Eric Deschamps",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668827&exhibitor-name=Eric-Deschamps",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:09.010033Z",
+          "retrieved_at": "2026-10-12T18:10:41.282633Z",
           "categories": [
             {
               "id": "20591",
@@ -3364,7 +3364,7 @@
           "display_name_raw": "Evyn Fong",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379910&guest-name=Evyn-Fong",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:17.099070Z",
+          "retrieved_at": "2026-10-12T18:09:51.271502Z",
           "categories": [
             {
               "id": "20601",
@@ -3435,7 +3435,7 @@
           "display_name_raw": "Evyn Fong",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668828&exhibitor-name=Evyn-Fong",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:09.636350Z",
+          "retrieved_at": "2026-10-12T18:10:41.715608Z",
           "categories": [
             {
               "id": "20591",
@@ -3570,7 +3570,7 @@
           "display_name_raw": "Gabor Szikszai",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379897&guest-name=Gabor-Szikszai",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:52.293979Z",
+          "retrieved_at": "2026-10-12T18:10:26.465222Z",
           "categories": [
             {
               "id": "20591",
@@ -3612,7 +3612,7 @@
           "display_name_raw": "Gabor Szikszai",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668829&exhibitor-name=Gabor-Szikszai",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:09.729470Z",
+          "retrieved_at": "2026-10-12T18:10:41.866611Z",
           "categories": [
             {
               "id": "20591",
@@ -3747,7 +3747,7 @@
           "display_name_raw": "Izzy",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379899&guest-name=Izzy",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:53.437268Z",
+          "retrieved_at": "2026-10-12T18:10:26.564490Z",
           "categories": [
             {
               "id": "20591",
@@ -3804,7 +3804,7 @@
           "display_name_raw": "Izzy",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668830&exhibitor-name=Izzy",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:10.736932Z",
+          "retrieved_at": "2026-10-12T18:10:42.893839Z",
           "categories": [
             {
               "id": "20591",
@@ -3953,7 +3953,7 @@
           "display_name_raw": "Jarel Threat",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379922&guest-name=Jarel-Threat",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:24.659538Z",
+          "retrieved_at": "2026-10-12T18:09:58.280257Z",
           "categories": [
             {
               "id": "20601",
@@ -4052,7 +4052,7 @@
           "display_name_raw": "Jarel Threat",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668831&exhibitor-name=Jarel-Threat",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:11.509889Z",
+          "retrieved_at": "2026-10-12T18:10:43.331169Z",
           "categories": [
             {
               "id": "20591",
@@ -4243,7 +4243,7 @@
           "display_name_raw": "Jason Engle",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379900&guest-name=Jason-Engle",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:53.849065Z",
+          "retrieved_at": "2026-10-12T18:10:27.114458Z",
           "categories": [
             {
               "id": "20591",
@@ -4285,7 +4285,7 @@
           "display_name_raw": "Jason Engle",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668832&exhibitor-name=Jason-Engle",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:11.735459Z",
+          "retrieved_at": "2026-10-12T18:10:43.594628Z",
           "categories": [
             {
               "id": "20591",
@@ -4392,7 +4392,7 @@
           "display_name_raw": "Jeff Miracola",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379901&guest-name=Jeff-Miracola",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:54.202013Z",
+          "retrieved_at": "2026-10-12T18:10:28.048594Z",
           "categories": [
             {
               "id": "20591",
@@ -4449,7 +4449,7 @@
           "display_name_raw": "Jeff Miracola",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668833&exhibitor-name=Jeff-Miracola",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:12.685376Z",
+          "retrieved_at": "2026-10-12T18:10:44.961453Z",
           "categories": [
             {
               "id": "20591",
@@ -4570,7 +4570,7 @@
           "display_name_raw": "Joe Slucher",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379911&guest-name=Joe-Slucher",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:18.849547Z",
+          "retrieved_at": "2026-10-12T18:09:52.727812Z",
           "categories": [
             {
               "id": "20591",
@@ -4612,7 +4612,7 @@
           "display_name_raw": "Joe Slucher",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668834&exhibitor-name=Joe-Slucher",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:13.182809Z",
+          "retrieved_at": "2026-10-12T18:10:44.934768Z",
           "categories": [
             {
               "id": "20591",
@@ -4740,7 +4740,7 @@
           "display_name_raw": "John Stanko",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379913&guest-name=John-Stanko",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:18.988559Z",
+          "retrieved_at": "2026-10-12T18:09:53.226660Z",
           "categories": [
             {
               "id": "20601",
@@ -4775,7 +4775,7 @@
           "display_name_raw": "John stanko",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668835&exhibitor-name=John-stanko",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:13.649765Z",
+          "retrieved_at": "2026-10-12T18:10:45.357465Z",
           "categories": [
             {
               "id": "20591",
@@ -4875,7 +4875,7 @@
           "display_name_raw": "Josiah \"Jo\" Cameron ",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379938&guest-name=Josiah-and-quotJo-and-quot-Cameron",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:32.272898Z",
+          "retrieved_at": "2026-10-12T18:10:05.850336Z",
           "categories": [
             {
               "id": "20601",
@@ -4917,7 +4917,7 @@
           "display_name_raw": "Josiah \"Jo\" Cameron",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668871&exhibitor-name=Josiah-Jo-Cameron",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:14.455982Z",
+          "retrieved_at": "2026-10-12T18:10:46.647947Z",
           "categories": [
             {
               "id": "20591",
@@ -5052,7 +5052,7 @@
           "display_name_raw": "Josu Solano",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379926&guest-name=Josu-Solano",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:26.544657Z",
+          "retrieved_at": "2026-10-12T18:10:00.027249Z",
           "categories": [
             {
               "id": "20591",
@@ -5087,7 +5087,7 @@
           "display_name_raw": "Josu Solano",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668836&exhibitor-name=Josu-Solano",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:15.227232Z",
+          "retrieved_at": "2026-10-12T18:10:46.755407Z",
           "categories": [
             {
               "id": "20591",
@@ -5222,7 +5222,7 @@
           "display_name_raw": "Justine Jones",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379927&guest-name=Justine-Jones",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:26.969400Z",
+          "retrieved_at": "2026-10-12T18:10:01.411532Z",
           "categories": [
             {
               "id": "20601",
@@ -5293,7 +5293,7 @@
           "display_name_raw": "Justine Jones",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668837&exhibitor-name=Justine-Jones",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:15.511207Z",
+          "retrieved_at": "2026-10-12T18:10:47.161841Z",
           "categories": [
             {
               "id": "20591",
@@ -5456,7 +5456,7 @@
           "display_name_raw": "Kai Carpenter",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379928&guest-name=Kai-Carpenter",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:28.369879Z",
+          "retrieved_at": "2026-10-12T18:10:02.175180Z",
           "categories": [
             {
               "id": "20591",
@@ -5498,7 +5498,7 @@
           "display_name_raw": "Kai Carpenter",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668838&exhibitor-name=Kai-Carpenter",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:16.334753Z",
+          "retrieved_at": "2026-10-12T18:10:48.551298Z",
           "categories": [
             {
               "id": "20591",
@@ -5633,7 +5633,7 @@
           "display_name_raw": "Kaja Foglio",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379914&guest-name=Kaja-Foglio",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:18.913302Z",
+          "retrieved_at": "2026-10-12T18:09:53.064600Z",
           "categories": [
             {
               "id": "20601",
@@ -5683,7 +5683,7 @@
           "display_name_raw": "Kaja Foglio",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668858&exhibitor-name=Kaja-Foglio",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:17.184790Z",
+          "retrieved_at": "2026-10-12T18:10:48.703149Z",
           "categories": [
             {
               "id": "20591",
@@ -5832,7 +5832,7 @@
           "display_name_raw": "kelogsloops",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379930&guest-name=kelogsloops",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:28.538080Z",
+          "retrieved_at": "2026-10-12T18:10:02.184688Z",
           "categories": [
             {
               "id": "20601",
@@ -5889,7 +5889,7 @@
           "display_name_raw": "kelogsloops",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668839&exhibitor-name=kelogsloops",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:17.262356Z",
+          "retrieved_at": "2026-10-12T18:10:48.927805Z",
           "categories": [
             {
               "id": "20591",
@@ -6038,7 +6038,7 @@
           "display_name_raw": "Kieran Yanner",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379902&guest-name=Kieran-Yanner",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:55.267335Z",
+          "retrieved_at": "2026-10-12T18:10:28.490627Z",
           "categories": [
             {
               "id": "20601",
@@ -6095,7 +6095,7 @@
           "display_name_raw": "Kieran Yanner",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668840&exhibitor-name=Kieran-Yanner",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:18.374202Z",
+          "retrieved_at": "2026-10-12T18:10:50.514319Z",
           "categories": [
             {
               "id": "20591",
@@ -6244,7 +6244,7 @@
           "display_name_raw": "Leon Tukker",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379915&guest-name=Leon-Tukker",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:20.905892Z",
+          "retrieved_at": "2026-10-12T18:09:54.493873Z",
           "categories": [
             {
               "id": "20601",
@@ -6301,7 +6301,7 @@
           "display_name_raw": "Leon Tukker",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668841&exhibitor-name=Leon-Tukker",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:18.893863Z",
+          "retrieved_at": "2026-10-12T18:10:50.472535Z",
           "categories": [
             {
               "id": "20591",
@@ -6450,7 +6450,7 @@
           "display_name_raw": "Lucas Graciano",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379903&guest-name=Lucas-Graciano",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:55.662159Z",
+          "retrieved_at": "2026-10-12T18:10:28.837178Z",
           "categories": [
             {
               "id": "20601",
@@ -6521,7 +6521,7 @@
           "display_name_raw": "Lucas Graciano",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668842&exhibitor-name=Lucas-Graciano",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:19.065078Z",
+          "retrieved_at": "2026-10-12T18:10:50.823744Z",
           "categories": [
             {
               "id": "20591",
@@ -6684,7 +6684,7 @@
           "display_name_raw": "Mark Poole",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=378577&guest-name=Mark-Poole",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:43.807477Z",
+          "retrieved_at": "2026-10-12T18:10:17.202593Z",
           "categories": [
             {
               "id": "20601",
@@ -6746,7 +6746,7 @@
           "display_name_raw": "Mark Poole",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668806&exhibitor-name=Mark-Poole",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:54:57.271120Z",
+          "retrieved_at": "2026-10-12T18:10:30.499858Z",
           "categories": [
             {
               "id": "20591",
@@ -6867,7 +6867,7 @@
           "display_name_raw": "Mark Tedin",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379904&guest-name=Mark-Tedin",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:15.043370Z",
+          "retrieved_at": "2026-10-12T18:09:49.376089Z",
           "categories": [
             {
               "id": "20601",
@@ -6938,7 +6938,7 @@
           "display_name_raw": "Mark Tedin",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668843&exhibitor-name=Mark-Tedin",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:20.161109Z",
+          "retrieved_at": "2026-10-12T18:10:52.340276Z",
           "categories": [
             {
               "id": "20591",
@@ -7066,7 +7066,7 @@
           "display_name_raw": "Martina Fačková",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379931&guest-name=Martina-Fa%C4%8Dkov%C3%A1",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:28.869587Z",
+          "retrieved_at": "2026-10-12T18:10:03.429937Z",
           "categories": [
             {
               "id": "20601",
@@ -7101,7 +7101,7 @@
           "display_name_raw": "Martina Fačková",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668844&exhibitor-name=Martina-Fa%C4%8Dkov%C3%A1",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:20.727040Z",
+          "retrieved_at": "2026-10-12T18:10:52.114306Z",
           "categories": [
             {
               "id": "20591",
@@ -7201,7 +7201,7 @@
           "display_name_raw": "Mathias Kollros",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379905&guest-name=Mathias-Kollros",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:15.234139Z",
+          "retrieved_at": "2026-10-12T18:09:49.427453Z",
           "categories": [
             {
               "id": "20601",
@@ -7258,7 +7258,7 @@
           "display_name_raw": "Mathias Kollros",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668845&exhibitor-name=Mathias-Kollros",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:21.111566Z",
+          "retrieved_at": "2026-10-12T18:10:52.808107Z",
           "categories": [
             {
               "id": "20591",
@@ -7350,7 +7350,7 @@
           "display_name_raw": "Michael Bierek",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379916&guest-name=Michael-Bierek",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:20.906892Z",
+          "retrieved_at": "2026-10-12T18:09:55.149750Z",
           "categories": [
             {
               "id": "20601",
@@ -7407,7 +7407,7 @@
           "display_name_raw": "Mike Bierek",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668846&exhibitor-name=Mike-Bierek",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:21.962121Z",
+          "retrieved_at": "2026-10-12T18:10:53.680740Z",
           "categories": [
             {
               "id": "20591",
@@ -7557,7 +7557,7 @@
           "display_name_raw": "Nicholas Gregory",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379907&guest-name=Nicholas-Gregory",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:15.008699Z",
+          "retrieved_at": "2026-10-12T18:09:49.359036Z",
           "categories": [
             {
               "id": "20601",
@@ -7614,7 +7614,7 @@
           "display_name_raw": "Nicholas Gregory",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668821&exhibitor-name=Nicholas-Gregory",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:22.512989Z",
+          "retrieved_at": "2026-10-12T18:10:54.070109Z",
           "categories": [
             {
               "id": "20591",
@@ -7728,7 +7728,7 @@
           "display_name_raw": "Nino Vecia",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379933&guest-name=Nino-Vecia",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:30.178439Z",
+          "retrieved_at": "2026-10-12T18:10:04.234488Z",
           "categories": [
             {
               "id": "20601",
@@ -7785,7 +7785,7 @@
           "display_name_raw": "Nino Vecia",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668815&exhibitor-name=Nino-Vecia",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:22.988545Z",
+          "retrieved_at": "2026-10-12T18:10:54.643606Z",
           "categories": [
             {
               "id": "20591",
@@ -7927,7 +7927,7 @@
           "display_name_raw": "Olena \"Lena\" Richards",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379934&guest-name=Olena-and-quotLena-and-quot-Richards",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:30.280861Z",
+          "retrieved_at": "2026-10-12T18:10:03.988033Z",
           "categories": [
             {
               "id": "20591",
@@ -7984,7 +7984,7 @@
           "display_name_raw": "Olena \"Lena\" Richards",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668847&exhibitor-name=Olena-Lena-Richards",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:24.012014Z",
+          "retrieved_at": "2026-10-12T18:10:55.611338Z",
           "categories": [
             {
               "id": "20591",
@@ -8104,7 +8104,7 @@
           "display_name_raw": "Paul Scott Canavan",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379936&guest-name=Paul-Scott-Canavan",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:30.828587Z",
+          "retrieved_at": "2026-10-12T18:10:05.405919Z",
           "categories": [
             {
               "id": "20601",
@@ -8139,7 +8139,7 @@
           "display_name_raw": "Paul Scott Canavan",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668848&exhibitor-name=Paul-Scott-Canavan",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:24.540831Z",
+          "retrieved_at": "2026-10-12T18:10:55.838159Z",
           "categories": [
             {
               "id": "20591",
@@ -8239,7 +8239,7 @@
           "display_name_raw": "Phil Foglio",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379917&guest-name=Phil-Foglio",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:20.813916Z",
+          "retrieved_at": "2026-10-12T18:09:54.856439Z",
           "categories": [
             {
               "id": "20591",
@@ -8274,7 +8274,7 @@
           "display_name_raw": "Phil Foglio",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668859&exhibitor-name=Phil-Foglio",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:24.677918Z",
+          "retrieved_at": "2026-10-12T18:10:56.331317Z",
           "categories": [
             {
               "id": "20591",
@@ -8402,7 +8402,7 @@
           "display_name_raw": "Phil Stone",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379923&guest-name=Phil-Stone",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:24.923438Z",
+          "retrieved_at": "2026-10-12T18:09:59.268109Z",
           "categories": [
             {
               "id": "20601",
@@ -8444,7 +8444,7 @@
           "display_name_raw": "phil stone",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668849&exhibitor-name=phil-stone",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:25.904101Z",
+          "retrieved_at": "2026-10-12T18:10:57.438145Z",
           "categories": [
             {
               "id": "20591",
@@ -8579,7 +8579,7 @@
           "display_name_raw": "Pindurski",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379924&guest-name=Pindurski",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:26.481232Z",
+          "retrieved_at": "2026-10-12T18:09:59.849923Z",
           "categories": [
             {
               "id": "20601",
@@ -8621,7 +8621,7 @@
           "display_name_raw": "PINDURSKI",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668816&exhibitor-name=PINDURSKI",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:26.713545Z",
+          "retrieved_at": "2026-10-12T18:10:57.567944Z",
           "categories": [
             {
               "id": "20591",
@@ -8721,7 +8721,7 @@
           "display_name_raw": "Randy Gallegos",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379940&guest-name=Randy-Gallegos",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:34.115221Z",
+          "retrieved_at": "2026-10-12T18:10:07.570452Z",
           "categories": [
             {
               "id": "20591",
@@ -8778,7 +8778,7 @@
           "display_name_raw": "Randy Gallegos",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668851&exhibitor-name=Randy-Gallegos",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:26.303098Z",
+          "retrieved_at": "2026-10-12T18:10:57.963512Z",
           "categories": [
             {
               "id": "20591",
@@ -8927,7 +8927,7 @@
           "display_name_raw": "Richard Kane Ferguson",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379941&guest-name=Richard-Kane-Ferguson",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:34.164158Z",
+          "retrieved_at": "2026-10-12T18:10:07.706833Z",
           "categories": [
             {
               "id": "20591",
@@ -8969,7 +8969,7 @@
           "display_name_raw": "Richard Kane Ferguson",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668852&exhibitor-name=Richard-Kane-Ferguson",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:27.845821Z",
+          "retrieved_at": "2026-10-12T18:10:59.473684Z",
           "categories": [
             {
               "id": "20591",
@@ -9076,7 +9076,7 @@
           "display_name_raw": "RK Post",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379942&guest-name=RK-Post",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:34.483128Z",
+          "retrieved_at": "2026-10-12T18:10:09.232433Z",
           "categories": [
             {
               "id": "20591",
@@ -9118,7 +9118,7 @@
           "display_name_raw": "rk post",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668853&exhibitor-name=rk-post",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:28.149161Z",
+          "retrieved_at": "2026-10-12T18:10:59.462665Z",
           "categories": [
             {
               "id": "20591",
@@ -9253,7 +9253,7 @@
           "display_name_raw": "Ryan Pancoast",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379943&guest-name=Ryan-Pancoast",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:36.092517Z",
+          "retrieved_at": "2026-10-12T18:10:09.411164Z",
           "categories": [
             {
               "id": "20601",
@@ -9295,7 +9295,7 @@
           "display_name_raw": "Ryan Pancoast",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668854&exhibitor-name=Ryan-Pancoast",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:28.693679Z",
+          "retrieved_at": "2026-10-12T18:10:59.742140Z",
           "categories": [
             {
               "id": "20591",
@@ -9430,7 +9430,7 @@
           "display_name_raw": "Sam Burley",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379944&guest-name=Sam-Burley",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:36.185570Z",
+          "retrieved_at": "2026-10-12T18:10:09.609500Z",
           "categories": [
             {
               "id": "20601",
@@ -9472,7 +9472,7 @@
           "display_name_raw": "Sam Burley",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668855&exhibitor-name=Sam-Burley",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:29.540644Z",
+          "retrieved_at": "2026-10-12T18:11:01.610215Z",
           "categories": [
             {
               "id": "20591",
@@ -9607,7 +9607,7 @@
           "display_name_raw": "SchmandrewART ",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379939&guest-name=SchmandrewART",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:32.616334Z",
+          "retrieved_at": "2026-10-12T18:10:07.267537Z",
           "categories": [
             {
               "id": "20601",
@@ -9649,7 +9649,7 @@
           "display_name_raw": "SchmandrewART",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668873&exhibitor-name=SchmandrewART",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:30.237954Z",
+          "retrieved_at": "2026-10-12T18:11:01.590841Z",
           "categories": [
             {
               "id": "20591",
@@ -9756,7 +9756,7 @@
           "display_name_raw": "Serena Malyon",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=378595&guest-name=Serena-Malyon",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:45.941336Z",
+          "retrieved_at": "2026-10-12T18:10:19.682119Z",
           "categories": [
             {
               "id": "20591",
@@ -9818,7 +9818,7 @@
           "display_name_raw": "Serena Malyon",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668809&exhibitor-name=Serena-Malyon",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:54:57.458284Z",
+          "retrieved_at": "2026-10-12T18:10:30.835287Z",
           "categories": [
             {
               "id": "20591",
@@ -9967,7 +9967,7 @@
           "display_name_raw": "Steve Prescott",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379945&guest-name=Steve-Prescott",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:36.534452Z",
+          "retrieved_at": "2026-10-12T18:10:11.318478Z",
           "categories": [
             {
               "id": "20591",
@@ -10009,7 +10009,7 @@
           "display_name_raw": "Steve Prescott",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668856&exhibitor-name=Steve-Prescott",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:30.585666Z",
+          "retrieved_at": "2026-10-12T18:11:02.577677Z",
           "categories": [
             {
               "id": "20591",
@@ -10116,7 +10116,7 @@
           "display_name_raw": "Steven Belledin",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379946&guest-name=Steven-Belledin",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:38.019596Z",
+          "retrieved_at": "2026-10-12T18:10:11.421658Z",
           "categories": [
             {
               "id": "20591",
@@ -10173,7 +10173,7 @@
           "display_name_raw": "Steven Belledin",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668857&exhibitor-name=Steven-Belledin",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:31.543970Z",
+          "retrieved_at": "2026-10-12T18:11:03.377584Z",
           "categories": [
             {
               "id": "20591",
@@ -10322,7 +10322,7 @@
           "display_name_raw": "Svetlin Velinov",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379947&guest-name=Svetlin-Velinov",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:38.114625Z",
+          "retrieved_at": "2026-10-12T18:10:11.621839Z",
           "categories": [
             {
               "id": "20591",
@@ -10379,7 +10379,7 @@
           "display_name_raw": "Svetlin Velinov",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668860&exhibitor-name=Svetlin-Velinov",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:32.220689Z",
+          "retrieved_at": "2026-10-12T18:11:03.531808Z",
           "categories": [
             {
               "id": "20591",
@@ -10500,7 +10500,7 @@
           "display_name_raw": "Thomas Baxa",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379948&guest-name=Thomas-Baxa",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:38.472055Z",
+          "retrieved_at": "2026-10-12T18:10:13.263855Z",
           "categories": [
             {
               "id": "20591",
@@ -10571,7 +10571,7 @@
           "display_name_raw": "Thomas Baxa",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668862&exhibitor-name=Thomas-Baxa",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:32.610985Z",
+          "retrieved_at": "2026-10-12T18:11:04.308787Z",
           "categories": [
             {
               "id": "20591",
@@ -10762,7 +10762,7 @@
           "display_name_raw": "Tom Wänerstrand",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379949&guest-name=Tom-W%C3%A4nerstrand",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:39.971180Z",
+          "retrieved_at": "2026-10-12T18:10:13.125505Z",
           "categories": [
             {
               "id": "20591",
@@ -10804,7 +10804,7 @@
           "display_name_raw": "Tomas Wanerstrand",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668866&exhibitor-name=Tomas-Wanerstrand",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:33.432967Z",
+          "retrieved_at": "2026-10-12T18:11:04.988743Z",
           "categories": [
             {
               "id": "20591",
@@ -10940,7 +10940,7 @@
           "display_name_raw": "Tyler Jacobson",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379950&guest-name=Tyler-Jacobson",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:39.839079Z",
+          "retrieved_at": "2026-10-12T18:10:13.270372Z",
           "categories": [
             {
               "id": "20591",
@@ -11011,7 +11011,7 @@
           "display_name_raw": "Tyler Jacobson",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668863&exhibitor-name=Tyler-Jacobson",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:34.140636Z",
+          "retrieved_at": "2026-10-12T18:11:05.161435Z",
           "categories": [
             {
               "id": "20591",
@@ -11146,7 +11146,7 @@
           "display_name_raw": "Tyler Walpole",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379951&guest-name=Tyler-Walpole",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:41.610187Z",
+          "retrieved_at": "2026-10-12T18:10:15.141142Z",
           "categories": [
             {
               "id": "20591",
@@ -11203,7 +11203,7 @@
           "display_name_raw": "Tyler Walpole",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668865&exhibitor-name=Tyler-Walpole",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:34.697019Z",
+          "retrieved_at": "2026-10-12T18:11:06.366665Z",
           "categories": [
             {
               "id": "20591",
@@ -11324,7 +11324,7 @@
           "display_name_raw": "Victor Adame Minguez",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379952&guest-name=Victor-Adame-Minguez",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:41.792401Z",
+          "retrieved_at": "2026-10-12T18:10:15.253711Z",
           "categories": [
             {
               "id": "20591",
@@ -11381,7 +11381,7 @@
           "display_name_raw": "Victor Adame Minguez",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668867&exhibitor-name=Victor-Adame-Minguez",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:35.247866Z",
+          "retrieved_at": "2026-10-12T18:11:06.892046Z",
           "categories": [
             {
               "id": "20591",
@@ -11530,7 +11530,7 @@
           "display_name_raw": "Vincent Proce",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379953&guest-name=Vincent-Proce",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:41.960350Z",
+          "retrieved_at": "2026-10-12T18:10:15.425290Z",
           "categories": [
             {
               "id": "20591",
@@ -11572,7 +11572,7 @@
           "display_name_raw": "Vincent Proce",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668868&exhibitor-name=Vincent-Proce",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:36.058120Z",
+          "retrieved_at": "2026-10-12T18:11:06.962680Z",
           "categories": [
             {
               "id": "20591",
@@ -11679,7 +11679,7 @@
           "display_name_raw": "Winona Nelson",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379955&guest-name=Winona-Nelson",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:43.651335Z",
+          "retrieved_at": "2026-10-12T18:10:17.115402Z",
           "categories": [
             {
               "id": "20591",
@@ -11736,7 +11736,7 @@
           "display_name_raw": "Winona Nelson",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668869&exhibitor-name=Winona-Nelson",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:36.479692Z",
+          "retrieved_at": "2026-10-12T18:11:08.200257Z",
           "categories": [
             {
               "id": "20591",
@@ -11885,7 +11885,7 @@
           "display_name_raw": "Wizard of Barge",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379956&guest-name=Wizard-of-Barge",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
-          "retrieved_at": "2026-10-11T19:54:43.844146Z",
+          "retrieved_at": "2026-10-12T18:10:17.341192Z",
           "categories": [
             {
               "id": "20591",
@@ -11927,7 +11927,7 @@
           "display_name_raw": "Wizard of Barge",
           "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668870&exhibitor-name=Wizard-of-Barge",
           "listing_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
-          "retrieved_at": "2026-10-11T19:55:36.958121Z",
+          "retrieved_at": "2026-10-12T18:11:08.527822Z",
           "categories": [
             {
               "id": "20591",

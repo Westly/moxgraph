@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "reviewedOn": "2026-10-11",
-  "baseline": "scryfall-all-cards-20261011091913",
+  "baseline": "scryfall-all-cards-20261012091830",
   "aliases": [
     {
       "provider": "moxfield",
@@ -33,5 +33,6 @@
       "basis": "Reviewed inference, not an official Scryfall redirect. The old UUID returns 404. Moxfield identifies this exact provider printing as English, etched-only, with Gaboleps artwork. Both source images show the same artwork and printed 001/001 P Festival, PRM EN and 2022 line. Scryfall P30M 1F★ is the English etched Festival variant. P30M 1F is a distinct nonfoil/foil record; 1P is another foil variant. Never apply this mapping based on name or collector number alone.",
       "displayNotice": "Legacy Moxfield printing identifier mapped to a reviewed Scryfall printing; original details retained."
     }
-  ]
+  ],
+  "validatedOn": "2026-10-12T18:12:39.919753+00:00"
 }

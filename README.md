@@ -2,9 +2,10 @@
 
 A static website for finding cards in Moxfield/Archidekt decks illustrated by artists attending MagicCon, using each card's selected printing.
 
-**Current status:** WBS 10 is complete. [moxgraph.com](https://moxgraph.com/) is live on Cloudflare Pages Free. Checked updates to this public repository’s protected `main` branch automatically deploy the static site and the separate Workers Free retrieval relay. All 127 tests and full catalogue/build audits pass in clean Linux CI. Both deck providers, selected printing images, browser-local saving, HTTPS and redirects are verified on the final domain.
+**Current status:** [moxgraph.com](https://moxgraph.com/) is live on Cloudflare Pages Free, with protected GitHub updates deploying the static site and the separate Workers Free retrieval relay. WBS 11 adds staged manual data refreshes, reviewed change reports, exact-printing alias revalidation, recoverable publication and immutable Atlanta archives. The actual final pre-event review (November 12) and post-event archive (November 16, 2026) remain pending. No refresh scheduler or paid service is enabled.
 
 - [Project roadmap and WBS](ROADMAP.md)
+- [Manual data refresh, recovery and event checkpoints](docs/maintenance.md)
 - [Deployment settings and rollback](docs/deployment.md) · [Launch receipt](reports/deployment-validation.json) · [Live HTTP checks](reports/deployment-http-audit.json)
 - [Release checklist](docs/release-checklist.md) · [WBS 9 validation](docs/release-validation.md) · [Performance report](reports/performance-audit.json)
 - [Local saving, backup/restore and recovery](docs/local-storage.md) · [Storage validation](reports/local-storage-validation.json)
@@ -14,7 +15,7 @@ A static website for finding cards in Moxfield/Archidekt decks illustrated by ar
 - [Data packaging measurements](reports/static-data-packaging.json) · [App validation](reports/app-foundation-validation.json) · [Repeatability proof](reports/static-data-repeatability.json)
 - [Card-data quality report](reports/card-data-quality.md)
 - [Data preparation and reproduction instructions](docs/data-baseline.md)
-- [Source manifest](data/manifests/scryfall-all-cards-20261011091913.json)
+- [Selected source revisions](data/pipeline.json)
 - [Attendance coverage report](reports/attendance-coverage.md)
 - [Event snapshot](data/curated/events/atlanta-2026.json)
 - [Event-data reproduction instructions](docs/event-data.md)
@@ -31,6 +32,6 @@ A static website for finding cards in Moxfield/Archidekt decks illustrated by ar
 
 Use the pinned Node/Python versions in `.node-version` and `.python-version`. Run `npx --yes npm@11.9.0 ci --no-audit --no-fund`, `npm run verify`, then `npm run preview:release` and open **http://localhost:3000/**. That exact loopback origin is allowed by the existing relay. `npm run dev` uses the same port; run one server at a time. See the build instructions above before regenerating data: that separate step needs the ignored full baseline.
 
-Work proceeds one parent WBS at a time, only when requested by the owner. The next parent is **11.0 — Maintain data and prepare for the event**; it has not started. See the release checklist for untested browsers and dated provider/source limitations. The relay remains on Workers Free, with transient rate counters and no stored decks or paid fallback. Saved decks belong to the browser and origin: use backup/restore to move a localhost library to the live domain.
+Work proceeds one parent WBS at a time. WBS 11 maintenance implementation is ready; its dated November checkpoints remain open in the roadmap. Follow the maintenance runbook to refresh sources in order and publish only a fully checked candidate. Saved decks belong to the browser and origin: use backup/restore to move a library to another browser or device. The relay retains Free limits, transient rate counters and no stored decks or paid fallback.
 
 The data scripts use Python's standard library. Large bulk downloads and SQLite files stay under ignored `data/raw/` and `data/staging/` directories; they are not website assets or Git uploads.

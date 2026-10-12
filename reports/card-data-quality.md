@@ -1,7 +1,7 @@
 # Scryfall card-data baseline — WBS 1.0
 
-Snapshot: `scryfall-all-cards-20261011091913`
-Source updated: 2026-10-11T09:19:13.375+00:00
+Snapshot: `scryfall-all-cards-20261012091830`
+Source updated: 2026-10-12T09:18:30.510+00:00
 Validation: **PASS**
 
 | Check | Result |

@@ -11,6 +11,7 @@
     "dev": "vite --host localhost",
     "contracts": "node scripts/build-contracts.mjs",
     "data:build": "python scripts/data/publish_static.py",
+    "data:refresh": "python scripts/data/refresh.py",
     "data:check": "node scripts/check-data.mjs public",
     "typecheck": "tsc --noEmit",
     "verify": "node scripts/verify-release.mjs",

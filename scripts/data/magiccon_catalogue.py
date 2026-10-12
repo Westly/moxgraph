@@ -13,6 +13,8 @@ from urllib.parse import urlsplit
 
 from magiccon_source import ROOT, OVERVIEW, DIRECTORY, feed, guest_name, now, select_guests, sha, write_json
 
+from pipeline_config import EVENT, EVENT_PATH
+
 SOCIAL_LABELS = {
     "twitter": "Follow on X", "facebook": "Like on Facebook",
     "instagram": "Follow on Instagram", "imdb": "View IMDB",
@@ -163,7 +165,7 @@ def deduplicate(guests, exhibitors, reviews):
     return pairs
 
 
-def build(manifest_path):
+def build(manifest_path, *, allow_roster_shrink=False):
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     if manifest["status"] not in {"captured", "complete"} or manifest.get("failures"):
         raise ValueError("Cannot publish a failed/incomplete capture")
@@ -198,7 +200,7 @@ def build(manifest_path):
         images = row["images"] if kind == "guest" else ([row["image"]] if row["image"] else [])
         portrait = {"variants": images, "url": next((i.get("big") for i in images if i.get("big")), None),
                     "source_profile_url": profile["profile_url"],
-                    "attribution": "Portrait published by MagicCon: Atlanta; rights remain with the respective rights holders.",
+                    "attribution": f"Portrait published by {EVENT['name']}; rights remain with the respective rights holders.",
                     "photographer_credit": None, "license": "not_stated_in_profile_data",
                     "hosting": "remote_source_url", "fallback": "neutral_person_placeholder"}
         for image in images:
@@ -229,7 +231,7 @@ def build(manifest_path):
                              "retrieved_at": profile["data"]["retrieved_at"],
                              "source_data_sha256": profile["data"]["sha256"],
                              "published_fields": {f: row.get(f) for f in public_fields}})
-    review_path = ROOT / "data/curated/events/atlanta-2026-identity-review.json"
+    review_path = ROOT / f"data/curated/events/{EVENT['id']}-identity-review.json"
     reviews = json.loads(review_path.read_text(encoding="utf-8"))
     attendees = []
     for guest, exhibitor, evidence in deduplicate(guests, exhibitors, reviews["pairs"]):
@@ -237,7 +239,7 @@ def build(manifest_path):
                    [("guest", guest), ("exhibitor", exhibitor)] if row]
         primary = entries[0]
         portrait = next((entry["portrait"] for entry in entries if entry["portrait"]["url"]), primary["portrait"])
-        attendees.append({"event_attendee_id": "atlanta-2026-" + ("guest-" + guest["id"] if guest else "exhibitor-" + exhibitor["id"]),
+        attendees.append({"event_attendee_id": EVENT["id"] + "-" + ("guest-" + guest["id"] if guest else "exhibitor-" + exhibitor["id"]),
                           "display_name": " ".join(html.unescape(primary["display_name_raw"]).split()),
                           "entity_kind": "individual" if guest else "unreviewed_exhibitor",
                           "entity_kind_basis": "official_guest_person_record" if guest else "needs_review",
@@ -286,9 +288,9 @@ def build(manifest_path):
               "external_link_reachability": "not_probed; syntax/platform validation only",
               "portrait_reachability": "source URLs captured; browser spot checks only",
               "wbs_3_started": False}
-    event = {"schema_version": 1, "event_id": "atlanta-2026", "source_event_id": "21389",
-             "name": "MagicCon: Atlanta", "dates": {"start": "2026-11-13", "end": "2026-11-15"},
-             "location": "Atlanta, GA", "snapshot_id": manifest["snapshot_id"],
+    event = {"schema_version": 1, "event_id": EVENT["id"], "source_event_id": EVENT["sourceId"],
+             "name": EVENT["name"], "dates": EVENT["dates"],
+             "location": EVENT["location"], "snapshot_id": manifest["snapshot_id"],
              "source_urls": [OVERVIEW, DIRECTORY], "retrieved_from": manifest["started_at"],
              "retrieved_through": manifest["completed_at"],
              "portrait_policy": {"mode": "remote_source_url", "local_copies": False,
@@ -297,14 +299,14 @@ def build(manifest_path):
     # Validate everything before replacing any published artifact.
     if sum(len(a["source_entries"]) for a in attendees) != len(expected):
         raise ValueError("Unaccounted source entries")
-    old_path = ROOT / "data/curated/events/atlanta-2026.json"
+    old_path = ROOT / f"data/curated/events/{EVENT['id']}.json"
     if old_path.exists():
         old = json.loads(old_path.read_text(encoding="utf-8"))
-        if old["snapshot_id"] != event["snapshot_id"] and len(attendees) < len(old["attendees"]):
+        if not allow_roster_shrink and old["snapshot_id"] != event["snapshot_id"] and len(attendees) < len(old["attendees"]):
             raise ValueError("Roster shrink requires review; last good snapshot kept")
     artifacts = {
-        "data/curated/events/atlanta-2026.json": event,
-        "data/sources/events/atlanta-2026-profiles.json": {"snapshot_id": manifest["snapshot_id"], "profiles": raw_extracts},
+        f"data/curated/events/{EVENT['id']}.json": event,
+        f"data/sources/events/{EVENT['id']}-profiles.json": {"snapshot_id": manifest["snapshot_id"], "profiles": raw_extracts},
         "reports/attendance-coverage.json": report,
     }
     for path, value in artifacts.items():
@@ -340,12 +342,12 @@ def markdown_report(event, report):
     lines += ["", "The source labels `store_url` as **View Artists Magic Gallery**. These destinations are often Gatherer/Scryfall searches; they are preserved as gallery links, not relabeled as stores.", "",
               "## Source name differences", "", "| Guest name (raw) | Directory name (raw) | Deduplication evidence |", "| --- | --- | --- |"]
     lines += [f"| `{d['names'][0]}` | `{d['names'][1]}` | {d['method']} |" for d in report["source_name_differences"]]
-    lines += ["", "Nontrivial pairs use reviewed biography evidence in `data/curated/events/atlanta-2026-identity-review.json`. Other duplicate pairs have unique names after whitespace/case normalization. Entity kind follows the official guest person record; any unmatched exhibitor remains unreviewed rather than assumed to be an individual. Status as a Scryfall card illustrator remains `not_reconciled`.", "",
+    lines += ["", f"Nontrivial pairs use reviewed biography evidence in `data/curated/events/{EVENT['id']}-identity-review.json`. Other duplicate pairs have unique names after whitespace/case normalization. Entity kind follows the official guest person record; any unmatched exhibitor remains unreviewed rather than assumed to be an individual. This attendance stage does not approve Scryfall illustrator identities.", "",
               "## Attendance and verification case", "",
               "Attendance-day groups: " + "; ".join(f"{days}: {count}" for days, count in report["attendance_days"].items()) + ". Booth numbers come from the exhibitor records; guest locations remain separate.", "",
               "Day exceptions: " + "; ".join(f"{a['name']}: {'/'.join(a['days']) or 'not provided'}" for a in report["attendance_day_exceptions"]) + ".", "",
               "The supplied David Palumbo profile was checked in the rendered browser; exact title, days and social-link label/destination are in [browser evidence](magiccon-browser-audit.json). The event JSON retains his source entries when present in the current roster.", "",
-              "## Exit status", "", "WBS 2.0 complete: every source entry accounted for; zero retrieval failures or unresolved pagination gaps. Missing photos/socials and defective upstream links are documented source limitations, not collection blockers. Scryfall reconciliation and illustrated-card totals remain WBS 3.0 and have not started.", "",
+              "## Capture status", "", "Every source entry is accounted for; zero retrieval failures or unresolved pagination gaps. Missing photos/socials and defective upstream links are documented source limitations. Reconciliation and illustrated-card totals are validated as the next stage of each refresh.", "",
               "Reproduction, source coverage and snapshot handling: [event-data instructions](../docs/event-data.md).", ""]
     return "\n".join(lines)
 

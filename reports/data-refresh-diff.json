@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "before": {
+    "cards": "scryfall-all-cards-20261011091913",
+    "event": "magiccon-atlanta-2026-20261011T195408Z"
+  },
+  "after": {
+    "cards": "scryfall-all-cards-20261012091830",
+    "event": "magiccon-atlanta-2026-20261012T180941Z"
+  },
+  "coverage": {
+    "beforePrintings": 546137,
+    "afterPrintings": 546137,
+    "beforeAttendees": 65,
+    "afterAttendees": 65
+  },
+  "roster": {
+    "added": [],
+    "removed": [],
+    "changed": []
+  },
+  "sourceArtistNames": [],
+  "unmappedArtists": [],
+  "countChanges": [],
+  "blockingErrors": [],
+  "reviewReasons": [],
+  "policy": "Every promotion requires this exact diff hash and review notes. Empty or unresolved candidates cannot be promoted.",
+  "sha256": "7e03c4abced4b2ee517356c54a1726d0110fdf5ff930c6820e1fa49c2195fda1"
+}

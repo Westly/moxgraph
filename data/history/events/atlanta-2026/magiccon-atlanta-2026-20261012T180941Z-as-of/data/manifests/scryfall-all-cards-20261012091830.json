@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "parser_version": "1.0.0",
+  "snapshot_id": "scryfall-all-cards-20261012091830",
+  "metadata_url": "https://api.scryfall.com/bulk-data",
+  "metadata_retrieved_at": "2026-10-12T17:51:44.041085+00:00",
+  "source": {
+    "object": "bulk_data",
+    "id": "922288cb-4bef-45e1-bb30-0c2bd3d3534f",
+    "type": "all_cards",
+    "updated_at": "2026-10-12T09:18:30.510+00:00",
+    "uri": "https://api.scryfall.com/bulk-data/922288cb-4bef-45e1-bb30-0c2bd3d3534f",
+    "name": "All Cards",
+    "description": "A JSON file containing every card object on Scryfall in every language.",
+    "jsonl_download_uri": "https://data.scryfall.io/all-cards/all-cards-20261012091830.jsonl.gz",
+    "compressed_size": 396214543
+  },
+  "download": {
+    "url": "https://data.scryfall.io/all-cards/all-cards-20261012091830.jsonl.gz",
+    "format": "jsonl",
+    "compression": "gzip",
+    "path": "data/raw/all-cards-20261012091830.jsonl.gz",
+    "expected_bytes": 396214543,
+    "status": "complete",
+    "started_at": "2026-10-12T17:51:44.254207+00:00",
+    "etag": "\"d71799ee09174e847ecabdc4b56f8c60\"",
+    "last_modified": "Mon, 12 Oct 2026 09:18:41 GMT",
+    "response_bytes": 396214543,
+    "bytes": 396214543,
+    "sha256": "9b539a99b339bbc7b46141eb8831908ce731cb429f4da8030f0ee9a6b1e6ea2b",
+    "completed_at": "2026-10-12T17:51:55.245717+00:00",
+    "content_validation": "complete-stream-and-gzip-integrity-verified"
+  },
+  "ingestion": {
+    "status": "complete",
+    "started_at": "2026-10-12T17:51:55.539309+00:00",
+    "parser_version": "1.0.0",
+    "completed_at": "2026-10-12T17:55:34.841349+00:00",
+    "input_records": 546137,
+    "stored_printings": 546137,
+    "parser_sha256": "0f8e16077dba7b39d1cd6e2fc6eadadb6e1c384c6af8f93d36e6c945a567cc0d",
+    "artifacts": {
+      "database": {
+        "path": "data/staging/scryfall-all-cards-20261012091830.sqlite",
+        "bytes": 4849475584,
+        "sha256": "61f49589680065f923583705bb11b913abf455e89e24cbaec9f84c65c800002e"
+      },
+      "artist_catalogue": {
+        "path": "data/catalogues/scryfall-all-cards-20261012091830-artists.json",
+        "bytes": 1445821,
+        "sha256": "021556828ae370ec1dca304e537100e462ef89a149d0af783aa828730468c7da"
+      },
+      "quality_report": {
+        "path": "reports/card-data-quality.json",
+        "bytes": 118456,
+        "sha256": "b27eb5f942eaf21bd2f72abe6ebd065ad9f0930cdcca1c0131d288734732920f"
+      },
+      "fixtures": {
+        "path": "tests/fixtures/scryfall-printings.json",
+        "bytes": 135520,
+        "sha256": "9b9f1a3a032d1ae09b6c859ded67ea883ba4819d3cc1951d94262b1e7714cb76"
+      },
+      "summary": {
+        "path": "reports/card-data-quality.md",
+        "bytes": 1659,
+        "sha256": "fb72783d92a76d0c062d7faae90c25a060b9acfd9071eebb41c3480aef062f11"
+      }
+    }
+  }
+}

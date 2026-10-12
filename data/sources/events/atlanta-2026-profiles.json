@@ -1,10 +1,10 @@
 {
-  "snapshot_id": "magiccon-atlanta-2026-20261011T195408Z",
+  "snapshot_id": "magiccon-atlanta-2026-20261012T180941Z",
   "profiles": [
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668804&exhibitor-name=Cynthia-Shepard",
-      "retrieved_at": "2026-10-11T19:54:56.190216Z",
+      "retrieved_at": "2026-10-12T18:10:29.914865Z",
       "source_data_sha256": "65efd08188163aa293cd3cb16dd16c3d5b51deefc45223312ae87e2143464f21",
       "published_fields": {
         "id": "668804",
@@ -34,7 +34,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668806&exhibitor-name=Mark-Poole",
-      "retrieved_at": "2026-10-11T19:54:57.271120Z",
+      "retrieved_at": "2026-10-12T18:10:30.499858Z",
       "source_data_sha256": "0262ec27cc6af8a88956f3fe4822266bcb87280e7f4354da061c877449693b85",
       "published_fields": {
         "id": "668806",
@@ -64,7 +64,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668809&exhibitor-name=Serena-Malyon",
-      "retrieved_at": "2026-10-11T19:54:57.458284Z",
+      "retrieved_at": "2026-10-12T18:10:30.835287Z",
       "source_data_sha256": "16d0d2ee69253c03366eee23b130c3e43809e73d7215e240d9699c0f3eb60b8a",
       "published_fields": {
         "id": "668809",
@@ -94,7 +94,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668810&exhibitor-name=Aaron-Miller",
-      "retrieved_at": "2026-10-11T19:54:58.006212Z",
+      "retrieved_at": "2026-10-12T18:10:31.601921Z",
       "source_data_sha256": "d78b94becb4ae8f62f2afd4464d4ff6d10045f82b5f9ea18957d44f7548dc836",
       "published_fields": {
         "id": "668810",
@@ -124,7 +124,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668811&exhibitor-name=Alayna-Danner",
-      "retrieved_at": "2026-10-11T19:54:59.387411Z",
+      "retrieved_at": "2026-10-12T18:10:32.505192Z",
       "source_data_sha256": "60be2d0704793d28f51f6d91bed76bfa568dcb31d6d3c3d083813364315f6591",
       "published_fields": {
         "id": "668811",
@@ -154,7 +154,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668812&exhibitor-name=Alessandra-Pisano",
-      "retrieved_at": "2026-10-11T19:54:59.352213Z",
+      "retrieved_at": "2026-10-12T18:10:32.747218Z",
       "source_data_sha256": "218b13aed6bf4dfe6b479abb0123b9dc5e9a4b9b20dc618aa8436d39cb8152c7",
       "published_fields": {
         "id": "668812",
@@ -184,7 +184,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668813&exhibitor-name=Alix-Branwyn",
-      "retrieved_at": "2026-10-11T19:54:59.775743Z",
+      "retrieved_at": "2026-10-12T18:10:33.293981Z",
       "source_data_sha256": "df5fe0da7bae6f9f8171316f663b999849d7fef4adaa3310662c151c6b1b5f42",
       "published_fields": {
         "id": "668813",
@@ -214,7 +214,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668814&exhibitor-name=Andrea-Radeck",
-      "retrieved_at": "2026-10-11T19:55:02.195787Z",
+      "retrieved_at": "2026-10-12T18:10:34.155085Z",
       "source_data_sha256": "89308125c19a2d66e91f7396aa8105a24b34b933b14a8395eb53c6addd5cc3f1",
       "published_fields": {
         "id": "668814",
@@ -239,7 +239,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668815&exhibitor-name=Nino-Vecia",
-      "retrieved_at": "2026-10-11T19:55:22.988545Z",
+      "retrieved_at": "2026-10-12T18:10:54.643606Z",
       "source_data_sha256": "856c0cdfef64ca798c18a83252d500cf2c192a5eeb215e28a3c401b8479980ec",
       "published_fields": {
         "id": "668815",
@@ -264,7 +264,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668816&exhibitor-name=PINDURSKI",
-      "retrieved_at": "2026-10-11T19:55:26.713545Z",
+      "retrieved_at": "2026-10-12T18:10:57.567944Z",
       "source_data_sha256": "875ca15c32949beadb4751e6ecdb13fd35e370e27a3296a6cf5cdd04a98f96c8",
       "published_fields": {
         "id": "668816",
@@ -289,7 +289,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668817&exhibitor-name=Bruce-Brenneise",
-      "retrieved_at": "2026-10-11T19:55:02.325586Z",
+      "retrieved_at": "2026-10-12T18:10:35.035166Z",
       "source_data_sha256": "30fc95380b04ebdce306b6e60102f1654c27b827c8dd7e22177b8ff5d8268cf2",
       "published_fields": {
         "id": "668817",
@@ -319,7 +319,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668818&exhibitor-name=Chase-Stone",
-      "retrieved_at": "2026-10-11T19:55:03.519138Z",
+      "retrieved_at": "2026-10-12T18:10:35.887671Z",
       "source_data_sha256": "245583656ad52e10646b1c8725b421966182dfee90ea274bc375917a253f90c0",
       "published_fields": {
         "id": "668818",
@@ -349,7 +349,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668819&exhibitor-name=Chris-Rahn",
-      "retrieved_at": "2026-10-11T19:55:03.988000Z",
+      "retrieved_at": "2026-10-12T18:10:36.254791Z",
       "source_data_sha256": "d16a2fa2a3da7f6f7603381aa9d1f395f5e4f3aa864024016cbfbcb35122bc1f",
       "published_fields": {
         "id": "668819",
@@ -379,7 +379,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668820&exhibitor-name=Chris-Seaman",
-      "retrieved_at": "2026-10-11T19:55:05.580081Z",
+      "retrieved_at": "2026-10-12T18:10:37.609289Z",
       "source_data_sha256": "252cb418ef11c4cb7bda73ed24e1249f7ed7bf65430ad8829e5743c635e0bb18",
       "published_fields": {
         "id": "668820",
@@ -409,7 +409,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668821&exhibitor-name=Nicholas-Gregory",
-      "retrieved_at": "2026-10-11T19:55:22.512989Z",
+      "retrieved_at": "2026-10-12T18:10:54.070109Z",
       "source_data_sha256": "bc24a97dc1655e83eb07ff25d4b92c2e026fc764a335edd74c70af1b274c483e",
       "published_fields": {
         "id": "668821",
@@ -434,7 +434,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668822&exhibitor-name=Danny-Schwartz",
-      "retrieved_at": "2026-10-11T19:55:05.885839Z",
+      "retrieved_at": "2026-10-12T18:10:37.982176Z",
       "source_data_sha256": "e68ad963e1b7b3fe40346c36d4840cf150d2a76bb04edde4abbafc12a11fc162",
       "published_fields": {
         "id": "668822",
@@ -464,7 +464,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668823&exhibitor-name=Daren-Bader",
-      "retrieved_at": "2026-10-11T19:55:06.188369Z",
+      "retrieved_at": "2026-10-12T18:10:38.434184Z",
       "source_data_sha256": "06f7cca0968d5788e0bda2e007c417919e9ec03239147e1a99930933fd2fdfd1",
       "published_fields": {
         "id": "668823",
@@ -494,7 +494,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668824&exhibitor-name=David-Palumbo",
-      "retrieved_at": "2026-10-11T19:55:06.821178Z",
+      "retrieved_at": "2026-10-12T18:10:39.149321Z",
       "source_data_sha256": "05b9798d680ff87148f61d7601b9703752bf4a6ed48d8bf8ee247435092c516f",
       "published_fields": {
         "id": "668824",
@@ -524,7 +524,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668825&exhibitor-name=Douglas-Shuler",
-      "retrieved_at": "2026-10-11T19:55:07.584492Z",
+      "retrieved_at": "2026-10-12T18:10:39.657983Z",
       "source_data_sha256": "4d3d0a312fed3d37df0ea2114dc8b4475bc6ff2aa5b671697f3f812520dd111a",
       "published_fields": {
         "id": "668825",
@@ -554,7 +554,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668826&exhibitor-name=Eli-Minaya",
-      "retrieved_at": "2026-10-11T19:55:07.992905Z",
+      "retrieved_at": "2026-10-12T18:10:40.126897Z",
       "source_data_sha256": "307b841cfe5dcf38752acb4c6b860853c04a90bb7a3823709d024e936e794082",
       "published_fields": {
         "id": "668826",
@@ -584,7 +584,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668827&exhibitor-name=Eric-Deschamps",
-      "retrieved_at": "2026-10-11T19:55:09.010033Z",
+      "retrieved_at": "2026-10-12T18:10:41.282633Z",
       "source_data_sha256": "3b79207532c14b4e4710ad418150c4ebba6fa53069ee097448d5a221aedef263",
       "published_fields": {
         "id": "668827",
@@ -614,7 +614,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668828&exhibitor-name=Evyn-Fong",
-      "retrieved_at": "2026-10-11T19:55:09.636350Z",
+      "retrieved_at": "2026-10-12T18:10:41.715608Z",
       "source_data_sha256": "414ab86d37905187f58f89f6f5b2ea8fbf51a4b4211ae2149289ce2b59822ee8",
       "published_fields": {
         "id": "668828",
@@ -644,7 +644,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668829&exhibitor-name=Gabor-Szikszai",
-      "retrieved_at": "2026-10-11T19:55:09.729470Z",
+      "retrieved_at": "2026-10-12T18:10:41.866611Z",
       "source_data_sha256": "6ec25556568b11f266e405da5a43e674cd9373da18682454aacde98ef64a1349",
       "published_fields": {
         "id": "668829",
@@ -674,7 +674,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668830&exhibitor-name=Izzy",
-      "retrieved_at": "2026-10-11T19:55:10.736932Z",
+      "retrieved_at": "2026-10-12T18:10:42.893839Z",
       "source_data_sha256": "e1b92a64f50ea05683e8958484e8dae28275a29520720ab3542ab8a32ec175fa",
       "published_fields": {
         "id": "668830",
@@ -704,7 +704,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668831&exhibitor-name=Jarel-Threat",
-      "retrieved_at": "2026-10-11T19:55:11.509889Z",
+      "retrieved_at": "2026-10-12T18:10:43.331169Z",
       "source_data_sha256": "f59f03bfc93838cf65aadeaea5eace277e7ad8c1113594e547d34f64ff4927a0",
       "published_fields": {
         "id": "668831",
@@ -734,7 +734,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668832&exhibitor-name=Jason-Engle",
-      "retrieved_at": "2026-10-11T19:55:11.735459Z",
+      "retrieved_at": "2026-10-12T18:10:43.594628Z",
       "source_data_sha256": "9b1f0fc86d39cc15c5c4385ffb7576f019c492e94645a5c79a0b1244c25a6f06",
       "published_fields": {
         "id": "668832",
@@ -764,7 +764,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668833&exhibitor-name=Jeff-Miracola",
-      "retrieved_at": "2026-10-11T19:55:12.685376Z",
+      "retrieved_at": "2026-10-12T18:10:44.961453Z",
       "source_data_sha256": "cfe1c6f3290340eae897669a3d71bd7db6771c8168d2e5befacfce222e1fc540",
       "published_fields": {
         "id": "668833",
@@ -794,7 +794,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668834&exhibitor-name=Joe-Slucher",
-      "retrieved_at": "2026-10-11T19:55:13.182809Z",
+      "retrieved_at": "2026-10-12T18:10:44.934768Z",
       "source_data_sha256": "4fbd64c62677ff5a9d55b5b6f375bb8d369aba2a587a285b5ef3404fa341f4af",
       "published_fields": {
         "id": "668834",
@@ -824,7 +824,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668835&exhibitor-name=John-stanko",
-      "retrieved_at": "2026-10-11T19:55:13.649765Z",
+      "retrieved_at": "2026-10-12T18:10:45.357465Z",
       "source_data_sha256": "fb68805d08dd7ff2bd4f49b1bd8727dd1160c8aa3f06998516f7ed98d21ad69d",
       "published_fields": {
         "id": "668835",
@@ -849,7 +849,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668836&exhibitor-name=Josu-Solano",
-      "retrieved_at": "2026-10-11T19:55:15.227232Z",
+      "retrieved_at": "2026-10-12T18:10:46.755407Z",
       "source_data_sha256": "0883ea5c5617faa46f64bbd7eea6d4848bf95d9e4ee21bd5ecc3f306f1cf4984",
       "published_fields": {
         "id": "668836",
@@ -879,7 +879,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668837&exhibitor-name=Justine-Jones",
-      "retrieved_at": "2026-10-11T19:55:15.511207Z",
+      "retrieved_at": "2026-10-12T18:10:47.161841Z",
       "source_data_sha256": "155dd332cc834a4298f96f59d235990c5b05cd1f0aad0e1358c943c1a70d0099",
       "published_fields": {
         "id": "668837",
@@ -909,7 +909,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668838&exhibitor-name=Kai-Carpenter",
-      "retrieved_at": "2026-10-11T19:55:16.334753Z",
+      "retrieved_at": "2026-10-12T18:10:48.551298Z",
       "source_data_sha256": "7a4a119238004cdbaa54a2d13dc804e61bb8d7ab77b8ff3d27ef0bae1b6fe9ad",
       "published_fields": {
         "id": "668838",
@@ -939,7 +939,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668839&exhibitor-name=kelogsloops",
-      "retrieved_at": "2026-10-11T19:55:17.262356Z",
+      "retrieved_at": "2026-10-12T18:10:48.927805Z",
       "source_data_sha256": "66b5c695d572c5d94bfa378d3b90f2d20ec781aa38283880a7074f1f081409df",
       "published_fields": {
         "id": "668839",
@@ -969,7 +969,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668840&exhibitor-name=Kieran-Yanner",
-      "retrieved_at": "2026-10-11T19:55:18.374202Z",
+      "retrieved_at": "2026-10-12T18:10:50.514319Z",
       "source_data_sha256": "987592f49815ddbe090a67a338cbd449bc34fe979c29795a5e1ccac8502ced49",
       "published_fields": {
         "id": "668840",
@@ -999,7 +999,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668841&exhibitor-name=Leon-Tukker",
-      "retrieved_at": "2026-10-11T19:55:18.893863Z",
+      "retrieved_at": "2026-10-12T18:10:50.472535Z",
       "source_data_sha256": "f9e5ec6e625b11d1cbfd2bc6ea4721ec3dcae1878b4b313a2e09b95b5223cc1c",
       "published_fields": {
         "id": "668841",
@@ -1029,7 +1029,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668842&exhibitor-name=Lucas-Graciano",
-      "retrieved_at": "2026-10-11T19:55:19.065078Z",
+      "retrieved_at": "2026-10-12T18:10:50.823744Z",
       "source_data_sha256": "0b407753f8a5431e0746cf89fef23c462ff0b39cf1bd6549cb74d9a3348c6f42",
       "published_fields": {
         "id": "668842",
@@ -1059,7 +1059,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668843&exhibitor-name=Mark-Tedin",
-      "retrieved_at": "2026-10-11T19:55:20.161109Z",
+      "retrieved_at": "2026-10-12T18:10:52.340276Z",
       "source_data_sha256": "bf03c522c3bda95817c5c96639148b68d86137cdc08ab39cfa16bfd7a8347433",
       "published_fields": {
         "id": "668843",
@@ -1089,7 +1089,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668844&exhibitor-name=Martina-Fa%C4%8Dkov%C3%A1",
-      "retrieved_at": "2026-10-11T19:55:20.727040Z",
+      "retrieved_at": "2026-10-12T18:10:52.114306Z",
       "source_data_sha256": "9457fb0f51615d1ececb2cbf0454936d60756f75f72794512a96dd84779d7268",
       "published_fields": {
         "id": "668844",
@@ -1114,7 +1114,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668845&exhibitor-name=Mathias-Kollros",
-      "retrieved_at": "2026-10-11T19:55:21.111566Z",
+      "retrieved_at": "2026-10-12T18:10:52.808107Z",
       "source_data_sha256": "3a678dab0162489591fb0f4f6fb6f69219ef6e0711093fa9dfe27f1dcdb08c44",
       "published_fields": {
         "id": "668845",
@@ -1144,7 +1144,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668846&exhibitor-name=Mike-Bierek",
-      "retrieved_at": "2026-10-11T19:55:21.962121Z",
+      "retrieved_at": "2026-10-12T18:10:53.680740Z",
       "source_data_sha256": "df44c7f0326ec4eafb5af38053b7d4a04798e3ae406858c239d53519bd7e3b51",
       "published_fields": {
         "id": "668846",
@@ -1174,7 +1174,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668847&exhibitor-name=Olena-Lena-Richards",
-      "retrieved_at": "2026-10-11T19:55:24.012014Z",
+      "retrieved_at": "2026-10-12T18:10:55.611338Z",
       "source_data_sha256": "f33c25ad1b6d62f3efb125223ff7514e286966d8d7bcf900d2f3108de1a9aed2",
       "published_fields": {
         "id": "668847",
@@ -1204,7 +1204,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668848&exhibitor-name=Paul-Scott-Canavan",
-      "retrieved_at": "2026-10-11T19:55:24.540831Z",
+      "retrieved_at": "2026-10-12T18:10:55.838159Z",
       "source_data_sha256": "3b7d58401e817f3bac724ba7d7c954886340c491ed4e6a7c3ab0e1e8ea5c2407",
       "published_fields": {
         "id": "668848",
@@ -1234,7 +1234,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668849&exhibitor-name=phil-stone",
-      "retrieved_at": "2026-10-11T19:55:25.904101Z",
+      "retrieved_at": "2026-10-12T18:10:57.438145Z",
       "source_data_sha256": "c0bf8199e4b89b15374e4bd0863b7b34ceb119d51586bb1762c946d632c0a13a",
       "published_fields": {
         "id": "668849",
@@ -1264,7 +1264,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668850&exhibitor-name=Chris-Rallis",
-      "retrieved_at": "2026-10-11T19:55:04.304361Z",
+      "retrieved_at": "2026-10-12T18:10:36.759125Z",
       "source_data_sha256": "5abc4bc6663e730e06fe7e12f809eb07eb5916b5537f17040894f410c4f5c149",
       "published_fields": {
         "id": "668850",
@@ -1294,7 +1294,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668851&exhibitor-name=Randy-Gallegos",
-      "retrieved_at": "2026-10-11T19:55:26.303098Z",
+      "retrieved_at": "2026-10-12T18:10:57.963512Z",
       "source_data_sha256": "31a7a685eea016995a7536ec6af201acdea2537c556298babbb1c74d49332217",
       "published_fields": {
         "id": "668851",
@@ -1324,7 +1324,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668852&exhibitor-name=Richard-Kane-Ferguson",
-      "retrieved_at": "2026-10-11T19:55:27.845821Z",
+      "retrieved_at": "2026-10-12T18:10:59.473684Z",
       "source_data_sha256": "b3eb7769374f0d38861d9dbfcaf64f4f5c4acde59ca30b2b8953f0cd8ec7ce76",
       "published_fields": {
         "id": "668852",
@@ -1354,7 +1354,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668853&exhibitor-name=rk-post",
-      "retrieved_at": "2026-10-11T19:55:28.149161Z",
+      "retrieved_at": "2026-10-12T18:10:59.462665Z",
       "source_data_sha256": "9f1bfd59d85b00dc254e595cd7875045129b5ccf2bd51bfbab54ad6ee7e19769",
       "published_fields": {
         "id": "668853",
@@ -1384,7 +1384,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668854&exhibitor-name=Ryan-Pancoast",
-      "retrieved_at": "2026-10-11T19:55:28.693679Z",
+      "retrieved_at": "2026-10-12T18:10:59.742140Z",
       "source_data_sha256": "c866fffe619f4ac9e32b074fffd921c9631da51066baa821d4fbae71e1f6dc91",
       "published_fields": {
         "id": "668854",
@@ -1414,7 +1414,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668855&exhibitor-name=Sam-Burley",
-      "retrieved_at": "2026-10-11T19:55:29.540644Z",
+      "retrieved_at": "2026-10-12T18:11:01.610215Z",
       "source_data_sha256": "d9108ada6618e6a2e57e17592420c32c8d7f98b47492a6d43a855f885a2a6da2",
       "published_fields": {
         "id": "668855",
@@ -1444,7 +1444,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668856&exhibitor-name=Steve-Prescott",
-      "retrieved_at": "2026-10-11T19:55:30.585666Z",
+      "retrieved_at": "2026-10-12T18:11:02.577677Z",
       "source_data_sha256": "3e75ba00f71de7cb01db62c1f779c592f129f335c0379657754f055db91a1aca",
       "published_fields": {
         "id": "668856",
@@ -1474,7 +1474,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668857&exhibitor-name=Steven-Belledin",
-      "retrieved_at": "2026-10-11T19:55:31.543970Z",
+      "retrieved_at": "2026-10-12T18:11:03.377584Z",
       "source_data_sha256": "541343e8c86d18ade433879ea47b99d0099b73a36b02e0ebb41698ac0ad2e6bc",
       "published_fields": {
         "id": "668857",
@@ -1504,7 +1504,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668858&exhibitor-name=Kaja-Foglio",
-      "retrieved_at": "2026-10-11T19:55:17.184790Z",
+      "retrieved_at": "2026-10-12T18:10:48.703149Z",
       "source_data_sha256": "396cee7e8c4e9e56a7bf1922a6bfb765e2fd9a1bd54d32a5a4a6d8a252f10c81",
       "published_fields": {
         "id": "668858",
@@ -1534,7 +1534,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668859&exhibitor-name=Phil-Foglio",
-      "retrieved_at": "2026-10-11T19:55:24.677918Z",
+      "retrieved_at": "2026-10-12T18:10:56.331317Z",
       "source_data_sha256": "9595429d433a646d4fc33eaca29d14101a13387d4e4932c74e7ac4960b4e44f2",
       "published_fields": {
         "id": "668859",
@@ -1559,7 +1559,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668860&exhibitor-name=Svetlin-Velinov",
-      "retrieved_at": "2026-10-11T19:55:32.220689Z",
+      "retrieved_at": "2026-10-12T18:11:03.531808Z",
       "source_data_sha256": "4f8828b24c03b690f9a1d1eb2a4de4cb0ac5f782ccdf928353f622ac0b96c3ce",
       "published_fields": {
         "id": "668860",
@@ -1589,7 +1589,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668862&exhibitor-name=Thomas-Baxa",
-      "retrieved_at": "2026-10-11T19:55:32.610985Z",
+      "retrieved_at": "2026-10-12T18:11:04.308787Z",
       "source_data_sha256": "793327dbbe4022d73e61c7510b6f494adcf02862f07227d44e7a8409efc684b0",
       "published_fields": {
         "id": "668862",
@@ -1619,7 +1619,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668863&exhibitor-name=Tyler-Jacobson",
-      "retrieved_at": "2026-10-11T19:55:34.140636Z",
+      "retrieved_at": "2026-10-12T18:11:05.161435Z",
       "source_data_sha256": "6ef3290ee2e7e0a9bdb9b10e05cbc9af07e0577eaaeba462bee5750b5a3ee4bc",
       "published_fields": {
         "id": "668863",
@@ -1649,7 +1649,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668865&exhibitor-name=Tyler-Walpole",
-      "retrieved_at": "2026-10-11T19:55:34.697019Z",
+      "retrieved_at": "2026-10-12T18:11:06.366665Z",
       "source_data_sha256": "c3b876f16fd7ff9fa4fad8036cd4faa6ee630dd89a440d07cb28918da9cdeec2",
       "published_fields": {
         "id": "668865",
@@ -1679,7 +1679,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668866&exhibitor-name=Tomas-Wanerstrand",
-      "retrieved_at": "2026-10-11T19:55:33.432967Z",
+      "retrieved_at": "2026-10-12T18:11:04.988743Z",
       "source_data_sha256": "5f901b9959e83593ceaa795f47debcfdea20fa53974d8e27fa8f78d439840635",
       "published_fields": {
         "id": "668866",
@@ -1709,7 +1709,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668867&exhibitor-name=Victor-Adame-Minguez",
-      "retrieved_at": "2026-10-11T19:55:35.247866Z",
+      "retrieved_at": "2026-10-12T18:11:06.892046Z",
       "source_data_sha256": "7498714f7374ba246cc81a38e7bceb323777d8cd90a36804bf5bc50530939a64",
       "published_fields": {
         "id": "668867",
@@ -1739,7 +1739,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668868&exhibitor-name=Vincent-Proce",
-      "retrieved_at": "2026-10-11T19:55:36.058120Z",
+      "retrieved_at": "2026-10-12T18:11:06.962680Z",
       "source_data_sha256": "6dd2486ef4f07cb7f2ed9b54aa97567fea0a7999ad59099aa81b7b65a905e564",
       "published_fields": {
         "id": "668868",
@@ -1769,7 +1769,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668869&exhibitor-name=Winona-Nelson",
-      "retrieved_at": "2026-10-11T19:55:36.479692Z",
+      "retrieved_at": "2026-10-12T18:11:08.200257Z",
       "source_data_sha256": "3580ee64f39f0aeb14125c492bc90656c40e4c2eaf146eca5c741ef041099429",
       "published_fields": {
         "id": "668869",
@@ -1799,7 +1799,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668870&exhibitor-name=Wizard-of-Barge",
-      "retrieved_at": "2026-10-11T19:55:36.958121Z",
+      "retrieved_at": "2026-10-12T18:11:08.527822Z",
       "source_data_sha256": "96329b010f2a94c831f4462fd62f5ed0294216921d7bf7f8281c00b97362490c",
       "published_fields": {
         "id": "668870",
@@ -1829,7 +1829,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668871&exhibitor-name=Josiah-Jo-Cameron",
-      "retrieved_at": "2026-10-11T19:55:14.455982Z",
+      "retrieved_at": "2026-10-12T18:10:46.647947Z",
       "source_data_sha256": "97b11d3c959a9e489fc8141b262e7e834c3e0c486768860c1a0724f92cc17b4d",
       "published_fields": {
         "id": "668871",
@@ -1859,7 +1859,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668872&exhibitor-name=Ben-Hill",
-      "retrieved_at": "2026-10-11T19:55:01.539005Z",
+      "retrieved_at": "2026-10-12T18:10:34.488253Z",
       "source_data_sha256": "1772905477fdd138c1829cabfe57f595e688202a77998a7e2f1ea1815b93147d",
       "published_fields": {
         "id": "668872",
@@ -1889,7 +1889,7 @@
     {
       "kind": "exhibitor",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668873&exhibitor-name=SchmandrewART",
-      "retrieved_at": "2026-10-11T19:55:30.237954Z",
+      "retrieved_at": "2026-10-12T18:11:01.590841Z",
       "source_data_sha256": "b96d45ee6680bb959e460dc51b47e69bc3008fbeeac84ad55bf4c3e730a3dd82",
       "published_fields": {
         "id": "668873",
@@ -1919,7 +1919,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=378577&guest-name=Mark-Poole",
-      "retrieved_at": "2026-10-11T19:54:43.807477Z",
+      "retrieved_at": "2026-10-12T18:10:17.202593Z",
       "source_data_sha256": "c30ea00e34f036037040df480f2a2d986ae6987bb2716960a0d7259069c47931",
       "published_fields": {
         "id": "378577",
@@ -1970,7 +1970,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=378578&guest-name=Cynthia-Sheppard",
-      "retrieved_at": "2026-10-11T19:54:45.698444Z",
+      "retrieved_at": "2026-10-12T18:10:19.118822Z",
       "source_data_sha256": "b6f0639e7b909f0092080319ff8a954e11e5308012de186918e67f2dcbf7e31b",
       "published_fields": {
         "id": "378578",
@@ -2021,7 +2021,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=378595&guest-name=Serena-Malyon",
-      "retrieved_at": "2026-10-11T19:54:45.941336Z",
+      "retrieved_at": "2026-10-12T18:10:19.682119Z",
       "source_data_sha256": "fbfa4d389be949fc6402cd4b6e5c09851c0f78bba11a5c1c1139571c27665211",
       "published_fields": {
         "id": "378595",
@@ -2072,7 +2072,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379869&guest-name=Aaron-Miller",
-      "retrieved_at": "2026-10-11T19:54:45.464370Z",
+      "retrieved_at": "2026-10-12T18:10:18.953036Z",
       "source_data_sha256": "dcbc93824e285628c6ca7ec0f8aeb167da473dfc421bcb5830476080ef94df25",
       "published_fields": {
         "id": "379869",
@@ -2118,7 +2118,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379885&guest-name=Alayna-Danner",
-      "retrieved_at": "2026-10-11T19:54:47.525009Z",
+      "retrieved_at": "2026-10-12T18:10:20.817537Z",
       "source_data_sha256": "9182821cf677935dfdb721dd00ce2c8119c76aca4c6af73dc6c334ff8b60697d",
       "published_fields": {
         "id": "379885",
@@ -2164,7 +2164,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379887&guest-name=Chase-Stone",
-      "retrieved_at": "2026-10-11T19:54:47.799467Z",
+      "retrieved_at": "2026-10-12T18:10:21.178852Z",
       "source_data_sha256": "534029ed94380e22799f4328aff330aaea5751de9096a06ec4705152bd7cd710",
       "published_fields": {
         "id": "379887",
@@ -2210,7 +2210,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379888&guest-name=Chris-Rahn",
-      "retrieved_at": "2026-10-11T19:54:47.967928Z",
+      "retrieved_at": "2026-10-12T18:10:21.576110Z",
       "source_data_sha256": "cf6df4e9d7444481d3c3929f745710140f5978898ea819e391c2a8900801bd09",
       "published_fields": {
         "id": "379888",
@@ -2256,7 +2256,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379889&guest-name=Chris-Rallis",
-      "retrieved_at": "2026-10-11T19:54:49.305238Z",
+      "retrieved_at": "2026-10-12T18:10:22.567071Z",
       "source_data_sha256": "0e21806d395f8fba30ef0216a04383f2b1a4c4fd7712f900e45991b8175b63a9",
       "published_fields": {
         "id": "379889",
@@ -2302,7 +2302,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379890&guest-name=Chris-Seaman",
-      "retrieved_at": "2026-10-11T19:54:49.630987Z",
+      "retrieved_at": "2026-10-12T18:10:23.027920Z",
       "source_data_sha256": "9c379d0680ef31c794042fae3b7709904b951d2eb6a530444c14db571a240541",
       "published_fields": {
         "id": "379890",
@@ -2348,7 +2348,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379892&guest-name=Daren-Bader",
-      "retrieved_at": "2026-10-11T19:54:49.913548Z",
+      "retrieved_at": "2026-10-12T18:10:23.472654Z",
       "source_data_sha256": "c2a2203f9534dfb574bb4a1bce0cf5cde7c46f689e3e175e2fbffe8cf737fd1a",
       "published_fields": {
         "id": "379892",
@@ -2394,7 +2394,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379894&guest-name=David-Palumbo",
-      "retrieved_at": "2026-10-11T19:54:50.350253Z",
+      "retrieved_at": "2026-10-12T18:10:24.472474Z",
       "source_data_sha256": "8cd49bb14ce614da021933f9394ecc99c0a89d6a7097454e1b8f1b23d89689a6",
       "published_fields": {
         "id": "379894",
@@ -2440,7 +2440,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379895&guest-name=Douglas-Shuler",
-      "retrieved_at": "2026-10-11T19:54:51.374197Z",
+      "retrieved_at": "2026-10-12T18:10:24.767150Z",
       "source_data_sha256": "d3e7616779466bcffc0b2bff97b4ad478aa8773bafbfb690f0b0d3f9f850e53f",
       "published_fields": {
         "id": "379895",
@@ -2486,7 +2486,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379896&guest-name=Eric-Deschamps",
-      "retrieved_at": "2026-10-11T19:54:51.948211Z",
+      "retrieved_at": "2026-10-12T18:10:25.341347Z",
       "source_data_sha256": "54a7bae35c70b788d60c0a872dadd20b2c1f777139f41244008cd74becc35403",
       "published_fields": {
         "id": "379896",
@@ -2532,7 +2532,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379897&guest-name=Gabor-Szikszai",
-      "retrieved_at": "2026-10-11T19:54:52.293979Z",
+      "retrieved_at": "2026-10-12T18:10:26.465222Z",
       "source_data_sha256": "4e93021c6ae4f04a2ce713f002a07c0af6cc9fe480bde7d4fca907f214c029c8",
       "published_fields": {
         "id": "379897",
@@ -2578,7 +2578,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379899&guest-name=Izzy",
-      "retrieved_at": "2026-10-11T19:54:53.437268Z",
+      "retrieved_at": "2026-10-12T18:10:26.564490Z",
       "source_data_sha256": "096a84d045c763cb68e8c140c7daf687cf49dc039f4655e285c8587b1de9276d",
       "published_fields": {
         "id": "379899",
@@ -2624,7 +2624,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379900&guest-name=Jason-Engle",
-      "retrieved_at": "2026-10-11T19:54:53.849065Z",
+      "retrieved_at": "2026-10-12T18:10:27.114458Z",
       "source_data_sha256": "bd42fc395cb3f2a002e351a379f4561e15766a656e8fc3ca697c6f4bf689b086",
       "published_fields": {
         "id": "379900",
@@ -2670,7 +2670,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379901&guest-name=Jeff-Miracola",
-      "retrieved_at": "2026-10-11T19:54:54.202013Z",
+      "retrieved_at": "2026-10-12T18:10:28.048594Z",
       "source_data_sha256": "fa840cf0e13ae285a2a50036a776ccc7fec74376eb532c80c9c7a7e4bafd3de2",
       "published_fields": {
         "id": "379901",
@@ -2716,7 +2716,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379902&guest-name=Kieran-Yanner",
-      "retrieved_at": "2026-10-11T19:54:55.267335Z",
+      "retrieved_at": "2026-10-12T18:10:28.490627Z",
       "source_data_sha256": "c75bf9f13ddfc0e8651c67240e38b6bcc721dbeb1f61af0d38bd7ec75e618181",
       "published_fields": {
         "id": "379902",
@@ -2762,7 +2762,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379903&guest-name=Lucas-Graciano",
-      "retrieved_at": "2026-10-11T19:54:55.662159Z",
+      "retrieved_at": "2026-10-12T18:10:28.837178Z",
       "source_data_sha256": "d758ac5151e33f5bb84cd347b640cd982f76b76ad5b2406a3953ebf21a8e3686",
       "published_fields": {
         "id": "379903",
@@ -2808,7 +2808,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379904&guest-name=Mark-Tedin",
-      "retrieved_at": "2026-10-11T19:54:15.043370Z",
+      "retrieved_at": "2026-10-12T18:09:49.376089Z",
       "source_data_sha256": "daaf495f826f915fb518e8a4844eb223aefbfd681e414f7972c00d64edce6955",
       "published_fields": {
         "id": "379904",
@@ -2854,7 +2854,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379905&guest-name=Mathias-Kollros",
-      "retrieved_at": "2026-10-11T19:54:15.234139Z",
+      "retrieved_at": "2026-10-12T18:09:49.427453Z",
       "source_data_sha256": "52cfc4d8c3a97c2a7d77364bc238d73628f3e62a02ed12b38e7a70047c900e96",
       "published_fields": {
         "id": "379905",
@@ -2918,7 +2918,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379907&guest-name=Nicholas-Gregory",
-      "retrieved_at": "2026-10-11T19:54:15.008699Z",
+      "retrieved_at": "2026-10-12T18:09:49.359036Z",
       "source_data_sha256": "26c0cd40b2ebf2b634ba8dcc46a6c52ce1fa79ab9933ee623d82c0b0e8611d44",
       "published_fields": {
         "id": "379907",
@@ -2964,7 +2964,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379908&guest-name=Alix-Branwyn",
-      "retrieved_at": "2026-10-11T19:54:16.814550Z",
+      "retrieved_at": "2026-10-12T18:09:50.964683Z",
       "source_data_sha256": "d06f744205edca8492baf91221a44d4b69dee7bac8afa659ed31befcce619bea",
       "published_fields": {
         "id": "379908",
@@ -3010,7 +3010,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379909&guest-name=Eli-Minaya",
-      "retrieved_at": "2026-10-11T19:54:17.062591Z",
+      "retrieved_at": "2026-10-12T18:09:51.374017Z",
       "source_data_sha256": "eb1ab0a3100550d16239018ad0aae9e64398a5b5a0582d3d4223100669227b47",
       "published_fields": {
         "id": "379909",
@@ -3056,7 +3056,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379910&guest-name=Evyn-Fong",
-      "retrieved_at": "2026-10-11T19:54:17.099070Z",
+      "retrieved_at": "2026-10-12T18:09:51.271502Z",
       "source_data_sha256": "0146deef825392c446ca7a5fad5f9c5afa2364b668f4a06e0fcc73ac5d5fcb11",
       "published_fields": {
         "id": "379910",
@@ -3102,7 +3102,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379911&guest-name=Joe-Slucher",
-      "retrieved_at": "2026-10-11T19:54:18.849547Z",
+      "retrieved_at": "2026-10-12T18:09:52.727812Z",
       "source_data_sha256": "894fb76a0c9fdf49ac173860ac5c8873f32032f78c204575bd2c724a1f925ba9",
       "published_fields": {
         "id": "379911",
@@ -3148,7 +3148,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379913&guest-name=John-Stanko",
-      "retrieved_at": "2026-10-11T19:54:18.988559Z",
+      "retrieved_at": "2026-10-12T18:09:53.226660Z",
       "source_data_sha256": "d29a6a4a11caa54fcb6ac8f4acd1f0109deafa61579a500332f091f96d799ee9",
       "published_fields": {
         "id": "379913",
@@ -3187,7 +3187,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379914&guest-name=Kaja-Foglio",
-      "retrieved_at": "2026-10-11T19:54:18.913302Z",
+      "retrieved_at": "2026-10-12T18:09:53.064600Z",
       "source_data_sha256": "32a0fbdececedc9776da83809f4c4e95f55b68de1a73701085f0a6ecaaea6275",
       "published_fields": {
         "id": "379914",
@@ -3226,7 +3226,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379915&guest-name=Leon-Tukker",
-      "retrieved_at": "2026-10-11T19:54:20.905892Z",
+      "retrieved_at": "2026-10-12T18:09:54.493873Z",
       "source_data_sha256": "b0f08fdf3bf446a399d4f15011877ad07de835171cb7f74f819b0cf0f34abb97",
       "published_fields": {
         "id": "379915",
@@ -3272,7 +3272,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379916&guest-name=Michael-Bierek",
-      "retrieved_at": "2026-10-11T19:54:20.906892Z",
+      "retrieved_at": "2026-10-12T18:09:55.149750Z",
       "source_data_sha256": "27e396b9f7627b3611c965c8d203f9236e91791da2f8c38180e77ad770690a05",
       "published_fields": {
         "id": "379916",
@@ -3318,7 +3318,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379917&guest-name=Phil-Foglio",
-      "retrieved_at": "2026-10-11T19:54:20.813916Z",
+      "retrieved_at": "2026-10-12T18:09:54.856439Z",
       "source_data_sha256": "1838ca7bd3eb3cf5dcc66858caffb0e2ef1dd29288ae469d61a7511dde9bbc6f",
       "published_fields": {
         "id": "379917",
@@ -3357,7 +3357,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379918&guest-name=Alessandra-Pisano",
-      "retrieved_at": "2026-10-11T19:54:22.779248Z",
+      "retrieved_at": "2026-10-12T18:09:56.280502Z",
       "source_data_sha256": "7cc6b75321512febd13694ee97b0ad5eb2071da9c03acad4959fc7701442184b",
       "published_fields": {
         "id": "379918",
@@ -3421,7 +3421,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379919&guest-name=Andrea-Radeck",
-      "retrieved_at": "2026-10-11T19:54:22.629544Z",
+      "retrieved_at": "2026-10-12T18:09:56.526836Z",
       "source_data_sha256": "8f5bda8b3442c910b9850a5350a80a743951cf9c4117329b0f42ffa1be423f9e",
       "published_fields": {
         "id": "379919",
@@ -3485,7 +3485,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379920&guest-name=Bruce-Brenneise",
-      "retrieved_at": "2026-10-11T19:54:22.787269Z",
+      "retrieved_at": "2026-10-12T18:09:57.036953Z",
       "source_data_sha256": "4e933baef071eca76e53908197496f63fc1416d6c4723d1d0d6013ed22026ef9",
       "published_fields": {
         "id": "379920",
@@ -3531,7 +3531,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379921&guest-name=Danny-Schwartz",
-      "retrieved_at": "2026-10-11T19:54:24.559497Z",
+      "retrieved_at": "2026-10-12T18:09:58.032884Z",
       "source_data_sha256": "e3517a31cf80f49224fe45da504d8472210aa9288372d24e678b25a2b8478eef",
       "published_fields": {
         "id": "379921",
@@ -3577,7 +3577,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379922&guest-name=Jarel-Threat",
-      "retrieved_at": "2026-10-11T19:54:24.659538Z",
+      "retrieved_at": "2026-10-12T18:09:58.280257Z",
       "source_data_sha256": "96fc4c8f966e304786c153da0d5475e227d08167452b1696433ad414539c3396",
       "published_fields": {
         "id": "379922",
@@ -3623,7 +3623,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379923&guest-name=Phil-Stone",
-      "retrieved_at": "2026-10-11T19:54:24.923438Z",
+      "retrieved_at": "2026-10-12T18:09:59.268109Z",
       "source_data_sha256": "3f59ef6552d6fa9e934f1ba37c48c5b020469be9e8b745b1f4236781f956d619",
       "published_fields": {
         "id": "379923",
@@ -3687,7 +3687,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379924&guest-name=Pindurski",
-      "retrieved_at": "2026-10-11T19:54:26.481232Z",
+      "retrieved_at": "2026-10-12T18:09:59.849923Z",
       "source_data_sha256": "b347a0c33ca3eaab246ea35dc64a54d20159d9cea459359501dc692f58b1df04",
       "published_fields": {
         "id": "379924",
@@ -3733,7 +3733,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379926&guest-name=Josu-Solano",
-      "retrieved_at": "2026-10-11T19:54:26.544657Z",
+      "retrieved_at": "2026-10-12T18:10:00.027249Z",
       "source_data_sha256": "587487e33f3eab9e68c65b196560183306f9a46212dabca56fbf1e002094ae67",
       "published_fields": {
         "id": "379926",
@@ -3790,7 +3790,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379927&guest-name=Justine-Jones",
-      "retrieved_at": "2026-10-11T19:54:26.969400Z",
+      "retrieved_at": "2026-10-12T18:10:01.411532Z",
       "source_data_sha256": "aa372e876205a95afecd4500652d23c496223923401774732e7d03c20915a79c",
       "published_fields": {
         "id": "379927",
@@ -3836,7 +3836,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379928&guest-name=Kai-Carpenter",
-      "retrieved_at": "2026-10-11T19:54:28.369879Z",
+      "retrieved_at": "2026-10-12T18:10:02.175180Z",
       "source_data_sha256": "d31b372584f8e76f4e2edb11649a2e5f8df526fad4bc95ca6b47d75a1f6fb8fb",
       "published_fields": {
         "id": "379928",
@@ -3900,7 +3900,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379930&guest-name=kelogsloops",
-      "retrieved_at": "2026-10-11T19:54:28.538080Z",
+      "retrieved_at": "2026-10-12T18:10:02.184688Z",
       "source_data_sha256": "ba0f7509f5d6078dd182803c9947b097420a93f05f38d54b6f880f5d86ce5bb8",
       "published_fields": {
         "id": "379930",
@@ -3946,7 +3946,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379931&guest-name=Martina-Fa%C4%8Dkov%C3%A1",
-      "retrieved_at": "2026-10-11T19:54:28.869587Z",
+      "retrieved_at": "2026-10-12T18:10:03.429937Z",
       "source_data_sha256": "cc2f8567e51533a9c9025e98a32bb325e5536bc744011ec81f10d4999a1f5ea4",
       "published_fields": {
         "id": "379931",
@@ -3985,7 +3985,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379933&guest-name=Nino-Vecia",
-      "retrieved_at": "2026-10-11T19:54:30.178439Z",
+      "retrieved_at": "2026-10-12T18:10:04.234488Z",
       "source_data_sha256": "67eebdcd75a9a57838045ca5311b4c91ef5598fc9d9ce91b0bb44ff5b95cf913",
       "published_fields": {
         "id": "379933",
@@ -4031,7 +4031,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379934&guest-name=Olena-and-quotLena-and-quot-Richards",
-      "retrieved_at": "2026-10-11T19:54:30.280861Z",
+      "retrieved_at": "2026-10-12T18:10:03.988033Z",
       "source_data_sha256": "bad217981dcedca1116296f7539cdeeb9377e1c8d38d99a5996e26a8508bbd8e",
       "published_fields": {
         "id": "379934",
@@ -4077,7 +4077,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379936&guest-name=Paul-Scott-Canavan",
-      "retrieved_at": "2026-10-11T19:54:30.828587Z",
+      "retrieved_at": "2026-10-12T18:10:05.405919Z",
       "source_data_sha256": "1a75780a86ebf262648c1df07607555a2b6abe5bb08e3702d48b43245f0910f2",
       "published_fields": {
         "id": "379936",
@@ -4116,7 +4116,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379937&guest-name=Ben-Hill",
-      "retrieved_at": "2026-10-11T19:54:32.046851Z",
+      "retrieved_at": "2026-10-12T18:10:05.669817Z",
       "source_data_sha256": "66350241d0d04b8e4774b6c3aa436c96f28073b6730528319d978c72d236665f",
       "published_fields": {
         "id": "379937",
@@ -4180,7 +4180,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379938&guest-name=Josiah-and-quotJo-and-quot-Cameron",
-      "retrieved_at": "2026-10-11T19:54:32.272898Z",
+      "retrieved_at": "2026-10-12T18:10:05.850336Z",
       "source_data_sha256": "ce5172125fcc98227a8394c2880a89a0364e9d987125f84150334fe4bf2370a4",
       "published_fields": {
         "id": "379938",
@@ -4244,7 +4244,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379939&guest-name=SchmandrewART",
-      "retrieved_at": "2026-10-11T19:54:32.616334Z",
+      "retrieved_at": "2026-10-12T18:10:07.267537Z",
       "source_data_sha256": "9297eba48408d558ab7252f484162d30cc130e3ed9fbe648f270fee440dfc9e7",
       "published_fields": {
         "id": "379939",
@@ -4308,7 +4308,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379940&guest-name=Randy-Gallegos",
-      "retrieved_at": "2026-10-11T19:54:34.115221Z",
+      "retrieved_at": "2026-10-12T18:10:07.570452Z",
       "source_data_sha256": "e57c7f29756c9fcfe55a60179cc7155579c914f267c70382bfd1d60c070e4686",
       "published_fields": {
         "id": "379940",
@@ -4354,7 +4354,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379941&guest-name=Richard-Kane-Ferguson",
-      "retrieved_at": "2026-10-11T19:54:34.164158Z",
+      "retrieved_at": "2026-10-12T18:10:07.706833Z",
       "source_data_sha256": "94107a410d2aec18195b8f92ee418a247dd5d1a141f5d2d61ba1ccd65b90af23",
       "published_fields": {
         "id": "379941",
@@ -4400,7 +4400,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379942&guest-name=RK-Post",
-      "retrieved_at": "2026-10-11T19:54:34.483128Z",
+      "retrieved_at": "2026-10-12T18:10:09.232433Z",
       "source_data_sha256": "b29a1c5fcd68940419f1eaa380c052965bcc674f7701df709d2453bd61012a70",
       "published_fields": {
         "id": "379942",
@@ -4446,7 +4446,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379943&guest-name=Ryan-Pancoast",
-      "retrieved_at": "2026-10-11T19:54:36.092517Z",
+      "retrieved_at": "2026-10-12T18:10:09.411164Z",
       "source_data_sha256": "7eaf79e3096665d415b58144b7d4fab27a62d64d84cdaf394d2287b9e624eac2",
       "published_fields": {
         "id": "379943",
@@ -4492,7 +4492,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379944&guest-name=Sam-Burley",
-      "retrieved_at": "2026-10-11T19:54:36.185570Z",
+      "retrieved_at": "2026-10-12T18:10:09.609500Z",
       "source_data_sha256": "08f67dcd18f21390590be51b0dc744b91c1dbd04a2f9f728ad86b6eaad374c73",
       "published_fields": {
         "id": "379944",
@@ -4538,7 +4538,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379945&guest-name=Steve-Prescott",
-      "retrieved_at": "2026-10-11T19:54:36.534452Z",
+      "retrieved_at": "2026-10-12T18:10:11.318478Z",
       "source_data_sha256": "364f2b7e408b448b696c4174896aaac2f2fbddf80a6a21320beb710439b5e3df",
       "published_fields": {
         "id": "379945",
@@ -4584,7 +4584,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379946&guest-name=Steven-Belledin",
-      "retrieved_at": "2026-10-11T19:54:38.019596Z",
+      "retrieved_at": "2026-10-12T18:10:11.421658Z",
       "source_data_sha256": "cb328616499004bff95ca768622f3235e212cc788626e7141875fcf2c741c3fe",
       "published_fields": {
         "id": "379946",
@@ -4630,7 +4630,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379947&guest-name=Svetlin-Velinov",
-      "retrieved_at": "2026-10-11T19:54:38.114625Z",
+      "retrieved_at": "2026-10-12T18:10:11.621839Z",
       "source_data_sha256": "36879755a0df47a849aeb5350a46b81b7555d5e2024b53aa6c414a78b359c81d",
       "published_fields": {
         "id": "379947",
@@ -4676,7 +4676,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379948&guest-name=Thomas-Baxa",
-      "retrieved_at": "2026-10-11T19:54:38.472055Z",
+      "retrieved_at": "2026-10-12T18:10:13.263855Z",
       "source_data_sha256": "0e6744c1d3e124583f464ef757c6c9ba5d23d32244a144dbd4e30cd344f3805b",
       "published_fields": {
         "id": "379948",
@@ -4722,7 +4722,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379949&guest-name=Tom-W%C3%A4nerstrand",
-      "retrieved_at": "2026-10-11T19:54:39.971180Z",
+      "retrieved_at": "2026-10-12T18:10:13.125505Z",
       "source_data_sha256": "31a3b8b5efd882919403f7dbd6115aa9fe93d49c2144408c92bdde173129687b",
       "published_fields": {
         "id": "379949",
@@ -4768,7 +4768,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379950&guest-name=Tyler-Jacobson",
-      "retrieved_at": "2026-10-11T19:54:39.839079Z",
+      "retrieved_at": "2026-10-12T18:10:13.270372Z",
       "source_data_sha256": "17b00f3a2e45c5370ed1e17208684b0af1076370c30be040c320d5f772ccf8c6",
       "published_fields": {
         "id": "379950",
@@ -4814,7 +4814,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379951&guest-name=Tyler-Walpole",
-      "retrieved_at": "2026-10-11T19:54:41.610187Z",
+      "retrieved_at": "2026-10-12T18:10:15.141142Z",
       "source_data_sha256": "95ad859b8761a5bb733ad15c8ebbfa06ac4f6098949b738f73b6ad49d1e4d8ca",
       "published_fields": {
         "id": "379951",
@@ -4860,7 +4860,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379952&guest-name=Victor-Adame-Minguez",
-      "retrieved_at": "2026-10-11T19:54:41.792401Z",
+      "retrieved_at": "2026-10-12T18:10:15.253711Z",
       "source_data_sha256": "d0fe803a4b88daba64f6d75c45b5ab55653dc9e74cf3b0f542c47ce66d2fef45",
       "published_fields": {
         "id": "379952",
@@ -4906,7 +4906,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379953&guest-name=Vincent-Proce",
-      "retrieved_at": "2026-10-11T19:54:41.960350Z",
+      "retrieved_at": "2026-10-12T18:10:15.425290Z",
       "source_data_sha256": "fc26daf19ccfd808c08802f1e15d617c8e3098f3bf48920ae9edf7bb465d0d49",
       "published_fields": {
         "id": "379953",
@@ -4970,7 +4970,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379955&guest-name=Winona-Nelson",
-      "retrieved_at": "2026-10-11T19:54:43.651335Z",
+      "retrieved_at": "2026-10-12T18:10:17.115402Z",
       "source_data_sha256": "a99f6a0969527666cf32bc17f9363c34c5323fa5d8dbbe758de6fdb238f7585d",
       "published_fields": {
         "id": "379955",
@@ -5016,7 +5016,7 @@
     {
       "kind": "guest",
       "profile_url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379956&guest-name=Wizard-of-Barge",
-      "retrieved_at": "2026-10-11T19:54:43.844146Z",
+      "retrieved_at": "2026-10-12T18:10:17.341192Z",
       "source_data_sha256": "fd4d5a97f5dac320bf2d2fb528e355bc5f8297f2f4ee128a57809c8aa1683b87",
       "published_fields": {
         "id": "379956",

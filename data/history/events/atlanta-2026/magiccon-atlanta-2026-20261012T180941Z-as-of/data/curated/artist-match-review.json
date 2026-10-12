@@ -1,0 +1,1522 @@
+{
+  "schema_version": 1,
+  "reviewed_at": "2026-10-11",
+  "reviewer": "Codex; source-evidence review, not an assertion of event-organizer approval",
+  "card_snapshot_id": "scryfall-all-cards-20261012091830",
+  "event_snapshot_id": "magiccon-atlanta-2026-20261012T180941Z",
+  "policy": "Frozen explicit decisions. Candidate generation never approves a future or changed name. No cross-ID merges or name-to-ID positional inference.",
+  "decisions": [
+    {
+      "magiccon_guest_id": "379869",
+      "expected_event_names": [
+        "Aaron Miller",
+        "Aaron Miller"
+      ],
+      "scryfall_artist_ids": [
+        "fc021f3d-773a-4706-bbe7-f602324f511f"
+      ],
+      "expected_scryfall_names": {
+        "fc021f3d-773a-4706-bbe7-f602324f511f": [
+          "Aaron Miller"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379869&guest-name=Aaron-Miller",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668810&exhibitor-name=Aaron-Miller"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379885",
+      "expected_event_names": [
+        "Alayna Danner",
+        "Alayna Danner"
+      ],
+      "scryfall_artist_ids": [
+        "bb677b1a-ce51-4888-83d6-5a94de461ff9"
+      ],
+      "expected_scryfall_names": {
+        "bb677b1a-ce51-4888-83d6-5a94de461ff9": [
+          "Alayna Danner"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379885&guest-name=Alayna-Danner",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668811&exhibitor-name=Alayna-Danner"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379918",
+      "expected_event_names": [
+        "Alessandra Pisano ",
+        "Alessandra Pisano"
+      ],
+      "scryfall_artist_ids": [
+        "15869690-bf3c-4498-a577-409a6bde5c83"
+      ],
+      "expected_scryfall_names": {
+        "15869690-bf3c-4498-a577-409a6bde5c83": [
+          "Alessandra Pisano"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379918&guest-name=Alessandra-Pisano",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668812&exhibitor-name=Alessandra-Pisano"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379908",
+      "expected_event_names": [
+        "Alix Branwyn",
+        "Alix Branwyn"
+      ],
+      "scryfall_artist_ids": [
+        "4f0a0e38-d74c-4e0b-ad91-fecccb1afa5d"
+      ],
+      "expected_scryfall_names": {
+        "4f0a0e38-d74c-4e0b-ad91-fecccb1afa5d": [
+          "Alix Branwyn"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379908&guest-name=Alix-Branwyn",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668813&exhibitor-name=Alix-Branwyn"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379919",
+      "expected_event_names": [
+        "Andrea Radeck",
+        "Andrea Radeck"
+      ],
+      "scryfall_artist_ids": [
+        "2560b932-96b5-4308-9d32-298641ef326e"
+      ],
+      "expected_scryfall_names": {
+        "2560b932-96b5-4308-9d32-298641ef326e": [
+          "Andrea Radeck",
+          "Andrea Radeck, age 35"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Additional Scryfall names are retained because they are explicitly attached to this same UUID; no cross-UUID name merge is inferred.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379919&guest-name=Andrea-Radeck",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668814&exhibitor-name=Andrea-Radeck"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379937",
+      "expected_event_names": [
+        "Ben Hill",
+        "Ben Hill"
+      ],
+      "scryfall_artist_ids": [
+        "35785d29-9538-407e-852d-a9b3ab626388"
+      ],
+      "expected_scryfall_names": {
+        "35785d29-9538-407e-852d-a9b3ab626388": [
+          "Ben Hill"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379937&guest-name=Ben-Hill",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668872&exhibitor-name=Ben-Hill"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379920",
+      "expected_event_names": [
+        "Bruce Brenneise",
+        "Bruce Brenneise"
+      ],
+      "scryfall_artist_ids": [
+        "91d65465-e8a6-4a4e-8b0e-0e07466cfa0f"
+      ],
+      "expected_scryfall_names": {
+        "91d65465-e8a6-4a4e-8b0e-0e07466cfa0f": [
+          "Bruce Brenneise"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379920&guest-name=Bruce-Brenneise",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668817&exhibitor-name=Bruce-Brenneise"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379887",
+      "expected_event_names": [
+        "Chase Stone",
+        "Chase Stone"
+      ],
+      "scryfall_artist_ids": [
+        "2d753f61-5f5b-468e-97ea-8e0fdd347340"
+      ],
+      "expected_scryfall_names": {
+        "2d753f61-5f5b-468e-97ea-8e0fdd347340": [
+          "Chase Stone"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379887&guest-name=Chase-Stone",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668818&exhibitor-name=Chase-Stone"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379888",
+      "expected_event_names": [
+        "Chris Rahn",
+        "Chris Rahn"
+      ],
+      "scryfall_artist_ids": [
+        "7742047e-0f80-4c0f-a530-d07460165e86"
+      ],
+      "expected_scryfall_names": {
+        "7742047e-0f80-4c0f-a530-d07460165e86": [
+          "Chris Rahn",
+          "Chris Rahn, age 36"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Additional Scryfall names are retained because they are explicitly attached to this same UUID; no cross-UUID name merge is inferred.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379888&guest-name=Chris-Rahn",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668819&exhibitor-name=Chris-Rahn"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379889",
+      "expected_event_names": [
+        "Chris Rallis",
+        "Chris Rallis"
+      ],
+      "scryfall_artist_ids": [
+        "a8e7b854-b15a-421a-b66d-6e68187ae285"
+      ],
+      "expected_scryfall_names": {
+        "a8e7b854-b15a-421a-b66d-6e68187ae285": [
+          "Chris Rallis"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379889&guest-name=Chris-Rallis",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668850&exhibitor-name=Chris-Rallis"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379890",
+      "expected_event_names": [
+        "Chris Seaman",
+        "Chris Seaman"
+      ],
+      "scryfall_artist_ids": [
+        "b9c49463-6f55-4039-9d32-c02a658af100"
+      ],
+      "expected_scryfall_names": {
+        "b9c49463-6f55-4039-9d32-c02a658af100": [
+          "Chris Seaman"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379890&guest-name=Chris-Seaman",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668820&exhibitor-name=Chris-Seaman"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "378578",
+      "expected_event_names": [
+        "Cynthia Sheppard",
+        "Cynthia Shepard"
+      ],
+      "scryfall_artist_ids": [
+        "9dfbdd58-65e6-40cf-951a-80e141061939"
+      ],
+      "expected_scryfall_names": {
+        "9dfbdd58-65e6-40cf-951a-80e141061939": [
+          "Cynthia Sheppard"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Event-section alias review: Both biographies begin with Cynthia Sheppard, Seattle-area artist, art educator and former MtG art director, and describe the same 2015–2021 role and sets. The showroom's website is cynthia-sheppard.com.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=378578&guest-name=Cynthia-Sheppard",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668804&exhibitor-name=Cynthia-Shepard"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379921",
+      "expected_event_names": [
+        "Danny Schwartz",
+        "Danny Schwartz"
+      ],
+      "scryfall_artist_ids": [
+        "48e30a4a-5b4d-48e2-9c53-03125085374e"
+      ],
+      "expected_scryfall_names": {
+        "48e30a4a-5b4d-48e2-9c53-03125085374e": [
+          "Danny Schwartz"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379921&guest-name=Danny-Schwartz",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668822&exhibitor-name=Danny-Schwartz"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379892",
+      "expected_event_names": [
+        "Daren Bader",
+        "Daren Bader"
+      ],
+      "scryfall_artist_ids": [
+        "7da1a585-c875-45e4-b322-5da9e8e1f651"
+      ],
+      "expected_scryfall_names": {
+        "7da1a585-c875-45e4-b322-5da9e8e1f651": [
+          "Daren Bader"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379892&guest-name=Daren-Bader",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668823&exhibitor-name=Daren-Bader"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379894",
+      "expected_event_names": [
+        "David Palumbo",
+        "David Palumbo"
+      ],
+      "scryfall_artist_ids": [
+        "04ce1c75-e30c-4b7a-8cb0-b53e4ecc2f39"
+      ],
+      "expected_scryfall_names": {
+        "04ce1c75-e30c-4b7a-8cb0-b53e4ecc2f39": [
+          "David Palumbo"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379894&guest-name=David-Palumbo",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668824&exhibitor-name=David-Palumbo"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379895",
+      "expected_event_names": [
+        "Douglas Shuler",
+        "Douglas Shuler"
+      ],
+      "scryfall_artist_ids": [
+        "a9ddb513-51c7-455c-ab8f-5b90aae9f75b"
+      ],
+      "expected_scryfall_names": {
+        "a9ddb513-51c7-455c-ab8f-5b90aae9f75b": [
+          "Douglas Shuler"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379895&guest-name=Douglas-Shuler",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668825&exhibitor-name=Douglas-Shuler"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379909",
+      "expected_event_names": [
+        "Eli  Minaya",
+        "Eli Minaya"
+      ],
+      "scryfall_artist_ids": [
+        "fee369ac-08b5-4a69-8ef8-f2b42b81e807"
+      ],
+      "expected_scryfall_names": {
+        "fee369ac-08b5-4a69-8ef8-f2b42b81e807": [
+          "Eli Minaya"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379909&guest-name=Eli-Minaya",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668826&exhibitor-name=Eli-Minaya"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379896",
+      "expected_event_names": [
+        "Eric Deschamps",
+        "Eric Deschamps"
+      ],
+      "scryfall_artist_ids": [
+        "37970e22-9cee-44c1-af44-5ee27cf26b76"
+      ],
+      "expected_scryfall_names": {
+        "37970e22-9cee-44c1-af44-5ee27cf26b76": [
+          "Eric Deschamps"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379896&guest-name=Eric-Deschamps",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668827&exhibitor-name=Eric-Deschamps"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379910",
+      "expected_event_names": [
+        "Evyn Fong",
+        "Evyn Fong"
+      ],
+      "scryfall_artist_ids": [
+        "6777be9f-5724-4fdb-b6a0-a83f63efa4ca"
+      ],
+      "expected_scryfall_names": {
+        "6777be9f-5724-4fdb-b6a0-a83f63efa4ca": [
+          "Evyn Fong"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379910&guest-name=Evyn-Fong",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668828&exhibitor-name=Evyn-Fong"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379897",
+      "expected_event_names": [
+        "Gabor Szikszai",
+        "Gabor Szikszai"
+      ],
+      "scryfall_artist_ids": [
+        "44c3877f-8771-43dc-9e40-f4c765f59d2e"
+      ],
+      "expected_scryfall_names": {
+        "44c3877f-8771-43dc-9e40-f4c765f59d2e": [
+          "Gabor Szikszai"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379897&guest-name=Gabor-Szikszai",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668829&exhibitor-name=Gabor-Szikszai"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379899",
+      "expected_event_names": [
+        "Izzy",
+        "Izzy"
+      ],
+      "scryfall_artist_ids": [
+        "2c3d2473-ff5d-4309-8194-e0b2def2ab65"
+      ],
+      "expected_scryfall_names": {
+        "2c3d2473-ff5d-4309-8194-e0b2def2ab65": [
+          "Izzy"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379899&guest-name=Izzy",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668830&exhibitor-name=Izzy"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379922",
+      "expected_event_names": [
+        "Jarel Threat",
+        "Jarel Threat"
+      ],
+      "scryfall_artist_ids": [
+        "0fd89fbd-bd59-4ded-890e-731a8982f278"
+      ],
+      "expected_scryfall_names": {
+        "0fd89fbd-bd59-4ded-890e-731a8982f278": [
+          "Jarel Threat"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379922&guest-name=Jarel-Threat",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668831&exhibitor-name=Jarel-Threat"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379900",
+      "expected_event_names": [
+        "Jason Engle",
+        "Jason Engle"
+      ],
+      "scryfall_artist_ids": [
+        "02e2b5de-4341-464c-8fdb-a1adbf873bc0"
+      ],
+      "expected_scryfall_names": {
+        "02e2b5de-4341-464c-8fdb-a1adbf873bc0": [
+          "Jason A. Engle"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_alias_with_primary_evidence",
+      "evidence_notes": "The official Jason Engle biography describes his constellation gods illustrations. The snapshot credits the constellation Heliod, Sun-Crowned (THB 259) to Jason A. Engle. His official JAE Studio site identifies Jason Engle and the same fantasy publishing career. Middle initial accepted from this combined evidence; not from fuzzy similarity alone.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379900&guest-name=Jason-Engle",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668832&exhibitor-name=Jason-Engle",
+        "https://www.jaestudio.com/contact",
+        "https://scryfall.com/card/thb/259/heliod-sun-crowned"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379901",
+      "expected_event_names": [
+        "Jeff Miracola",
+        "Jeff Miracola"
+      ],
+      "scryfall_artist_ids": [
+        "9b465bde-3656-4495-ace4-af4ce29999ed"
+      ],
+      "expected_scryfall_names": {
+        "9b465bde-3656-4495-ace4-af4ce29999ed": [
+          "Jeff Miracola"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379901&guest-name=Jeff-Miracola",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668833&exhibitor-name=Jeff-Miracola"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379911",
+      "expected_event_names": [
+        "Joe Slucher",
+        "Joe Slucher"
+      ],
+      "scryfall_artist_ids": [
+        "13b6c9ee-f7a8-46a4-934f-ea6b4a1b14b2"
+      ],
+      "expected_scryfall_names": {
+        "13b6c9ee-f7a8-46a4-934f-ea6b4a1b14b2": [
+          "Joe Slucher"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379911&guest-name=Joe-Slucher",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668834&exhibitor-name=Joe-Slucher"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379913",
+      "expected_event_names": [
+        "John Stanko",
+        "John stanko"
+      ],
+      "scryfall_artist_ids": [
+        "b0f038a0-73b5-4806-918e-9cd11b5f92e1"
+      ],
+      "expected_scryfall_names": {
+        "b0f038a0-73b5-4806-918e-9cd11b5f92e1": [
+          "John Stanko"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379913&guest-name=John-Stanko",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668835&exhibitor-name=John-stanko"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379938",
+      "expected_event_names": [
+        "Josiah \"Jo\" Cameron ",
+        "Josiah \"Jo\" Cameron"
+      ],
+      "scryfall_artist_ids": [
+        "2a8b4b91-ddff-4477-ba10-b92bc04a4358"
+      ],
+      "expected_scryfall_names": {
+        "2a8b4b91-ddff-4477-ba10-b92bc04a4358": [
+          "Josiah \"Jo\" Cameron"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379938&guest-name=Josiah-and-quotJo-and-quot-Cameron",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668871&exhibitor-name=Josiah-Jo-Cameron"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379926",
+      "expected_event_names": [
+        "Josu Solano",
+        "Josu Solano"
+      ],
+      "scryfall_artist_ids": [
+        "fb7b61a8-13c5-4813-a749-9d3396801906"
+      ],
+      "expected_scryfall_names": {
+        "fb7b61a8-13c5-4813-a749-9d3396801906": [
+          "Josu Solano"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379926&guest-name=Josu-Solano",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668836&exhibitor-name=Josu-Solano"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379927",
+      "expected_event_names": [
+        "Justine Jones",
+        "Justine Jones"
+      ],
+      "scryfall_artist_ids": [
+        "51041d8d-35e6-47a2-95b1-528fa4d82134"
+      ],
+      "expected_scryfall_names": {
+        "51041d8d-35e6-47a2-95b1-528fa4d82134": [
+          "Justine Jones"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379927&guest-name=Justine-Jones",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668837&exhibitor-name=Justine-Jones"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379928",
+      "expected_event_names": [
+        "Kai Carpenter",
+        "Kai Carpenter"
+      ],
+      "scryfall_artist_ids": [
+        "dcd3cf0d-67b7-4b73-8e62-1d318bf6209c"
+      ],
+      "expected_scryfall_names": {
+        "dcd3cf0d-67b7-4b73-8e62-1d318bf6209c": [
+          "Kai Carpenter"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379928&guest-name=Kai-Carpenter",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668838&exhibitor-name=Kai-Carpenter"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379914",
+      "expected_event_names": [
+        "Kaja Foglio",
+        "Kaja Foglio"
+      ],
+      "scryfall_artist_ids": [
+        "e8b85539-756a-4eac-ac66-a2258d7cf547"
+      ],
+      "expected_scryfall_names": {
+        "e8b85539-756a-4eac-ac66-a2258d7cf547": [
+          "Kaja Foglio"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379914&guest-name=Kaja-Foglio",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668858&exhibitor-name=Kaja-Foglio"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379930",
+      "expected_event_names": [
+        "kelogsloops",
+        "kelogsloops"
+      ],
+      "scryfall_artist_ids": [
+        "10ab6961-89a9-44bf-bf5a-ff2548403a83"
+      ],
+      "expected_scryfall_names": {
+        "10ab6961-89a9-44bf-bf5a-ff2548403a83": [
+          "Kelogsloops"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_normalized_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379930&guest-name=kelogsloops",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668839&exhibitor-name=kelogsloops"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379902",
+      "expected_event_names": [
+        "Kieran Yanner",
+        "Kieran Yanner"
+      ],
+      "scryfall_artist_ids": [
+        "aa7e89ed-d294-4633-9057-ce04dacfcfa4"
+      ],
+      "expected_scryfall_names": {
+        "aa7e89ed-d294-4633-9057-ce04dacfcfa4": [
+          "Kieran Yanner"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379902&guest-name=Kieran-Yanner",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668840&exhibitor-name=Kieran-Yanner"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379915",
+      "expected_event_names": [
+        "Leon Tukker",
+        "Leon Tukker"
+      ],
+      "scryfall_artist_ids": [
+        "669b8b90-758d-4f9e-b4f7-98cd6742eb97"
+      ],
+      "expected_scryfall_names": {
+        "669b8b90-758d-4f9e-b4f7-98cd6742eb97": [
+          "Leon Tukker"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379915&guest-name=Leon-Tukker",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668841&exhibitor-name=Leon-Tukker"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379903",
+      "expected_event_names": [
+        "Lucas Graciano",
+        "Lucas Graciano"
+      ],
+      "scryfall_artist_ids": [
+        "ce98f39c-7cdd-47e6-a520-6c50443bb4c2"
+      ],
+      "expected_scryfall_names": {
+        "ce98f39c-7cdd-47e6-a520-6c50443bb4c2": [
+          "Lucas Graciano"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379903&guest-name=Lucas-Graciano",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668842&exhibitor-name=Lucas-Graciano"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "378577",
+      "expected_event_names": [
+        "Mark Poole",
+        "Mark Poole"
+      ],
+      "scryfall_artist_ids": [
+        "bfdeaf09-f915-4058-8e8b-bcac3bc43c33"
+      ],
+      "expected_scryfall_names": {
+        "bfdeaf09-f915-4058-8e8b-bcac3bc43c33": [
+          "Mark Poole"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=378577&guest-name=Mark-Poole",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668806&exhibitor-name=Mark-Poole"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379904",
+      "expected_event_names": [
+        "Mark Tedin",
+        "Mark Tedin"
+      ],
+      "scryfall_artist_ids": [
+        "9ee9a9cc-c09e-486f-918b-69f80cbc4188"
+      ],
+      "expected_scryfall_names": {
+        "9ee9a9cc-c09e-486f-918b-69f80cbc4188": [
+          "Mark Tedin",
+          "Mark “It’s teh-DEEN” Tedin"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Additional Scryfall names are retained because they are explicitly attached to this same UUID; no cross-UUID name merge is inferred.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379904&guest-name=Mark-Tedin",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668843&exhibitor-name=Mark-Tedin"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379931",
+      "expected_event_names": [
+        "Martina Fačková",
+        "Martina Fačková"
+      ],
+      "scryfall_artist_ids": [
+        "6338124e-8e53-498d-8bf9-93a55db2f61c"
+      ],
+      "expected_scryfall_names": {
+        "6338124e-8e53-498d-8bf9-93a55db2f61c": [
+          "Martina Fačková"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379931&guest-name=Martina-Fa%C4%8Dkov%C3%A1",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668844&exhibitor-name=Martina-Fa%C4%8Dkov%C3%A1"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379905",
+      "expected_event_names": [
+        "Mathias Kollros",
+        "Mathias Kollros"
+      ],
+      "scryfall_artist_ids": [
+        "2ae0dd12-047c-4efb-80d7-bccc3bac5fba"
+      ],
+      "expected_scryfall_names": {
+        "2ae0dd12-047c-4efb-80d7-bccc3bac5fba": [
+          "Mathias Kollros"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379905&guest-name=Mathias-Kollros",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668845&exhibitor-name=Mathias-Kollros"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379916",
+      "expected_event_names": [
+        "Michael Bierek",
+        "Mike Bierek"
+      ],
+      "scryfall_artist_ids": [
+        "e5f52ef5-1a2e-4128-90b0-ccc71cd47ea7"
+      ],
+      "expected_scryfall_names": {
+        "e5f52ef5-1a2e-4128-90b0-ccc71cd47ea7": [
+          "Mike Bierek"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Event-section alias review: Both biographies explicitly call the artist Mike Bierek and describe the same illustration and Legion Art Collective tattoo work. The guest's Instagram is mikebierektattoos and the showroom website is michael-bierek.artstation.com.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379916&guest-name=Michael-Bierek",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668846&exhibitor-name=Mike-Bierek"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379907",
+      "expected_event_names": [
+        "Nicholas Gregory",
+        "Nicholas Gregory"
+      ],
+      "scryfall_artist_ids": [
+        "a1bba8ff-63b4-4786-b1c4-f1bfe5d3ab1c"
+      ],
+      "expected_scryfall_names": {
+        "a1bba8ff-63b4-4786-b1c4-f1bfe5d3ab1c": [
+          "Nicholas Gregory"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379907&guest-name=Nicholas-Gregory",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668821&exhibitor-name=Nicholas-Gregory"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379933",
+      "expected_event_names": [
+        "Nino Vecia",
+        "Nino Vecia"
+      ],
+      "scryfall_artist_ids": [
+        "21466232-678a-4836-89fd-82cb15f52366"
+      ],
+      "expected_scryfall_names": {
+        "21466232-678a-4836-89fd-82cb15f52366": [
+          "Nino Vecia"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379933&guest-name=Nino-Vecia",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668815&exhibitor-name=Nino-Vecia"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379934",
+      "expected_event_names": [
+        "Olena \"Lena\" Richards",
+        "Olena \"Lena\" Richards"
+      ],
+      "scryfall_artist_ids": [
+        "fad4282c-49d1-4b5b-be1d-713369fc8bc8"
+      ],
+      "expected_scryfall_names": {
+        "fad4282c-49d1-4b5b-be1d-713369fc8bc8": [
+          "Olena Richards"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_alias_with_primary_evidence",
+      "evidence_notes": "MagicCon displays Olena \"Lena\" Richards; its biography calls her Lena and links lenarichards.com. The published official gallery link explicitly uses olena_richards, matching the single-ID Scryfall credit. The nickname is preserved in the event name.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379934&guest-name=Olena-and-quotLena-and-quot-Richards",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668847&exhibitor-name=Olena-Lena-Richards",
+        "https://www.lenarichards.com/",
+        "https://gatherer.wizards.com/search?artistName=eq~olena_richards"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379936",
+      "expected_event_names": [
+        "Paul Scott Canavan",
+        "Paul Scott Canavan"
+      ],
+      "scryfall_artist_ids": [
+        "c19bfb77-5099-4f7c-8585-6eaf367712c9"
+      ],
+      "expected_scryfall_names": {
+        "c19bfb77-5099-4f7c-8585-6eaf367712c9": [
+          "Paul Scott Canavan"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379936&guest-name=Paul-Scott-Canavan",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668848&exhibitor-name=Paul-Scott-Canavan"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379917",
+      "expected_event_names": [
+        "Phil Foglio",
+        "Phil Foglio"
+      ],
+      "scryfall_artist_ids": [
+        "3bfc0fd7-f6ce-4c3f-a755-aaafc84ac704"
+      ],
+      "expected_scryfall_names": {
+        "3bfc0fd7-f6ce-4c3f-a755-aaafc84ac704": [
+          "Phil Foglio",
+          "Claymore J. Flapdoodle"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Additional Scryfall names are retained because they are explicitly attached to this same UUID; no cross-UUID name merge is inferred.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379917&guest-name=Phil-Foglio",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668859&exhibitor-name=Phil-Foglio"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379923",
+      "expected_event_names": [
+        "Phil Stone",
+        "phil stone"
+      ],
+      "scryfall_artist_ids": [
+        "86942b2a-49d3-4edd-908c-551f6f07dd00"
+      ],
+      "expected_scryfall_names": {
+        "86942b2a-49d3-4edd-908c-551f6f07dd00": [
+          "Phil Stone"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379923&guest-name=Phil-Stone",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668849&exhibitor-name=phil-stone"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379924",
+      "expected_event_names": [
+        "Pindurski",
+        "PINDURSKI"
+      ],
+      "scryfall_artist_ids": [
+        "f333a7f0-7330-40e9-8c58-667eea2f0f60"
+      ],
+      "expected_scryfall_names": {
+        "f333a7f0-7330-40e9-8c58-667eea2f0f60": [
+          "PINDURSKI"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379924&guest-name=Pindurski",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668816&exhibitor-name=PINDURSKI"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379940",
+      "expected_event_names": [
+        "Randy Gallegos",
+        "Randy Gallegos"
+      ],
+      "scryfall_artist_ids": [
+        "a5048cc7-438a-4378-98e4-da99b78e1db0"
+      ],
+      "expected_scryfall_names": {
+        "a5048cc7-438a-4378-98e4-da99b78e1db0": [
+          "Randy Gallegos"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379940&guest-name=Randy-Gallegos",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668851&exhibitor-name=Randy-Gallegos"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379941",
+      "expected_event_names": [
+        "Richard Kane Ferguson",
+        "Richard Kane Ferguson"
+      ],
+      "scryfall_artist_ids": [
+        "191620ed-2361-444e-96a6-1fe7ce32ef3b"
+      ],
+      "expected_scryfall_names": {
+        "191620ed-2361-444e-96a6-1fe7ce32ef3b": [
+          "Richard Kane Ferguson"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379941&guest-name=Richard-Kane-Ferguson",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668852&exhibitor-name=Richard-Kane-Ferguson"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379942",
+      "expected_event_names": [
+        "RK Post",
+        "rk post"
+      ],
+      "scryfall_artist_ids": [
+        "81ae0f3f-1d88-4125-9aeb-b15b4c734c82"
+      ],
+      "expected_scryfall_names": {
+        "81ae0f3f-1d88-4125-9aeb-b15b4c734c82": [
+          "rk post"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379942&guest-name=RK-Post",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668853&exhibitor-name=rk-post"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379943",
+      "expected_event_names": [
+        "Ryan Pancoast",
+        "Ryan Pancoast"
+      ],
+      "scryfall_artist_ids": [
+        "89cc9475-dda2-4d13-bf88-54b92867a25c"
+      ],
+      "expected_scryfall_names": {
+        "89cc9475-dda2-4d13-bf88-54b92867a25c": [
+          "Ryan Pancoast"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379943&guest-name=Ryan-Pancoast",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668854&exhibitor-name=Ryan-Pancoast"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379944",
+      "expected_event_names": [
+        "Sam Burley",
+        "Sam Burley"
+      ],
+      "scryfall_artist_ids": [
+        "f89f4b78-cefb-41f7-b7cb-4f4d28de0c4f"
+      ],
+      "expected_scryfall_names": {
+        "f89f4b78-cefb-41f7-b7cb-4f4d28de0c4f": [
+          "Sam Burley"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379944&guest-name=Sam-Burley",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668855&exhibitor-name=Sam-Burley"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379939",
+      "expected_event_names": [
+        "SchmandrewART ",
+        "SchmandrewART"
+      ],
+      "scryfall_artist_ids": [
+        "a0310985-79bb-4925-a9be-19e4323a60dc"
+      ],
+      "expected_scryfall_names": {
+        "a0310985-79bb-4925-a9be-19e4323a60dc": [
+          "SchmandrewART"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379939&guest-name=SchmandrewART",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668873&exhibitor-name=SchmandrewART"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "378595",
+      "expected_event_names": [
+        "Serena Malyon",
+        "Serena Malyon"
+      ],
+      "scryfall_artist_ids": [
+        "d9fee7a6-7c5e-48a5-8639-bba25abc8a06"
+      ],
+      "expected_scryfall_names": {
+        "d9fee7a6-7c5e-48a5-8639-bba25abc8a06": [
+          "Serena Malyon"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=378595&guest-name=Serena-Malyon",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668809&exhibitor-name=Serena-Malyon"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379945",
+      "expected_event_names": [
+        "Steve Prescott",
+        "Steve Prescott"
+      ],
+      "scryfall_artist_ids": [
+        "a1139fb8-41f5-4a9e-9a74-f662e1a23b35"
+      ],
+      "expected_scryfall_names": {
+        "a1139fb8-41f5-4a9e-9a74-f662e1a23b35": [
+          "Steve Prescott",
+          "Steve Prescott, age 48"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Additional Scryfall names are retained because they are explicitly attached to this same UUID; no cross-UUID name merge is inferred.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379945&guest-name=Steve-Prescott",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668856&exhibitor-name=Steve-Prescott"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379946",
+      "expected_event_names": [
+        "Steven Belledin",
+        "Steven Belledin"
+      ],
+      "scryfall_artist_ids": [
+        "f07d73b9-52a0-4fe5-858b-61f7b42174a5"
+      ],
+      "expected_scryfall_names": {
+        "f07d73b9-52a0-4fe5-858b-61f7b42174a5": [
+          "Steven Belledin"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379946&guest-name=Steven-Belledin",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668857&exhibitor-name=Steven-Belledin"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379947",
+      "expected_event_names": [
+        "Svetlin Velinov",
+        "Svetlin Velinov"
+      ],
+      "scryfall_artist_ids": [
+        "ffd063ae-c097-4f26-b2e6-b1e2137708bc"
+      ],
+      "expected_scryfall_names": {
+        "ffd063ae-c097-4f26-b2e6-b1e2137708bc": [
+          "Svetlin Velinov"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379947&guest-name=Svetlin-Velinov",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668860&exhibitor-name=Svetlin-Velinov"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379948",
+      "expected_event_names": [
+        "Thomas Baxa",
+        "Thomas Baxa"
+      ],
+      "scryfall_artist_ids": [
+        "ff346569-557d-4043-ae44-97c2c7cabd7d"
+      ],
+      "expected_scryfall_names": {
+        "ff346569-557d-4043-ae44-97c2c7cabd7d": [
+          "Thomas M. Baxa"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_alias_with_primary_evidence",
+      "evidence_notes": "MagicCon identifies Thomas Baxa and links BaxaArt.com. The artist-owned portfolio explicitly identifies Thomas M. Baxa, also called Tom, and his Magic illustration work. This establishes the middle-initial alias.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379948&guest-name=Thomas-Baxa",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668862&exhibitor-name=Thomas-Baxa",
+        "https://www.baxaart.com/portfolio_index.htm"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379949",
+      "expected_event_names": [
+        "Tom Wänerstrand",
+        "Tomas Wanerstrand"
+      ],
+      "scryfall_artist_ids": [
+        "c4e0aa7c-a008-4d71-80ce-d5a1ca0b251b"
+      ],
+      "expected_scryfall_names": {
+        "c4e0aa7c-a008-4d71-80ce-d5a1ca0b251b": [
+          "Tom Wänerstrand"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Event-section alias review: The two biographies have the same career, card examples and personal history with an accent difference in their opening name. The showroom biography says Tom Wanerstrand and links tomwanerstrand.com. The attendee is the individual described, not a separate studio inferred from registration fields.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379949&guest-name=Tom-W%C3%A4nerstrand",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668866&exhibitor-name=Tomas-Wanerstrand"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379950",
+      "expected_event_names": [
+        "Tyler Jacobson",
+        "Tyler Jacobson"
+      ],
+      "scryfall_artist_ids": [
+        "522af130-8db4-4b4b-950c-6e2b246339cf"
+      ],
+      "expected_scryfall_names": {
+        "522af130-8db4-4b4b-950c-6e2b246339cf": [
+          "Tyler Jacobson",
+          "Tyler Jacobson, age 39"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Additional Scryfall names are retained because they are explicitly attached to this same UUID; no cross-UUID name merge is inferred.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379950&guest-name=Tyler-Jacobson",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668863&exhibitor-name=Tyler-Jacobson"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379951",
+      "expected_event_names": [
+        "Tyler Walpole",
+        "Tyler Walpole"
+      ],
+      "scryfall_artist_ids": [
+        "70c4c8c7-61a8-44e7-8fb1-161b7f943e7e"
+      ],
+      "expected_scryfall_names": {
+        "70c4c8c7-61a8-44e7-8fb1-161b7f943e7e": [
+          "Tyler Walpole"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379951&guest-name=Tyler-Walpole",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668865&exhibitor-name=Tyler-Walpole"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379952",
+      "expected_event_names": [
+        "Victor Adame Minguez",
+        "Victor Adame Minguez"
+      ],
+      "scryfall_artist_ids": [
+        "bd8f7368-5b10-4554-b6b8-d052c6aca89f"
+      ],
+      "expected_scryfall_names": {
+        "bd8f7368-5b10-4554-b6b8-d052c6aca89f": [
+          "Victor Adame Minguez"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379952&guest-name=Victor-Adame-Minguez",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668867&exhibitor-name=Victor-Adame-Minguez"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379953",
+      "expected_event_names": [
+        "Vincent Proce",
+        "Vincent Proce"
+      ],
+      "scryfall_artist_ids": [
+        "d82b1138-76d3-49f7-9d8c-bc2e2d3e0b0a"
+      ],
+      "expected_scryfall_names": {
+        "d82b1138-76d3-49f7-9d8c-bc2e2d3e0b0a": [
+          "Vincent Proce"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379953&guest-name=Vincent-Proce",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668868&exhibitor-name=Vincent-Proce"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379955",
+      "expected_event_names": [
+        "Winona Nelson",
+        "Winona Nelson"
+      ],
+      "scryfall_artist_ids": [
+        "e45fe8d3-75d6-42c9-a2df-e945ad81ea27"
+      ],
+      "expected_scryfall_names": {
+        "e45fe8d3-75d6-42c9-a2df-e945ad81ea27": [
+          "Winona Nelson"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379955&guest-name=Winona-Nelson",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668869&exhibitor-name=Winona-Nelson"
+      ],
+      "reviewed_at": "2026-10-11"
+    },
+    {
+      "magiccon_guest_id": "379956",
+      "expected_event_names": [
+        "Wizard of Barge",
+        "Wizard of Barge"
+      ],
+      "scryfall_artist_ids": [
+        "b1b7118a-fce9-4f28-9617-5cea5146e33c"
+      ],
+      "expected_scryfall_names": {
+        "b1b7118a-fce9-4f28-9617-5cea5146e33c": [
+          "Wizard of Barge"
+        ]
+      },
+      "status": "verified",
+      "method": "reviewed_exact_name",
+      "evidence_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
+      "evidence_urls": [
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379956&guest-name=Wizard-of-Barge",
+        "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory/artist-showroom.html?gtID=668870&exhibitor-name=Wizard-of-Barge"
+      ],
+      "reviewed_at": "2026-10-11"
+    }
+  ],
+  "carried_forward_from": {
+    "card_snapshot_id": "scryfall-all-cards-20261011091913",
+    "event_snapshot_id": "magiccon-atlanta-2026-20261011T195408Z",
+    "review_sha256": "6a2ae84188b8a1aea0556994a5328a01cef854c000cce692d4d04ac0721472f1"
+  },
+  "carry_policy": "Exact unchanged names, UUIDs, profile URLs and biographies only; original decision dates retained."
+}

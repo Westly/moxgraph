@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "previousBaseline": "scryfall-all-cards-20261011091913",
+  "baseline": "scryfall-all-cards-20261012091830",
+  "reviewedOn": "2026-10-11",
+  "validatedOn": "2026-10-12T18:12:39.919753+00:00",
+  "checks": [
+    {
+      "sourceId": "f0deab39-dfa3-4652-a05f-b221b979009a",
+      "targetId": "7910ce6c-5cde-436e-8d28-62723f0fd592",
+      "expected": {
+        "id": "7910ce6c-5cde-436e-8d28-62723f0fd592",
+        "name": "Arcane Signet",
+        "set": "p30m",
+        "collector_number": "1F★",
+        "lang": "en",
+        "artist": "Gaboleps",
+        "illustration_id": "941f324d-5b4d-479f-8db7-c98813ce4c3e"
+      },
+      "finish": "etched",
+      "sourceStillAbsent": true,
+      "paper": true,
+      "status": "pass"
+    }
+  ],
+  "meaning": "Revalidated existing explicit target guards; original evidence/review date retained. No new alias inferred."
+}

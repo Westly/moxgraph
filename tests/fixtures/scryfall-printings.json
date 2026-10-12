@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "snapshot_id": "scryfall-all-cards-20261011091913",
+  "snapshot_id": "scryfall-all-cards-20261012091830",
   "purpose": "Minimal real source records for future exact-printing tests; no attendance claims.",
   "cases": [
     {
@@ -135,10 +135,10 @@
         "booster": true,
         "story_spotlight": false,
         "prices": {
-          "usd": "0.35",
+          "usd": "0.32",
           "usd_foil": "0.53",
           "usd_etched": null,
-          "eur": "0.31",
+          "eur": "0.30",
           "eur_foil": "0.52",
           "tix": "0.03"
         },
@@ -269,7 +269,7 @@
         "textless": false,
         "booster": false,
         "story_spotlight": false,
-        "edhrec_rank": 15085,
+        "edhrec_rank": 15087,
         "penny_rank": 15188,
         "prices": {
           "usd": null,
@@ -407,13 +407,13 @@
           "promopack",
           "stamped"
         ],
-        "edhrec_rank": 943,
-        "penny_rank": 524,
+        "edhrec_rank": 941,
+        "penny_rank": 529,
         "prices": {
           "usd": "13.70",
           "usd_foil": "11.63",
           "usd_etched": null,
-          "eur": "7.87",
+          "eur": "7.75",
           "eur_foil": "8.47",
           "tix": null
         },
@@ -561,10 +561,10 @@
         "booster": true,
         "story_spotlight": false,
         "prices": {
-          "usd": "0.35",
+          "usd": "0.32",
           "usd_foil": "0.53",
           "usd_etched": null,
-          "eur": "0.31",
+          "eur": "0.30",
           "eur_foil": "0.52",
           "tix": "0.03"
         },
@@ -747,12 +747,12 @@
         "booster": true,
         "story_spotlight": false,
         "edhrec_rank": 3635,
-        "penny_rank": 5731,
+        "penny_rank": 5730,
         "prices": {
           "usd": null,
           "usd_foil": null,
           "usd_etched": null,
-          "eur": "3.95",
+          "eur": "3.78",
           "eur_foil": "4.93",
           "tix": null
         },
@@ -956,8 +956,8 @@
         "promo_types": [
           "thick"
         ],
-        "edhrec_rank": 4375,
-        "penny_rank": 5471,
+        "edhrec_rank": 4376,
+        "penny_rank": 5466,
         "prices": {
           "usd": "4.30",
           "usd_foil": null,
@@ -1116,8 +1116,8 @@
         "textless": false,
         "booster": true,
         "story_spotlight": false,
-        "edhrec_rank": 8651,
-        "penny_rank": 1814,
+        "edhrec_rank": 8661,
+        "penny_rank": 1810,
         "prices": {
           "usd": null,
           "usd_foil": null,
@@ -1965,7 +1965,7 @@
         "textless": false,
         "booster": true,
         "story_spotlight": false,
-        "edhrec_rank": 24267,
+        "edhrec_rank": 24272,
         "prices": {
           "usd": null,
           "usd_foil": null,
@@ -2102,7 +2102,7 @@
         "textless": false,
         "booster": true,
         "story_spotlight": false,
-        "edhrec_rank": 30786,
+        "edhrec_rank": 30770,
         "prices": {
           "usd": null,
           "usd_foil": null,
@@ -2560,7 +2560,7 @@
         "promo_types": [
           "universesbeyond"
         ],
-        "edhrec_rank": 5658,
+        "edhrec_rank": 5639,
         "prices": {
           "usd": null,
           "usd_foil": null,

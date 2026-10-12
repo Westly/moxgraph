@@ -90,14 +90,15 @@ test('event directory retains all attendees, raw names, profile and published so
   const catalogue = await open();
   const event = await catalogue.event();
   const source = await json('data/curated/events/atlanta-2026.json');
-  assert.equal(event.attendance.length,65);
+  assert.equal(event.attendance.length,source.attendees.length);
+  assert.equal(event.attendance.length,catalogue.manifest.coverage.attendees);
   for (const a of event.attendance) {
     const original = source.attendees.find((s:any)=>s.event_attendee_id===a.id);
     assert.equal(a.rawName,original.display_name); assert.equal(a.profileUrl,original.official_profile_url);
     assert.equal(a.portraitUrl,original.portrait.url);
     assert.deepEqual(a.links.map(l=>[l.originalUrl,l.displayUrl]),original.links.map((l:any)=>[l.published_href,l.usable_url]));
   }
-  const artists = await catalogue.artists(); assert.equal(artists.length,2434);
+  const artists = await catalogue.artists(); assert.equal(artists.length,catalogue.manifest.coverage.artists);
   const palumbo = artists.find(a=>a.displayName==='David Palumbo')!;
   const ids = await catalogue.artistPrintings(palumbo.sourceIds[0]!);
   assert.ok(ids.length>1758);

@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
   "statistics_version": "1.0.0",
-  "card_snapshot_id": "scryfall-all-cards-20261011091913",
-  "event_snapshot_id": "magiccon-atlanta-2026-20261011T195408Z",
-  "mapping_revision": "atlanta-2026-r1",
+  "card_snapshot_id": "scryfall-all-cards-20261012091830",
+  "event_snapshot_id": "magiccon-atlanta-2026-20261012T180941Z",
+  "mapping_revision": "atlanta-2026-3c3add8e60cdec6f",
   "scope": "paper_game_cards; supplemental and digital records separate; no release-date cutoff",
   "null_policy": "Unresolved event counts are null; verified zero is numeric zero.",
   "counting_contract": "docs/artist-statistics.md",
-  "generated_at": "2026-10-11T20:17:24.755792+00:00",
+  "generated_at": "2026-10-12T18:13:35.807625+00:00",
   "source_hashes": {
-    "database": "38f66ab64952f8039800c3db582c35c631b56599fbb1f3667a769c320307c6e0",
-    "mappings": "0eb6a10fae6ba05367e3e074a69864f9ab51e2249e99bc23c44306b6437ac9ee",
-    "event": "b965653673e7f686db75005594c28edc35a49eb604e3b8942971afdd898578de",
-    "statistics_script": "35318a7664b89d574ebf97627d8c1539d5ca735a7ddf1b3bda3898d9993827b1"
+    "database": "61f49589680065f923583705bb11b913abf455e89e24cbaec9f84c65c800002e",
+    "mappings": "b7fb7ae9f739b945a330d48bc72ddbd889c537aa870364b3f8686cd0ae1dd6e3",
+    "event": "e90339467d3d775f75177c6bfb375c131685cb11b861358dbbab341fbd2a3f27",
+    "statistics_script": "64e0e839931b7b4b47eb5ca77f5b587bbc221b4159702cf76a44853b0ee3e063"
   },
   "rows": [
     {
@@ -83,8 +83,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Aaron+Miller%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:54:58.006212Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:31.601921Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -168,8 +168,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Alayna+Danner%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:54:59.387411Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:32.505192Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -253,8 +253,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Alessandra+Pisano%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:54:59.352213Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:32.747218Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -338,8 +338,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Alix+Branwyn%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:54:59.775743Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:33.293981Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -410,8 +410,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Andrea+Radeck%22+or+artist%3A%22Andrea+Radeck%2C+age+35%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:02.195787Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:34.155085Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Additional Scryfall names are retained because they are explicitly attached to this same UUID; no cross-UUID name merge is inferred.",
       "evidence_urls": [
@@ -495,8 +495,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Ben+Hill%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:01.539005Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:34.488253Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -580,8 +580,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Bruce+Brenneise%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:02.325586Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:35.035166Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -694,8 +694,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Chase+Stone%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:03.519138Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:35.887671Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -780,8 +780,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Chris+Rahn%22+or+artist%3A%22Chris+Rahn%2C+age+36%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:03.988000Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:36.254791Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Additional Scryfall names are retained because they are explicitly attached to this same UUID; no cross-UUID name merge is inferred.",
       "evidence_urls": [
@@ -865,8 +865,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Chris+Rallis%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:04.304361Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:36.759125Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -950,8 +950,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Chris+Seaman%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:05.580081Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:37.609289Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -1064,8 +1064,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Cynthia+Sheppard%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:54:56.190216Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:29.914865Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Event-section alias review: Both biographies begin with Cynthia Sheppard, Seattle-area artist, art educator and former MtG art director, and describe the same 2015–2021 role and sets. The showroom's website is cynthia-sheppard.com.",
       "evidence_urls": [
@@ -1149,8 +1149,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Danny+Schwartz%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:05.885839Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:37.982176Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -1263,8 +1263,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Daren+Bader%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:06.188369Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:38.434184Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -1377,8 +1377,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22David+Palumbo%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:06.821178Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:39.149321Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -1462,8 +1462,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Douglas+Shuler%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:07.584492Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:39.657983Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -1547,8 +1547,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Eli+Minaya%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:07.992905Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:40.126897Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -1661,8 +1661,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Eric+Deschamps%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:09.010033Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:41.282633Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -1789,8 +1789,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Evyn+Fong%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:09.636350Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:41.715608Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -1874,8 +1874,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Gabor+Szikszai%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:09.729470Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:41.866611Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -1988,8 +1988,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Izzy%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:10.736932Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:42.893839Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -2172,8 +2172,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Jarel+Threat%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:11.509889Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:43.331169Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -2243,8 +2243,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Jason+A.+Engle%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:11.735459Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:43.594628Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official Jason Engle biography describes his constellation gods illustrations. The snapshot credits the constellation Heliod, Sun-Crowned (THB 259) to Jason A. Engle. His official JAE Studio site identifies Jason Engle and the same fantasy publishing career. Middle initial accepted from this combined evidence; not from fuzzy similarity alone.",
       "evidence_urls": [
@@ -2345,8 +2345,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Jeff+Miracola%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:12.685376Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:44.961453Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -2430,8 +2430,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Joe+Slucher%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:13.182809Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:44.934768Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -2501,8 +2501,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22John+Stanko%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:13.649765Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:45.357465Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -2586,8 +2586,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Josiah+%5C%22Jo%5C%22+Cameron%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:14.455982Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:46.647947Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -2671,8 +2671,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Josu+Solano%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:15.227232Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:46.755407Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -2813,8 +2813,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Justine+Jones%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:15.511207Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:47.161841Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -2898,8 +2898,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Kai+Carpenter%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:16.334753Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:48.551298Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -2997,8 +2997,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Kaja+Foglio%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:17.184790Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:48.703149Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -3111,8 +3111,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Kelogsloops%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:17.262356Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:48.927805Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -3225,8 +3225,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Kieran+Yanner%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:18.374202Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:50.514319Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -3339,8 +3339,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Leon+Tukker%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:18.893863Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:50.472535Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -3467,8 +3467,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Lucas+Graciano%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:19.065078Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:50.823744Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -3567,8 +3567,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Mark+Poole%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:54:57.271120Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:30.499858Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -3696,8 +3696,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Mark+Tedin%22+or+artist%3A%22Mark+%E2%80%9CIt%E2%80%99s+teh-DEEN%E2%80%9D+Tedin%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:20.161109Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:52.340276Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Additional Scryfall names are retained because they are explicitly attached to this same UUID; no cross-UUID name merge is inferred.",
       "evidence_urls": [
@@ -3767,8 +3767,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Martina+Fa%C4%8Dkov%C3%A1%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:20.727040Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:52.114306Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -3853,8 +3853,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Mathias+Kollros%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:21.111566Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:52.808107Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -3967,8 +3967,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Mike+Bierek%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:21.962121Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:53.680740Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Event-section alias review: Both biographies explicitly call the artist Mike Bierek and describe the same illustration and Legion Art Collective tattoo work. The guest's Instagram is mikebierektattoos and the showroom website is michael-bierek.artstation.com.",
       "evidence_urls": [
@@ -4067,8 +4067,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Nicholas+Gregory%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:22.512989Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:54.070109Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -4181,8 +4181,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Nino+Vecia%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:22.988545Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:54.643606Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -4281,8 +4281,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Olena+Richards%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:24.012014Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:55.611338Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "MagicCon displays Olena \"Lena\" Richards; its biography calls her Lena and links lenarichards.com. The published official gallery link explicitly uses olena_richards, matching the single-ID Scryfall credit. The nickname is preserved in the event name.",
       "evidence_urls": [
@@ -4354,8 +4354,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Paul+Scott+Canavan%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:24.540831Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:55.838159Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -4439,8 +4439,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Claymore+J.+Flapdoodle%22+or+artist%3A%22Phil+Foglio%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:24.677918Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:56.331317Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Additional Scryfall names are retained because they are explicitly attached to this same UUID; no cross-UUID name merge is inferred.",
       "evidence_urls": [
@@ -4524,8 +4524,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Phil+Stone%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:25.904101Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:57.438145Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -4595,8 +4595,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22PINDURSKI%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:26.713545Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:57.567944Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -4709,8 +4709,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Randy+Gallegos%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:26.303098Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:57.963512Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -4780,8 +4780,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Richard+Kane+Ferguson%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:27.845821Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:59.473684Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -4865,8 +4865,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22rk+post%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:28.149161Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:59.462665Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -4950,8 +4950,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Ryan+Pancoast%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:28.693679Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:59.742140Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -5035,8 +5035,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Sam+Burley%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:29.540644Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:11:01.610215Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -5106,8 +5106,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22SchmandrewART%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:30.237954Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:11:01.590841Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -5220,8 +5220,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Serena+Malyon%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:54:57.458284Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:10:30.835287Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -5292,8 +5292,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Steve+Prescott%22+or+artist%3A%22Steve+Prescott%2C+age+48%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:30.585666Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:11:02.577677Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Additional Scryfall names are retained because they are explicitly attached to this same UUID; no cross-UUID name merge is inferred.",
       "evidence_urls": [
@@ -5406,8 +5406,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Steven+Belledin%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:31.543970Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:11:03.377584Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -5506,8 +5506,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Svetlin+Velinov%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:32.220689Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:11:03.531808Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -5633,8 +5633,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Thomas+M.+Baxa%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:32.610985Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:11:04.308787Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "MagicCon identifies Thomas Baxa and links BaxaArt.com. The artist-owned portfolio explicitly identifies Thomas M. Baxa, also called Tom, and his Magic illustration work. This establishes the middle-initial alias.",
       "evidence_urls": [
@@ -5719,8 +5719,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Tom+W%C3%A4nerstrand%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:33.432967Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:11:04.988743Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Event-section alias review: The two biographies have the same career, card examples and personal history with an accent difference in their opening name. The showroom biography says Tom Wanerstrand and links tomwanerstrand.com. The attendee is the individual described, not a separate studio inferred from registration fields.",
       "evidence_urls": [
@@ -5848,8 +5848,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Tyler+Jacobson%22+or+artist%3A%22Tyler+Jacobson%2C+age+39%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:34.140636Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:11:05.161435Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots. Additional Scryfall names are retained because they are explicitly attached to this same UUID; no cross-UUID name merge is inferred.",
       "evidence_urls": [
@@ -5948,8 +5948,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Tyler+Walpole%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:34.697019Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:11:06.366665Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -6062,8 +6062,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Victor+Adame+Minguez%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:35.247866Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:11:06.892046Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -6133,8 +6133,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Vincent+Proce%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:36.058120Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:11:06.962680Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -6247,8 +6247,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Winona+Nelson%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:36.479692Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:11:08.200257Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [
@@ -6318,8 +6318,8 @@
         }
       ],
       "scryfall_artist_url": "https://scryfall.com/search?q=artist%3A%22Wizard+of+Barge%22&unique=cards&as=grid&order=name",
-      "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-      "retrieved_at": "2026-10-11T19:55:36.958121Z",
+      "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+      "retrieved_at": "2026-10-12T18:11:08.527822Z",
       "reviewed_at": "2026-10-11",
       "mapping_notes": "The official MagicCon artist record uniquely agrees with an observed single-ID Scryfall credit in this snapshot. Source printing examples validate the UUID attribution; this decision is pinned to these names and snapshots.",
       "evidence_urls": [

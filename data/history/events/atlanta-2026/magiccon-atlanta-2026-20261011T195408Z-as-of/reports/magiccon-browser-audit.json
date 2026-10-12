@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "magiccon-atlanta-2026-20261011T195408Z",
+  "observed_at": "2026-10-11T19:58:09.093Z",
+  "method": "Read-only rendered DOM inspection in the Codex in-app browser",
+  "reviewed_renderer_sha256": "da2099a1bdaf59c99befc0b01183e816c4b2003433990701d0fd21d50cfb6776",
+  "renderer_review": "growTixGuestList reads people once, selects publicly_visible entries using global_categories and builds all groups locally. growTixExhibitors reads space_order_categories and space_orders once with category=20591 and an empty search_term. Both use local MixItUp filtering; neither relevant renderer has a pagination/load-more request. premiumSpot is false. Three featured exhibitors are included in the regular array.",
+  "guest_roster": {
+    "url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
+    "source_ids_csv": "378577,378578,378595,379869,379885,379887,379888,379889,379890,379892,379894,379895,379896,379897,379899,379900,379901,379902,379903,379904,379905,379907,379908,379909,379910,379911,379913,379914,379915,379916,379917,379918,379919,379920,379921,379922,379923,379924,379926,379927,379928,379930,379931,379933,379934,379936,379937,379938,379939,379940,379941,379942,379943,379944,379945,379946,379947,379948,379949,379950,379951,379952,379953,379955,379956",
+    "populated_groups": [{"id": "featured", "count": 65}],
+    "load_more_buttons": []
+  },
+  "exhibitor_roster": {
+    "url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
+    "source_ids_csv": "668804,668806,668809,668810,668811,668812,668813,668814,668815,668816,668817,668818,668819,668820,668821,668822,668823,668824,668825,668826,668827,668828,668829,668830,668831,668832,668833,668834,668835,668836,668837,668838,668839,668840,668841,668842,668843,668844,668845,668846,668847,668848,668849,668850,668851,668852,668853,668854,668855,668856,668857,668858,668859,668860,668862,668863,668865,668866,668867,668868,668869,668870,668871,668872,668873",
+    "buttons": ["View All"],
+    "load_more_buttons": []
+  },
+  "profile_check": {
+    "url": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379894&guest-name=David-Palumbo",
+    "document_title": "David Palumbo - MagicCon: Atlanta",
+    "days_text": " Fri/Sat/Sun",
+    "social_links": [{"label": "Follow on Instagram", "href": "https://www.instagram.com/dvpalumbo/"}]
+  },
+  "limits": "All roster IDs were inspected in the rendered DOM. All 130 profile pages and individual data feeds were fetched by the capture script; only the recorded profile spot check was inspected in a rendered browser. Portrait and external destination reachability was not exhaustively tested."
+}

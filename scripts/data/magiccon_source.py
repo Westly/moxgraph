@@ -15,10 +15,10 @@ import time
 from urllib.parse import quote, urlencode, urljoin, urlsplit
 from urllib.request import HTTPRedirectHandler, Request, build_opener
 
-ROOT = Path(__file__).resolve().parents[2]
-SITE = "https://mcatlanta.mtgfestivals.com"
-OVERVIEW = SITE + "/en-us/art-of-magic.html"
-DIRECTORY = SITE + "/en-us/art-of-magic/artist-directory.html"
+from pipeline_config import ROOT, EVENT
+SITE = EVENT["site"]
+OVERVIEW = EVENT["overview"]
+DIRECTORY = EVENT["directory"]
 API = "https://conventions.leapevent.tech/api/"
 VERSION = "1.0.0"
 
@@ -41,7 +41,7 @@ def write_json(path, value):
 def validate_source_url(url):
     p = urlsplit(url)
     if (p.scheme != "https" or p.hostname not in
-            {"mcatlanta.mtgfestivals.com", "conventions.leapevent.tech"}
+            {urlsplit(SITE).hostname, "conventions.leapevent.tech"}
             or p.username or p.password or p.port not in (None, 443)):
         raise ValueError("Source URL outside the public MagicCon feed allowlist")
 
@@ -108,7 +108,7 @@ def profile_url(row, kind, cfg):
 
 def feed(raw, field):
     value = json.loads(raw)
-    if value.get("event_name") != "MagicCon: Atlanta 2026" or not isinstance(value.get(field), list):
+    if (value.get("event_name") != EVENT["feedName"] or str(value.get("event_id")) != EVENT["sourceId"]) or not isinstance(value.get(field), list):
         raise ValueError("Unexpected event or feed schema")
     if set(value) != {"event_id", "event_name", "event_slug", field}:
         raise ValueError("Feed envelope changed; review pagination/metadata before proceeding")
@@ -126,7 +126,7 @@ def select_guests(rows, category):
 
 
 def collect():
-    snapshot = "magiccon-atlanta-2026-" + datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    snapshot = "magiccon-" + EVENT["id"] + "-" + datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
     folder = ROOT / "data/raw" / snapshot
     folder.mkdir(parents=True, exist_ok=False)
     manifest_path = ROOT / "data/manifests" / (snapshot + ".json")
@@ -141,7 +141,7 @@ def collect():
             raw, meta = capture(url, name + ".html", folder)
             manifest["sources"].append(meta)
             pages[name] = raw.decode("utf-8")
-        if '/en-us/art-of-magic/artist-directory.html' not in pages["overview"]:
+        if urlsplit(DIRECTORY).path not in pages["overview"]:
             raise ValueError("Overview no longer points to the artist directory")
         guest_cfg = config(pages["overview"], "growTixGuestList")
         exhib_cfg = config(pages["directory"], "growTixExhibitors")
@@ -225,6 +225,7 @@ def collect():
         raise
     write_json(manifest_path, manifest)
     print(manifest_path.relative_to(ROOT).as_posix())
+    return manifest_path
 
 
 if __name__ == "__main__":

@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-10-11T20:26:14.748121+00:00",
-  "card_snapshot_id": "scryfall-all-cards-20261011091913",
+  "checked_at": "2026-10-12T18:13:40.197359+00:00",
+  "card_snapshot_id": "scryfall-all-cards-20261012091830",
   "status": "pass",
   "source_rows": 2434,
   "event_rows": 65,
@@ -8,12 +8,12 @@
     {
       "path": "reports/artists-all.csv",
       "rows": 2434,
-      "sha256": "636f5a8be2574c6468aeb6cc0c63d846c6352adb374a770cd2aef8e9e69de09b"
+      "sha256": "a2d97201b37e6a7b71acb11bb27c060a44cdd6885aa6c2bab92c026a89a53d09"
     },
     {
       "path": "reports/artists-atlanta-2026.csv",
       "rows": 65,
-      "sha256": "810f829ca97f1fd71e12be4f7cd3a92645eeb41640814a6862c092376119ac33"
+      "sha256": "65dbb4e4487a092086d212f1d1cc1b119f1dbcda90febbfd1d72da9a2e54593c"
     }
   ],
   "independent_sql_paper_scope": 529030,
@@ -1174,7 +1174,7 @@
       "result": "pass"
     }
   ],
-  "review_limit": "19 profiles sampled in depth, including all three nonexact source aliases. Every attendee has explicit reviewed name evidence and UUID-checked printing examples. Empty biographies do not supply invented evidence.",
+  "review_limit": "Historical baseline identity samples revalidated against current printing IDs; this is not a new human profile review. Current browser observations are recorded separately in magiccon-browser-audit.json.",
   "name_only_counterexample": {
     "name": "Heliod, Sun-Crowned",
     "oracle_id": "63e596a2-9126-4af6-8782-c38687d664ad",

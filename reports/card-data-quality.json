@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "parser_version": "1.0.0",
-  "snapshot_id": "scryfall-all-cards-20261011091913",
-  "generated_at": "2026-10-11T19:44:57.652746+00:00",
-  "source_updated_at": "2026-10-11T09:19:13.375+00:00",
-  "source_sha256": "65e4b4dd5b74585e34c0b23f31dc0699222238610815efbed3bd85c6166d3e13",
+  "snapshot_id": "scryfall-all-cards-20261012091830",
+  "generated_at": "2026-10-12T17:55:25.936427+00:00",
+  "source_updated_at": "2026-10-12T09:18:30.510+00:00",
+  "source_sha256": "9b539a99b339bbc7b46141eb8831908ce731cb429f4da8030f0ee9a6b1e6ea2b",
   "status": "pass",
   "coverage_definition": "Every record in the checksum-verified dated all_cards snapshot. No games, languages, or sets excluded.",
   "input_stream_completed": true,
@@ -5584,11 +5584,11 @@
     },
     {
       "games_json": "[\"paper\",\"mtgo\"]",
-      "printings": 271125
+      "printings": 271126
     },
     {
       "games_json": "[\"paper\"]",
-      "printings": 122295
+      "printings": 122294
     },
     {
       "games_json": "[\"sega\"]",
@@ -5609,7 +5609,7 @@
       "SEARCH printings USING INDEX printings_by_tuple (set_code=? AND collector_number=? AND lang=?)"
     ]
   },
-  "processing_seconds": 166.12,
+  "processing_seconds": 180.58,
   "notes": [
     "Absent credit/art IDs are retained and reported; they do not imply no artist.",
     "Root artist arrays and face credits are preserved separately; joint credit strings are never split into assumed identities.",

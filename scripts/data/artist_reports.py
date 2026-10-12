@@ -12,6 +12,7 @@ import sqlite3
 from artist_reconciliation import CARD_MANIFEST, EVENT_PATH, MAPPING_PATH, REVIEW_PATH, read
 from artist_statistics import METRICS
 from scryfall_source import ROOT, checksum, now, write_json
+from pipeline_config import EVENT
 
 
 def csv_cell(value):
@@ -39,8 +40,8 @@ def md(value):
 
 def verify(write_csv=False):
     mappings, event, audit = read(MAPPING_PATH), read(EVENT_PATH), read(ROOT / "reports/artist-statistics-audit.json")
-    tables = {name: read(ROOT / f"reports/{name}.json") for name in ("artists-all", "artists-atlanta-2026")}
-    full, attendees = tables["artists-all"]["rows"], tables["artists-atlanta-2026"]["rows"]
+    tables = {name: read(ROOT / f"reports/{name}.json") for name in ("artists-all", "artists-" + EVENT["id"])}
+    full, attendees = tables["artists-all"]["rows"], tables["artists-" + EVENT["id"]]["rows"]
     expected_hashes = {"mappings": checksum(MAPPING_PATH), "event": checksum(EVENT_PATH),
                        "statistics_script": checksum(ROOT / "scripts/data/artist_statistics.py")}
     if mappings["source_hashes"]["review"] != checksum(REVIEW_PATH):
@@ -122,6 +123,8 @@ def verify(write_csv=False):
     by_guest = {m["magiccon_guest_id"]: m for m in mappings["event_mappings"]}
     work_checks = []
     for guest, set_code, name in named_works:
+        if guest not in by_guest or by_guest[guest]["status"] != "verified":
+            continue  # A historical spot check is not evidence of continued attendance.
         reviewed_ids = set(by_guest[guest]["scryfall_artist_ids"])
         cards = [json.loads(r[0]) for r in db.execute("SELECT source_json FROM printings WHERE set_code=? AND name=? AND lang='en'", (set_code, name))]
         matched = [c for c in cards if reviewed_ids & set(c.get("artist_ids") or [])]
@@ -141,7 +144,7 @@ def verify(write_csv=False):
                   "source_rows": len(full), "event_rows": len(attendees), "csv_checks": csv_checks,
                   "independent_sql_paper_scope": sql_scope, "independent_sql_attendee_counts": sql_checks,
                   "profile_sample_review": profile_checks, "biography_named_card_checks": work_checks,
-                  "review_limit": "19 profiles sampled in depth, including all three nonexact source aliases. Every attendee has explicit reviewed name evidence and UUID-checked printing examples. Empty biographies do not supply invented evidence.",
+                  "review_limit": "Historical baseline identity samples revalidated against current printing IDs; this is not a new human profile review. Current browser observations are recorded separately in magiccon-browser-audit.json.",
                   "name_only_counterexample": {"name": "Heliod, Sun-Crowned", "oracle_id": "63e596a2-9126-4af6-8782-c38687d664ad",
                       "regular": {"printing_id": "01a8576e-cadc-4521-aadd-3a05f0bc4d20", "set": "thb", "collector_number": "18", "artist": "Lius Lasahido", "attendance": "not_listed_in_snapshot"},
                       "constellation": {"printing_id": "e11cf760-da35-41f2-8cf5-a5141103eeb3", "set": "thb", "collector_number": "259", "artist": "Jason A. Engle", "guest_id": "379900", "attendance": "listed"}}}
@@ -150,10 +153,10 @@ def verify(write_csv=False):
     paths = ["data/curated/artist-match-review.json", "data/curated/artist-mappings.json", "tests/fixtures/artist-counting.json",
              "scripts/data/artist_reconciliation.py", "scripts/data/artist_statistics.py", "scripts/data/artist_reports.py",
              "tests/test_artist_statistics.py", "docs/artist-statistics.md",
-             *["reports/" + p for p in ("artists-all.csv", "artists-atlanta-2026.csv", "artists-all.json", "artists-atlanta-2026.json",
+             *["reports/" + p for p in ("artists-all.csv", f"artists-{EVENT['id']}.csv", "artists-all.json", f"artists-{EVENT['id']}.json",
                                       "artist-discrepancies.json", "artist-statistics-audit.json", "artist-validation.json", "artist-reconciliation.md",
                                       "artist-match-candidates.json", "joint-credit-audit.json")]]
-    write_json(ROOT / "data/manifests/artist-statistics-atlanta-2026.json", {
+    write_json(ROOT / f"data/manifests/artist-statistics-{EVENT['id']}.json", {
         "schema_version": 1, "status": "complete", "generated_at": now(), "card_snapshot_id": cm["snapshot_id"],
         "event_snapshot_id": event["snapshot_id"], "mapping_revision": mappings["mapping_revision"],
         "counting_contract": "docs/artist-statistics.md",
@@ -163,46 +166,30 @@ def verify(write_csv=False):
 
 
 def generate_report(audit, rows, mappings, full):
+    cm, event = read(CARD_MANIFEST), read(EVENT_PATH)
     methods = Counter(m["method"] for m in mappings["event_mappings"])
-    gaps = audit["discrepancy_counts"]
-    fallbacks = read(ROOT / "reports/artist-discrepancies.json")["queue"]["edition_identity_fallback"]
-    uncredited_fallbacks = sum(not f["artist_ids"] for f in fallbacks)
-    rows_with_gaps = sum(any(r[k] for k in ("missing_oracle_id_total", "missing_illustration_id_total",
-                                          "edition_fallback_printings_total", "artwork_attribution_gap_printings_total")) for r in full)
-    lines = ["# Artist reconciliation — MagicCon Atlanta 2026", "",
-        "WBS 3.0 is complete. All **65 attendees** have reviewed Scryfall identities. The complete source table contains **2,434 artist UUIDs**. No attendee is omitted and no event identity is unresolved.", "",
-        "Sources: Scryfall `all_cards` updated **2026-10-11 09:19:13.375 UTC**, and the [official MagicCon roster](https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html) retrieved on **2026-10-11**. These totals describe that dated snapshot, including any previews already present; they are not live totals.", "",
-        "## Downloads", "", "- [Atlanta artists CSV](artists-atlanta-2026.csv) · [JSON](artists-atlanta-2026.json)",
-        "- [All source artists CSV](artists-all.csv) · [JSON](artists-all.json)",
-        "- [Reviewed identities](../data/curated/artist-mappings.json) · [Discrepancy queue](artist-discrepancies.json)",
-        "- [Counting contract and reproduction](../docs/artist-statistics.md) · [Validation evidence](artist-validation.json)", "",
-        "## Identity decisions", "", "Names remain source observations. Stable keys use Scryfall UUIDs. Candidate similarity never approves an identity.", "",
-        f"Reviewed decisions: {methods['reviewed_exact_name']} exact-name matches, {methods['reviewed_normalized_name']} normalized-name match, and {methods['reviewed_alias_with_primary_evidence']} aliases supported by primary evidence. The three substantive Scryfall aliases are:", "",
-        "| MagicCon name | Scryfall name | Evidence |", "| --- | --- | --- |",
-        "| Jason Engle | Jason A. Engle | Official constellation-gods biography, THB #259 credit, and [artist-owned JAE Studio](https://www.jaestudio.com/contact) |",
-        "| Olena \"Lena\" Richards | Olena Richards | Official nickname/biography, the profile's `olena_richards` gallery link, and [Lena Richards Art](https://www.lenarichards.com/) |",
-        "| Thomas Baxa | Thomas M. Baxa | MagicCon links BaxaArt; its [portfolio](https://www.baxaart.com/portfolio_index.htm) identifies Thomas M. Baxa and his Magic work |", "",
-        "The separate Michael/Mike Bierek, Cynthia Sheppard/Shepard, and Tom Wänerstrand/Tomas Wanerstrand event spellings retain the WBS 2 biography evidence. Case, accents, whitespace, pseudonyms and same-UUID Scryfall variants remain visible in the exports. Individual/collective identity is not guessed for unreviewed source artists.", "",
-        "All **230 joint-credit combinations** were audited by UUID. Names were never split and paired by position. **93 source UUIDs** lack an unambiguous single-ID name observation; their ID-based statistics remain valid, while names remain null. These do not block any of the 65 event mappings.", "",
-        "## What the numbers mean", "",
-        "The main total counts distinct Oracle identities on paper game cards. Editions collapse translated records only when set, collector number, layout and ordered illustration/credit identities agree. Language printings count actual Scryfall IDs. Artworks count known illustration IDs. Finishes do not multiply counts. Reversible cards use the artist's own face Oracle IDs.", "",
-        "Tokens (including the reversible Mechtitan), emblems, art cards, planes/phenomena, schemes, vanguards, front/reference cards, dungeons, heroes and stickers are supplemental. Digital-only records remain separately counted. Special game cards such as Conspiracies, Attractions, Contraptions and silver-border cards remain eligible.", "",
-        f"All **{audit['scope_records']['records_total']:,} source records** were accounted for; **{audit['scope_records']['paper_game_card']:,}** are paper game-card printings before credit coverage is applied. Known credits span **{audit['global_distinct_credited_game_cards']:,}** distinct eligible cards and **{audit['global_distinct_credited_game_artworks']:,}** artworks. Artist totals overlap and must not be summed to obtain a global unique total.", "",
-        "## Atlanta totals", "", "| MagicCon artist | Scryfall artist | Cards | Editions | Language printings | Artworks | Supplemental objects |",
-        "| --- | --- | ---: | ---: | ---: | ---: | ---: |"]
-    for r in rows:
-        lines.append("| " + " | ".join(md(r[k]) for k in ("magiccon_artist_name", "scryfall_artist_name", "unique_cards_total", "printing_editions_total", "language_printings_total", "unique_artworks_total", "supplemental_objects_total")) + " |")
-    lines += ["", "## Validation and limitations", "",
-        "Independent SQL over the normalized credit tables agrees with card and language-printing totals for **all 65 attendees**, and with the complete eligible printing scope. Six cards named or described in official biographies agree with actual credits; 19 profiles received deeper review, including aliases, pseudonyms and all six attendees with multiple single-ID source names. Every attendee also has UUID-checked source printing examples.", "",
-        "The saved seven-card fixture and regression suite cover translation deduplication, different art in one language, shared credits, separate face artists, reversible identities/tokens, missing data, source-review drift, null versus zero, and the following real printing counterexample:", "",
-        "- [Heliod, Sun-Crowned THB #18](https://scryfall.com/card/thb/18/heliod-sun-crowned): **Lius Lasahido**, not listed in this roster.",
-        "- [Heliod, Sun-Crowned THB #259](https://scryfall.com/card/thb/259/heliod-sun-crowned): **Jason A. Engle**, listed as Jason Engle.",
-        "- Both share the same name and Oracle ID. Only the selected printing gives the correct attendance match.", "",
-        f"The discrepancy queue distinguishes **{gaps['unmapped_attendees']} unresolved attendees**, **{gaps['verified_zero_eligible_cards']} verified attendees with zero eligible cards**, **{gaps['credit_missing']} source objects missing credits**, **{gaps['source_artist_name_unknown']} unnamed source UUIDs**, and **{gaps['not_listed_in_event_snapshot']} source UUIDs not listed in this event snapshot**. Missing credits are not evidence that an artist is absent. Not listed does not mean a confirmed cancellation.", "",
-        f"**{gaps['edition_identity_fallback']} eligible printing records** have insufficient artwork/credit information for safe language deduplication. Of these, **{uncredited_fallbacks}** lack artist IDs and are not assigned to any artist total. **{rows_with_gaps} credited artist rows** have an artwork, Oracle or edition-fallback gap in this snapshot. The general fallback rule retains the printing UUID rather than merging uncertain art; affected artist rows expose that uncertainty in their coverage columns.", "",
-        "Source profile limitations from WBS 2 persist: three missing portraits, 36 attendees without dedicated social fields, and five link observations without usable published destinations. All original link labels, fields, URLs and provenance are retained in JSON and the CSV's JSON cells; missing links are not fabricated.", "",
-        "Both CSVs were authored and inspected through the spreadsheet runtime, then checked byte-for-byte against portable CSV serialization of the JSON rows. UTF-8 BOM preserves names in Excel; null becomes an empty cell and zero stays 0. Arrays/objects use JSON cells. Formula-like source text receives an apostrophe in CSV only; JSON preserves raw values.", "",
-        "**Blockers: none for WBS 3.0.** Source gaps remain visible. The next parent is WBS 4.0, static deck-import feasibility; it has not started.", ""]
+    unresolved = [r for r in rows if r["match_status"] != "verified"]
+    lines = [f"# Artist reconciliation — {event['name']}", "",
+        f"{len(rows):,} roster attendees; {len(full):,} source artist UUIDs; {len(unresolved)} unresolved attendee identities.", "",
+        f"Card source: `{cm['snapshot_id']}`, updated {cm['source']['updated_at']}. "
+        f"Event source: `{event['snapshot_id']}`, retrieved through {event['retrieved_through']}.", "",
+        f"[Official roster]({EVENT['overview']}) · [Event CSV](artists-{EVENT['id']}.csv) · [Event JSON](artists-{EVENT['id']}.json) · "
+        "[All artists CSV](artists-all.csv) · [All artists JSON](artists-all.json)", "",
+        "Counts describe the dated sources. Stable Scryfall UUIDs determine identity and credit; similar names never approve a mapping. "
+        "Unchanged decisions retain their original review date. Changed/new identities require evidence before publication.", "",
+        "## Mapping methods", "", "| Method | Attendees |", "| --- | ---: |",
+        *[f"| {md(k)} | {v} |" for k, v in sorted(methods.items())], "",
+        "## Name differences", "", "| MagicCon name | Scryfall names | Status |", "| --- | --- | --- |",
+        *[f"| {md(r['magiccon_artist_name'])} | {md(', '.join(r['scryfall_name_variants']))} | {r['match_status']} |"
+          for r in rows if r['magiccon_artist_name'] not in r['scryfall_name_variants']], "",
+        "## Data gaps", "", "| Category | Records |", "| --- | ---: |",
+        *[f"| {md(k)} | {v:,} |" for k,v in sorted(audit['discrepancy_counts'].items())], "",
+        "Unknown counts remain null; verified zero remains 0. Artist totals overlap on joint work and must not be summed into global unique-card totals. "
+        "Missing credits, absent portraits and unpublished social fields remain explicit; links are never invented.", "",
+        "[Counting contract](../docs/artist-statistics.md) · [Independent SQL and CSV validation](artist-validation.json) · "
+        "[Discrepancy queue](artist-discrepancies.json) · [Current refresh review](data-refresh-diff.md)", "",
+        "CSV uses UTF-8 BOM, CRLF and no formulas. Formula-like values are escaped in CSV; JSON retains original source strings. "
+        "The pipeline verifies CSV/JSON equivalence and independent SQL counts before preparing a release.", ""]
     (ROOT / "reports/artist-reconciliation.md").write_text("\n".join(lines), encoding="utf-8")
 
 

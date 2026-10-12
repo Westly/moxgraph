@@ -11,9 +11,7 @@ import unicodedata
 
 from scryfall_source import ROOT, checksum, now, write_json
 
-CARD_MANIFEST = ROOT / "data/manifests/scryfall-all-cards-20261011091913.json"
-EVENT_MANIFEST = ROOT / "data/manifests/magiccon-atlanta-2026-20261011T195408Z.json"
-EVENT_PATH = ROOT / "data/curated/events/atlanta-2026.json"
+from pipeline_config import CARD_MANIFEST, EVENT_MANIFEST, EVENT_PATH, EVENT
 REVIEW_PATH = ROOT / "data/curated/artist-match-review.json"
 MAPPING_PATH = ROOT / "data/curated/artist-mappings.json"
 
@@ -107,7 +105,7 @@ def build():
                     raise ValueError("Credit example does not contain reviewed artist ID")
                 examples.append({"artist_id": ident, "printing_id": pid, "name": card["name"],
                                  "raw_credit": card.get("artist"), "scryfall_uri": card["scryfall_uri"]})
-        mappings.append({"mapping_id": "atlanta-2026-guest-" + a["guest_id"],
+        mappings.append({"mapping_id": a["event_attendee_id"],
                          "event_id": event["event_id"], "event_attendee_id": a["event_attendee_id"],
                          "magiccon_guest_id": a["guest_id"], "magiccon_exhibitor_id": a["exhibitor_id"],
                          "magiccon_names": [e["display_name_raw"] for e in a["source_entries"]],
@@ -115,7 +113,7 @@ def build():
                          "scryfall_names": {ident: names(by_id[ident]) for ident in ids},
                          "status": decision["status"] if decision else "needs_review",
                          "method": decision["method"] if decision else "no_review_decision",
-                         "reviewed_at": review["reviewed_at"] if decision else None,
+                         "reviewed_at": decision.get("reviewed_at", review["reviewed_at"]) if decision else None,
                          "notes": decision["evidence_notes"] if decision else "No reviewed identity; totals must remain null.",
                          "evidence_urls": (decision["evidence_urls"] if decision else []) + [x["scryfall_uri"] for x in examples],
                          "credit_examples": examples})
@@ -137,7 +135,7 @@ def build():
                       "attribution_policy": "Credit each explicit source ID; raw joint names remain unsplit. Never zip names with IDs.",
                       "attending_artist_ids": sorted(set(row["artist_ids"]) & assigned)})
     result = {"schema_version": 1, "card_snapshot_id": cm["snapshot_id"], "event_snapshot_id": em["snapshot_id"],
-              "mapping_revision": "atlanta-2026-r1", "generated_at": now(), "reviewed_at": review["reviewed_at"],
+              "mapping_revision": review.get("mapping_revision", EVENT["id"] + "-" + checksum(REVIEW_PATH)[:16]), "generated_at": now(), "reviewed_at": review["reviewed_at"],
               "source_hashes": {"card_artist_catalogue": am["sha256"], "event": event_artifact["sha256"],
                                 "review": checksum(REVIEW_PATH)},
               "identity_policy": "One stable key per Scryfall UUID. Names are observations; no cross-ID or joint-name guesses.",

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "cardSnapshot": "scryfall-all-cards-20261012091830",
+  "event": {
+    "id": "atlanta-2026",
+    "snapshot": "magiccon-atlanta-2026-20261012T180941Z",
+    "sourceId": "21389",
+    "name": "MagicCon: Atlanta",
+    "feedName": "MagicCon: Atlanta 2026",
+    "site": "https://mcatlanta.mtgfestivals.com",
+    "overview": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic.html",
+    "directory": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html",
+    "dates": {
+      "start": "2026-11-13",
+      "end": "2026-11-15"
+    },
+    "location": "Atlanta, GA"
+  }
+}

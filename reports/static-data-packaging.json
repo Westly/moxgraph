@@ -1,14 +1,16 @@
 {
   "schemaVersion": 1,
-  "version": "v1-1785df4c41186eaa",
+  "version": "v1-40c32dddef95ab45",
   "inputHashes": {
-    "scripts/data/publish_static.py": "a98443f6eb0a4024df12468a0bf4ca18e2500bae887e135e2be6ec8ebcc4de9b",
+    "scripts/data/publish_static.py": "5f0d2bf446193242cd25f2a3c532b86f9f211359aec0afa5ffaed509ba5fa6ff",
+    "scripts/data/pipeline_config.py": "43fa334f13c989284eb3c12919382e2969c7a3495385fd963eca664d48fe2409",
+    "data/pipeline.json": "60ccccc8467ad2708664a35d741c5b57565ddf90a96b4c22dc2fca978e94335b",
     "schemas/printing-columns.json": "dadef80b84ac259155d3168965f49bf0572cdb11f78cc86e22b2eadb07c8ae93",
     "schemas/contracts.schema.json": "265db906634c42e41a25282143a4c2bdadb9b60c49ed84ff45397e14fa277c32",
-    "data/curated/artist-mappings.json": "0eb6a10fae6ba05367e3e074a69864f9ab51e2249e99bc23c44306b6437ac9ee",
-    "data/curated/events/atlanta-2026.json": "b965653673e7f686db75005594c28edc35a49eb604e3b8942971afdd898578de",
-    "reports/artists-atlanta-2026.json": "17c6ae2f6fd37f72bbc44bf80a653c1891a120c8eaa71e4779f3a618e37d4886",
-    "data/manifests/scryfall-all-cards-20261011091913.json": "3de6029a229e80cae20714869a993ae2d0a675e72d0eeb5dcde6bb1dd0f0fc7e"
+    "data/curated/artist-mappings.json": "b7fb7ae9f739b945a330d48bc72ddbd889c537aa870364b3f8686cd0ae1dd6e3",
+    "data/curated/events/atlanta-2026.json": "e90339467d3d775f75177c6bfb375c131685cb11b861358dbbab341fbd2a3f27",
+    "reports/artists-atlanta-2026.json": "59fd99b8645896b378ccf86e7359ea1cfd1229594674ec7e4386b96673db5533",
+    "data/manifests/scryfall-all-cards-20261012091830.json": "aca259f0fc9ae328ecbc6739db3555407717fca7c7eec80809cf419d52751d1c"
   },
   "coverage": {
     "printings": 546137,
@@ -19,27 +21,27 @@
     "faces": 24629
   },
   "outputFiles": 7593,
-  "totalBytes": 336783193,
-  "maxAssetBytes": 1325471,
+  "totalBytes": 336795104,
+  "maxAssetBytes": 1325485,
   "maxDataShardBytes": 452612,
-  "manifestBytes": 1325471,
-  "manifestGzipBytes": 443164,
+  "manifestBytes": 1325485,
+  "manifestGzipBytes": 443222,
   "scenarios": [
     {
       "fixture": "moxfield-v2-3x55_3CFz060qxL2xac3NA.json",
       "rows": 111,
       "uuid3Files": 109,
       "uuid3": {
-        "bytes": 7735099,
-        "gzipBytes": 2812659
+        "bytes": 7735331,
+        "gzipBytes": 2812661
       },
       "uuid2": {
-        "bytes": 97215165,
-        "gzipBytes": 34375997
+        "bytes": 97219399,
+        "gzipBytes": 34376140
       },
       "fullSet": {
-        "bytes": 89647212,
-        "gzipBytes": 25843438
+        "bytes": 89659102,
+        "gzipBytes": 25846166
       },
       "tupleIndexes": {
         "bytes": 8855107,
@@ -47,11 +49,11 @@
       },
       "mainAndCommander": {
         "bytes": 5160431,
-        "gzipBytes": 1880117
+        "gzipBytes": 1880129
       },
       "bootstrap": {
-        "bytes": 1994109,
-        "gzipBytes": 570574
+        "bytes": 1994123,
+        "gzipBytes": 570633
       }
     },
     {
@@ -59,28 +61,28 @@
       "rows": 126,
       "uuid3Files": 125,
       "uuid3": {
-        "bytes": 8692359,
-        "gzipBytes": 3157088
+        "bytes": 8692533,
+        "gzipBytes": 3157106
       },
       "uuid2": {
-        "bytes": 104723242,
-        "gzipBytes": 37027067
+        "bytes": 104728469,
+        "gzipBytes": 37027107
       },
       "fullSet": {
-        "bytes": 90324251,
-        "gzipBytes": 25975339
+        "bytes": 90336141,
+        "gzipBytes": 25978067
       },
       "tupleIndexes": {
         "bytes": 8872679,
         "gzipBytes": 4303822
       },
       "mainAndCommander": {
-        "bytes": 5997497,
-        "gzipBytes": 2177885
+        "bytes": 5997671,
+        "gzipBytes": 2177892
       },
       "bootstrap": {
-        "bytes": 1994109,
-        "gzipBytes": 570574
+        "bytes": 1994123,
+        "gzipBytes": 570633
       }
     },
     {
@@ -88,28 +90,28 @@
       "rows": 114,
       "uuid3Files": 112,
       "uuid3": {
-        "bytes": 7851374,
-        "gzipBytes": 2856540
+        "bytes": 7851954,
+        "gzipBytes": 2856543
       },
       "uuid2": {
-        "bytes": 103606096,
-        "gzipBytes": 36656213
+        "bytes": 103610388,
+        "gzipBytes": 36656223
       },
       "fullSet": {
-        "bytes": 90985327,
-        "gzipBytes": 25862557
+        "bytes": 90997217,
+        "gzipBytes": 25865285
       },
       "tupleIndexes": {
         "bytes": 9031254,
         "gzipBytes": 4382357
       },
       "mainAndCommander": {
-        "bytes": 6875348,
-        "gzipBytes": 2500171
+        "bytes": 6875870,
+        "gzipBytes": 2500175
       },
       "bootstrap": {
-        "bytes": 1994109,
-        "gzipBytes": 570574
+        "bytes": 1994123,
+        "gzipBytes": 570633
       }
     }
   ],

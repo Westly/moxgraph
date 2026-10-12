@@ -13,9 +13,9 @@ import sqlite3
 import shutil
 import zlib
 
-ROOT = Path(__file__).resolve().parents[2]
-BASE = 'scryfall-all-cards-20261011091913'
-GENERATOR_VERSION = '1.0.1'
+from pipeline_config import ROOT, SETTINGS, EVENT
+BASE = SETTINGS['cardSnapshot']
+GENERATOR_VERSION = '1.1.0'
 
 def packed(value):
     return json.dumps(value, ensure_ascii=False, separators=(',', ':'), sort_keys=True).encode('utf-8')
@@ -45,17 +45,17 @@ def immutable(path, data):
 
 def main():
     source = read(f'data/manifests/{BASE}.json')
-    event = read('data/curated/events/atlanta-2026.json')
+    event = read(f"data/curated/events/{EVENT['id']}.json")
     mappings = read('data/curated/artist-mappings.json')
-    stats = read('reports/artists-atlanta-2026.json')
+    stats = read(f"reports/artists-{EVENT['id']}.json")
     columns = read('schemas/printing-columns.json')
     assert source['ingestion']['status'] == 'complete'
     assert mappings['card_snapshot_id'] == stats['card_snapshot_id'] == BASE
     assert mappings['event_snapshot_id'] == stats['event_snapshot_id'] == event['snapshot_id']
     assert stats['mapping_revision'] == mappings['mapping_revision']
-    inputs = [Path(__file__), ROOT/'schemas/printing-columns.json', ROOT/'schemas/contracts.schema.json',
-              ROOT/'data/curated/artist-mappings.json', ROOT/'data/curated/events/atlanta-2026.json',
-              ROOT/'reports/artists-atlanta-2026.json', ROOT/f'data/manifests/{BASE}.json']
+    inputs = [Path(__file__), ROOT/'scripts/data/pipeline_config.py', ROOT/'data/pipeline.json', ROOT/'schemas/printing-columns.json', ROOT/'schemas/contracts.schema.json',
+              ROOT/'data/curated/artist-mappings.json', ROOT/f"data/curated/events/{EVENT['id']}.json",
+              ROOT/f"reports/artists-{EVENT['id']}.json", ROOT/f'data/manifests/{BASE}.json']
     input_hashes = {p.relative_to(ROOT).as_posix(): digest(p.read_bytes()) for p in inputs}
     version = 'v1-' + digest(packed(input_hashes))[:16]
     out = ROOT/'public/data'/version
@@ -65,7 +65,7 @@ def main():
         immutable(out/path, data)
         files[path] = dict(sha256=digest(data), bytes=len(data), gzipBytes=len(gzip.compress(data, mtime=0)), records=records, kind=kind)
 
-    dbpath = ROOT/f'data/staging/{BASE}.sqlite'
+    dbpath = ROOT/source['ingestion']['artifacts']['database']['path']
     assert file_digest(dbpath) == source['ingestion']['artifacts']['database']['sha256'], 'Frozen DB checksum changed'
     db = sqlite3.connect(dbpath.as_uri() + '?mode=ro', uri=True)
     db.row_factory = sqlite3.Row
@@ -146,7 +146,7 @@ def main():
                     sourceNames=a['scryfall_name_variants'], kind=a['entity_kind']) for a in mappings['artists']]
     save('artists.json', artists, 'artists', len(artists))
     directory = dict(event=dict(id=event['event_id'], name=event['name'], startsAt=event['dates']['start'],
-        endsAt=event['dates']['end'], location=event['location'], directoryUrl='https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-directory.html',
+        endsAt=event['dates']['end'], location=event['location'], directoryUrl=EVENT['directory'],
         snapshotId=event['snapshot_id'], retrievedAt=event['retrieved_through']), attendance=[], mappings=[], statistics=[])
     for a in event['attendees']:
         directory['attendance'].append(dict(id=a['event_attendee_id'], eventId=event['event_id'], rawName=a['display_name'],
@@ -171,8 +171,8 @@ def main():
         retrievedAt=source['download']['completed_at'], sha256=source['download']['sha256'], bytes=source['download']['bytes'],
         records=total, parserVersion=source['parser_version'], status='complete'),
         dict(id=event['snapshot_id'], source='magiccon-attendance', url=event['source_urls'][0], sourceUpdatedAt=None,
-        retrievedAt=event['retrieved_through'], sha256=file_digest(ROOT/'data/curated/events/atlanta-2026.json'),
-        bytes=(ROOT/'data/curated/events/atlanta-2026.json').stat().st_size, records=len(event['attendees']),
+        retrievedAt=event['retrieved_through'], sha256=file_digest(ROOT/f"data/curated/events/{EVENT['id']}.json"),
+        bytes=(ROOT/f"data/curated/events/{EVENT['id']}.json").stat().st_size, records=len(event['attendees']),
         parserVersion='1', status='complete')]
     save('sources.json', provenance, 'sources', len(provenance))
     manifest = dict(schemaVersion=1, version=version, cardSnapshotId=BASE, eventSnapshotId=event['snapshot_id'],
