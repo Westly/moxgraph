@@ -1,5 +1,6 @@
 """Fail-closed checks for reviewed WBS 4 recovery evidence."""
 import copy
+import hashlib
 import json
 import sqlite3
 import sys
@@ -9,7 +10,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0,str(ROOT/'scripts/data'))
 from import_recovery import resolve_reviewed_alias, assess_recovery, quantity_problems
-from import_audit import FIXTURES, DB, mox_lines
+from import_audit import FIXTURES, mox_lines
 
 
 def read(name):
@@ -19,12 +20,37 @@ def read(name):
 class RecoveryTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
-        cls.db = sqlite3.connect(DB.as_uri()+'?mode=ro',uri=True)
         cls.aliases = json.loads((ROOT/'data/curated/printing-aliases.json').read_text(encoding='utf-8'))['aliases']
         cls.v2 = read('moxfield-v2-SbEkgxN4CEqiCG5B94rkkg.json')
         cls.v3 = read('moxfield-SbEkgxN4CEqiCG5B94rkkg.json')
         cls.owner = read('moxfield-v2-zB7a13TqOUWlUZuylE905Q.json')
         cls.signet = next(x for x in mox_lines(cls.owner) if x['name']=='Arcane Signet')
+        # CI does not ship the raw staging database. Build the small lookup table
+        # from independently captured Scryfall data, never from provider fields.
+        active = json.loads((ROOT/'public/data/active.json').read_bytes())
+        base = ROOT/'public/data'/active['version']
+        raw = (base/'manifest.json').read_bytes()
+        assert hashlib.sha256(raw).hexdigest() == active['manifestSha256']
+        manifest = json.loads(raw)
+        ids = {line['id'] for line in mox_lines(cls.v3)} | {a['target']['id'] for a in cls.aliases}
+        ids.add('e96d398f-7393-4b8e-9972-2d7c394d23ad')  # Deliberately wrong alias target.
+        cls.db = sqlite3.connect(':memory:')
+        cls.db.execute('CREATE TABLE printings (id TEXT PRIMARY KEY, set_code TEXT, collector_number TEXT, lang TEXT, finishes_json TEXT, source_json TEXT)')
+        for prefix in sorted({identity[:3] for identity in ids}):
+            path = f'printings/{prefix}.json'
+            raw = (base/path).read_bytes()
+            assert hashlib.sha256(raw).hexdigest() == manifest['files'][path]['sha256']
+            for values in json.loads(raw):
+                card = dict(zip(manifest['printingColumns'], values))
+                if card['id'] not in ids:
+                    continue
+                source = dict(id=card['id'], set=card['setCode'], collector_number=card['collectorNumber'],
+                              lang=card['language'], finishes=card['finishes'], artist=card['sourceArtistCredit'],
+                              artist_ids=card['artistIds'], illustration_id=card['illustrationId'])
+                cls.db.execute('INSERT INTO printings VALUES (?,?,?,?,?,?)',
+                               (card['id'], card['setCode'], card['collectorNumber'], card['language'],
+                                json.dumps(card['finishes']), json.dumps(source)))
+        assert cls.db.execute('SELECT count(*) FROM printings').fetchone()[0] == len(ids)
 
     @classmethod
     def tearDownClass(cls):
