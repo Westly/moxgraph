@@ -3,7 +3,7 @@
 Last updated: 2026-10-12  
 Website name and production domain: **moxgraph.com** (confirmed by the owner).  
 Initial event: **MagicCon: Atlanta, November 13–15, 2026**.  
-Current milestone: **WBS 12: owner-requested interface simplification, visible card gallery, larger artist portraits and single/multiple-deck CSV/PDF exports. Implementation and 152 automated checks complete; responsive, accessibility and PDF/CSV checks pass. Publication in progress. WBS 11.6 remains open for its actual November checkpoints.**
+Current milestone: **WBS 12: owner-requested interface simplification, visible card gallery, larger artist portraits and single/multiple-deck CSV/PDF exports. Complete and live: 152 automated checks, responsive/accessibility review, actual PDF/CSV inspection and production deployment pass. WBS 11.6 remains open for its actual November checkpoints.**
 Execution scope: **one parent WBS per owner request. Stop at the parent boundary; do not advance automatically.**
 
 ## Project objective
@@ -332,7 +332,7 @@ Owner explicitly requested this follow-up after the first live release; it does 
 - [x] **12.3 Show cards:** immediate exact-printing images, small artist portraits, artist sorting/search, optional all-card view, compact editable table below.
 - [x] **12.4 Export selected decks:** single/multiple deck picker, CSV and visual PDF ordered artist → deck → card, section options, exact editions and joint-credit handling.
 - [x] **12.5 Validate:** full release checks, desktop/mobile accessibility, actual browser-generated PDF/CSV and rendered PDF review.
-- [ ] **12.6 Publish:** protected GitHub PR, successful required checks, automatic Cloudflare deployment and live verification.
+- [x] **12.6 Publish:** protected GitHub PR, successful required checks, automatic Cloudflare deployment and live verification.
 
 Deliverables: `docs/card-gallery-and-exports.md`, `reports/interface-exports-validation.json`, implementation and screenshot evidence. No new service or paid feature.
 
@@ -586,4 +586,6 @@ Links are source references, not guarantees of permanent endpoints. Preserve obs
 
 | 2026-10-12 | 11.1–11.5, 11.7; 11.6 prepared | Implemented a staged manual refresh, exact diff approval, recoverable publication, source-date configuration, preserved identity review dates, exact printing-alias revalidation and immutable Atlanta archives. Captured October 12 Scryfall and all 130 MagicCon profiles; fresh rendered roster sets match | All 148 tests and complete catalogue/build audits pass. Counts remain 546,137 printings, 2,434 source artists and 65 attendees, with no roster/name/link/count changes. The release gate caught the old snapshot-pinned Arcane Signet alias before publication; the fix revalidates every original target guard. See `docs/maintenance.md`, `reports/data-refresh-validation.json`, `reports/data-refresh-diff.md` and `reports/printing-alias-validation.json`. No scheduler or new service |
 
-**Current working point: WBS 11 maintenance implementation complete; timed checkpoints pending.** The selected sources are `scryfall-all-cards-20261012091830` and `magiccon-atlanta-2026-20261012T180941Z`, packaged as `v1-40c32dddef95ab45`. The October 11 and October 12 Atlanta states are preserved as dated archives. WBS 11.6 is intentionally unchecked: final pre-event review is planned for November 12 and the post-event archive for November 16, 2026. These are manual planned dates, not scheduled jobs. The owner subsequently requested WBS 12, scoped above. Normal source gaps and earlier browser/provider limitations still apply.
+| 2026-10-12 | 12.1–12.6 | Removed technical clutter, replaced card disclosures with a visible gallery and editing table, enlarged artist portraits and added browser-only single/multiple-deck CSV/PDF exports sorted by artist and deck | 152 tests and full data/build checks pass. Real two-deck PDF has 38 entries / 51 copies / 25 artists and four visually reviewed pages. Live three-deck CSV/PDF succeeded for 70 cards / 33 artists. PR 5 merged; production Pages and relay checks pass. Evidence: `docs/card-gallery-and-exports.md`, `reports/interface-exports-validation.json`, `reports/screenshots/wbs12-*.jpg`. No blockers or new paid service |
+
+**Current working point: WBS 12 complete and published; WBS 11 timed checkpoints remain pending.** The selected sources are `scryfall-all-cards-20261012091830` and `magiccon-atlanta-2026-20261012T180941Z`, packaged as `v1-40c32dddef95ab45`. The October 11 and October 12 Atlanta states are preserved as dated archives. WBS 11.6 is intentionally unchecked: final pre-event review is planned for November 12 and the post-event archive for November 16, 2026. These are manual planned dates, not scheduled jobs. WBS 12 is now live; no additional parent WBS is authorized. Normal source gaps and earlier browser/provider limitations still apply.

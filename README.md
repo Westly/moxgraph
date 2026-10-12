@@ -2,7 +2,7 @@
 
 A static website for finding cards in Moxfield/Archidekt decks illustrated by artists attending MagicCon, using each card's selected printing.
 
-**Current status:** [moxgraph.com](https://moxgraph.com/) is live on Cloudflare Pages Free, with protected GitHub updates deploying the static site and the separate Workers Free retrieval relay. WBS 11 adds staged manual data refreshes, reviewed change reports, exact-printing alias revalidation, recoverable publication and immutable Atlanta archives. The actual final pre-event review (November 12) and post-event archive (November 16, 2026) remain pending. No refresh scheduler or paid service is enabled.
+**Current status:** [moxgraph.com](https://moxgraph.com/) is live on Cloudflare Pages Free, with protected GitHub updates deploying the static site and the separate Workers Free retrieval relay. WBS 12 adds an always-visible card gallery, larger artist portraits and CSV/PDF exports for one or multiple decks, sorted by artist then deck. WBS 11 supplies the staged manual refresh and dated Atlanta archives. The actual final pre-event review (November 12) and post-event archive (November 16, 2026) remain pending. No refresh scheduler or paid service is enabled.
 
 - [Project roadmap and WBS](ROADMAP.md)
 - [Manual data refresh, recovery and event checkpoints](docs/maintenance.md) · [Maintenance release acceptance](reports/maintenance-validation.json)
@@ -32,6 +32,8 @@ A static website for finding cards in Moxfield/Archidekt decks illustrated by ar
 
 Use the pinned Node/Python versions in `.node-version` and `.python-version`. Run `npx --yes npm@11.9.0 ci --no-audit --no-fund`, `npm run verify`, then `npm run preview:release` and open **http://localhost:3000/**. That exact loopback origin is allowed by the existing relay. `npm run dev` uses the same port; run one server at a time. See the build instructions above before regenerating data: that separate step needs the ignored full baseline.
 
-Work proceeds one parent WBS at a time. WBS 11 maintenance implementation is ready; its dated November checkpoints remain open in the roadmap. Follow the maintenance runbook to refresh sources in order and publish only a fully checked candidate. Saved decks belong to the browser and origin: use backup/restore to move a library to another browser or device. The relay retains Free limits, transient rate counters and no stored decks or paid fallback.
+Work proceeds one parent WBS at a time. WBS 12 is complete and published; WBS 11’s dated November checkpoints remain open in the roadmap. Follow the maintenance runbook to refresh sources in order and publish only a fully checked candidate. Saved decks belong to the browser and origin: use backup/restore to move a library to another browser or device. The relay retains Free limits, transient rate counters and no stored decks or paid fallback.
 
 The data scripts use Python's standard library. Large bulk downloads and SQLite files stay under ignored `data/raw/` and `data/staging/` directories; they are not website assets or Git uploads.
+
+Card display and exports: [behavior and limits](docs/card-gallery-and-exports.md) · [validation and deployment evidence](reports/interface-exports-validation.json).
