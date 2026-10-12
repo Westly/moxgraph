@@ -5,7 +5,7 @@ A static website for finding cards in Moxfield/Archidekt decks illustrated by ar
 **Current status:** [moxgraph.com](https://moxgraph.com/) is live on Cloudflare Pages Free, with protected GitHub updates deploying the static site and the separate Workers Free retrieval relay. WBS 11 adds staged manual data refreshes, reviewed change reports, exact-printing alias revalidation, recoverable publication and immutable Atlanta archives. The actual final pre-event review (November 12) and post-event archive (November 16, 2026) remain pending. No refresh scheduler or paid service is enabled.
 
 - [Project roadmap and WBS](ROADMAP.md)
-- [Manual data refresh, recovery and event checkpoints](docs/maintenance.md)
+- [Manual data refresh, recovery and event checkpoints](docs/maintenance.md) · [Maintenance release acceptance](reports/maintenance-validation.json)
 - [Deployment settings and rollback](docs/deployment.md) · [Launch receipt](reports/deployment-validation.json) · [Live HTTP checks](reports/deployment-http-audit.json)
 - [Release checklist](docs/release-checklist.md) · [WBS 9 validation](docs/release-validation.md) · [Performance report](reports/performance-audit.json)
 - [Local saving, backup/restore and recovery](docs/local-storage.md) · [Storage validation](reports/local-storage-validation.json)

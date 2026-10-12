@@ -1,0 +1,108 @@
+{
+  "checkedAt": "2026-10-12T18:25:38.884242+00:00",
+  "commit": "0f76d7c4c93680a46cc4e971620c66fb3a746f9a",
+  "active": {
+    "manifestBytes": 1325485,
+    "manifestSha256": "d3ddace7b2a1b23c34bfdd89610de791768274c59de65d8d5075a19a240b1e5c",
+    "schemaVersion": 1,
+    "version": "v1-40c32dddef95ab45"
+  },
+  "activeHeaders": {
+    "status": 200,
+    "url": "https://moxgraph.com/data/active.json?wbs11=release",
+    "cacheControl": "no-cache",
+    "contentType": "application/json"
+  },
+  "manifestHeaders": {
+    "status": 200,
+    "url": "https://moxgraph.com/data/v1-40c32dddef95ab45/manifest.json",
+    "cacheControl": "public, max-age=31536000, immutable",
+    "contentType": "application/json"
+  },
+  "cardSnapshot": "scryfall-all-cards-20261012091830",
+  "eventSnapshot": "magiccon-atlanta-2026-20261012T180941Z",
+  "checks": [
+    {
+      "path": "event.json",
+      "status": 200,
+      "url": "https://moxgraph.com/data/v1-40c32dddef95ab45/event.json",
+      "cacheControl": "public, max-age=31536000, immutable",
+      "contentType": "application/json",
+      "sha256": "2aacbd7616d3909b7bb90da45b6f35fb8a26e95e12f12edd66f8e79a5050b430"
+    },
+    {
+      "path": "printings/d27.json",
+      "status": 200,
+      "url": "https://moxgraph.com/data/v1-40c32dddef95ab45/printings/d27.json",
+      "cacheControl": "public, max-age=31536000, immutable",
+      "contentType": "application/json",
+      "sha256": "df70809d5ae4725e3ab9a2ba43ff0eb11a0b3faee879756963205dac9145a226"
+    },
+    {
+      "path": "/assets/index-5iL6aZbG.js",
+      "status": 200,
+      "url": "https://moxgraph.com/assets/index-5iL6aZbG.js",
+      "cacheControl": "public, max-age=14400, must-revalidate",
+      "contentType": "application/javascript",
+      "bytes": 312745
+    },
+    {
+      "path": "/assets/index-COl3_BRk.css",
+      "status": 200,
+      "url": "https://moxgraph.com/assets/index-COl3_BRk.css",
+      "cacheControl": "public, max-age=14400, must-revalidate",
+      "contentType": "text/css; charset=utf-8",
+      "bytes": 22747
+    }
+  ],
+  "wbs": "11",
+  "status": "implementation_verified; dated_11.6_checks_pending",
+  "pullRequest": "https://github.com/Westly/moxgraph/pull/3",
+  "pagesDeployment": "05069388-50c9-48fe-bb28-30b1bab375e0",
+  "workflowRun": "https://github.com/Westly/moxgraph/actions/runs/38290554272",
+  "workerVersion": "d79eed71-8a47-4e69-bb16-9f788a95fb0f",
+  "tests": {
+    "app": 51,
+    "relayAndReleasePolicy": 12,
+    "python": 85,
+    "total": 148
+  },
+  "sourceCounts": {
+    "printings": 546137,
+    "sourceArtists": 2434,
+    "attendees": 65,
+    "profiles": 130
+  },
+  "browser": {
+    "origin": "https://moxgraph.com",
+    "savedDecksBefore": 3,
+    "savedDecksAfter": 3,
+    "attendanceUpdate": "Automatic update completed; UI confirms selected printing IDs retained and saved on device.",
+    "selectedDeck": "Casual Orzhov Shenanigans",
+    "sourceLines": 126,
+    "capturedCopies": 139,
+    "matchedCopies": 34,
+    "attendingArtists": 15,
+    "resultVersion": "v1-40c32dddef95ab45",
+    "freshness": "Event checked Oct 12, 2026; Card data Oct 12, 2026",
+    "profileSpotCheck": {
+      "name": "David Palumbo",
+      "uniquePaperCards": 137,
+      "booth": "9168",
+      "days": [
+        "Fri",
+        "Sat",
+        "Sun"
+      ],
+      "instagram": "https://www.instagram.com/dvpalumbo/",
+      "officialProfile": "https://mcatlanta.mtgfestivals.com/en-us/art-of-magic/artist-profile.html?gtID=379894&guest-name=David-Palumbo"
+    }
+  },
+  "scopeNotes": [
+    "No new service, credential or scheduler; existing Free relay configuration/code unchanged.",
+    "Backup-download capture timed out in the browser tool; no successful new backup download is claimed. Backup/restore regression tests pass.",
+    "No deliberate production rollback performed. Recovery failure tests use isolated fixtures.",
+    "Actual November 12 pre-event review and November 16 post-event archive remain pending manual checkpoints.",
+    "This receipt identifies the functional release. Later documentation-only merges can produce new deployment IDs without changing these data/app assets."
+  ]
+}
