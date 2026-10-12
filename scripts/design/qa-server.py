@@ -43,7 +43,7 @@ class Handler(SimpleHTTPRequestHandler):
             self.send_error(400); return
         fields = parse_qs(self.rfile.read(int(self.headers['Content-Length'])).decode())
         name = fields.get('filename', [''])[0]
-        if name not in {f'wbs6-{n}.jpg' for n in ['desktop', 'results', 'artists', 'mobile', 'portrait-fallback', 'error', 'narrow']} | {f'wbs7-{n}.jpg' for n in ['desktop', 'results', 'mobile', 'review', 'error']} | {f'wbs8-{n}.jpg' for n in ['library', 'restore', 'mobile', 'storage-error']} | {f'wbs9-{n}.jpg' for n in ['desktop', 'mobile', 'wrangler', 'relay']} | {f'wbs10-{n}.jpg' for n in ['production', 'mobile', 'access']} | {'wbs11-production.jpg'} | {f'wbs12-{n}.jpg' for n in ['cards','artists','mobile','home','export']}:
+        if name not in {f'wbs6-{n}.jpg' for n in ['desktop', 'results', 'artists', 'mobile', 'portrait-fallback', 'error', 'narrow']} | {f'wbs7-{n}.jpg' for n in ['desktop', 'results', 'mobile', 'review', 'error']} | {f'wbs8-{n}.jpg' for n in ['library', 'restore', 'mobile', 'storage-error']} | {f'wbs9-{n}.jpg' for n in ['desktop', 'mobile', 'wrangler', 'relay']} | {f'wbs10-{n}.jpg' for n in ['production', 'mobile', 'access']} | {'wbs11-production.jpg'} | {f'wbs12-{n}.jpg' for n in ['cards','artists','mobile','home','export']} | {'saved-decks-table.jpg'}:
             self.send_error(400); return
         try:
             data = base64.b64decode(fields['data'][0], validate=True)

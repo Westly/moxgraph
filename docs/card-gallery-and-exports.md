@@ -27,6 +27,14 @@ The CSP adds only `https://cards.scryfall.io` to `connect-src` so the PDF can re
 
 ## Validation
 
+### Saved-deck table follow-up (2026-10-12, WBS 12.7)
+
+Saved decks now share one compact table with Deck, Cards and Actions columns. Clicking the deck name opens its results. Export, rename and delete use 36 px icon buttons with deck-specific accessible names and hover/focus tooltips. The library toolbar uses matching export, backup, restore and clear icons; undo remains available after a removal. The selected deck has a subtle background and `aria-current` on its name.
+
+The full release gate passes all 152 tests, TypeScript and catalogue/build audits. Browser review confirmed existing five-deck data, correct single-deck export selection, rename target and deletion confirmation; dialogs were closed without deleting saved data. The built site fits 390 px and 320 px viewports without horizontal overflow. Axe 4.14.0 reported 49 passes and no violations or incomplete checks on the populated table. Screenshot: `reports/screenshots/saved-decks-table.jpg`. No storage, importer, export generator or hosting configuration changed.
+
+### Gallery and export validation
+
 `tests/app/card-export.test.ts` covers real single/multi-deck totals and ordering, exact alias and Japanese printings, joint credits, separate local copies, CSV injection/quoting, PDF page boundaries, accented names, image failure handling, limits and cancellation. Existing presentation tests now check visible exact images and portrait cards without disclosure menus.
 
 The local QA harness can save the actual browser-generated PDF/CSV using an explicit **Save QA copy** control. It posts only to a loopback endpoint and writes fixed filenames under ignored `data/staging/pdf-qa/`. This instrumentation and public deck fixtures are excluded from production by the release guard. The final two-deck browser PDF has 38 entries representing 51 physical cards, 25 attending artists and four pages, with no missing images. Poppler-rendered pages were visually reviewed, including double-faced cards and emoji titles. Detailed results and production verification are recorded in `reports/interface-exports-validation.json`.
